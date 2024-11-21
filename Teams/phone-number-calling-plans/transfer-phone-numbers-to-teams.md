@@ -172,30 +172,31 @@ On the **Add account information** page, complete the following, and then select
 > [!NOTE]
 > The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
 
-**Order details**: 
-    **Order name**: Name of your order. The order name becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
-        **Port details**
-        Enter the Billing Telephone Number (BTN) in E.164 format. 
-            If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
-            If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
-                Port **all numbers in my account**
-                Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account still with your current service provider.
-    **Organization details**
-        **Organization's name**
-    **Current service provider details**
-        **Service provider name**
-        **Account number**
-        **Account PIN**
-    **Requester details**
-        Populate this information with the contact details of the person who shall be the authorized user with Microsoft once the numbers are ported.
-    **Authorized user details**
-        Populate this information with the contact details of the person who is the authorized user with your current service provider.
-    **How do you want to sign the Letter of Authorization?** 
-        You only get one chance to designate this option. After selecting your option and moving to the next step in the wizard, this option won't be editable.
-    **Additional contacts**
-        **List of email contacts**
-    **Service address**
-        **Default number usage**
+**Order details**:
+
+This is where you input your port request details.
+
+The order name you specify here becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
+
+In the **Port details**, enter the Billing Telephone Number (BTN) in E.164 format.
+- If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
+- If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
+    * Port **all numbers in my account**. If you choose this option, the account with your current service provider will be closed after the port is complete.
+    * Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account that is still open with your current service provider.
+
+In the **Organization details**, enter your organization's name.
+
+In the **Current service provider details**, provide the current service provider's name, account number and security PIN.
+
+In the **Requester details**, populate this information with the contact details of the person who shall be the authorized user with Microsoft once the numbers are ported.
+   
+In the **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.'
+
+In the **How do you want to sign the Letter of Authorization?** section, you select whether you will use e-signature or manual upload for the Letter of Authorization.
+
+In the **Service address**, assign the default emergency address for the numbers.
+
+In the **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, you will skip to the **Complete your order** page.
 
 #### Add number features
 
