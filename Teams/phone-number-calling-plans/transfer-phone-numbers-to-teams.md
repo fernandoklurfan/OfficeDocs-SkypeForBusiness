@@ -113,6 +113,7 @@ A third option for U.S. and Canada, and being developed to support all countries
     * The account  number should be discoverable on an account statement or invoice, or in your provider's online account portal.
     * The account may have an account PIN and if so, it must be provided here. The account PIN isn't the same as a BTN Freeze PIN. A BTN Freeze PIN allows an authorized user to unfreeze an account for maintenance, such as porting activities. The account PIN is used for security, to prevent unauthorized access to account management and records. The *account* PIN is required in this step.
     * The authorized user is one or more persons associated with the account and is authorized for account management and records. Only one authorized user needs to be designated on your port request. If you're unsure of the account's authorized user, contact your service provider's account manager.
+        * Updating the authorized user during the port request is not supported. If you wish to change the authorized user, you can do so with the current service provider before the port. Once your port request is complete, Microsoft considers your tenant admins as authorized users.
     * The service address is specific to the phone numbers that you're porting. If you're porting numbers for multiple sites, input the address for all sites here. The service addresses defined here also functions as the default emergency address.
 
 #### Documents
@@ -120,7 +121,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 1. Upload the recommended articles from your service provider
     * Files should be in .pdf format
     * Files are stored within your tenant and shared with Microsoft's Telephone Number Service Center.
-    * The Requester details translate to the authorized user for the telephone numbers, once they're ported to Microsoft.
+    * The Requester details are necessary so that Microsoft's Telephone Number Service Center has contact information for port request updates.
 
 #### Porting details
 
@@ -191,9 +192,9 @@ In the **Organization details**, enter your organization's name.
 
 In the **Current service provider details**, provide the current service provider's name, account number, and security PIN.
 
-In the **Requester details**, populate this information with the contact details of the person who shall be the authorized user with Microsoft once the numbers are ported.
+In the **Requester details**, populate this information with the contact details of the person who Microsoft can contact with port order status updates.
    
-In the **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.'
+In the **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.
 
 In the **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
 
