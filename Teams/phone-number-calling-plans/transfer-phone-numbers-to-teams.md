@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 # Submitting a port request
 
-This article is for IT professionals and Teams Phone administrators and serves as an accompaniment in the process of porting phone numbers from your current service provider to Microsoft Calling Plans.
+This article is and accompaniment for IT professionals and Teams Phone administrators in the process of porting phone numbers to Microsoft Calling Plans.
 
 **Prerequisites**
 
@@ -60,7 +60,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 
 >
 > [!NOTE]
-> This is the accompnaniment for porting numbers in U.S. and Canada. Use the Classic porting wizard accompaniment for all other regions.
+> This is the accompnaniment for porting numbers in U.S. and Canada. Use the classic porting wizard accompaniment for all other regions.
 
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
@@ -73,7 +73,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 
 1. Review the information on the Get started page, and then from the drop-down, Select the country or region currently hosting the telephone numbers to be ported.
 
-2. When you specify a country or region, the wizard calls out the documents from the current carrier that that you need to complete your port order.
+2. When you specify a country or region, the wizard calls out the documents from the current carrier that you need to complete your port order.
 
 3. Make note of these documents required for later steps.
 
@@ -147,8 +147,8 @@ A third option for U.S. and Canada, and being developed to support all countries
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
 2. The wizard’s splash screen allows you to select the location for the numbers you wish to port.
-    * If you're porting U.S. or Canada numbers and choose **US & Canada**, you're automatically triaged into the [new porting wizard](#new-porting-wizard).  
-    * All other regions follow this classic process. Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
+    * If you're porting U.S. or Canada numbers and choose **US & Canada**, you're automatically triaged into the new porting wizard.  
+    * Otherwise, for U.S. or Canada and all other regions, follow this classic process. Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
     * To continue, select **All other supported regions**.
 
 #### Get started
@@ -162,24 +162,24 @@ On the **Get started** page, populate the fields per your request.
 
 #### Manage numbers
 
-The Manage numbers page provides an initial check to make sure the number format is recognizad by the wizard, matches the country or region you specified, and is a valid number.
-If the number validation summary is not successful, check the number and country or region and try again. Otherwise, continue.
+The Manage numbers page provides an initial check to make sure the number format is recognized by the wizard, matches the country or region you specified, and is a valid number.
+If the number validation summary isn't successful, check the number and country or region and try again. Otherwise, continue.
 
 #### Add account information
 
 On the **Add account information** page, complete the following, and then select **Next**.
 >
-    > [!NOTE]
-    > The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
+> [!NOTE]
+> The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
 
 **Order details**: 
     **Order name**: Name of your order. The order name becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
         **Port details**
         Enter the Billing Telephone Number (BTN) in E.164 format. 
-            If you enter a BTN number that is not in the list of numbers that you are porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
-            If you enter a BTN number that matches a number in the list of numbers that you are porting, you will have two options.
+            If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
+            If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
                 Port **all numbers in my account**
-                Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you will have the option to enter a new BTN to designate for the account still with your current service provider.
+                Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account still with your current service provider.
     **Organization details**
         **Organization's name**
     **Current service provider details**
@@ -187,11 +187,11 @@ On the **Add account information** page, complete the following, and then select
         **Account number**
         **Account PIN**
     **Requester details**
-        Populate this information with the contact details of the person who will be the authorized user with Microsoft once the numbers are ported.
+        Populate this information with the contact details of the person who shall be the authorized user with Microsoft once the numbers are ported.
     **Authorized user details**
         Populate this information with the contact details of the person who is the authorized user with your current service provider.
     **How do you want to sign the Letter of Authorization?** 
-        You only get one chance to designate this option. After selecting your option and moving to the next step in the wizard, this option will not be editable.
+        You only get one chance to designate this option. After selecting your option and moving to the next step in the wizard, this option won't be editable.
     **Additional contacts**
         **List of email contacts**
     **Service address**
@@ -199,7 +199,7 @@ On the **Add account information** page, complete the following, and then select
 
 #### Add number features
 
-This is where you update the number usage. Usage is a category of service for the phone number(s).
+The add number features page is where you update the number usage. Usage is a category of service for the phone numbers.
 
 For numbers assigned to users, the default number type is geographic phone numbers and is listed as **User**.
 
@@ -207,19 +207,19 @@ For numbers assigned to voice applications, such as Auto-Attendants and Call Que
 
 For numbers assigned to audio conferencing, the number usage type should be set to **Conference**.
 
-Toll-free numbers will default to **Voice app**, but you can make changes to the default number usages in this section of the wizard.
+Toll-free numbers default to **Voice app**, but you can make changes to the default number usages in this section of the wizard.
 
 To update the number usage, check the desired number and select **Update number usage**. Then, from the right-hand side rail, use the drop-down and select your desired number usage to assign to the numbers.
 
 #### Complete your order
 
-If you selected **Paper signature** in the **Add account information** page, you will have the option do download a Letter of Authorization template.
+If you selected **Paper signature** in the **Add account information** page, you can download a Letter of Authorization template.
 
-* It will be pre-populated with the information you input in the wizard. 
-* Once signed, you upload an electronic copy of the signed Letter of Authorization and then you can select **Submit** and the port request will proceed.
+* The template is prepopulated with the information you input in the wizard. 
+* Once signed, you upload an electronic copy of the signed Letter of Authorization and then you can select **Submit** and the port request proceeds.
 
-If you selected **E-signature** in the **Add account information** page, the authorized user will receive an email to sign the Letter of Authorization once you select **Complete and send e-gignature request**. 
-* Once they electronically sign, the port request will proceed.
+If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**. 
+* Once they electronically sign, the port request proceeds.
 
 ### [**Manually submit port request**](#tab/manually-submit-port-request)
 
