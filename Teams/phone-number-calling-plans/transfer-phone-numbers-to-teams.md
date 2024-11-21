@@ -60,7 +60,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 
 >
 > [!NOTE]
-> This is the accompnaniment for porting numbers in U.S. and Canada. Use the classic porting wizard accompaniment for all other regions.
+> This is the accompaniment for porting numbers in U.S. and Canada. Use the classic porting wizard accompaniment for all other regions.
 
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
@@ -86,6 +86,9 @@ A third option for U.S. and Canada, and being developed to support all countries
 2. Upon adding phone numbers, the wizard compiles the numbers, categorize them, and then display a table of the numbers in groups by *account*, *service provider*, and *type*.
     * The wizard allows you to select one of the groups for processing. The wizard only processes a port request with one type of group at a time.
     * If the wizard categorized your numbers into more than one group, you must submit a separate port request for each. See [Planning number ports](port-order-overview.md)
+
+3. Now that you have numbers validated in the wizard, you can save your work and continue.
+    * Once you save your work in the wizard, you can return to your progress in **Teams Admin Center > Voice > Phone Numbers > Order History**.
     * Select the desired group of numbers and **Continue with selection**.
 
 #### Billing telephone number (BTN)
