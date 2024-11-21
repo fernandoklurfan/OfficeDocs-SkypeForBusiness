@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 # Submitting a port request
 
-This article is and accompaniment for IT professionals and Teams Phone administrators in the process of porting phone numbers to Microsoft Calling Plans.
+This article is an accompaniment for IT professionals and Teams Phone administrators in the process of porting phone numbers to Microsoft Calling Plans.
 
 **Prerequisites**
 
@@ -174,7 +174,7 @@ On the **Add account information** page, complete the following, and then select
 
 **Order details**:
 
-This is where you input your port request details.
+The order details are where you input required information for your port request.
 
 The order name you specify here becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
 
@@ -186,17 +186,17 @@ In the **Port details**, enter the Billing Telephone Number (BTN) in E.164 forma
 
 In the **Organization details**, enter your organization's name.
 
-In the **Current service provider details**, provide the current service provider's name, account number and security PIN.
+In the **Current service provider details**, provide the current service provider's name, account number, and security PIN.
 
 In the **Requester details**, populate this information with the contact details of the person who shall be the authorized user with Microsoft once the numbers are ported.
    
 In the **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.'
 
-In the **How do you want to sign the Letter of Authorization?** section, you select whether you will use e-signature or manual upload for the Letter of Authorization.
+In the **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
 
 In the **Service address**, assign the default emergency address for the numbers.
 
-In the **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, you will skip to the **Complete your order** page.
+In the **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
 
 #### Add number features
 
