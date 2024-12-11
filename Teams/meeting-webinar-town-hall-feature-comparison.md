@@ -67,6 +67,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Meeting chat](manage-meeting-chat.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|For organizers, co-organizers, and presenters only.|
+|Microsoft Teams Rooms (MTR) can join as a presenter<sup>3</sup> |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Organizers and co-organizers can use video effects](meeting-policies-audio-and-video.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
@@ -100,6 +101,8 @@ The following table shows which features are available in meetings, webinars, an
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
 
 <sup>2</sup> The usual maximum is increased to 20,000 through June 30, 2024.
+
+<sup>3</sup> Only MTRs on Windows with a Pro license can join meetings and events as a presenter.
 
 ## Related topics
 
