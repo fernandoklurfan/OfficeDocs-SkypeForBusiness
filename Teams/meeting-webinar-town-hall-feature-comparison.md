@@ -100,7 +100,7 @@ The following table shows which features are available in meetings, webinars, an
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported.
 
-<sup>2</sup> Only MTRs on Windows with a Pro license can join meetings and events as a presenter. However, MTRs can't send chat messages. Organizers must add MTRs from external organizations as external presenters. MTRs can't send chat messages.
+<sup>2</sup> Only MTRs on Windows with a Pro license can join meetings and events as a presenter. However, MTRs can't send chat messages. Organizers must add MTRs from external organizations as external presenters.
 
 <sup>3</sup> The usual maximum is increased to 20,000 through June 30, 2024.
 
