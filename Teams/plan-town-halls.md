@@ -132,9 +132,9 @@ If you've been using live events for your organization, you might want to unders
 |Manage what attendees see|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Manage whether events in your org can be recorded|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Manage whether events in your org can be transcribed|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
+|Microsoft Teams Rooms (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Microsoft town hall insights|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Modern group support|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
-|MTR (Windows) support for presenters and attendees|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |Nudge attendees to join|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
 |Presenter capacity (including external presenters)|100|100|100|
 |Presenters can dial in|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|*In development*|*In development*|
