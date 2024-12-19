@@ -24,9 +24,9 @@ description: Learn how to manage B2B member access for Copilot features in Teams
 
 # Manage B2B member access for Copilot in Teams
 
-Copilot in Teams enhances users’ day-to-day work with features like AI-generated summaries in chats and suggested action items after a meeting. Microsoft now supports **B2B member access** to Copilot in Teams for licensed users in multi-tenant organizations to ensure they never lose access to Copilot’s benefits in Team channels and meetings.
+Copilot in Teams enhances users’ day-to-day work with features like AI-generated summaries in chats and suggested action items after a meeting. Microsoft now supports **B2B member access** to Copilot in Teams for licensed users in multitenant organizations to ensure they never lose access to Copilot’s benefits in Team channels and meetings.
 
-**B2B member access** lets people in your org collaborate with members of other organizations in an external Microsoft Entra organization. This is done by using Microsoft Entra External ID for business-to-business (B2B) collaboration and granting member-level access to Teams channels, meetings, and other resources in your org. For more information about B2B collaboration, see [B2B collaboration](/entra/external-id/user-properties).
+**B2B member access** lets people in your org collaborate with members of other organizations in an external Microsoft Entra organization. This access is done by using Microsoft Entra External ID for business-to-business (B2B) collaboration and granting member-level access to Teams channels, meetings, and other resources in your org. For more information about B2B collaboration, see [B2B collaboration](/entra/external-id/user-properties).
 
 > [!NOTE]
 > B2B member access is possible only when both organizations allow access to and from each other. Therefore, you need to coordinate with the external organization’s admin to make sure their cross-tenant access settings allow sharing with you. For more information about cross-tenant access settings, see [Overview: Cross-tenant access with Microsoft Entra External ID](/entra/external-id/cross-tenant-access-overview).
@@ -50,7 +50,7 @@ To learn how to manage Teams settings using PowerShell, see [Manage Teams with M
 
 ### Sample scripts
 
-Retrieve your multi-tenant organization’s Teams configuration by using the following code:
+Retrieve your multitenant organization’s Teams configuration by using the following code:
 
 ```powershell
 Get-CsTeamsMultiTenantOrganizationConfiguration 
