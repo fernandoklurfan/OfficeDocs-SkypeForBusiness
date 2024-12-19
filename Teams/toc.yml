@@ -1687,6 +1687,8 @@ items:
         href: institution-settings.md
     - name: Copilot in Teams
       items:
+        - name: Manage B2B member access for Copilot
+          href: copilot-mto.md
         - name: Manage Copilot in Teams meetings and events
           href: copilot-teams-transcription.md
         - name: Teams Rooms and Copilot overview
