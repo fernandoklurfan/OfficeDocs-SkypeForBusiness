@@ -44,7 +44,7 @@ Teams admins can toggle off and on the **Allow Copilot for B2B members** setting
 
 ## Manage B2B member access to Copilot using PowerShell
 
-The **Allow Copilot for B2B members** setting can also be managed using PowerShell using the [Get-CsTeamsMultiTenantOrganizationConfiguration](/powershell/module/teams/get-csteamsmultitenantorganizationconfiguration) and [Set-CsTeamsMultiTenantOrganizationConfiguration](/powershell/module/teams/set-csteamsmultitenantorganizationconfiguration) cmdlets.
+The **Allow Copilot for B2B members** setting can also be managed using PowerShell with the [Get-CsTeamsMultiTenantOrganizationConfiguration](/powershell/module/teams/get-csteamsmultitenantorganizationconfiguration) and [Set-CsTeamsMultiTenantOrganizationConfiguration](/powershell/module/teams/set-csteamsmultitenantorganizationconfiguration) cmdlets.
 
 To learn how to manage Teams settings using PowerShell, see [Manage Teams with Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
