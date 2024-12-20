@@ -20,4 +20,4 @@ ms.subservice: teams-premium
 >
 > To prepare for this upcoming change, notify your users, update relevant documentation as appropriate, and share details on Microsoft Bookings.
 >
-> [Learn more about Microsoft Bookings](microsoft-365/bookings/bookings-overview) and the [advanced experience in Bookings with Teams Premium](https://techcommunity.microsoft.com/blog/microsoftteamsblog/teams-premium-enhances-scheduling-in-microsoft-bookings/4292193).
+> [Learn more about Microsoft Bookings](/microsoft-365/bookings/bookings-overview) and the [advanced experience in Bookings with Teams Premium](https://techcommunity.microsoft.com/blog/microsoftteamsblog/teams-premium-enhances-scheduling-in-microsoft-bookings/4292193).
