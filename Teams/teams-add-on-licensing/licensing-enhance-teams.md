@@ -225,7 +225,7 @@ In the meeting recap, your users can find the most important parts of a meeting,
 
 ### Virtual Appointments
 
-[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
+[!INCLUDE [va-app-retirement](../includes/va-app-retirement.md)]
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
