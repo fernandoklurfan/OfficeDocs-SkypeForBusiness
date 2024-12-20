@@ -27,6 +27,8 @@ appliesto:
 
 # Manage the Virtual Appointments app for your organization in Microsoft Teams
 
+[!INCLUDE [va-app-retirement](includes/va-app-retirement.md)]
+
 ## Overview of Virtual Appointments
 
 Use the Virtual Appointments app in Microsoft Teams for all your virtual appointment needs. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules, analytics, and management options, all in one place.
