@@ -31,7 +31,44 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 **Prerequisites**
 
 1. Review the information in [Planning number ports](port-order-overview.md)
-1. Gather related documentation.
+1. Gather related documentation pertaining to porting numbers for your country or region
+    1. Use the drop-down to select the country/region where you're getting numbers. You'll find information about availability, and the downloadable PDF LOA forms you'll need for porting numbers. Additional documentation might be necessary.
+> [!div class="op_single_selector"]
+>
+> - [Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia)
+> - [Austria](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-austria)
+> - [Belgium](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-belgium)
+> - [Canada](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-canada)
+> - [Czech Republic](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-czech-republic)
+> - [Denmark](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-denmark)
+> - [Estonia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-estonia)
+> - [Finland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-finland)
+> - [France](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-france)
+> - [Germany](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany)
+> - [Hong Kong](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong)   
+> - [Hungary](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary)
+> - [Ireland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-ireland)
+> - [Italy](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-italy)
+> - [Japan](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-japan)
+> - [Latvia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-latvia)
+> - [Lithuania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-lithuania)
+> - [Luxembourg](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-luxembourg)
+> - [Mexico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-mexico)
+> - [New Zealand](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-new-zealand)
+> - [Norway](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-norway)
+> - [Poland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-poland)
+> - [Portugal](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-portugal)
+> - [Romania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-romania)
+> - [Singapore](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-singapore)
+> - [Slovakia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovakia)
+> - [Slovenia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovenia)
+> - [South Africa](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-south-africa)
+> - [Spain](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-spain)
+> - [Sweden](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-sweden)
+> - [Switzerland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-switzerland)
+> - [Netherlands](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-netherlands)
+> - [United Kingdom](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-k)
+> - [United States & Puerto Rico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-s)
 1. Access the Teams Admin Center (TAC) with one of the following roles:
     1. Teams Telephony Administrator
     1. Teams Communications Administrator
