@@ -32,7 +32,10 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 1. Review the information in [Planning number ports](port-order-overview.md)
 1. Gather related documentation.
-1. Access the Teams Admin Center (TAC) with either Teams Telephony Administrator, Teams Communications Administrator, or Teams Administrator role.
+1. Access the Teams Admin Center (TAC) with one of the following roles:
+    1. Teams Telephony Administrator
+    1. Teams Communications Administrator
+    1. Teams Administrator
 
 ## Create a port order and transfer your phone numbers to Teams
 
@@ -42,8 +45,9 @@ This article is an accompaniment for IT professionals and Teams Phone administra
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
 2. The wizard’s splash screen allows you to select the location for the numbers you wish to port.
-    * If you're porting U.S. or Canada numbers and choose **US & Canada Preview**, you're selecting the new porting wizard. If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**, switch to the tab above, and use the classic porting wizard accompaniment.
-    * To continue, select **US & Canada** and select **Start port**.
+    * If you're porting U.S. or Canada numbers and would like to use the new porting wizard, then select **US & Canada Preview**.
+    * If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**.
+    1. Select **US & Canada** and select **Start port**.
 
 #### Get started
 
@@ -128,9 +132,10 @@ This article is an accompaniment for IT professionals and Teams Phone administra
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
 2. The wizard’s splash screen allows you to select the location for the numbers you wish to port.
-    * If you're porting U.S. or Canada numbers and choose **US & Canada**, you're automatically triaged into the new porting wizard.  
-    * Otherwise, for U.S. or Canada and all other regions, follow this classic process. Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
-    * To continue, select **All other supported regions**.
+    * If you're porting U.S. or Canada numbers and would like to use the new porting wizard, then select **US & Canada Preview**.
+    * If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**.
+    * Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
+    * Select **All other supported regions** and select **Start port**.
 
 #### Get started
 
