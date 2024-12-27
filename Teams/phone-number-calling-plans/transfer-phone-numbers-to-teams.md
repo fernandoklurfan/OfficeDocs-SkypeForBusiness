@@ -31,43 +31,19 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 **Prerequisites**
 
 1. Review the information in [Planning number ports](port-order-overview.md)
-2. Gather related documentation.
-
-**Optional methods for porting**
-
-There are two options for transferring numbers to Microsoft.
-
-1. Self-fulfillment process using the wizard in Teams Admin Center
-2. Manual request process through Microsoft's Phone Number Service Center
-
-A third option for U.S. and Canada, and being developed to support all countries, is a new wizard experience.
-
->
-> [!NOTE]
-> You ***must*** submit a **manual** port request, if you're porting the following types of numbers
->
-> • Port requests with a quantity of more than 999 numbers
->
-> • Audio conferencing bridge numbers
->
-> • Auto attendants or other service numbers
->
-> • Toll-free phone numbers
+1. Gather related documentation.
+1. Access the Teams Admin Center (TAC) with either Teams Telephony Administrator, Teams Communications Administrator, or Teams Administrator role.
 
 ## Create a port order and transfer your phone numbers to Teams
 
-### [**New porting wizard**](#tab/new-porting-wizard)
-
->
-> [!NOTE]
-> This is the accompaniment for porting numbers in U.S. and Canada. Use the classic porting wizard accompaniment for all other regions.
+### [**Porting wizard - New (U.S. & Canada)**](#tab/new-porting-wizard)
 
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
 2. The wizard’s splash screen allows you to select the location for the numbers you wish to port.
-    * If you're porting U.S. or Canada numbers and choose **US & Canada**, you're automatically triaged into the new porting wizard.  
-    * To continue, select **US & Canada**
+    * If you're porting U.S. or Canada numbers and choose **US & Canada Preview**, you're selecting the new porting wizard. If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**, switch to the tab above, and use the classic porting wizard accompaniment.
+    * To continue, select **US & Canada** and select **Start port**.
 
 #### Get started
 
@@ -86,6 +62,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 2. Upon adding phone numbers, the wizard compiles the numbers, categorize them, and then display a table of the numbers in groups by *account*, *service provider*, and *type*.
     * The wizard allows you to select one of the groups for processing. The wizard only processes a port request with one type of group at a time.
     * If the wizard categorized your numbers into more than one group, you must submit a separate port request for each. See [Planning number ports](port-order-overview.md)
+    * If the wizard detects that your requested numbers are invalid for porting, the error is shown here.
 
 3. Now that you have numbers validated in the wizard, you can save your work and continue.
     * Once you save your work in the wizard, you can return to your progress in **Teams Admin Center > Voice > Phone Numbers > Order History**.
@@ -93,14 +70,14 @@ A third option for U.S. and Canada, and being developed to support all countries
 
 #### Billing telephone number (BTN)
 
-1. The Billing telephone number (BTN) for the phone numbers being ported must match what the current service provider has on file for the account. Also, if there's a freeze on the account it must be removed. If the BTN is incorrect or there's a freeze on the account, your port request is rejected.
+1. The Billing telephone number (BTN) for the phone numbers being ported must match what the current service provider has on file for the account. Also, if there's a freeze on the account it must be removed. If the BTN is incorrect or there's a freeze on the account, your port request will be rejected after it is submitted.
     * The BTN should be in **E.164 format**
     * The BTN can also be referred to as the 'Account telephone number.' It's the primary phone number associated with your account. Your service provider uses the BTN to track activities, payments, and customer service records.
     * You can usually find your BTN on an account statement. If you're unsure, ask your current service provider's account representative to help you identify your BTN.
-    * In a full port request, all numbers associated with the BTN are ported to Microsoft, including the BTN, and the respective account with the current provider is closed.
-    * In a partial port request, you have two scenarios:
-        * You are porting only the phone numbers previously specified, not including the BTN which stays in service with the current provider.
-        * You are porting only a portion of the account's phone numbers, including the BTN. In this case, designate one of the numbers being left behind to become the replacement BTN.
+    * In a **full** port request, all numbers associated with the BTN are ported to Microsoft, including the BTN, and the respective account with the current provider is closed.
+    * In a **partial** port request, you have two scenarios:
+        * You are porting only the phone numbers previously specified, **not including** the BTN which stays in service with the current provider.
+        * You are porting only the phone numbers previously specified, **including** the BTN. In this case, you have the option to designate one of the numbers being left behind to become the replacement BTN.
 
 #### Account information
 
@@ -111,23 +88,23 @@ A third option for U.S. and Canada, and being developed to support all countries
     * The organization name should match, exactly as represented in the current service provider's records.
     * If the wizard identifies the service provider's name, don't change it here.
     * The account  number should be discoverable on an account statement or invoice, or in your provider's online account portal.
-    * The account may have an account PIN and if so, it must be provided here. The account PIN isn't the same as a BTN Freeze PIN. A BTN Freeze PIN allows an authorized user to unfreeze an account for maintenance, such as porting activities. The account PIN is used for security, to prevent unauthorized access to account management and records. The *account* PIN is required in this step.
+    * The account may have an account PIN and if so, it must be provided here. The account PIN isn't the same as a BTN Freeze PIN. A BTN Freeze PIN allows an authorized user to unfreeze an account for maintenance, such as porting activities. The account PIN is used for security, to prevent unauthorized access to account management and records. The *account* PIN is required in this step for all mobile numbers being ported.
     * The authorized user is one or more persons associated with the account and is authorized for account management and records. Only one authorized user needs to be designated on your port request. If you're unsure of the account's authorized user, contact your service provider's account manager.
         * Updating the authorized user during the port request is not supported. If you wish to change the authorized user, you can do so with the current service provider before the port. Once your port request is complete, Microsoft considers your tenant admins as authorized users.
-    * The service address is specific to the phone numbers that you're porting. If you're porting numbers for multiple sites, input the address for all sites here. The service addresses defined here also functions as the default emergency address.
+    * The service address is specific to the phone numbers that you're porting, and it represents the associated, physical, service address where the number is operational. If the location is not defined in your tenant, then select **Add a location**. This will also set the default emergency address in Teams that is associated with the number.
 
 #### Documents
 
-1. Upload the recommended articles from your service provider
+1. Upload the required and recommended articles from your service provider
     * Files should be in .pdf format
     * Files are stored within your tenant and shared with Microsoft's Telephone Number Service Center.
-    * The Requester details are necessary so that Microsoft's Telephone Number Service Center has contact information for port request updates.
 
 #### Porting details
 
 1. Indicate the specifics for your Microsoft service.
     * The order name becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
     * For the port details, remember to review [Planning number ports](port-order-overview.md).
+    * The Requester details are necessary so that Microsoft's Telephone Number Service Center has contact information for port request updates.
     * If adding multiple email addresses for more contacts, separate with a semi-colon.
 
 #### Authorize and submit
@@ -145,7 +122,7 @@ A third option for U.S. and Canada, and being developed to support all countries
 1. You can check the status of your order in the Teams Admin Center. In left side rail under Voice > Phone Numbers navigate to **Order History** and search by the name you gave your order in the porting details page.
 1. You can research more about the process, here: [Porting status](port-order-status.md)
 
-### [**Classic porting wizard**](#tab/classic-porting-wizard)
+### [**Porting wizard - All Calling Plan countries and regions**](#tab/classic-porting-wizard)
 
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
