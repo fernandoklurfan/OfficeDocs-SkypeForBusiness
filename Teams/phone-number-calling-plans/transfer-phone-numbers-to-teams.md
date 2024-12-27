@@ -208,19 +208,6 @@ If you selected **Paper signature** in the **Add account information** page, you
 If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**. 
 * Once they electronically sign, the port request proceeds.
 
-### [**Manually submit port request**](#tab/manually-submit-port-request)
-
-In some situations, you may have to manually submit a service request to get phone numbers, transfer phone numbers, release phone numbers, or change addresses. To see the requirements for each country and region or to learn more about number porting, see [Manage phone numbers for your organization](../manage-phone-numbers.md)
-
-Use the steps in this article to manually submit a port order if you're unable to use the porting wizard.
-
-#### Manually submitting a new port order
-
-1. Upload your completed Letter of Authorization (LOA) form directly to the Phone Number Service Center.
-    * Download the [Letter of Authorization](../manage-phone-numbers.md) for your country or region.
-    * Complete the form.
-    * Send it to the [Phone Number Service Center](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
-
 ---
 
 ## What happens next
