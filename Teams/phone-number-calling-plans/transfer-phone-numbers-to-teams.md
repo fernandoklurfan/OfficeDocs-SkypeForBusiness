@@ -88,7 +88,7 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 #### Get started
 
-1. Review the information on the Get started page, and then from the drop-down, Select the country or region currently hosting the telephone numbers to be ported.
+1. Review the information on the Get started page, and then from the drop-down, select the country or region currently hosting the telephone numbers to be ported.
 
 2. When you specify a country or region, the wizard calls out the documents from the current carrier that you need to complete your port order.
 
@@ -172,7 +172,7 @@ This article is an accompaniment for IT professionals and Teams Phone administra
     * If you're porting U.S. or Canada numbers and would like to use the new porting wizard, then select **US & Canada Preview**.
     * If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**.
     * Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
-    * Select **All other supported regions** and select **Start port**.
+    1. Select **All other supported regions** and select **Start port**.
 
 #### Get started
 
@@ -239,11 +239,11 @@ To update the number usage, check the desired number and select **Update number 
 
 If you selected **Paper signature** in the **Add account information** page, you can download a Letter of Authorization template.
 
-* The template is prepopulated with the information you input in the wizard. 
-* Once signed, you upload an electronic copy of the signed Letter of Authorization and then you can select **Submit** and the port request proceeds.
+    - The template is prepopulated with the information you input in the wizard.
+    - Once signed, you upload an electronic copy of the signed Letter of Authorization and then you can select **Submit** and the port request proceeds.
 
-If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**. 
-* Once they electronically sign, the port request proceeds.
+If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**.
+    - Once they electronically sign, the port request proceeds.
 
 ---
 
