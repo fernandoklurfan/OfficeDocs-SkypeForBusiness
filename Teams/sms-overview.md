@@ -66,6 +66,14 @@ You must achieve successful 10DLC registration by setting up your Brand and Camp
 
 ## Considerations
 
+SMS for Teams users is currently available for the following countries and regions:
+- United States
+- Canada
+
+SMS for Teams users in other countries and regions, where Microsoft Calling Plans are available, is in development.
+
+Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for SMS developments.
+
 You are allowed one brand and campaign per tenant.
 
 200 SMS messages are allowed per domestic and domestic plus international Calling Plan. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
