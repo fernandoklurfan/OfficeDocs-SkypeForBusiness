@@ -70,15 +70,9 @@ You must achieve successful TCR registration before you can enable any number wi
 
 You are allowed one brand and campaign per tenant.
 
-> [!NOTE]
-> <<<Clarify context with (why only) one brand and one campaign per tenant, here>>>
-
 200 SMS messages are allowed per domestic and domestic plus international Calling Plan. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
 
 SMS messages with Pay-As-You-Go Calling Plans are incrementatally billed per message.
-
-> [!NOTE]
-> <<<List other considerations>>>
 
 ## Related topics
 

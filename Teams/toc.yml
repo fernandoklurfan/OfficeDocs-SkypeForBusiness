@@ -1236,7 +1236,7 @@ items:
           href: sms-overview.md
         - name: Setting up SMS Brand and Campaign
           href: sms-setup-brand-and-campaign.md
-        - name: Managing SMS usage
+        - name: Managing SMS operations
           href: sms-management.md
 
     - name: Dial plans and routing

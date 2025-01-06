@@ -43,7 +43,16 @@ Additionally,
 - Ensure fundamental understanding of the purpose for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
 - Confirm service enablement is configured, as described in the article, [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
 
+## Enabling SMS for a user
+
+
 ## Confirming usage
+
+
+## Disabling SMS for a user
+
+
+## Disabling a Campaign
 
 
 ## Modifying a Brand or Campaign
