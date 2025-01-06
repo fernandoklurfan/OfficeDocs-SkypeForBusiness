@@ -26,7 +26,7 @@ description: How to setup a SMS Brand and Campaign in Teams Admin Center
 
 # Setting up SMS Brand and Campaign in Teams Admin Center
 
-This article is an accompaniament for IT administrators and IT professionals who are building a Short Message Service (SMS) Brand and Campaign in Microsoft’s Teams Admin Center (TAC), to register with The Campaign Registry.
+This article is an accompaniment for IT administrators and IT professionals who are building a Short Message Service (SMS) Brand and Campaign in Microsoft’s Teams Admin Center (TAC), to register with The Campaign Registry.
 
 ## Prerequisites
 
