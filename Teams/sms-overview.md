@@ -46,21 +46,21 @@ When you SMS-enable a Calling Plan phone number, on your behalf Microsoft regist
 
 Before a phone number can be sanctioned for use on the 10DLC network for A2P messaging, required information must be supplied to and reviewed by an independent reputation authority for approval. Microsoft uses [The Campaign Registry](https://www.campaignregistry.com/about/) for this purpose.
 
-The Teams Admin Center facilitates collection of required information by allowing Teams Administrators to input information about their company (their “Brand”) and about the intention of their SMS usage (their “Campaign”).
+The Teams Admin Center facilitates collection of required information to supply to The Campaign Registry (TCR) by allowing Teams Administrators to input information about their company (their “Brand”) and about the intention of their SMS usage (their “Campaign”).
 
-Your non-consumer, business text messaging Brands and Campaigns are reviewed by The Campaign Registry (TCR), which helps ensure business SMS messaging compliance and accountability with industry standards.
+Your non-consumer, business text messaging Brands and Campaigns are reviewed by TCR, which helps ensure business SMS messaging compliance and accountability with industry standards.
 
 Through the approved Brand and Campaign registration, your 10DLC numbers are then recognized by mobile network operators as compliant for application-to-person messaging.
 
 It is necessary to receive approval for your Brand and Campaign configuration before any number can be registered for use in the 10DLC ecosystem, or SMS-enabled. This requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it is not for marketing purposes**.
 
-The TCR registration and 10DLC classification includes a TAC setup process that requires three key steps:
+The Campaign Registry approval and 10DLC registration involves a TAC setup process that requires three key steps:
 
 - Brand verification
 - Campaign registration
 - SMS number activation
 
-You must achieve successful TCR registration before you can enable any number with SMS capability.
+You must achieve successful 10DLC registration by setting up your Brand and Campaign before you can enable any user's number with SMS capability.
 
 ## Architecture
 
