@@ -1,6 +1,6 @@
 ---
 title: Setting up SMS Brand and Campaign in Teams Admin Center
-author: sfrancis205
+author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait

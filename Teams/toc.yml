@@ -1233,11 +1233,11 @@ items:
     - name: SMS
       items:
         - name: Overview
-        - href: sms-overview.md
+          href: sms-overview.md
         - name: Setting up SMS Brand and Campaign
-        - href: sms-setup-brand-and-campaign.md
+          href: sms-setup-brand-and-campaign.md
         - name: Managing SMS usage
-        - href: sms-management.md
+          href: sms-management.md
 
     - name: Dial plans and routing
       items: 

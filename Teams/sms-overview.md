@@ -1,6 +1,6 @@
 ---
 title: SMS in Teams
-author: sfrancis205
+author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait

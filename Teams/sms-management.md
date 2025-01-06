@@ -1,6 +1,6 @@
 ---
 title: Managing SMS operations in Teams Admin Center
-author: sfrancis205
+author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait
