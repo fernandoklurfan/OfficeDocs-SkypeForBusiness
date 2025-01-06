@@ -1229,6 +1229,16 @@ items:
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
         - name: Licensing and phone number management
           href: phone-numbers-licensing-changes.md
+
+    - name: SMS
+      items:
+        - name: Overview
+        - href: sms-overview.md
+        - name: Setting up SMS Brand and Campaign
+        - href: sms-setup-brand-and-campaign.md
+        - name: Managing SMS usage
+        - href: sms-management.md
+
     - name: Dial plans and routing
       items: 
         - name: Overview
