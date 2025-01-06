@@ -44,7 +44,9 @@ These references are used interchangeably.
 
 When Microsoft SMS-enables a Calling Plan phone number, they are registering the number to an ecosystem of mobile operators who support the industry’s 10DLC (10-digit long code) network.
 
-Before a phone number can be sanctioned for use on the 10DLC network for A2P messaging, required information must be supplied to an independent reputation authority for approval. The Teams Admin Center facilitates this collection of information by allowing Teams Administrators to input information about the company (their “Brand”) and about the intention of the A2P messaging usage (the “Campaign”).
+Before a phone number can be sanctioned for use on the 10DLC network for A2P messaging, required information must be supplied to an independent reputation authority for approval. Microsoft uses [The Campaign Registry](https://www.campaignregistry.com/about/) for this purpose. 
+
+The Teams Admin Center facilitates collection of necessary information by allowing Teams Administrators to input information about the company (their “Brand”) and about the intention of the A2P messaging usage (the “Campaign”).
 
 Your non-consumer, business text messaging brands and campaigns are reviewed by The Campaign Registry (TCR), which helps ensure business SMS messaging compliance and accountability with industry standards.
 
@@ -62,16 +64,18 @@ The TCR registration and 10DLC classification includes a TAC provisioning proces
 
 You must achieve successful TCR registration before you can enable any number with SMS capability.
 
+## Architecture
+
+<<<find / use diagram>>>
+
+## Considerations
+
 You are allowed one brand and campaign per tenant.
 
 > [!NOTE]
 > <<<Clarify context with (why only) one brand and one campaign per tenant, here>>>
 
-## Architecture
-
-
-## Considerations
-
+<<<other considerations...>>>
 
 ## Related topics
 
