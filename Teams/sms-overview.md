@@ -28,8 +28,6 @@ description: Learn about SMS texting in Teams
 
 This article is for IT administrators and IT professionals planning to enable Short Message Service (SMS) for their tenant in Microsoft’s Teams Admin Center (TAC).
 
-Before you start, review prerequisite knowledge referenced in the following articles: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
-
 ## Overview
 
 Microsoft Teams supports sending and receiving Simple Messaging Service (SMS) text messages within Teams Chat.
@@ -73,6 +71,8 @@ You are allowed one brand and campaign per tenant.
 200 SMS messages are allowed per domestic and domestic plus international Calling Plan. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
 
 SMS messages with Pay-As-You-Go Calling Plans are incrementatally billed per message.
+
+Furhter prerequisites and next steps can be found in the following article: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
 
 ## Related topics
 
