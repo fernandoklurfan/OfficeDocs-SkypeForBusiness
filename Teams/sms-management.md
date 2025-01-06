@@ -34,8 +34,10 @@ To proceed with administering SMS in Teams, the following must be provisioned:
 
 - Administrators must have one of the following RBAC roles assigned: Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator & Global Admin
 
-Ensure fundamental understanding of the purpose for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
-Ensure initial Brand and Campaign setup, as described in the article, [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+Additionally,
+
+- Ensure fundamental understanding of the purpose for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
+- Confirm service enablement is configured, as described in the article, [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
 
 ## Confirming usage
 
