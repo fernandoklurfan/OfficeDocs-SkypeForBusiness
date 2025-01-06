@@ -40,7 +40,7 @@ All SMS messaging to and from Teams is considered:
 
 These references are used interchangeably.
 
-When you SMS-enable a Calling Plan phone number, on your behalf Microsoft registers the number to an ecosystem of mobile operators who support the industry’s 10DLC (10-digit long code) network.
+When you SMS-enable a Calling Plan phone number in Teams Admin Center, on your behalf Microsoft registers the number to an ecosystem of mobile operators who support the industry’s 10DLC (10-digit long code) network.
 
 Before a phone number can be sanctioned for use on the 10DLC network for A2P messaging, required information must be supplied to and reviewed by an independent reputation authority for approval. Microsoft uses [The Campaign Registry](https://www.campaignregistry.com/about/) for this purpose.
 
