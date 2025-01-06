@@ -38,7 +38,7 @@ To proceed with enabling Teams users with SMS capabilities, the following must b
   - Pay-As-You-Go
   
 - A tenant billing mechanism should be in place for SMS consumption overages and must be in place for Pay-As-You-Go Calling Plans.
-  - Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subsription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
+  - Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
 
 - Administrators must have one of the following RBAC roles assigned:
   - Teams Administrator

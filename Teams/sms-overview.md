@@ -78,9 +78,9 @@ You are allowed one brand and campaign per tenant.
 
 200 SMS messages are allowed per domestic and domestic plus international Calling Plan. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
 
-SMS messages with Pay-As-You-Go Calling Plans are incrementatally billed per message.
+SMS messages with Pay-As-You-Go Calling Plans are incrementally billed per message.
 
-Furhter prerequisites and next steps can be found in the following article: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+Further prerequisites and next steps can be found in the following article: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
 
 ## Related topics
 
