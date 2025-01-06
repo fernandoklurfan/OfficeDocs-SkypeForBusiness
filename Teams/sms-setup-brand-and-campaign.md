@@ -36,13 +36,15 @@ To proceed with enabling Teams users with SMS capabilities, the following must b
   - Domestic
   - Domestic and international, or
   - Pay-As-You-Go
-- Funding for usage is supported either with prepaid Communication Credits using a Microsoft Online Subsription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
+  
+- A tenant billing mechanism should be in place for SMS consumption overages and must be in place for Pay-As-You-Go Calling Plans.
+  - Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subsription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
+
 - Administrators must have one of the following RBAC roles assigned:
   - Teams Administrator
   - Teams Communications Administrator
   - Teams Telephony Administrator, or
   - Global Admin
-- Tenant billing mechanism must be in place for SMS consumption overages, either post-paid billing through Microsoft Customer Agreement, or pre-paid Communication Credits through Microsoft Online Subscription Agreement.
 
 Ensure fundamental understanding of the purpose for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
 
