@@ -32,7 +32,11 @@ This article is for IT administrators and IT professionals who are administering
 
 To proceed with administering SMS in Teams, the following must be provisioned:
 
-- Administrators must have one of the following RBAC roles assigned: Teams Administrator, Teams Communications Administrator, Teams Telephony Administrator & Global Admin
+- Administrators must have one of the following RBAC roles assigned:
+  - Teams Administrator
+  - Teams Communications Administrator
+  - Teams Telephony Administrator, or
+  - Global Admin
 
 Additionally,
 
