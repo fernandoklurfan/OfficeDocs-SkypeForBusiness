@@ -1,5 +1,5 @@
 ---
-title: Manage B2B member access for Copilot in Teams
+title: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
 ms.date: 12/30/2024
 author: DaniEASmith
 ms.author: danismith
@@ -20,10 +20,13 @@ ms.custom:
   - admindeeplinkTEAMS
 appliesto: 
   - Microsoft Teams
-description: Learn how to manage B2B member access for Copilot features in Teams.
+description: Learn how to manage B2B members' access within Multitenant Organization (MTO) for Copilot features in Teams.
 ---
 
-# Manage B2B member access for Copilot in Teams
+# Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
+
+> [!IMPORTANT]
+> The support discussed in this article is only available to B2B members within the multitenant organization. It isn't available to external or federated users.
 
 Copilot in Teams enhances users’ day-to-day work with features like AI-generated summaries in chats and suggested action items after a meeting. Microsoft now supports **B2B member access** to Copilot in Teams for licensed users in multitenant organizations to ensure they never lose access to Copilot’s benefits in Team channels and meetings.
 
