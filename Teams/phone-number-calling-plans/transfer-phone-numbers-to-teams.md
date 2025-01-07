@@ -176,60 +176,72 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 #### Get started
 
-On the **Get started** page, populate the fields per your request.
+On the **Get started** page, populate the fields as per your request.
 
-**Country or region**: Country or region where you're porting numbers.
-**List your phone number** Add your phone numbers manually or by uploading a list.
-* To add phone numbers manually, enter numbers in 10-digit or E.164 format, separated by a comma or semi-colon. Ranges aren't supported. Optional dashes or hyphens are supported.
-* To upload a list of phone numbers, the list must be in CSV format and must have only one column with a header designated as PhoneNumber. Each phone number must be in a separate row and can be in 10-digit or E.164 format.
+- **Country or region**: Specify the country or region where you're porting numbers.
+- **List your phone number**: Add your phone numbers manually or by uploading a list.
+
+  - **To add phone numbers manually**: Enter numbers in E.164 format, separated by a comma or semicolon. Ranges are not supported. Optional dashes or hyphens are allowed.
+  - **To upload a list of phone numbers**: Use a CSV file with one column labeled **PhoneNumber**. Each row should contain a single phone number in E.164 format.
 
 #### Manage numbers
 
-The Manage numbers page provides an initial check to make sure the number format is recognized by the wizard, matches the country or region you specified, and is a valid number.
-If the number validation summary isn't successful, check the number and country or region and try again. Otherwise, continue.
+The **Manage numbers** page checks that the number format is correct, matches the specified country or region, and is valid before proceeding.
+
+If the number validation summary isn't successful, view the details to understand the reason.
+
+- Select **View details** in the number validation summary pane or select the phone number validation failure below **Validation status** to check the reasons for phone number failure.
+
+- If failure isn't understood, you may create a case with the TNS-Service Desk team through the [Phone Number Service Center portal](https://pstnsd.powerappsportals.com/create-ticket/).
+  - For the scenario where you don't understand the number validation result, select **Case Type = General Inquiry** and in the description, provide the number validation summary that you see in TAC along with the list of phone numbers that you're trying to port.
+
+The number validation summary must indicate all numbers are valid before you can proceed. If there are no errors, continue.
 
 #### Add account information
 
 On the **Add account information** page, complete the following, and then select **Next**.
->
+
 > [!NOTE]
 > The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
 
-**Order details**:
+1. **Order details**: Input required name for your port request. The order name you specify here becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
 
-The order details are where you input required information for your port request.
+2. **Port details**: Enter the Billing Telephone Number (BTN) in E.164 format.
 
-The order name you specify here becomes viewable by you in the Teams Admin Center during the porting process and after order completion for your records.
+    - If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
+    - If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
 
-In the **Port details**, enter the Billing Telephone Number (BTN) in E.164 format.
-- If you enter a BTN number that isn't in the list of numbers that you're porting, your request is automatically categorized as a **Partial port** and the BTN will remain with your current service provider after the port is complete.
-- If you enter a BTN number that matches a number in the list of numbers that you're porting, you have two options.
-    * Port **all numbers in my account**. If you choose this option, the account with your current service provider will be closed after the port is complete.
-    * Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you can enter a new BTN to designate for the account that is still open with your current service provider.
+        - **Option 1**: Port **all numbers in my account**. If you choose this option, the account with your current service provider will be closed after the port is complete.
+        - **Option 2**: Port **some numbers in my account, and I'm including my account's BTN**. If you choose this partial port option, you also have the option to enter a new BTN to designate for the account that is still open with your current service provider. Designating a replacement BTN is optional.
 
-In the **Organization details**, enter your organization's name.
+> [!NOTE]
+> All information input for your organization and current service provider must match *exactly* with the current service provider's records.
+>
+> Some fields are optional, but some service providers require the optional fields.
 
-In the **Current service provider details**, provide the current service provider's name, account number, and security PIN.
+3. **Organization details**: Enter your organization's name.
 
-In the **Requester details**, populate this information with the contact details of the person who Microsoft can contact with port order status updates.
-   
-In the **Authorized user details**, populate this information with the contact details of the person who is the authorized user with your current service provider.
+4. **Current service provider details**: Provide the current service provider's name, account number, and security PIN. The account PIN is required to port mobile numbers.
 
-In the **How do you want to sign the Letter of Authorization?** section, you select whether you want e-signature or manual upload for the Letter of Authorization.
+5. **Requester details**: Populate this information with the contact details of the person who Microsoft can contact with port order status updates.
 
-In the **Service address**, assign the default emergency address for the numbers.
+6. **Authorized user details**: Populate this information with the contact details of the person who is the authorized user with your current service provider.
 
-In the **Default number usage** section, you select the intended typed of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
+7. **How do you want to sign the Letter of Authorization?**: Select whether you want e-signature or manual upload for the Letter of Authorization.
+
+8. **Service address**: Enter the service address exactly as it matches the current service provider's record. Emergency addresses can be assigned later, when assigning the number to a user.
+
+9. **Default number usage**: Select the intended type of usage for the numbers. If you would like to change it, select *Yes, change usages* to go to the **Add number features** page. If you select *No*, the wizard skips you to the **Complete your order** page.
 
 #### Add number features
 
 The add number features page is where you update the number usage. Usage is a category of service for the phone numbers.
 
-For numbers assigned to users, the default number type is geographic phone numbers and is listed as **User**.
+- For numbers assigned to users, the default number type is geographic phone numbers and is listed as **User**.
 
-For numbers assigned to voice applications, such as Auto-Attendants and Call Queues, the number usage type should be set as **Voice app**.
+- For numbers assigned to voice applications, such as Auto-Attendants and Call Queues, the number usage type should be set as **Voice app**.
 
-For numbers assigned to audio conferencing, the number usage type should be set to **Conference**.
+- For numbers assigned to audio conferencing, the number usage type should be set to **Conference**.
 
 Toll-free numbers default to **Voice app**, but you can make changes to the default number usages in this section of the wizard.
 
@@ -237,13 +249,14 @@ To update the number usage, check the desired number and select **Update number 
 
 #### Complete your order
 
-If you selected **Paper signature** in the **Add account information** page, you can download a Letter of Authorization template.
+- If you selected **Paper signature** in the **Add account information** page, you can download a Letter of Authorization template.
 
-    - The template is prepopulated with the information you input in the wizard.
-    - Once signed, you upload an electronic copy of the signed Letter of Authorization and then you can select **Submit** and the port request proceeds.
+  - The template is prepopulated with the information you input in the wizard.
+  - Once signed, you upload a copy of the signed Letter of Authorization and then you can select **Submit** and the port request proceeds.
 
-If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**.
-    - Once they electronically sign, the port request proceeds.
+- If you selected **E-signature** in the **Add account information** page, the authorized user receives an email to sign the Letter of Authorization once you select **Complete and send e-signature request**.
+
+  - Once they electronically sign, the port request proceeds.
 
 ---
 
