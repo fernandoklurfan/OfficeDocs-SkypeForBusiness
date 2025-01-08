@@ -66,19 +66,26 @@ You must achieve successful 10DLC registration by setting up your Brand and Camp
 
 ## Considerations
 
-SMS for Teams users is currently available for the following countries and regions:
-- United States
+You are allowed one brand and campaign per tenant.
+
+SMS is available for Teams users with a Microsoft Calling Plan license and phone number assigned, and is currently available for users in the following countries and regions:
+
+- USA (and Puerto Rico?)
 - Canada
 
 SMS for Teams users in other countries and regions, where Microsoft Calling Plans are available, is in development.
 
 Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for SMS developments.
 
-You are allowed one brand and campaign per tenant.
+USA users can't send SMS messages to recipients outside of the USA.
 
-200 SMS messages are allowed per domestic and domestic plus international Calling Plan. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
+Canada users can't send SMS messages to recipients outside of Canada.
 
-SMS messages with Pay-As-You-Go Calling Plans are incrementally billed per message.
+For domestic and domestic plus international Calling Plan licenses, 200 SMS messages are allowed per month. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
+
+For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message.
+
+Billing for overages and pay-as-you-go follows either the Pre-paid or post-paid models, outlined in the article [Microsoft Calling Plan overview](calling-plan-overview.md)
 
 Further prerequisites and next steps can be found in the following article: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
 
