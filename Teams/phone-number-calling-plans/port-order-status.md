@@ -26,7 +26,7 @@ ms.collection:
 
 # What's the status of your port orders?
 
-To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. See [how long does it take to port numbers](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) to learn about the order process. 
+To see the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. See [how long does it take to port numbers](../phone-number-calling-plans/port-order-overview.md) to learn about the order process.
 
 The following table lists port order statuses, and actions you can take if needed.
 

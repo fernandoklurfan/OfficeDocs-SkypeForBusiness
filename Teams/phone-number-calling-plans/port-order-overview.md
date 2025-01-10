@@ -143,7 +143,7 @@ Porting availability for Toll-free phone numbers vary by country and region. To 
 
 ### Porting over 999 numbers in a single request requires Telephone Number Services - Service Center support
 
- If you have a large port request, of 1,000 numbers or greater, you must bypass the number port wizard in the Teams admin center and submit your port order manually with the Telephone Number Services - Service Desk. See [Manually submitting a port request](transfer-phone-numbers-to-teams.md#manually-submitting-a-port-request).
+ If you have a large port request, of 1,000 numbers or greater, you must bypass the number port wizard in the Teams admin center and submit your port order manually with the Telephone Number Services - Service Desk. See [Manually submitting a port request](manually-submit-port-order.md).
 
 ### The Teams Admin Center number port wizard allows one service provider, one account / billing telephone number, one number type, and one service address - per port request
 
@@ -176,7 +176,7 @@ A number port wizard request supports porting numbers for one service address at
 > [!NOTE]
 > If you aren't sure if your numbers are from the same service provider, account, or type, you can try running the wizard and listing the phone numbers you want to port. If the wizard detects different groupings, it lists the unique categories.
 >
-> For complex number port projects, involving multiple service providers, accounts/BTNs, number types, or service addresses, follow the [Manually submitting a port request](transfer-phone-numbers-to-teams.md#manually-submitting-a-port-request) guidance to create a manual **Port in** request.
+> For complex number port projects, involving multiple service providers, accounts/BTNs, number types, or service addresses, follow the [Manually submitting a port request](manually-submit-port-order.md) guidance to create a manual **Port in** request.
 
 ### One port request at a time processed for a given account
 
