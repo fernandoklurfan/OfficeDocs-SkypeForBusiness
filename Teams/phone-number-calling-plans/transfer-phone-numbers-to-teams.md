@@ -4,7 +4,7 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: leiaglezer
-ms.date: 03/26/2024
+ms.date: 01/10/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -264,7 +264,8 @@ To update the number usage, check the desired number and select **Update number 
 
 When we receive your port order, you receive an email that verifies your request. Your request is updated daily, and you're notified of its progress and status in email. If your current carrier rejects the port request, contact the [Phone Number Service Center](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
 
-To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
+> [!NOTE]
+> If you already have a case open with the TNS-Service Desk for your port request, update that existing ticket instead of creating a new case.
 
 For more information about Letters of Authorization to port existing phone numbers and other considerations, see [Manage phone numbers for Calling Plan](../manage-phone-numbers-for-your-organization.md) and [Planning number ports](port-order-overview.md)
 
