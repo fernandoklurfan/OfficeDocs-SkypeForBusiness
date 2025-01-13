@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.voice.phonenumbers.porting.overview
   - Calling Plans
-description: Overview of port orders and planning to transfer phone numbers from your service provider to Teams.
+description: Overview of port orders and planning for the transfer phone numbers from your service provider to Teams.
 ms.collection: 
   - M365-voice
   - m365initiative-voice
@@ -51,7 +51,7 @@ Furthermore, the regulatory requirements for number porting vary between countri
 > [!IMPORTANT]
 > The success of your port request depends on the accuracy of the information that you provide to Microsoft when you create your port request.
 
-### Port glossary and information to have ready when submitting a port request **
+### Port glossary and information to have ready when submitting a port request
 
 Most of the information that you enter in Microsoft's port order request can be found on a recent invoice or official document of record from your current service provider.
 
@@ -83,19 +83,17 @@ These terms are applicable in the United States and alternative terms might be u
   - All phone numbers in a port request MUST have the same business name.
 
 - **Billing Telephone Number (BTN)**
-  - The billing telephone number that is associated with the phone numbers that you want to port. This BTN must be on the same account as the numbers that you want to port.
+  - The billing telephone number associated with the phone numbers that you want to port. This BTN must be on the same account as the numbers that you want to port.
   - Your current service provider has this information.
   - All phone numbers in a port request using the Teams admin center MUST have the same BTN.
 
 - **Partial Port**
   - This means that you're only porting some of the numbers from your account with your current service provider.
-  - As an example- If you have 10 numbers on your account with your current service provider, and you're porting six of them, then that means that your port is considered as a partial port.
+  - As an example, if you have 10 numbers on your account with your current service provider, and you're porting six of them, then that means that your port is considered as a partial port.
 
 - **Full Port**
   - This means that your current port request (that you're working to submit) includes ALL of the phone numbers from your account with your current service provider.
-  - As an example- if you have 10 numbers on your account with your current service provider, and you're porting all 10 numbers, then that means that your port is considered a full port.
-  - Your contact information'
-  - In certain cases, the Telephone Number Services (TNS) service desk might reach out to you for additional information or to resolve any issues.
+  - As an example, if you have 10 numbers on your account with your current service provider, and you're porting all 10 numbers, then that means that your port is considered a full port.
 
 ## Port request considerations
 
@@ -107,7 +105,7 @@ You can port numbers for all countries or regions where Microsoft Teams Calling 
 
 To see if Microsoft Teams Calling Plans are available for a country or region, reference [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) and [Manage phone numbers for your organization](../manage-phone-numbers.md).
 
-Additionally, the Teams admin center’s number [porting wizard](transfer-phone-numbers-to-teams.md) only displays countries where Microsoft Teams Calling Plans are available.
+Additionally, the Teams admin center's number [porting wizard](transfer-phone-numbers-to-teams.md) only displays countries where Microsoft Teams Calling Plans are available.
 
 ### Numbers eligible for porting
 
@@ -121,8 +119,8 @@ In general, you can transfer any phone number that's from a supported provider.
 - Toll phone numbers
 - Toll-free phone numbers
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
-- Fax numbers, but they can't be used for faxing. They have to be assigned to a user (If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing)
-- If you're porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans), contact the TNS service desk and include a note stating these phone numbers are hybrid.
+- Fax numbers, but they can't be used for faxing. They have to be assigned to a user. If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
+- If you're porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans), contact the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) and include a note stating these phone numbers are hybrid.
 
 Transferring mobile numbers to Microsoft Calling Plan is only available in the United States and Puerto Rico.
 
@@ -136,62 +134,30 @@ User numbers can be converted to service numbers, and vice versa, but not during
   - If you have existing dedicated phone numbers that must continue to support faxing, consider an alternative solution. You can transfer these numbers over to Teams but your fax services won't continue to work. Faxing services aren't available to Teams customers through the licenses for Phone System or any Microsoft Calling Plan.
 - Any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider.
 
-Porting availability for Toll-free phone numbers vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service.
+Porting availability for Toll-free phone numbers vary by country and region. For more information, please refer to your country or region specific documents to see available support for porting service.
 
 > [!NOTE]
 > At this time in the United Kingdom, we currently don't support transferring UK nongeographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
 
-### Porting over 999 numbers in a single request requires Telephone Number Services - Service Center support
+### How many port requests do I need?
 
- If you have a large port request, of 1,000 numbers or greater, you must bypass the number port wizard in the Teams admin center and submit your port order manually with the Telephone Number Services - Service Desk. See [Manually submitting a port request](manually-submit-port-order.md).
+A single port order request in the Teams admin center can support multiple telephone numbers, but those phone numbers must have the same service provider, same account number, same BTN, same number type, and same service address.
 
-### The Teams Admin Center number port wizard allows one service provider, one account / billing telephone number, one number type, and one service address - per port request
+The following porting scenarios require multiple port orders:
 
-A port order request can support multiple telephone numbers, but those phone numbers must be homogenous in that they are of the same service provider, same account number, same billing telephone number (BTN), same number type, and same service address.
-
-#### Ports from multiple service providers require multiple port orders
-
-A number port wizard request supports porting from one service provider at a time.
-
-- For example, if you have a site whose numbers you want to port over to Microsoft, and some of those phone numbers are provided by service provider “A” while other numbers are provided by service provider “B,” then you place two separate port requests with the number port wizard, one for numbers with service provider “A” and another for numbers with service provider “B."
-
-#### Ports with multiple billing telephone numbers require multiple port orders
-
-A number port wizard request supports porting numbers from one billing telephone number (BTN) at a time.
-
-- For example, if your service provider groups your telephone numbers within multiple BTNs, then you need to place a separate port request for each set of numbers, respective to their parent BTN.
-
-#### Ports with multiple number types require multiple port orders
-
-A number port wizard request supports porting one number type at a time.
-
-- For example, if you have a site that has nine toll numbers assigned to individual users, and one toll-free number is used as an auto attendant, then you need to place two separate port requests with the number port wizard, one for the nine tolled numbers and another for the toll-free number.
-
-#### Ports with multiple addresses require multiple port orders
-
-A number port wizard request supports porting numbers for one service address at a time.
-
-- For example, if you have a port project to transfer numbers at multiple addresses on the same port date, then you'll need to place a separate port request per unique service address.
+- **Ports with multiple service providers** - A number port wizard request supports porting from one service provider at a time. For example, if you have a site whose numbers you want to port over to Microsoft, and some of those phone numbers are provided by service provider "A" while other numbers are provided by service provider "B," then you place two separate port requests with the number port wizard, one for numbers with service provider "A" and another for numbers with service provider "B."
+- **Ports with multiple billing telephone numbers** - A number port wizard request supports porting numbers from one BTN at a time. For example, if your service provider groups your telephone numbers within multiple BTNs, then you need to place a separate port request for each set of numbers, respective to their parent BTN.
+- **Ports with multiple number types** - A number port wizard request supports porting one number type at a time. For example, if you have a site that has nine toll numbers assigned to individual users, and one toll-free number is used as an auto attendant, then you need to place two separate port requests with the number port wizard, one for the nine tolled numbers and another for the toll-free number.
+- **Ports with multiple addresses** - A number port wizard request supports porting numbers for one service address at a time. For example, if you have a port project to transfer numbers at multiple addresses on the same port date, then you'll need to place a separate port request per unique service address.
 
 > [!NOTE]
 > If you aren't sure if your numbers are from the same service provider, account, or type, you can try running the wizard and listing the phone numbers you want to port. If the wizard detects different groupings, it lists the unique categories.
 >
 > For complex number port projects, involving multiple service providers, accounts/BTNs, number types, or service addresses, follow the [Manually submitting a port request](manually-submit-port-order.md) guidance to create a manual **Port in** request.
 
-### One port request at a time processed for a given account
+### Large port requests
 
-Port requests for the same account number are only processed one at a time, in series. Singular port order processing is an industry standard with all service providers. If you submit multiple port requests, one after the other, involving the same account number, all to occur simultaneously or even in overlapping timeframes, the service provider that currently owns the phone numbers only processes the first request per account number and rejects all others. If you submit more than one request for the same account number, all at the same time, then the losing carrier rejects one or all of your port requests.
-
-For example, you have account number xyz123 with your current service provider with the following plans:
-
-- Account xyz123 has 10 telephone numbers (TNs) under it - TN1, TN2, TN3….TN10.
-- Assume you want to port these numbers in 2 batches
-  - Batch 1 - TN1, TN2, TN3, TN4, TN5
-    - This is a partial-port, with BTN remaining with current provider.
-  - Batch 2 - TN6, TN7, TN8, TN9, TN10
-    - This is full-port, including the BTN.
-
-You can't submit port requests for Batch1 and Batch2 at the same time. You need to place a port request for Batch 1, wait for that request to be completed, and only then submit a port request for Batch 2.
+If you have a large port request of 1,000 numbers or greater, you must bypass the number port wizard in the Teams admin center and submit your port order manually with the Telephone Number Services (TNS) - Service Desk. For more information, see [Manually submitting a port request](manually-submit-port-order.md).
 
 ### Full-port and partial-port orders
 
@@ -210,7 +176,22 @@ A **partial-port** is when you transfer some of the numbers from your current se
 > [!NOTE]
 > In a partial port, if the BTN isn't one of the numbers you're porting, then you don't include the BTN in the list of numbers to port. If the BTN is one of the numbers you're porting, then you can select one of the remaining numbers that you aren't porting to become the new BTN for the service provider's account.
 
-### Disconnecting your existing phone lines with your current service provider
+### How port requests are processed
+
+Port requests for the same account number are only processed *one at a time*, in series. Singular port order processing is an industry standard with all service providers. If you submit multiple port requests, one after the other, involving the same account number, all to occur simultaneously or even in overlapping timeframes, the service provider that currently owns the phone numbers only processes the first request per account number and rejects all others. If you submit more than one request for the same account number, all at the same time, then the losing carrier rejects one or all of your port requests.
+
+For example, you have account number xyz123 with your current service provider with the following plans:
+
+- Account xyz123 has 10 telephone numbers (TNs) under it - TN1, TN2, TN3….TN10.
+- Assume you want to port these numbers in 2 batches
+  - Batch 1 - TN1, TN2, TN3, TN4, TN5
+    - This is a partial-port, with BTN remaining with current provider.
+  - Batch 2 - TN6, TN7, TN8, TN9, TN10
+    - This is full-port, including the BTN.
+
+In this example, you can't submit port requests for Batch 1 and Batch 2 at the same time. You need to place a port request for Batch 1, wait for that request to be completed, and only then submit a port request for Batch 2.
+
+### When to disconnect your existing phone lines with your current service provider
 
 Don't arrange to disconnect the service with your current service provider before submitting your port request.
 
@@ -218,16 +199,13 @@ Don't arrange to disconnect the service with your current service provider befor
 - In a full port, the service with your current service provider is terminated automatically.
 - Any other services (like ISDN/Broadband etc.) associated with your porting phone numbers is automatically disconnected after the port is completed. If you would like to keep these services active with your current service provider, transfer those services to phone numbers that you don't plan to port to Microsoft.
 
-### After the port order is submitted - The porting process
+### What happens after you submit a port order request
 
-In a number porting process, the gaining service provider (that is, the phone service provider that you want to port your numbers to) raises a port request on behalf of you and this request is sent to the losing service provider (that is, the phone service provider that currently owns the phone numbers that you're trying to port).
+In a number porting process, the gaining service provider (the phone service provider that you want to port your numbers to) raises a port request on behalf of you and this request is sent to the losing service provider (the phone service provider that currently owns the phone numbers that you're trying to port).
 
-The losing carrier processes the port request and respond with either an approval or a rejection.
+The losing carrier processes the port request and responds by either approving or rejecting the request.
 
-> [!NOTE]
-> Microsoft has no say in the port approval decision and can't influence the behavior of the losing service provider.
-
-When placing a port request, you're asked to choose a target porting date and time. Choosing a target date doesn't mean that the port happens on that date - the port only occurs on the target date if the losing service provider provides approval to allow your numbers to be ported away from their system on the date that you asked for.
+When placing a port request, you're asked to choose a target porting date and time. Choosing a target date doesn't mean that the port happens on that date - the port only occurs on the target date if the losing service provider provides approval to allow your numbers to be ported away from their system on the date that you asked for. For more information on porting date planning, see [Plan for port event date](#plan-for-port-event-date) in this article.
 
 Once you submit your request to port your phone numbers to Microsoft, the following events take place:
 
@@ -237,7 +215,10 @@ Once you submit your request to port your phone numbers to Microsoft, the follow
 - Once a port request reaches the losing service provider, they have a window of time to process the request and provide a response.
   - The response SLA varies by country or region. For example, the losing service provider response SLA in the United States is 3-5 business days, and 5-7 business days in Canada.
 
-The response back from the losing carrier can be one of two things: approval or rejection.
+> [!NOTE]
+> Microsoft has no say in the port approval decision and can't influence the behavior of the losing service provider.
+
+The losing carrier then approves or denies the port request.
 
 - **Approval**:
   - The losing service provider scrutinized the account information you provided, looked through the porting numbers, and found that all the information in your port request matches with what they have on file for the account and they agree to the proposed date for the port event.
@@ -256,7 +237,7 @@ The response back from the losing carrier can be one of two things: approval or 
 
 ### Common mistakes
 
-Number porting is easy to do. However if the order is incomplete, inaccurate, or missing information, your current service provider rejects the port request.
+Number porting is easy to do. However, if the order is incomplete, inaccurate, or missing information, your current service provider will reject the port request.
 Here are the most common mistakes we see customers make when they port numbers. Save yourself a port request rejection and double-check for these errors.
 
 - Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delays to your port order. Verify the following information is true:
@@ -274,7 +255,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 
 Each country or region has unique names for the documents that their service providers use as the official document of record for a customer.
 
-In the United States, the service provider’s official document of record for a customer is the Customer Service Record, or CSR. In Canada, the same document is called an Equipment Record.
+In the United States, the service provider's official document of record for a customer is the Customer Service Record, or CSR. In Canada, the same document is called an Equipment Record.
 
 Browse through the following reference articles to find if the countries in your scope use official documents of record and what they're called:
 
@@ -354,8 +335,8 @@ The upside of this is that if all the information in your port request is accura
 
 However, the downside of this approach is that you're basically choosing speed over predictability.
 
-- If your port request receives a rejection from the losing carrier, it's almost certain a new target port date for you'll be required. As explained above, the response window that a losing carrier has gets reset if they reject your port request.
-- This means that you now have to recommunicate the status of your project with your end users and your stakeholders, replan day-of-port activities, often at the last minute.
+- If your port request receives a rejection from the losing carrier, it's almost certain that a new target port date is required and the response time that the losing carrier is reset.
+- This means that you now have to recommunicate the status of your project with your end users and your stakeholders and replan day-of-port activities, often at the last minute.
 
 #### Approach 2: Choosing a conservative target date
 
@@ -384,9 +365,9 @@ In the USA and Canada, you can choose any target porting time between 8am (U.S. 
 
 ## Managing numbers when moving from Microsoft Calling Plan to a different phone service provider
 
-If you're porting out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You also need to set a porting PIN in the Microsoft Teams admin center.
+If you're porting out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You also need to set a porting PIN in the Teams admin center.
 
-- To define your porting PIN with Microsoft, navigate to the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page select **Actions** > **Manage porting PIN**, and then enter a 10-digit PIN.
+- To define your porting PIN with Microsoft, navigate to the Teams admin center. Go to **Voice** > **Phone numbers**, and on the upper-right corner of the page, select **Actions** > **Manage porting PIN**, and then enter a 10-digit PIN.
 - When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
 - If you need further assistance setting up a PIN, contact the [Telephone Number Services - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
