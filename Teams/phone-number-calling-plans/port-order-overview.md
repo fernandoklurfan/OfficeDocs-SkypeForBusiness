@@ -62,40 +62,40 @@ An example of the terms and definitions that are used in the porting process and
 These terms are applicable in the United States and alternative terms might be used in other countries or regions.
 
 - **List of phone numbers that you want to port**
-        - Make sure that the list of numbers that you want to port aren't already with Microsoft, or part of another open port order.
-        - Ports from multiple service providers require multiple port orders
+  - Make sure that the list of numbers that you want to port aren't already with Microsoft, or part of another open port order.
+  - Ports from multiple service providers require multiple port orders
 
 - **Account Number**
-        - The account number associated with the phone numbers that you're trying to port.
-        - If you're currently invoiced through a reseller, you'll provide the name of the reseller in the Letter of Authorization.
-        - All phone numbers in a port request using the Teams admin center MUST belong to the same account number. See [Port request considerations](#port-request-considerations)
+  - The account number associated with the phone numbers that you're trying to port.
+  - If you're currently invoiced through a reseller, you'll provide the name of the reseller in the Letter of Authorization.
+  - All phone numbers in a port request using the Teams admin center MUST belong to the same account number. See [Port request considerations](#port-request-considerations)
 
 - **Authorizing person on account**
-        - A person in your organization who is the authorized user on your account with your current service provider.
+  - A person in your organization who is the authorized user on your account with your current service provider.
 
 - **Service address**
-        - The service address associated with the phone numbers that you want to port.
-        - The service address could be different than the billing address with your current service provider.
-        - All phone numbers in a port request using the Teams admin center MUST belong to the same service address.
+  - The service address associated with the phone numbers that you want to port.
+  - The service address could be different than the billing address with your current service provider.
+  - All phone numbers in a port request using the Teams admin center MUST belong to the same service address.
 
 - **Business name**
-        - The business name associated with the phone numbers that you want to port.
-        - All phone numbers in a port request MUST have the same business name.
+  - The business name associated with the phone numbers that you want to port.
+  - All phone numbers in a port request MUST have the same business name.
 
 - **Billing Telephone Number (BTN)**
-        - The billing telephone number that is associated with the phone numbers that you want to port. This BTN must be on the same account as the numbers that you want to port.
-        - Your current service provider has this information.
-        - All phone numbers in a port request using the Teams admin center MUST have the same BTN.
+  - The billing telephone number that is associated with the phone numbers that you want to port. This BTN must be on the same account as the numbers that you want to port.
+  - Your current service provider has this information.
+  - All phone numbers in a port request using the Teams admin center MUST have the same BTN.
 
 - **Partial Port**
-        - This means that you're only porting some of the numbers from your account with your current service provider.
-        - As an example- If you have 10 numbers on your account with your current service provider, and you're porting six of them, then that means that your port is considered as a partial port.
+  - This means that you're only porting some of the numbers from your account with your current service provider.
+  - As an example- If you have 10 numbers on your account with your current service provider, and you're porting six of them, then that means that your port is considered as a partial port.
 
 - **Full Port**
-        - This means that your current port request (that you're working to submit) includes ALL of the phone numbers from your account with your current service provider.
-        - As an example- if you have 10 numbers on your account with your current service provider, and you're porting all 10 numbers, then that means that your port is considered a full port.
-        - Your contact information'
-        - In certain cases, the Telephone Number Services (TNS) service desk might reach out to you for additional information or to resolve any issues.
+  - This means that your current port request (that you're working to submit) includes ALL of the phone numbers from your account with your current service provider.
+  - As an example- if you have 10 numbers on your account with your current service provider, and you're porting all 10 numbers, then that means that your port is considered a full port.
+  - Your contact information'
+  - In certain cases, the Telephone Number Services (TNS) service desk might reach out to you for additional information or to resolve any issues.
 
 ## Port request considerations
 
