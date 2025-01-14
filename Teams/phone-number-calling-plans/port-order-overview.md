@@ -26,7 +26,7 @@ ms.collection:
   - Tier1
 ---
 
-# What's a port order? - Porting overview
+# What's a port order? - Planning to transfer telephone numbers to Teams
 
 Number porting is the process of transferring your existing phone numbers from one service provider to another, allowing you to keep the same phone numbers even after changing service providers.
 
