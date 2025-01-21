@@ -133,7 +133,8 @@ Enter the Billing telepone number (BTN) for the account with your existing servi
 
 As with the BTN, it's essential to document the account information exactly the way the current service provider has it in their records.
 
-    *Don't forget to save your work as you work through this page.*
+> [!NOTE]
+> You can save your work as you work through this page and the wizard.
 
 - The organization name should match, exactly as represented in the current service provider's records.
 - If the wizard identifies the service provider's name, don't change it here.
