@@ -80,6 +80,8 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 ### [**Porting wizard - New (U.S. & Canada)**](#tab/new-porting-wizard)
 
+:::image type="content" source="../media/numberportwizarduscanada.png" alt-text="Teams admin center number port wizard for USA and Canada.":::
+
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
@@ -166,6 +168,8 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 1. You can research more about the process, here: [Porting status](port-order-status.md)
 
 ### [**Porting wizard - All Calling Plan countries and regions**](#tab/classic-porting-wizard)
+
+:::image type="content" source="../media/numberportwizardallregions.png" alt-text="Teams admin center number port wizard for all regions.":::
 
 1. In Teams Admin Center, launch the port wizard
     1. In the left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
