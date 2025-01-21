@@ -167,7 +167,7 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 1. You can check the status of your order in the Teams Admin Center. In left side rail under Voice > Phone Numbers navigate to **Order History** and search by the name you gave your order in the porting details page.
 1. You can research more about the process, here: [Porting status](port-order-status.md)
 
-### [**Porting wizard - All Calling Plan countries and regions**](#tab/classic-porting-wizard)
+### [**Porting wizard - All regions**](#tab/classic-porting-wizard)
 
 :::image type="content" source="../media/numberportwizardallregions.png" alt-text="Teams admin center number port wizard for all regions.":::
 
@@ -178,7 +178,7 @@ This article is an accompaniment for IT professionals and Teams Phone administra
     - If you're porting U.S. or Canada numbers and would like to use the new porting wizard, then select **US & Canada Preview**.
     - If you'd like to submit your port request using the classic porting wizard, then choose **All regions (current porting experience)**.
     - Enhancements are in development to offer the new wizard to all other regions where Microsoft offers Calling Plans.
-    1. Select **All other supported regions** and select **Start port**.
+    1. Select **All regions** and select **Start port**.
 
 #### Get started
 
