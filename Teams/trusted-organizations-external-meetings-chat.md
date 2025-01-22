@@ -212,11 +212,11 @@ To enable and configure blocked users list:
 
 1. In the User box, type the email address of the user you want to block and then click Apply.
 
-   ![BlockUser2](media/trusted-organizations-external-meetings-chat/blockuser2.jpg)
+   ![Enter blocked user email address.](media/trusted-organizations-external-meetings-chat/blockuser2.jpg)
    
 1. If you want to block another user, click Add users and Apply 
 
-   ![Blockuser4.jpg](media/trusted-organizations-external-meetings-chat/blockuser4.jpg.png)
+   ![Add another user to the blocked list.](media/trusted-organizations-external-meetings-chat/blockuser4.jpg.png)
    
 ### Configure organization settings by using PowerShell
 
