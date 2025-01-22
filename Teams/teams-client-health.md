@@ -17,7 +17,7 @@ f1.keywords:
 description: How to configure and use the health page in the Teams admin center to manage clients using monitoring and informational advice specific to situations.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ---
 
 # Teams client supportability and manageability tools in Teams admin center health
