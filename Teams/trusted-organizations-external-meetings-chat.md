@@ -64,6 +64,8 @@ In this section, you can configure:
 - [Chat with external Teams users not managed by an organization](#manage-chats-and-meetings-with-external-teams-users-not-managed-by-an-organization)
 - [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
 
+- Block external users
+
 You can also [configure these settings by using PowerShell](#configure-organization-settings-by-using-powershell)
 
 ### Specify trusted Microsoft 365 organizations
@@ -190,12 +192,32 @@ Meetings aren't supported with Skype users. If invited to a meeting, they're con
 To configure chat and calls with Skype users:
 
 1. In the Teams admin center, go to **Users** > **External access**.
-2. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
+1. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
     ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 3. Select **Save**.
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
+### Block external users
+
+You can block specific external users from collaborating with your organization. If a user is added to the block list, your organization will not be able to have 1:1 and group chats with these users. If chats already exist before a user is added to the block list, the blocked user will be removed from the chat. This feature is turned off by default. 
+
+To enable and configure blocked users list: 
+
+1. In the Teams admin center, go to **Users** > **External access** 
+
+1. Turn **Block specific users from communicating with people in my organization setting** on. ![Turn block users setting on.](media/trusted-organizations-external-meetings-chat/blockuser1.jpg)
+
+1. Add users to the block list by clicking Block a user button. 
+
+1. In the User box, type the email address of the user you want to block and then click Apply.
+
+   ![BlockUser2](media/trusted-organizations-external-meetings-chat/blockuser2.jpg)
+   
+1. If you want to block another user, click Add users and Apply 
+
+   ![Blockuser4.jpg](media/trusted-organizations-external-meetings-chat/blockuser4.jpg.png)
+   
 ### Configure organization settings by using PowerShell
 
 Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration) cmdlet.
@@ -295,6 +317,7 @@ See the following references to understand how external access works with compli
 
 - [eDiscovery in external access and guest environments](/microsoftteams/ediscovery-investigation#ediscovery-in-external-access-and-guest-environments)
 - [Message retention with external access users](/microsoft-365/compliance/retention-policies-teams#messages-and-external-users)
+
 - [Data loss prevention and Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)
 
 ## Related topics
