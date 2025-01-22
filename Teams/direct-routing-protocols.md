@@ -89,19 +89,21 @@ When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a 
 - There are a maximum of two TCP/TLS connections per remote FQDN/IP, per each SIP proxy virtual machine. Before sending a SIP request, SIP proxy checks for active TCP connections with the target SBC/Trunk FQDN’s resolved IP address. If two connections exist, they're reused. If two connections don't exist, a new connection is opened.  
 
   - This logic is per SIP proxy virtual machine.  
-
+    
   - SIP proxy IPs are serviced by multiple virtual machines per region.  
-
+    
   - From the SBC perspective, there may be multiple inbound proxy connections from all SIP proxy regions.  
-
+    
 - TCP/TLS connections opened by SIP proxy don't necessarily stay open as long as the call does. However, the connection doesn't close immediately after a response to a SIP request.  If a connection doesn't time out, it may be reused for other SIP requests.  
 
 - SIP Proxy doesn't support connection aliasing as described in [RFC 5923: Connection Reuse in the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5923.html).
 
   - Outbound SIP proxy TCP connections only service outbound SIP Proxy requests (to SBCs) and related responses.
-
+    
   - Inbound SIP proxy TCP connections (from SBCs) only service incoming SIP requests and related responses.  
-
+    
+    
+Please be aware that in certain situations, 3rd party gateways / SBCs may flag TLS connection resets for O365 services. This is behavior is expected, since new connections are getting dynamically built without impacting user experience.
 
 ### Timeout policies 
 
