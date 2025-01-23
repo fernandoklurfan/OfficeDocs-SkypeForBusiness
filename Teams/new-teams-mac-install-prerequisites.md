@@ -1,5 +1,5 @@
 ---
-title: Install and prerequisites for the Microsoft new Teams for the Mac
+title: Deploy Microsoft new Teams client for the Mac
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -15,10 +15,10 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac.
+description: Learn about deploying the new Microsoft Teams desktop client for the Mac.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 # New Teams for Mac - Overview and prerequisites
 
@@ -42,15 +42,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Minimum Mac and Teams versions
 
-- You must be running on macOS Monterey (12) or higher.
-
-- To see the **Try the new Teams** toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select **>**Check for updates >Update**, and restart your app. If you still don't see the App Switcher, use **Report a Problem**.
-
-- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
-
->[!Note]
-> Only **Microsoft Autoupdate** can be used to update new Teams.
->Learn more: [**Update Office for Mac automatically**](https://support.microsoft.com/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
+For information on deploying the Teams client on Mac, please see [New Teams system requirements](teams-client-system-requirements.md).
 
 ### Turn ON System Notification
 
@@ -91,21 +83,6 @@ Users can enable screen sharing for sharing content on calls and in meetings usi
 
 :::image type="content" source="media/new-teams-mac-screen-recording.png" alt-text="new teams mac screen recording page":::
 
-## Troubleshooting and error handling
-
-### App Switcher Toggle
-
-- Relaunch your current client before turning the **Try the new Teams** toggle ON to ensure that you have latest changes.
-
-- If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
-
-  - macOS Monterey (12) or higher.
-  - Microsoft Teams version 1.6.00.12303 or higher.
-
-- After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams, you can start the version you want by searching in Launchpad for Teams.
-
-:::image type="content" source="media/new-teams-mac-switch-using-launchpad.png" alt-text="switchusing launchpad":::
-
 ## How to uninstall new Teams Client
 
 You can uninstall the new Teams client just like any other Mac app.
@@ -115,18 +92,3 @@ You can uninstall the new Teams client just like any other Mac app.
 1. Command + Space and enter Terminal.
 2. rm -rf ~/Library/Group Containers/UBF8T346G9.com.microsoft.teams
 3. rm -rf ~/Library/Containers/com.microsoft.teams2
-
-## Features currently not available
-
-All the features available in new Teams Windows client are supported on Mac client except:
-
-- Cameo (weather person) in PPT
-- Green Screen
-
-## Enhancements in new Teams
-
-Below issues from classic Teams are now fixed in new Teams
-
-- CMD+Tab issue
-- Mac Native Shortcuts for text editing
-- Call notifications not coming through when in Full-Screen
