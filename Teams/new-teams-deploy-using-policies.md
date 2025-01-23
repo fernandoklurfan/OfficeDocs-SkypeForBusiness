@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 05/17/2024
+ms.date: 01/24/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -18,7 +18,7 @@ f1.keywords:
 description: Learn about how to upgrade the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 # Upgrade to the new Teams using policies
 
@@ -26,16 +26,10 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 > [!TIP]
 > As a companion to this article, see our [Teams setup guide](https://go.microsoft.com/fwlink/?linkid=2270204) to review best practices and learn to configure Teams features to meet your business needs. This comprehensive guide covers key areas like managing policies, external access, and tags. For a customized experience based on your environment, you can access the [Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2270034) in the Microsoft 365 admin center. 
+
 ## Prerequisites
 
-|Requirement|Version|
-|:----------|:------|
-|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app). Users of Windows N SKU need to enable [Media Feature Pack for Windows 10/11 N](https://support.microsoft.com/windows/media-feature-pack-for-windows-10-11-n-september-2022-78cfeea5-c7d9-4aa8-b38f-ee4df1392009#:~:text=Here%E2%80%99s%20how%20to%20install%20the%20Media%20Feature%20Pack%3A,select%20Settings%20%3E%20Apps%20%3E%20Optional%20features.%20)|
-|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
-|Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app.|
-|Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
-|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
+See [New Teams system requirements](teams-client-system-requirements.md) for information on the requirements for the Teams client.
 
 ### Required Microsoft 365 Apps Security Updates
 
