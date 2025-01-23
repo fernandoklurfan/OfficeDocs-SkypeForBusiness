@@ -21,7 +21,7 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Bulk upgrade to the new Microsoft Teams client
+# Bulk deploy the new Microsoft Teams client
 
 Direct or "bulk" upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
