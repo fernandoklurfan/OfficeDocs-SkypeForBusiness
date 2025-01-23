@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 06/19/2024
+ms.date: 01/24/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -18,7 +18,7 @@ f1.keywords:
 description: Bulk upgrade to the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # Bulk upgrade to the new Microsoft Teams client
