@@ -1655,6 +1655,18 @@ items:
               href: phones/phones-for-teams.md
             - name: What's new in Teams phones
               href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
+            - name: Features
+              items:
+                - name: Set the Teams phone interface
+                  href: phones/teams-android-devices-user-interface.md
+                - name: Line keys for speed dialing
+                  href: phones/line-keys.md
+                - name: Manage Teams phones
+                  href: phones/manage-teams-phones.md
+                - name: Update management
+                  href: phones/remote-update-teams-phones.md
+                - name: Queues app on Teams phones
+                  href: phones/queues-app.md
         - name: Deploy
           items:
             - name: Step 1 - Overview
@@ -1685,16 +1697,6 @@ items:
                   href: phones/remote-provision-remote-login-phones.md
                 - name: Remote sign in and sign out
                   href: phones/remote-sign-in-and-sign-out-phones.md
-        - name: Manage
-          items:
-            - name: Set the Teams phone interface
-              href: phones/teams-android-devices-user-interface.md
-            - name: Line keys for speed dialing
-              href: phones/line-keys.md
-            - name: Manage Teams phones
-              href: phones/manage-teams-phones.md
-            - name: Update management
-              href: phones/remote-update-teams-phones.md
         - name: Troubleshooting and known issues
           href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
           
