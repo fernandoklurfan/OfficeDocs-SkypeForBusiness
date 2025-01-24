@@ -1,5 +1,5 @@
 ---
-title:  Teams client supportability and manageability tools in Teams admin center health
+title:  Teams client diagnostic logging in the Teams admin center
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
@@ -14,7 +14,7 @@ ms.reviewer: shals
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: How to configure and use the health page in the Teams admin center to manage clients using monitoring and informational advice specific to situations.
+description: Diagnostic logging for Teams client updates in the Teams admin center to manage client updates and prevent sedimentation.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
