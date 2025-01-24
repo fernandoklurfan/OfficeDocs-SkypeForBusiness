@@ -519,6 +519,14 @@ items:
               href: alerts/alerts-in-progress-meeting-video.md
             - name: Alerts for screen sharing issues
               href: alerts/alerts-in-progress-meeting-screen-sharing.md
+    - name: Teams client supportability tools
+      items:
+        - name: Teams client health
+          href: teams-client-health.md
+        - name: Update monitoring
+          href: teams-client-health-update-monitoring.md
+        - name: Diagnostic logs
+          href: teams-client-health-diagnostic logs.md
 
     - name: Teams alerting and monitoring
       href: alerts/teams-admin-alerts.md 
