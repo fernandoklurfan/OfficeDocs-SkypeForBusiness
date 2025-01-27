@@ -16,7 +16,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Tier1
-description: Learn how to use the Teams Premium dashboard in the Teams admin center to know how often users are using each  Teams Premium feature.
+description: Learn how to use the Teams Premium dashboard in the Teams admin center to manage licenses and know how often users are using each Teams Premium feature.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
