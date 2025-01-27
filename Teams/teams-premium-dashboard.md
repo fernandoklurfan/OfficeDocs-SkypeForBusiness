@@ -24,16 +24,18 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Teams Premium for your organization
 
-As an admin, you can use The Teams Premium dashboard to manage licenses, track features usage, and get suggestions on how to set up and optimize features for your organization.  
+As an admin, you can use The Teams Premium dashboard to manage licenses, track features usage, and get suggestions on how to set up and optimize features for your organization.
 
-To access the Teams Premium dashboard, log in to the Teams admin center > select **Teams Premium** in the navigation pane.
+To access the Teams Premium dashboard, sign-in to the Teams admin center > select **Teams Premium** in the navigation pane.
 
 ## Teams Premium discovery trial
 
 > [!NOTE]
-> The Teams Premium discovery trial isn’t available if you already have a paid Teams Premium subscription and or have previously used the trial.
+> The Teams Premium discovery trial isn’t available if you have a paid Teams Premium subscription or already used the trial.
 
 The Teams Premium discovery trial gives you and your organization a 30- day free trial to explore Teams Premium features.
+
+:::image type="content" source="media/t-pre-landing-small.png" alt-text="Screenshot of the Teams Premium discovery trial dashboard." lightbox="media/t-pre-landing-expand.png":::
 
 To start a trial for Teams Premium, follow these steps:
 
@@ -44,7 +46,7 @@ To start a trial for Teams Premium, follow these steps:
 
 During your trial, you can assign licenses to users and approve their license requests.
 
-## Manage the Teams Premium dashboard
+## Manage Teams Premium
 
 If you have a Teams Premium trial or licenses for your organization, the Teams Premium dashboard has the following four tabs:
 
@@ -56,7 +58,11 @@ If you have a Teams Premium trial or licenses for your organization, the Teams P
 
 - **Feature advisor**- Overview of all Teams Premium features that you must configure for your users.
 
+:::image type="content" source="media/t-pre-dash-overview-small.png" alt-text="Screenshot of the Teams Premium dashboard's overview tab." lightbox="media/t-pre-dash-overview-expand.png":::
+
 ### Licenses
+
+:::image type="content" source="media/t-pre-dash-licenses-small.png" alt-text="Screenshot of the Teams Premium dashboard's licenses tab." lightbox="media/t-pre-dash-licenses-expand.png":::
 
 To access licensing information, either select the **Licenses** tab or select **View details** in the **Teams Premium licensing widget** on the **Overview** tab.
 
@@ -80,13 +86,17 @@ The dashboard’s table has three tabs that provide the following details:
 
 To access feature usage information, either select the **Usage reports** tab or select **View details** in the **Teams Premium feature usage** widget on the **Overview** tab. You can also access this usage report from **Analytics & reports** > **Usage reports** > On the **View reports tab**, under **Report**, select **Teams Premium feature usage**.
 
+When you access **Teams Premium feature usage** from the **Teams Premium** dashboard, the data reflects the last 30 days.
+
 To learn more about the Teams Premium usage report, see [Teams Premium feature usage report](/teams-analytics-and-reports/teams-premium-usage-report).
 
 ### Feature advisor
 
+:::image type="content" source="media/t-pre-dash-advisor-small.png" alt-text="Screenshot of the Teams Premium dashboard's feature advisor tab." lightbox="media/t-pre-dash-advisor-expand.png":::
+
 To access feature usage information, either select the **Feature advisor** tab or select **View details** in the **Feature advisor widget** on the **Overview** tab.
 
-The **feature advisor** shows all the Teams Premium features that you must configure for your users and has the following widgets:
+The **feature advisor** dashboard shows all the Teams Premium features that you must configure for your users and has the following widgets:
 
 - **Status of Teams Premium features**- Percentage of features that you haven’t enabled, enabled for some users, and enabled for all users.
 - **Suggested features**- Teams Premium features that you could enable for licensed users in your organization.
@@ -95,7 +105,7 @@ The dashboard’s table has three tabs that provide the following details:
 
 - **Premium area**- Name of Teams Premium area that the features belong to.
 - **Feature**- Name of the feature.
-- **Status**- One of the following statuses are displayed:
+- **Status**- One of the following statuses is displayed:
 
   - **Not enabled**- You haven’t configured this feature or assigned it to any Teams Premium users.
   - **Enabled for some Premium users**- You've configured this feature but only assigned it to some Teams Premium users.
