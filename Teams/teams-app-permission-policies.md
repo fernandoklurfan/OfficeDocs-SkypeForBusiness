@@ -39,10 +39,15 @@ To let your org users use a Teams app or a copilot agent, you must allow it in:
 
 * [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 * [Individual app's setting](manage-apps.md#allow-or-block-apps).
-* In app permission policy.
-* In Teams admin center and Microsoft 365 admin center.
+* App permission policy.
+* Teams admin center and Microsoft 365 admin center.
 
-The first two settings just allow an app for use in your organization, the permission policies lets you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users. To make any apps or copilot agents available in your organization, ensure that the settings to allow these are the same in Teams admin center and in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) in the Integrated Apps page.
+The first two settings just allow an app for use in your organization, the permission policies lets you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users. To make any apps or Copilot agents available in your organization, ensure the following:
+
+* If your organization isn't migrated to unified app management, enable the settings to allow apps and agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+* If your organization is migrated to unified app management, enable the settings to allow apps and agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+
+For more information regarding unified app management, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
 
 Teams admin center lets you create two types of permissions policies:
 

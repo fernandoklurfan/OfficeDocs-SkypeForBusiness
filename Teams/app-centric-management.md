@@ -115,9 +115,18 @@ After migration, your blocked apps continue to remain unavailable to users. The 
 
 ## Add or modify app availability for users
 
-To let users add and use an app or a copilot agent, you must assign users or groups to an app. To make any apps or copilot agents available in your organization, ensure that the settings to allow these are the same in Teams admin center and in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) in the Integrated Apps page. It takes up to 24 hours for the changes to take effect. In rare cases, it may take up to 6 days for the availability changes to reflect in the client.
+To let users add and use an app or a Copilot agent, you must assign users or groups to an app. To make any app or Copilot agent available in your organization, ensure the following:
 
-1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
+* If your organization isn't migrated to unified app management, enable the settings to allow apps and agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+* If your organization is migrated to unified app management, enable the settings to allow apps and agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+
+For more information regarding unified app management, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
+
+It takes up to 24 hours for the changes to take effect. In rare cases, it may take up to six days for the availability changes to reflect in the client.
+
+To make any app or Copilot agent available to your organization in Teams admin center, follow these steps:
+
+1. Go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
 
 1. Select the **Assignments** tab.
 
