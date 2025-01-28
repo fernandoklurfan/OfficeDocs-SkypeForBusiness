@@ -25,9 +25,9 @@ ms.localizationpriority: medium
 - Microsoft Teams update monitoring in the Teams admin center allows administrators to proactively monitor Teams client updates and versions, and helps identify users who aren't on the latest version of the Teams client.
 - Admins can monitor the overall update and adoption status of the latest version of the Teams client across Windows and Mac devices in their organization. 
 - This page provides a Teams client update status from users in your organization. It groups devices into three update statuses:
-  - Latest Build
-  - One or more builds behind
-  - Outdated
+  - Latest Build.
+  - One or more builds behind.
+  - Outdated.
 
 |Client update status      |Definition |
 |--------------------------|-----------|
@@ -47,8 +47,6 @@ ms.localizationpriority: medium
 
 ### Client version details
 
-Admins can see their organization's client version distribution and adoption of each client version, as well as the health of each client version.
+Admins can see their organization's client version distribution and adoption of each client version, as well as the health of each client version in your organization.
 
-[SCREENSHOT NOT CURRENTLY INCLUDED]
-
-Identify users and devices running outdated version of Teams. Review troubleshooting insights on issues preventing users from updating to a newer version of Teams.
+You can identify users and devices running outdated version of Teams, and review troubleshooting insights on issues preventing users from updating to a newer version of Teams.
