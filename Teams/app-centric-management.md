@@ -115,12 +115,12 @@ After migration, your blocked apps continue to remain unavailable to users. The 
 
 ## Add or modify app availability for users
 
-To let users add and use an app or a Copilot agent, you must assign users or groups to an app. To make any app or Copilot agent available in your organization, ensure the following:
+To allow users add and use an app or a Copilot agent, you must assign users or groups to an app. To make any app or Copilot agent available in your organization, ensure the following:
 
-* If your organization isn't migrated to unified app management, enable the settings to allow apps and agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
-* If your organization is migrated to unified app management, enable the settings to allow apps and agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+* If your organization isn't migrated to unified app management, allow apps and Copilot agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+* If your organization is migrated to unified app management, allow apps and Copilot agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
-For more information regarding unified app management, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
+For more information, see [manage apps that work across Teams, Outlook, and Microsoft 365 App](manage-apps-across-m365.md).
 
 It takes up to 24 hours for the changes to take effect. In rare cases, it may take up to six days for the availability changes to reflect in the client.
 
