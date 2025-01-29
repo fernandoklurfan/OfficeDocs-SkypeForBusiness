@@ -105,6 +105,12 @@ Outcomes of app deployment setting applied to a particular app.
 | Everyone                                            | Entire organization                                  | Everyone                                                    |
 | Everyone                                            | No state (default is `None`)                         | Everyone                                                    |
 
+## Unified app management experience
+
+After Microsoft migrates your tenant to unified app management, changes to settings in Teams admin center and Microsoft 365 admin center are synchorinzed. Consider a scenario where you want to disallow users from using third-party apps in your organzation. Before you'd have to go to Teams admin center > **Manage apps** > **Actions** > **Org-wide app settings** > **Third-party apps** and then toggle the setting off. Then you would have to go to Microsoft 365 admin center > **Integrate apps** > **Available apps** > Gear and then toggle the setting off under **Let users access Microsoft apps in your tenant**.
+
+However, with unified app management, you'd only need to perform one of the steps and the admin centers automatically synchronize the settings.
+
 ## Related articles
 
 * [How to enable app centric management functionality](app-centric-management.md)
