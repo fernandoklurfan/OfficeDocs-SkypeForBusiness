@@ -159,28 +159,13 @@ After you select a language, select the **Next** button at the bottom of the **A
 To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -UseDefaultMusicOnHold $true  
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
 ````
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -UseDefaultMusicOnHold $true  
-````
-
-##### Example 2
-
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
-
-````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
-````
-
-To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
-
-````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
- "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
 ````
 
 </details>
@@ -209,6 +194,52 @@ Teams provides default music to callers while they're *on hold in a queue*.
 > You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control, or license the music copyrights, sound effects, audio, and other intellectual property rights.
 
 After you select a greeting and on-hold music, select the **Next** button at the bottom of the **Add a Call queue** page.
+
+### Greeting and music via PowerShell
+
+<!-- markdownlint-disable MD025 -->
+<details>
+<summary>Expand to see PowerShell options and examples</summary>
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-WelcomeMusicAudioFileId](/powershell/module/teams/new-cscallqueue#WelcomeMusicAudioFileId) | [-WelcomeMusicAudioFileId](/powershell/module/teams/set-cscallqueue#WelcomeMusicAudioFileId) |
+| [-WelcomeTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-WelcomeTextToSpeechPrompt) | [--WelcomeTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#--WelcomeTextToSpeechPrompt) |
+| [-UseDefaultMusicOnHold](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-UseDefaultMusicOnHold](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+| [-MusicOnHoldAudioFileId](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-MusicOnHoldAudioFileId](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+
+#### PowerShell Examples
+
+##### Example 1 - welcome music audio file id and music on hold default
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+##### Example 2 - welcome music text to speech and music on hold file
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+</details>
+<!-- markdownlint-enable MD025 -->
 
 ## [Step 3: Call answering](#tab/call-answering)
 
@@ -288,6 +319,52 @@ Keep the following in mind:
 > [!IMPORTANT]
 > Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
 
+### Call answering  via PowerShell
+
+<!-- markdownlint-disable MD030 -->
+<details>
+<summary>Expand to see PowerShell options and examples</summary>
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-WelcomeMusicAudioFileId](/powershell/module/teams/new-cscallqueue#WelcomeMusicAudioFileId) | [-WelcomeMusicAudioFileId](/powershell/module/teams/set-cscallqueue#WelcomeMusicAudioFileId) |
+| [-WelcomeTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-WelcomeTextToSpeechPrompt) | [--WelcomeTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#--WelcomeTextToSpeechPrompt) |
+| [-UseDefaultMusicOnHold](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-UseDefaultMusicOnHold](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+| [-MusicOnHoldAudioFileId](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-MusicOnHoldAudioFileId](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+
+#### PowerShell Examples
+
+##### Example 1 - welcome music audio file id and music on hold default
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+##### Example 2 - welcome music text to speech and music on hold file
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+</details>
+<!-- markdownlint-enable MD030 -->
+
 ## [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
@@ -349,6 +426,53 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 Once you select your agent call routing options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
+### Agent selection via PowerShell
+
+<!-- markdownlint-disable MD035 -->
+<details>
+<summary>Expand to see PowerShell options and examples</summary>
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-WelcomeMusicAudioFileId](/powershell/module/teams/new-cscallqueue#WelcomeMusicAudioFileId) | [-WelcomeMusicAudioFileId](/powershell/module/teams/set-cscallqueue#WelcomeMusicAudioFileId) |
+| [-WelcomeTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-WelcomeTextToSpeechPrompt) | [--WelcomeTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#--WelcomeTextToSpeechPrompt) |
+| [-UseDefaultMusicOnHold](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-UseDefaultMusicOnHold](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+| [-MusicOnHoldAudioFileId](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-MusicOnHoldAudioFileId](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+
+#### PowerShell Examples
+
+##### Example 1 - welcome music audio file id and music on hold default
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+##### Example 2 - welcome music text to speech and music on hold file
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+````
+
+</details>
+<!-- markdownlint-enable MD035 -->
+
+
 ## [Step 5: Callback](#tab/callback)
 
 ## Step 5: Callback
@@ -406,7 +530,7 @@ Once you select your callback options, select the **Next** button at the bottom 
 
 ### Callback via PowerShell
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD040 -->
 <details>
 <summary>Expand to see PowerShell options and examples</summary>
 
@@ -482,7 +606,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 ````
 
 </details>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD040 -->
 
 ## [Step 6: Exception Handling](#tab/call-exception-handling)
 
