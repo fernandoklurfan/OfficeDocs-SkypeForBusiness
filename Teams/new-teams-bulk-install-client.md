@@ -167,20 +167,11 @@ The .plist configuration can be propagated to managed devices using Intune as de
 
 ## Remove new Teams for all users
 
-To uninstall and deprovision the new Teams for all users, use the following command:
-
-```powershell
-./teamsbootstrapper -x
-```
+See [How to uninstall the new Teams client](teams-client-uninstall.md) and [Uninstall the classic Teams client using a script](teams-client-uninstall-script.md) for more information.
 
 ## Remove classic Teams for all users
->[!Important]
-> Important: this command option requires a minimum bootstrapper version of 1.0.2414501 or higher.
 
-Once the new Teams version has been installed, use the following command to uninstall the classic Teams machine-wide installer and classic Teams app for all users on the device:
-```powershell
-./teamsbootstrapper -u
-```
+See [Uninstalling classic Microsoft Teams](teams-classic-client-uninstall.md) for more information.
 
 ## End user experience:  Launching the new Teams
 
