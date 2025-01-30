@@ -29,6 +29,8 @@ items:
           href: block-incoming-chats.md
         - name: Real-time telemetry and retention
           href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry
+        - name: Who can record and transcribe
+      
 
     
 - name: Get started
