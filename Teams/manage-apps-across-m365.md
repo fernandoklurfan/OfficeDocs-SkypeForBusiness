@@ -131,7 +131,7 @@ Consider a scenario where you want to disable users from installing and using th
 
     :::image type="content" source="media/mac-disable-third-party-apps.png" alt-text="Screenshot shows the option to disable third-party apps in Microsoft 365 admin center." lightbox="media/mac-disable-third-party-apps.png":::
 
-In this case, if you turn the toggle off under **Third-party apps** in Teams admin center, the **Let users access third-party apps in your tenant** toggle in Microsoft 365 admin center is automatically turned off and vice versa.
+In this case, if you turn off the toggle under **Third-party apps** in Teams admin center, the **Let users access third-party apps in your tenant** toggle in Microsoft 365 admin center is automatically turned off and vice versa.
 
 ## Related articles
 
