@@ -148,7 +148,6 @@ After you select a language, select the **Next** button at the bottom of the **A
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
 | [-Name](/powershell/module/teams/new-cscallqueue#-Name) | [-Name](/powershell/module/teams/set-cscallqueue#-Name) |
-| [-Name](/powershell/module/teams/new-cscallqueue?view=teams-ps#-Name) | [-Name](/powershell/module/teams/set-cscallqueue?view=teams-ps&viewFallbackFrom=teams-powershell#-Name) |
 | [-OboResourceAccountIds](/powershell/module/teams/new-cscallqueue#-OboResourceAccountIds) | [-OboResourceAccountIds](/powershell/module/teams/set-cscallqueue#-OboResourceAccountIds) |
 | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/new-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/set-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) |
 | [-LanguageId](/powershell/module/teams/new-cscallqueue#-LanguageId) | [-LanguageId](/powershell/module/teams/set-cscallqueue#-LanguageId) |
@@ -160,13 +159,13 @@ After you select a language, select the **Next** button at the bottom of the **A
 To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -UseDefaultMusicOnHold $true  
 ````
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -UseDefaultMusicOnHold $true  
 ````
 
 ##### Example 2
