@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/24/2025
+ms.date: 01/31/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -44,7 +44,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 For information on deploying the Teams client on Mac, please see [New Teams system requirements](teams-client-system-requirements.md).
 
-### Turn ON System Notification
+### Turn on System Notification
 
 After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the **Allow Notifications** from system settings.
 
