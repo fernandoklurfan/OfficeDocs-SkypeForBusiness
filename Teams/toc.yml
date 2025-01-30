@@ -1,8 +1,12 @@
 items:
 - name: Welcome to Teams
   href: teams-overview.md
-- name: Teams Premium overview
-  href: enhanced-teams-experience.md
+- name: Teams Premium
+  items:
+    - name: Teams Premium overview
+      href: enhanced-teams-experience.md
+    - name: Manage Teams Premium for your organization
+      href: teams-premium-dashboard.md
 - name: Get started
   items:
     - name: Deployment overview
