@@ -30,6 +30,41 @@ items:
         - name: Real-time telemetry and retention
           href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry
         - name: Who can record and transcribe
+          href: manage-meeting-recording-options.md#manage-who-can-record-and-transcribe-meetings-teams-premium
+        - name: Alerts for in-progress meeting screen sharing issues
+          href: alerts/alerts-in-progress-meeting-screen-sharing.md
+        - name: Sensitivity labels for meetings
+          href: /purview/sensitivity-labels-meetings
+        - name: Teams Premium feature usage report
+          href: /teams-analytics-and-reports/teams-premium-usage-report.md
+        - name: Teams meeting templates, sensitivity labels, and admin policies
+          href: meeting-templates-sensitivity-labels-policies.md
+        - name: Alerts for in-progress meeting video quality issues
+          href: /alerts/alerts-in-progress-meeting-video.md
+        - name: Watermarks
+          href: watermark-meeting-content-video.md
+    - name: Personalized meetings
+      items:
+        - name: Teams Premium meetings customization options
+          href: custom-meetings-overview.md
+        - name: Manage and upload custom meeting backgrounds for Teams meetings
+          href: custom-meeting-backgrounds.md
+        - name: Custom Together Mode scenes in Teams
+          href: /platform/apps-in-teams-meetings/teams-together-mode
+        - name: Overview of custom meeting templates in Microsoft Teams
+          href: custom-meeting-templates-overview.md
+        - name: Create and manage meeting themes for Teams meetings
+          href: meeting-themes.md
+        - name: Manage RTMP-In
+          href: meetings-rtmp-in.md
+    - name: Advanced town halls
+      items:
+        - name: Manage email communications for events
+          href: manage-email-communications.md
+        - name: Manage event chat for town halls
+          href: town-hall-chat.md
+
+
       
 
     
