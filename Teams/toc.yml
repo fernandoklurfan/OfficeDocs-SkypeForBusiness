@@ -97,10 +97,6 @@ items:
                   href: new-teams-mac-install-prerequisites.md
                 - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
-                - name: Update to the new Teams for Education
-                  href: new-teams-education.md
-                - name: Update to the new Teams for Web
-                  href: new-teams-web.md
                 - name: Teams Progressive Web Apps (PWAs)
                   href: teams-progressive-web-apps.md 
                 - name: New teams pre-installation script
