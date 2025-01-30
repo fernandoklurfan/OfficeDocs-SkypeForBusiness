@@ -20,6 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ---
+
 # Upgrade to the new Teams using policies
 
 You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell.
@@ -214,9 +215,6 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 Command to uninstall teams machine-wide:
 teamsbootstrapper.exe -x -m
-
-> [!NOTE]
-> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
 
 ## Related topics
 

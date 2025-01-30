@@ -181,6 +181,7 @@ Once the new Teams version has been installed, use the following command to unin
 ```powershell
 ./teamsbootstrapper -u
 ```
+
 ## End user experience:  Launching the new Teams
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
