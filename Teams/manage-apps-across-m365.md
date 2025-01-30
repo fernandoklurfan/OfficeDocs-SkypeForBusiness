@@ -107,9 +107,9 @@ Outcomes of app deployment setting applied to a particular app.
 
 ## Unified app management experience
 
-After Microsoft migrates your tenant to unified app management, changes to settings in Teams admin center and under the **Integrated apps** page in Microsoft 365 admin center are synchronized. This synchronization eliminates the need to update settings in both admin centers and ensure that the settings in both the admin centers are the same.
+After Microsoft migrates your tenant to unified app management, changes to the settings in Teams admin center and in the **Integrated apps** page in Microsoft 365 admin center are synchronized. This synchronization eliminates the need to update settings in both admin centers separately and ensures that the settings are always consistent in both the admin centers.
 
-Consider a scenario where you want to disable users from installing and using third-party apps in your organization. If your tenant is migrated to unified app management, follow these steps in either Teams admin center or Microsoft 365 admin center:
+Consider a scenario where you want to disable users from installing and using third-party apps within your organization. If your tenant is migrated to unified app management, follow these steps in either Teams admin center or Microsoft 365 admin center:
 
 ### Teams admin center
 
@@ -131,7 +131,7 @@ Consider a scenario where you want to disable users from installing and using th
 
     :::image type="content" source="media/mac-disable-third-party-apps.png" alt-text="Screenshot shows the option to disable third-party apps in Microsoft 365 admin center." lightbox="media/mac-disable-third-party-apps.png":::
 
-However, without unified app management, you need to perform the steps under both Teams admin center and Microsoft 365 admin center. If you turn off **Third-party apps** in Teams admin center, the **Let users access Microsoft apps in your tenant** toggle in Microsoft 365 admin center isn't automatically turned off and vice versa.
+In this case, if you turn the toggle off under **Third-party apps** in Teams admin center, the **Let users access third-party apps in your tenant** toggle in Microsoft 365 admin center is automatically turned off and vice versa.
 
 ## Related articles
 
