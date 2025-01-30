@@ -44,3 +44,8 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 Command to uninstall teams machine-wide:
 teamsbootstrapper.exe -x -m
+
+## Further information
+
+- If you need to remove the classic Teams client, see [How to uninstall the new Teams client](teams-client-uninstall.md).
+- If you need a script to help with the uninstall of classic Teams, see [Uninstall the classic Teams client using a script](teams-client-uninstall-script.md).
