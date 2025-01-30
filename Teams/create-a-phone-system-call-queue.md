@@ -195,7 +195,7 @@ Teams provides default music to callers while they're *on hold in a queue*.
 
 After you select a greeting and on-hold music, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-### Greeting and music via PowerShell
+### Greeting and on-hold music via PowerShell
 
 <!-- markdownlint-disable MD025 -->
 <details>
@@ -319,7 +319,7 @@ Keep the following in mind:
 > [!IMPORTANT]
 > Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
 
-### Call answering  via PowerShell
+### Call answering via PowerShell
 
 <!-- markdownlint-disable MD030 -->
 <details>
@@ -674,8 +674,8 @@ For more information, see [Nested Auto attendant and Call Queue](./plan-auto-att
 
 Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-#### Nested auto attendants and call queues via PowerShell
-<!-- markdownlint-disable MD033 -->
+### Exception handling via PowerShell
+<!-- markdownlint-disable MD045 -->
 <details>
 <summary>Expand to see PowerShell options and examples</summary>
 
@@ -684,6 +684,8 @@ Once you select your call overflow, call timeout, and no agents handling options
 | [-OverflowActionTarget](/powershell/module/teams/new-cscallqueue#-overflowactiontarget) | [-OverflowActionTarget](/powershell/module/teams/set-cscallqueue#-overflowactiontarget) |
 | [-TimeOutActionTarget](/powershell/module/teams/new-cscallqueue#-timeoutactiontarget) | [-TimeOutActionTarget](/powershell/module/teams/set-cscallqueue#-timeoutactiontarget) |
 | [-NoAgentActionTarget](/powershell/module/teams/new-cscallqueue#-noagentactiontarget) | [-NoAgentActionTarget](/powershell/module/teams/set-cscallqueue#-noagentactiontarget) |
+
+#### PowerShell Examples
 
 ##### Overflow to another Auto attendant or Call queue
 
@@ -705,14 +707,14 @@ Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActio
 ````
 
 </details>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD045 -->
 
 ### Additional messaging
 
 The Overflow, Call timeout, and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting just like the other redirect options. 
 
 #### Additional messaging via PowerShell
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD050 -->
 <details>
 <summary>Expand to see PowerShell options</summary>
 
@@ -735,7 +737,7 @@ The Overflow, Call timeout, and No Agents exception redirect options for **Perso
 | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          |
 
 </details>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD050 -->
 
 ## [Step 7: Authorized users](#tab/authorized-users)
 
@@ -762,10 +764,19 @@ For more information, see [Set up authorized users](./aa-cq-authorized-users.md)
 
 Once you select your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
 
-#### Hiding authorized users via PowerShell
-<!-- markdownlint-disable MD033 -->
+### Authorized users via PowerShell
+<!-- markdownlint-disable MD055 -->
 <details>
 <summary>Expand to see PowerShell options</summary>
+
+#### PowerShell Examples
+
+##### Example 1 - Authorized users
+blah
+
+
+
+##### Example 2 - Hidden authorized users
 
 > [!CAUTION]
 > These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Call queue through Teams admin center erases these settings.
@@ -781,7 +792,7 @@ Hidden authorized users aren't visible to Queues app users.
 | [-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
 
 </details>
-<!-- markdownlint-enable MD033 -->
+<!-- markdownlint-enable MD055 -->
 
 ---
 
