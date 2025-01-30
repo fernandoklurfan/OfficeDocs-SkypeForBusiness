@@ -118,4 +118,4 @@ The dashboard’s table has three tabs that provide the following details:
 
 - [Teams Premium overview](enhanced-teams-experience.md)
 - [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report)
-- [Microsoft Teams Premium licensing](/microsoftteams//teams-add-on-licensing/licensing-enhance-teams)
+- [Microsoft Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams)
