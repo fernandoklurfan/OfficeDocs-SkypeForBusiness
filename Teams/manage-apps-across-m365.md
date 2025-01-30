@@ -107,9 +107,19 @@ Outcomes of app deployment setting applied to a particular app.
 
 ## Unified app management experience
 
-After Microsoft migrates your tenant to unified app management, changes to settings in Teams admin center and Microsoft 365 admin center are synchorinzed. Consider a scenario where you want to disallow users from using third-party apps in your organzation. Before you'd have to go to Teams admin center > **Manage apps** > **Actions** > **Org-wide app settings** > **Third-party apps** and then toggle the setting off. Then you would have to go to Microsoft 365 admin center > **Integrate apps** > **Available apps** > Gear and then toggle the setting off under **Let users access Microsoft apps in your tenant**.
+After Microsoft migrates your tenant to unified app management, changes to settings in Teams admin center and under the **Integrated apps** page in Microsoft 365 admin center are synchronized. This synchronization eliminates the need to update settings in two different centers and to manually ensure that the settings in both the admin centers are the same.
 
-However, with unified app management, you'd only need to perform one of the steps and the admin centers automatically synchronize the settings.
+Consider a scenario where you want to disable users from installing and using third-party apps in your organization. Here's what you are required to do if your tenant isn't migrated to unified app management:
+
+1. Go to Teams admin center.
+1. Go to **Manage apps** > **Actions** > **Org-wide app settings**.
+1. Turn off **Third-party apps**.
+
+1. Go to Microsoft 365 admin center.
+1. Go to **Integrate apps** > **Available apps**.
+1. Select the gear icon and turn off **Let users access Microsoft apps in your tenant**.
+
+However, with unified app management, you'd only need to perform either the step under Teams admin center or Microsoft 365 admin center. If you turn off **Third-party apps** in Teams admin center, the **Let users access Microsoft apps in your tenant** toggle in Microsoft 365 admin center is automatically turned off and vice versa.
 
 ## Related articles
 
