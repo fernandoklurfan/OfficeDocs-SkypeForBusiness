@@ -88,7 +88,7 @@ To access feature usage information, either select the **Usage reports** tab or 
 
 When you access **Teams Premium feature usage** from the **Teams Premium** dashboard, the data reflects the last 30 days.
 
-To learn more about the Teams Premium usage report, see [Teams Premium feature usage report](/teams-analytics-and-reports/teams-premium-usage-report).
+To learn more about the Teams Premium usage report, see [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report).
 
 ### Feature advisor
 
@@ -118,4 +118,4 @@ The dashboard’s table has three tabs that provide the following details:
 
 - [Teams Premium overview](enhanced-teams-experience.md)
 - [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report)
-- [Microsoft Teams Premium licensing](/teams-add-on-licensing/licensing-enhance-teams)
+- [Microsoft Teams Premium licensing](/microsoftteams//teams-add-on-licensing/licensing-enhance-teams)
