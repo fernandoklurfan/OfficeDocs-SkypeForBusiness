@@ -31,6 +31,13 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 See [New Teams system requirements](teams-client-system-requirements.md) for information on the requirements for the Teams client.
 
+Some additional information:
+
+|Requirement|Version|
+|:----------|:------|
+|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
+
 ### Required Microsoft 365 Apps Security Updates
 
 |Channel|Version & Build|
@@ -210,37 +217,6 @@ teamsbootstrapper.exe -x -m
 
 > [!NOTE]
 > If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
-
-#### User settings migration
-
-End user settings are automatically migrated from classic Teams to new Teams during the initial switch.  
-
->[!Note]
->Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams.
-
-##### Migrated settings
-
-Local settings that are automatically migrated when switching from classic Teams to new Teams:
-
-|Area|Item|
-|:----|:-----|
-|General| Chat density |
-||Show message previews in your chat list |
-||App Language |
-| |> Display > Turn off animations |
-|Devices |Audio devices |
-| |> Audio devices > Speaker |
-| |> Audio devices > Microphone |
-| |Noise suppression |
-||High fidelity music mode |
-||Secondary ringer |
-| |Camera |
-||Automatically adjust mic sensitivity |
-|Files and Links| Downloads: Location |
-||Downloads: Always as where to save downloaded files |
-||File open preference: Always open word/ppt/excel files in... |
-|Custom Background image files |On-disk image files |
-|Call/Meeting Stage|Background Effects, blur |
 
 ## Related topics
 
