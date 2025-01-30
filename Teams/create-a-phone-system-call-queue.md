@@ -128,6 +128,8 @@ You can set the threshold target to any value from 0 to 40 minutes (2,400 second
 
 >[!NOTE]
 > Service level metrics aren't currently available in historical reporting.
+>
+> Changing the service level threshold during the business hours of the call queue will result in an inaccurate calculation of service level for the entire day as previous calls are not reevaluated against the new target.
 
 ### Set the Call queue language
 
