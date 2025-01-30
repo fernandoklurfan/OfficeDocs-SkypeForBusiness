@@ -50,7 +50,7 @@ Admins who don't want new Teams included with Microsoft 365 Apps on devices runn
 >For the best Teams experience, we recommend leaving the setting as is.
 
 > [!NOTE]
-> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
+> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](teams-client-uninstall.md) article to uninstall it for your users.
 
 ## Office 365 plans that don't include Microsoft Teams
 
