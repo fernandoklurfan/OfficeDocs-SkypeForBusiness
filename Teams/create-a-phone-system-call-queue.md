@@ -148,6 +148,7 @@ After you select a language, select the **Next** button at the bottom of the **A
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
 | [-Name](/powershell/module/teams/new-cscallqueue#-Name) | [-Name](/powershell/module/teams/set-cscallqueue#-Name) |
+| [-Name](/powershell/module/teams/new-cscallqueue?view=teams-ps#-Name) | [-Name](/powershell/module/teams/set-cscallqueue?view=teams-ps&viewFallbackFrom=teams-powershell#-Name) |
 | [-OboResourceAccountIds](/powershell/module/teams/new-cscallqueue#-OboResourceAccountIds) | [-OboResourceAccountIds](/powershell/module/teams/set-cscallqueue#-OboResourceAccountIds) |
 | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/new-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/set-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) |
 | [-LanguageId](/powershell/module/teams/new-cscallqueue#-LanguageId) | [-LanguageId](/powershell/module/teams/set-cscallqueue#-LanguageId) |
