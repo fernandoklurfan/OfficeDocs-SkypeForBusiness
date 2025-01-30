@@ -22,14 +22,14 @@ ms.localizationpriority: medium
 ---
 # Upgrade to new Microsoft Teams with Microsoft 365 Apps
 
-Starting in late August, 2024, new Teams will automatically install with new and existing installations of Microsoft 365 Apps on Windows.
+The new Teams app automatically installs with new and existing installations of Microsoft 365 Apps on Windows. Administrators may exclude the Teams client from automatically installing with Microsoft 365 Apps on Windows.
 
 >[!Important]
 >If the classic Teams app is already installed, the Microsoft 365 Apps deployment will install new Teams alongside classic Teams on the device. The classic Teams installation will not change.
 
 ## Rollout schedule
 
-For more information on the timeline for new Teams, see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
+For more information on the timeline for the Teams clients, see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 ## Prerequisites for target computers
 
@@ -37,6 +37,20 @@ See [New Teams system requirements](teams-client-system-requirements.md) for inf
 
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
+
+## How to exclude new Teams from new installations
+
+Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out.
+
+1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account.
+2. Go to **Customization > Device Configuration > Modern Apps Settings**.
+3. Select **Microsoft Teams (work or school)**,  then clear the **Enable automatic installation of new Microsoft Teams** check box.
+
+>[!Note]
+>For the best Teams experience, we recommend leaving the setting as is.
+
+> [!NOTE]
+> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
 
 ## Office 365 plans that don't include Microsoft Teams
 
