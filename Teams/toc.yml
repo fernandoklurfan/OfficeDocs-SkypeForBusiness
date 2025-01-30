@@ -108,14 +108,10 @@ items:
         - name: Manage Queues app for Microsoft Teams in your organization
           href: manage-queues-app.md
         - name: Auto attendant and Call queue real-time metrics
-          href: /microsoftteams/aa-cq-real-time-reports.md
+          href: aa-cq-real-time-reports.md
         - name: Auto attendant and Call queue historical reports
           href: aa-cq-cqd-historical-reports.md
-
-
-      
-
-    
+          
 - name: Get started
   items:
     - name: Deployment overview
