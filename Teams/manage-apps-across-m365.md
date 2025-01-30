@@ -109,7 +109,7 @@ Outcomes of app deployment setting applied to a particular app.
 
 After Microsoft migrates your tenant to unified app management, changes to the settings in Teams admin center and in the **Integrated apps** page in Microsoft 365 admin center are synchronized. This synchronization eliminates the need to update settings in both admin centers separately and ensures that the settings are always consistent in both the admin centers.
 
-Consider a scenario where you want to disable users from installing and using third-party apps within your organization. If your tenant is migrated to unified app management, follow these steps in either Teams admin center or Microsoft 365 admin center:
+Consider a scenario where you want to disable users from installing and using third-party apps within your organization. If your tenant is migrated to unified app management, follow these steps in either [Teams admin center](#teams-admin-center) or [Microsoft 365 admin center](#microsoft-365-admin-center):
 
 ### Teams admin center
 

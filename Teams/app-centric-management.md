@@ -127,7 +127,9 @@ For more information, see [manage apps that work across Teams, Outlook, and Micr
 
 To make any app or Copilot agent available to your organization in Teams admin center, follow these steps:
 
-1. Go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
+1. Go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page.
+
+1. Search for the required app and select the app name to open its app details page.
 
 1. Select the **Assignments** tab.
 
