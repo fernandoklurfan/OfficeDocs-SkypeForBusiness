@@ -458,7 +458,7 @@ Once you select your agent call routing options, select the **Next** button at t
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
 | [-RoutingMethod](/powershell/module/teams/new-cscallqueue#-RoutingMethod) | [-RoutingMethod](/powershell/module/teams/set-cscallqueue#-RoutingMethod) |
-| [-PresenceBasedRouting](/powershell/module/teams/new-cscallqueue#-PresenceBasedRouting) | [-WelcomeTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-PresenceBasedRouting) |
+| [-PresenceBasedRouting](/powershell/module/teams/new-cscallqueue#-PresenceBasedRouting) | [-PresenceBasedRouting](/powershell/module/teams/set-cscallqueue#-PresenceBasedRouting) |
 | [-AllowOptOut](/powershell/module/teams/new-cscallqueue#-AllowOptOut) | [-AllowOptOut](/powershell/module/teams/set-cscallqueue#-AllowOptOut) |
 | [-AgentAlertTime](/powershell/module/teams/new-cscallqueue#-AgentAlertTime) | [-AgentAlertTime](/powershell/module/teams/set-cscallqueue#-AgentAlertTime) |
 
