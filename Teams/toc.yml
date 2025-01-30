@@ -63,8 +63,6 @@ items:
           href: manage-email-communications.md
         - name: Manage event chat for town halls
           href: town-hall-chat.md
-        - name: Manage transcription and captions for Teams meetings
-          href: meeting-transcription-captions.md
         - name: Enterprise content delivery networks for streaming Microsoft Teams events
           href: streaming-ecdn-enterprise-content-delivery-network.md
         - name: eCDN Analytics
@@ -79,6 +77,17 @@ items:
           href: meeting-transcription-captions.md
         - name: Manage RTMP-In
           href: meetings-rtmp-in.md
+    - name: Advanced Virtual Appointments
+      items:
+        - name: Manage the Virtual Appointments app for your organization in Microsoft Teams
+          href: manage-virtual-appointments-app.md
+        - name: Microsoft Teams Virtual Appointments usage report
+          href: /microsoft-365/frontline/virtual-appointments-usage-report
+        - name: Microsoft Teams Advanced Virtual Appointments activity report
+          href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report
+        - name: SMS text notifications
+          href: bookings-app-admin.md#sms-text-notifications
+    - name: Intelligent meeting features
 
 
       
