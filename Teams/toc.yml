@@ -87,7 +87,30 @@ items:
           href: /microsoft-365/frontline/advanced-virtual-appointments-activity-report
         - name: SMS text notifications
           href: bookings-app-admin.md#sms-text-notifications
-    - name: Intelligent meeting features
+    - name: Intelligent features
+      items:
+        - name: Intelligent recap for Teams calls and meetings
+          href: intelligent-recap-calls-meetings.md
+        - name: Live translated transcripts and captions
+          href: meeting-transcription-captions.md
+    - name: Advanced Places workplace collaboration
+      items:
+        - name: Enable room check-in and autorelease
+          href: /microsoft-365/places/enable-auto-release
+        - name: Configure desk booking
+          href: /microsoft-365/places/configure-desk-booking
+        - name: Turn on Places finder
+          href: /microsoft-365/places/enabling-places-finder
+        - name: Set up analytics
+          href: /microsoft-365/places/places-analytics
+    - name: Calls
+      items:
+        - name: Manage Queues app for Microsoft Teams in your organization
+          href: manage-queues-app.md
+        - name: Auto attendant and Call queue real-time metrics
+          href: /microsoftteams/aa-cq-real-time-reports.md
+        - name: Auto attendant and Call queue historical reports
+          href: aa-cq-cqd-historical-reports.md
 
 
       
