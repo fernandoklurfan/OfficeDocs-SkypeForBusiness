@@ -139,6 +139,53 @@ This language is used for system-generated voice prompts and voicemail transcrip
 
 After you select a language, select the **Next** button at the bottom of the **Add a Call queue** page.
 
+### General via PowerShell
+
+<!-- markdownlint-disable MD020 -->
+<details>
+<summary>Expand to see PowerShell options and examples</summary>
+
+|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
+|:---------------------------------------|:------------------------------------------|
+| [-Name](/powershell/module/teams/new-cscallqueue#-Name) | [-Name](/powershell/module/teams/set-cscallqueue#-Name) |
+| [-OboResourceAccountIds](/powershell/module/teams/new-cscallqueue#-OboResourceAccountIds) | [--OboResourceAccountIds](/powershell/module/teams/set-cscallqueue#-OboResourceAccountIds) |
+| [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/new-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/set-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) |
+| [-LanguageId](/powershell/module/teams/new-cscallqueue#-LanguageId) | [-LanguageId](/powershell/module/teams/set-cscallqueue#-LanguageId) |
+
+#### PowerShell Examples
+
+##### Example 1
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+##### Example 2
+
+To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
+
+````PowerShell
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
+ "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+````
+
+</details>
+<!-- markdownlint-enable MD020 -->
+
 ## [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
