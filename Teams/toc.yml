@@ -83,8 +83,6 @@ items:
               items:
                 - name: Teams client overview
                   href: new-teams-desktop-admin.md
-                - name: Features that are changing in new Teams
-                  href: new-teams-whats-changing.md
                 - name: New Teams client requirements
                   href: teams-client-system-requirements.md
                 - name: Deployment checklist for new Teams
