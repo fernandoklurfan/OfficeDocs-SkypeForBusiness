@@ -129,7 +129,7 @@ You can set the threshold target to any value from 0 to 40 minutes (2,400 second
 >[!NOTE]
 > Service level metrics aren't currently available in historical reporting.
 >
-> Changing the service level threshold during the business hours of the call queue will result in an inaccurate calculation of service level for the entire day as previous calls are not reevaluated against the new target.
+> Changing the service level threshold during business hours causes inaccurate service level calculations for the whole day because previous calls won't be reassessed with the new target.
 
 ### Set the Call queue language
 
@@ -156,12 +156,12 @@ After you select a language, select the **Next** button at the bottom of the **A
 
 ##### Example 1
 
-Assign a calling line ID and set a 45 second service level threshold:
+Assign a calling line ID and set a 45-second service level threshold:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds @("Resource Account 01 GUID", "Resource Account 02 GUID") -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -U
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -182,7 +182,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 - If you select **Type a greeting message**, the system reads the text that you type (up to 1,000 characters) when the Call queue answers a call.
 
 >[!NOTE]
-> When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
+> *Text to Speech* text must be entered in the selected language as the system doesn't perform translation.
 >
 > All words are pronounced in the selected language.
 
@@ -213,12 +213,12 @@ After you select a greeting and on-hold music, select the **Next** button at the
 
 ##### Example 1
 
-Setup a text to speech greeting and use the default music on hold file:
+Use a text to speech greeting, and use the default music on hold file:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -WelcomeTextToSpeechPrompt "Welcome to the call queue " -UseDefaultMusicOnHold $true
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -228,12 +228,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -WelcomeTextToSpeechPrompt "Welcome 
 
 ##### Example 2
 
-Setup an audio file greeting and use an audio file for music on hold:
+Use an audio file greeting and use an audio file for music on hold:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -WelcomeMusicAudioFileId <FILE ID> -MusicOnHoldAudioFileId <FILE ID>
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -314,7 +314,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 
 Once you select your call answering options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-Keep the following in mind:
+Keep the following conditions in mind:
 
 - Conference mode isn't supported for calls routed to the queue from a Direct Routing gateway enabled for Location Based Routing.
 - Conference mode is required if Teams users need to consult/transfer calls with Call queues.
@@ -343,12 +343,12 @@ Keep the following in mind:
 
 ##### Example 1
 
-Assign individual users to a call queue, use the default music on hold and disable conference mode:
+Assign individual users to a call queue, use the default music on hold, and disable conference mode:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -User @("User 01 GUID", "User 02 GUID") -UseDefaultMusicOnHold $true -ConferenceMode $false
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -358,12 +358,12 @@ Set-CsCallQueue -Identity <Call Queue GUID> -User @("User 01 GUID", "User 02 GUI
 
 ##### Example 2
 
-Assign distribution lists to a call queue, use an audio file for music on hold and enable conference mode:
+Assign distribution lists to a call queue, use an audio file for music on hold, and enable conference mode:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -DistributionLists @("Distribution List 01 GUID", "Distribution List 02 GUID") -UseDefaultMusicOnHold $false -MusicOnHoldAudioFileId <FILE ID> -ConferenceMode $true
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -374,12 +374,12 @@ See [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile
 
 ##### Example 3
 
-Assign a Teams channel to a call queue, use the default music on hold and enable conference mode
+Assign a Teams channel to a call queue, use the default music on hold, and enable conference mode
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -ChannelId <Channel GUID> -ChannelUserObjectId <Team Owner GUID> -UseDefaultMusicOnHold $true -ConferenceMode $true
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -395,7 +395,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -ChannelId <Channel GUID> -ChannelUs
 ## Step 4: Select your agent routing options
 
 > [!IMPORTANT]
-> Call presentation to agents may conflict with Location-Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This condition continues until another agent is available to answer the call, the caller hangs up, or the Call queue timeout condition occurs. For more information on Location-Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
+> Call presentation to agents may conflict with Location-Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This continues until an agent answers, the caller hangs up, or the call queue times out. For more information on Location-Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
 
 **Routing method** determines the order in which agents receive calls from the queue.
 
@@ -432,7 +432,7 @@ If an agent opts out of getting calls, they can't receive calls regardless of th
 >
 > If **Presence-based routing** isn't enabled and there are multiple calls in the queue, the system presents these calls simultaneously to the agents, regardless of their presence status. This action results in multiple call notifications to agents, particularly if some agents don't answer the initial call presented to them. For more information, see [Configure Busy Options](./inbound-call-routing.md) for Busy on Busy alternatives to presence-based routing.
 >
-> When using **Presence-based routing**, there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
+> There may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available when using **Presence-based routing**.
 >
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
@@ -468,12 +468,12 @@ Once you select your agent call routing options, select the **Next** button at t
 
 ##### Example 1
 
-Use Attendant Routing, disable Presence Based Routing, do not allow agents to opt-out and set the agent alert time to 20 seconds:
+Use Attendant Routing, disable Presence Based Routing, don't allow agents to opt-out, and set the agent alert time to 20 seconds:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -RoutingMethod Attendant -PresenceBasedRouting $false -AllowOptOut $false -AgentAlertTime 20
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -481,14 +481,14 @@ To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in th
 Set-CsCallQueue -Identity <Call Queue GUID> -RoutingMethod Attendant -PresenceBasedRouting $false -AllowOptOut $false -AgentAlertTime 20
 ````
 
-##### Example 2 - Round Robin, PBR on, Opt out On, Alert time 60
+##### Example 2
 
-Use Round Robin, enable Presence Based Routing, allow agents to opt-out and set the agent alert time to 60 seconds:
+Use Round Robin, enable Presence Based Routing, allow agents to opt-out, and set the agent alert time to 60 seconds:
 
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -RoutingMethod RoundRobin -PresenceBasedRouting $true -AllowOptOut $true -AgentAlertTime 60
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
@@ -508,11 +508,11 @@ Set-CsCallQueue -Identity <Call Queue GUID>  -RoutingMethod RoundRobin -Presence
 
 A caller becomes eligible for callback based on any one of the following configured conditions coming true:
 
-- **Wait time in queue** - Once a caller in queue exceeds this configured wait time they become eligible for callback. This option applies to callers at the front of the queue.
+- **Wait time in queue**: Once a caller in queue exceeds this configured wait time they become eligible for callback. This option applies to callers at the front of the queue.
 
-- **Number of calls in queue** - Once the number of callers in queue reaches this level, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
+- **Number of calls in queue**: Once the number of callers in queue reaches this level, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
 
-- **Calls to agent ratio** - Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue.
+- **Calls to agent ratio**: Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue.
 
 Additionally, for a call to become eligible for callback, its inbound phone number must be a publicly dialable, non-premium phone number in E.164 format, and it must not be presenting to an agent.
 
@@ -534,16 +534,16 @@ After waiting in the queue for 60 seconds, the caller becomes eligible for callb
 
 Once a caller successfully requests a callback, the callback request is also subject to the call queue timeout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
 
-For a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
+For a callback to work, the call queue timeout must be long enough for the call to become eligible, the music to stop, the caller to request a callback, and the callback to wait until an agent is available.
 
 > [!NOTE]
-> For callers within the North American Numbering Plan, in addition to the eligibility requirements already listed and in order to become eligible for callback, the inbound phone number must not start with any of the following digits:
+> For callers in North America, in addition to the other listed requirements, the inbound phone number must not start with:
 >
 > |Starting Digits                                   |
 > |:-------------------------------------------------|
 > | 1-242, 246, 264, 268, 284                        |
 > | 1-340, 345                                       |
-> | 1-441 , 473                                      |
+> | 1-441, 473                                       |
 > | 1-500                                            |
 > | 1-600, 649, 658, 664, 670, 671, 684              |
 > | 1-700, 721, 758, 767, 784, 787                   |
@@ -724,7 +724,7 @@ Overflow to an Auto attendant or Call queue directly:
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
 
@@ -739,7 +739,7 @@ Timeout to an Auto attendant or Call queue via a Resource account
 ````PowerShell
 New-CsCallQueue -Name "Call Queue Name" -TimeoutAction Forward -OverflowActionTarget <Resource Account GUID>
 ````
-*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+*Note: This example doesn't contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
 
@@ -839,8 +839,6 @@ Set-CsCallQueue -Identity <CallQueue GUID> -AuthorizedUsers @("User 01 GUID", "U
 
 ### Hiding authorized users
 
-Hidden authorized users are authorized users who shouldn't appear on the list of supervisors for the agents who are members of a particular call queue.
-
 Hidden authorized users aren't visible to Queues app users.
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
@@ -892,7 +890,7 @@ The following settings are recommended:
 | **Dynamic caller ID** |  |  |  |  |  |  |  |  |  |
 | Standard Call queue | Y | Y | Y | N | N | N | Y | N/A |  |
 | Channel based Call queue | Y | N/A | N/A | N/A | N/A | N/A | N/A | Y |  |
-| **PSTN Connectivity Methods** |  |  |  |  |  |  |  |  | See Note 10 |
+| **Public Network Connectivity Methods** |  |  |  |  |  |  |  |  | See Note 10 |
 | Calling Plans | Y | Y | Y | Y | Y | Y | Y | Y |  |
 | Direct Routing | Y | Y | Y | Y | N<sup>12</sup> | Y | Y<sup>7</sup> | Y |  |
 | Operator Connect | Y | Y | Y | Y | N | Y | Y<sup>7</sup> | Y |  |
@@ -918,7 +916,7 @@ The following settings are recommended:
 9. Only standard channels are supported.
 10. Transferring calls between PSTN connectivity methods isn't supported.
 11. Performed through Team Phone Mobile app or see #8.
-12. Call queues that are assigned a Direct Routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
+12. Call queues that are assigned a Direct Routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [coexistence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Supported clients
 
