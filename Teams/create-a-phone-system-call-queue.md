@@ -744,7 +744,7 @@ New-CsCallQueue -Name "Call Queue Name" -TimeoutAction Forward -OverflowActionTa
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
 
 ````PowerShell
-Set-CsCallQueue -Identity <CallQueue GUID> -TimeoutAction Forward -OverflowActionTarget <Resource Account GUID>
+Set-CsCallQueue -Identity <CallQueue GUID> -TimeoutAction Forward -TimeoutActionTarget <Resource Account GUID>
 ````
 
 ##### Example 3
@@ -826,12 +826,13 @@ Once you select your authorized users, select the **Submit** button at the botto
 
 #### PowerShell Examples
 
-##### Example 1 - Authorized users
-blah
+##### Example 1
 
+Add an authorized user to an existing call queue
 
-
-##### Example 2 - Hidden authorized users
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -AuthorizedUsers @("User 01 GUID", "User 02 GUID")
+````
 
 > [!CAUTION]
 > These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Call queue through Teams admin center erases these settings.
@@ -845,6 +846,14 @@ Hidden authorized users aren't visible to Queues app users.
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
 | [-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
+
+##### Example 1
+
+Hide an authorized user in a call queue
+
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -AuthorizedUsers @("User 01 GUID", "User 02 GUID") -HideAuthorizedUsers @("User 02 GUID")
+````
 
 </details>
 <!-- markdownlint-enable MD055 -->
