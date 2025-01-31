@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: riagrawal
-ms.date: 1/30/2025
+ms.date: 1/31/2025
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,10 +41,9 @@ To start a trial for Teams Premium, follow these steps:
 
 1. Go to the Teams admin center.
 2. From the navigation pane, select **Teams Premium**.
-3. Select **View details** in each of the boxes to learn more about the feature areas.
-4. Select **Try for free** to start the 30-day free trial.
+3. Select **Try for free** to start the 30-day free trial.
 
-During your trial, you can assign licenses to users and approve their license requests.
+During your trial, you can assign 25 licenses to your users.
 
 ## Manage Teams Premium
 
@@ -80,7 +79,7 @@ The dashboard’s table has three tabs that provide the following details:
 
 **License requests tab**- Display names, usernames, request dates, business justifications, and locations of users in your organization who requested Teams Premium license. You can approve or reject licenses in this tab.
 
-**Recommendations tab**- Display names, usernames, reasons for recommendation, and job title of users in your organization who would benefit from a Teams Premium license. You can assign licenses to selected users in this table.
+**Recommendations tab**- Display names, usernames, and reasons for recommendation of users in your organization who would benefit from a Teams Premium license. You can assign licenses to selected users in this table.
 
 ### Usage Reports
 
