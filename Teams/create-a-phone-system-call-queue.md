@@ -159,15 +159,14 @@ After you select a language, select the **Next** button at the bottom of the **A
 Assign a calling line ID and set a 45 second service level threshold:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds @(Resource Account GUID LIST) -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -U
+New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds @("Resource Account 01 GUID", "Resource Account 02 GUID") -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US -U
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
-
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds @(Resource Account GUID LIST) -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds @("Resource Account GUID 01", "Resource Account GUID 02") -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
 ````
 
 </details>
@@ -241,6 +240,7 @@ To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in th
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -WelcomeMusicAudioFileId <FILE ID> -MusicOnHoldAudioFileId <FILE ID>
 ````
+See [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) to get the <FILE ID> information.
 
 </details>
 <!-- markdownlint-enable MD025 -->
@@ -336,53 +336,55 @@ Keep the following in mind:
 | [-ChannelId](/powershell/module/teams/new-cscallqueue#-ChannelId) | [-ChannelId](/powershell/module/teams/set-cscallqueue#-ChannelId) |
 | [-ChannelUserObjectId](/powershell/module/teams/new-cscallqueue#-ChannelUserObjectId) | [-ChannelUserObjectId](/powershell/module/teams/set-cscallqueue#-ChannelUserObjectId) |
 | [-UseDefaultMusicOnHold](/powershell/module/teams/new-cscallqueue#-UseDefaultMusicOnHold) | [-UseDefaultMusicOnHold](/powershell/module/teams/set-cscallqueue#-UseDefaultMusicOnHold) |
+| [-MusicOnHoldAudioFileId](/powershell/module/teams/new-cscallqueue#-MusicOnHoldAudioFileId) | [-MusicOnHoldAudioFileId](/powershell/module/teams/set-cscallqueue#-MusicOnHoldAudioFileId) |
 | [-ConferenceMode](/powershell/module/teams/new-cscallqueue#-ConferenceMode) | [-ConferenceMode](/powershell/module/teams/set-cscallqueue#-ConferenceMode) |
 
 #### PowerShell Examples
 
-##### Example 1 -- assign users to queue, use default music on hold and conference mode off
+##### Example 1
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Assign individual users to a call queue, use the default music on hold and disable conference mode:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+New-CsCallQueue -Name "Call Queue Name" -User @("User 01 GUID", "User 02 GUID") -UseDefaultMusicOnHold $true -ConferenceMode $false
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID> -User @("User 01 GUID", "User 02 GUID") -UseDefaultMusicOnHold $true -ConferenceMode $false
 ````
 
-##### Example 2 - use distribution lists, customer music file and conferece mode on
+##### Example 2
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Assign distribution lists to a call queue, use an audio file for music on hold and enable conference mode:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+New-CsCallQueue -Name "Call Queue Name" -DistributionLists @("Distribution List 01 GUID", "Distribution List 02 GUID") -UseDefaultMusicOnHold $false -MusicOnHoldAudioFileId <FILE ID> -ConferenceMode $true
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+See [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) to get the <FILE ID> information.
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID> -DistributionLists @("Distribution List 01 GUID", "Distribution List 02 GUID") -UseDefaultMusicOnHold $false -MusicOnHoldAudioFileId <FILE ID> -ConferenceMode $true
 ````
 
 ##### Example 3 - use teams channel default music file and conferece mode on
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Assign a Teams channel to a call queue, use the default music on hold and enable conference mode
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+New-CsCallQueue -Name "Call Queue Name" -ChannelId <Channel GUID> -ChannelUserObjectId <Team Owner GUID> -UseDefaultMusicOnHold $true -ConferenceMode $true
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID> -ChannelId <Channel GUID> -ChannelUserObjectId <Team Owner GUID> -UseDefaultMusicOnHold $true -ConferenceMode $true
 ````
 
 </details>
@@ -464,34 +466,34 @@ Once you select your agent call routing options, select the **Next** button at t
 
 #### PowerShell Examples
 
-##### Example 1 - Attendant Routing, PBR off, Opt out off, Alert time 20
+##### Example 1
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Use Attendant Routing, disable Presence Based Routing, do not allow agents to opt-out and set the agent alert time to 20 seconds:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+New-CsCallQueue -Name "Call Queue Name" -RoutingMethod Attendant -PresenceBasedRouting $false -AllowOptOut $false -AgentAlertTime 20
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID> -RoutingMethod Attendant -PresenceBasedRouting $false -AllowOptOut $false -AgentAlertTime 20
 ````
 
 ##### Example 2 - Round Robin, PBR on, Opt out On, Alert time 60
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Use Round Robin, enable Presence Based Routing, allow agents to opt-out and set the agent alert time to 60 seconds:
 
 ````PowerShell
-New-CsCallQueue -Name "Call Queue Name" -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+New-CsCallQueue -Name "Call Queue Name" -RoutingMethod RoundRobin -PresenceBasedRouting $true -AllowOptOut $true -AgentAlertTime 60
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -OboResourceAccountIds LIST -ServiceLevelThresholdResponseTimeInSecond 45 -LanguageID en-US
+Set-CsCallQueue -Identity <Call Queue GUID>  -RoutingMethod RoundRobin -PresenceBasedRouting $true -AllowOptOut $true -AgentAlertTime 60
 ````
 
 </details>
@@ -572,9 +574,9 @@ Once you select your callback options, select the **Next** button at the bottom 
 
 #### PowerShell Examples
 
-##### Calls become eligible after waiting 60 seconds
+##### Example 1
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Calls become eligible after waiting 60 seconds:
 
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -586,9 +588,9 @@ To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in th
 Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-##### Calls become eligible for callback when there are more than 50 calls in queue
+##### Example 2
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Calls become eligible for callback when there are more than 50 calls in queue:
 
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -601,9 +603,9 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
  "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-##### Calls become eligible for callback when there are two times more calls than agents
+##### Example 3
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Calls become eligible for callback when there are two times more calls than agents:
 
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -616,9 +618,9 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
  "Tone1" -CallToAgentRatioThresholdBeforeOfferingCallback 2 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
+##### Example 4
 
-To create a new call queue, use the New-CsCallQueue cmdlet, as shown in the following example:
+Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue:
 
 ````PowerShell
 New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
@@ -706,13 +708,23 @@ Once you select your call overflow, call timeout, and no agents handling options
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:------------------------------------------|
-| [-OverflowActionTarget](/powershell/module/teams/new-cscallqueue#-overflowactiontarget) | [-OverflowActionTarget](/powershell/module/teams/set-cscallqueue#-overflowactiontarget) |
+| [-OverflowAction](/powershell/module/teams/New-CSCallQueue#-OverflowAction) | [-OverflowAction](/powershell/module/teams/Set-CSCallQueue#-OverflowAction) |
+| [-OverflowActionTarget](/powershell/module/teams/New-CSCallQueue#-OverflowActionTarget) | [-OverflowActionTarget](/powershell/module/teams/Set-CSCallQueue#-OverflowActionTarget) |
+| [-TimeoutAction](/powershell/module/teams/New-CSCallQueue#-TimeoutAction) | [-TimeoutAction](/powershell/module/teams/Set-CSCallQueue#-TimeoutAction) |
 | [-TimeOutActionTarget](/powershell/module/teams/new-cscallqueue#-timeoutactiontarget) | [-TimeOutActionTarget](/powershell/module/teams/set-cscallqueue#-timeoutactiontarget) |
+| [-NoAgentAction](/powershell/module/teams/New-CSCallQueue#-NoAgentAction) | [-OverflowAction](/powershell/module/teams/Set-CSCallQueue#-NoAgentAction) |
 | [-NoAgentActionTarget](/powershell/module/teams/new-cscallqueue#-noagentactiontarget) | [-NoAgentActionTarget](/powershell/module/teams/set-cscallqueue#-noagentactiontarget) |
 
 #### PowerShell Examples
 
-##### Overflow to another Auto attendant or Call queue
+##### Example 1
+
+Overflow to an Auto attendant or Call queue directly:
+
+````PowerShell
+New-CsCallQueue -Name "Call Queue Name" -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
+````
+*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
 
@@ -721,14 +733,33 @@ Overflow
 Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
 ````
 
-Timeout
+##### Example 2
+
+Timeout to an Auto attendant or Call queue via a Resource account
+
 ````PowerShell
-Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -TimeOutActionTarget <Auto Attendant or Call Queue GUID>
+New-CsCallQueue -Name "Call Queue Name" -TimeoutAction Forward -OverflowActionTarget <Resource Account GUID>
+````
+*Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
+
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -TimeoutAction Forward -OverflowActionTarget <Resource Account GUID>
 ````
 
-No Agents
+##### Example 3
+
+No agents logged in to an external phone number:
+
 ````PowerShell
-Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -NoAgentActionTarget <Auto Attendant or Call Queue GUID>
+New-CsCallQueue -Name "Call Queue Name" -NoAgentAction Forward -NoAgentActionTarget tel:+<phone number>
+````
+
+To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
+
+````PowerShell
+Set-CsCallQueue -Identity <CallQueue GUID> -NoAgentAction Forward -NoAgentActionTarget tel:+<phone number>
 ````
 
 </details>
