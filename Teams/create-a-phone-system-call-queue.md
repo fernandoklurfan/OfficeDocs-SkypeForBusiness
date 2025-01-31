@@ -364,15 +364,15 @@ Assign distribution lists to a call queue, use an audio file for music on hold a
 New-CsCallQueue -Name "Call Queue Name" -DistributionLists @("Distribution List 01 GUID", "Distribution List 02 GUID") -UseDefaultMusicOnHold $false -MusicOnHoldAudioFileId <FILE ID> -ConferenceMode $true
 ````
 *Note: The above example does not contain the minimum number of parameters required to create a new call queue.*
-See [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) to get the `<FILE ID>` information.
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following example:
 
 ````PowerShell
 Set-CsCallQueue -Identity <Call Queue GUID> -DistributionLists @("Distribution List 01 GUID", "Distribution List 02 GUID") -UseDefaultMusicOnHold $false -MusicOnHoldAudioFileId <FILE ID> -ConferenceMode $true
 ````
+See [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) to get the `<FILE ID>` information.
 
-##### Example 3 - use teams channel default music file and conferece mode on
+##### Example 3
 
 Assign a Teams channel to a call queue, use the default music on hold and enable conference mode
 
@@ -728,7 +728,6 @@ New-CsCallQueue -Name "Call Queue Name" -OverflowAction Forward -OverflowActionT
 
 To modify an existing call queue, use the Set-CsCallQueue cmdlet, as shown in the following examples:
 
-Overflow
 ````PowerShell
 Set-CsCallQueue -Identity <CallQueue GUID> -OverflowAction Forward -OverflowActionTarget <Auto Attendant or Call Queue GUID>
 ````
