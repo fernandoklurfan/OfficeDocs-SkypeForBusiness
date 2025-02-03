@@ -66,8 +66,8 @@ In the first section of the brand form, provide details of your company's specif
 |Form field |Description |
 |:-----|:-----|
 |Brand display name|Enter how your company’s name should be displayed as the Caller ID in outgoing SMS messages.|
-|Company name |Enter your company’s name as it is legally registered in your country or region.|
-|Business ID |Enter the Business ID of your company, respective to the country or region of your company’s headquarters. For example, US companies (and those with a US EIN), enter your 9-digit EIN. Canadian companies, enter your 9-digit BN, Corporation/Incorporation Number, or Registry ID. Businesses outside the US and Canada, enter the numeric part of your VAT ID.|
+|Business name |Enter your company’s name as it is legally registered in your country or region.|
+|Business ID |Enter the Business ID of your company, respective to the country or region of your company’s headquarters. For example, US companies (and those with a US EIN), enter your Tax ID's 9-digit EIN. Canadian companies, enter your 9-digit BN, Corporation/Incorporation Number, or Registry ID. Businesses outside the US and Canada, enter the numeric part of your VAT ID.|
 |Business ID issuing Country |Enter the country or region to match the country where your company is headquartered.|
 |Business address |Enter the address to match the address where your company is headquartered. If you already defined your headquarters as an address in Locations, select *Use existing* and search for it by the city or by the location description. If you haven’t previously added the address, select *Add new* and enter it here.|
 |Website |Enter your company’s website or online presence. Note: Providing your company’s website is optional but strongly recommended to increase the chances of TCR approval.|
@@ -78,10 +78,10 @@ Within the brand information, provide context about your company's business.
 
 |Form field |Description |
 |:-----|:-----|
-|Organization legal form |From the drop-down, select whether your company is a *Private company*, *Publicly Traded Company*, or *Non-profit organization*.|
+|Brand legal form |From the drop-down, select whether your company is a *Private company*, *Publicly Traded Company*, or *Non-profit organization*.|
 |Brand stock symbol |If your company is a publicly traded company, enter your company’s stock symbol.|
 |Brand stock exchange |If your company is a publicly traded company, select the exchange where it is listed and traded.|
-|Brand segment |From the drop-down, select your company’s industry.|
+|Brand segment |From the drop-down, select the industry that best categorizes your company’s business.|
 
 ### Contact information
 
@@ -94,7 +94,7 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 |Phone number | Enter the phone number of the point of contact for this application process. |
 |Email address | Enter the email address of the point of contact. |
 
->[!NOTE] If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
+> [!NOTE] If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
 
 ### Terms and Conditions
 
