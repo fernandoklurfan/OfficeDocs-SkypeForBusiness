@@ -102,9 +102,10 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 When the fields are completed with accuracy, select the box to accept the terms and conditions.
 
 The terms are as follows:
-'''
+
+```text
 Teams SMS services involve an integration between Microsoft and the underlying carrier, aggregator, or operator ("Operator"). Microsoft must share application details and/or brand information with the Operator to ensure that the program meets regulatory guidelines and standards set by operators. The Operator is the final reviewer and approver of your service application. If the details you provide on your application change, it is your responsibility to resubmit your application with up-to-date information. By submitting an application, you agree that Microsoft may share the application details as necessary for provisioning the Teams messaging service.
-'''
+```
 
 ### Submitting and status
 
