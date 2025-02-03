@@ -70,16 +70,14 @@ You are allowed one brand and campaign per tenant.
 
 SMS is available for Teams users with a Microsoft Calling Plan license and phone number assigned, and is currently available for users in the following countries and regions:
 
-- USA (and Puerto Rico?)
+- USA and Puerto Rico
 - Canada
 
-SMS for Teams users in other countries and regions, where Microsoft Calling Plans are available, is in development.
+SMS for Teams users in other countries and regions, where Microsoft Calling Plans are available, is in development. Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for developments.
 
-Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for SMS developments.
+USA and Puerto Rico users can send SMS messages to recipients in the USA, Puerto Rico, and Canada.
 
-USA users can't send SMS messages to recipients outside of the USA.
-
-Canada users can't send SMS messages to recipients outside of Canada.
+Canada users can send SMS messages to recipients in Canada, the USA and Puerto Rico.
 
 For domestic and domestic plus international Calling Plan licenses, 200 SMS messages are allowed per month. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
 
