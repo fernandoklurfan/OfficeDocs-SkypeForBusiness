@@ -94,7 +94,8 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 |Phone number | Enter the phone number of the point of contact for this application process. |
 |Email address | Enter the email address of the point of contact. |
 
-> [!NOTE] If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
+> [!NOTE] 
+> If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
 
 ### Terms and Conditions
 
