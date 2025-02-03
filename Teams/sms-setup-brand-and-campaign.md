@@ -65,12 +65,12 @@ In the first section of the brand form, provide details of your company's specif
 
 |Form field |Description |
 |:-----|:-----|
-|Brand display name|Enter how your company’s name should be displayed as the Caller ID in outgoing SMS messages.|
-|Business name |Enter your company’s name as it is legally registered in your country or region.|
+|Brand display name|Enter how your company’s name or *Doing Business As* name should be displayed as the Caller ID in outgoing SMS messages.|
+|Business name |Enter your company’s official name as it is legally registered in your country or region.|
 |Business ID |Enter the Business ID of your company, respective to the country or region of your company’s headquarters. For example, US companies (and those with a US EIN), enter your Tax ID's 9-digit EIN. Canadian companies, enter your 9-digit BN, Corporation/Incorporation Number, or Registry ID. Businesses outside the US and Canada, enter the numeric part of your VAT ID.|
-|Business ID issuing Country |Enter the country or region to match the country where your company is headquartered.|
+|Business ID issuing Country |Enter the country or region where your business ID was issued.|
 |Business address |Enter the address to match the address where your company is headquartered. If you already defined your headquarters as an address in Locations, select *Use existing* and search for it by the city or by the location description. If you haven’t previously added the address, select *Add new* and enter it here.|
-|Website |Enter your company’s website or online presence. Note: Providing your company’s website is optional but strongly recommended to increase the chances of TCR approval.|
+|Website |Enter your company’s website or a website URL representing your business. Note: Providing your company’s website is optional but strongly recommended to increase the chances of TCR approval.|
 
 ### Brand information
 
@@ -78,7 +78,7 @@ Within the brand information, provide context about your company's business.
 
 |Form field |Description |
 |:-----|:-----|
-|Brand legal form |From the drop-down, select whether your company is a *Private company*, *Publicly Traded Company*, or *Non-profit organization*.|
+|Brand legal form |Select the legal structure of your company. For example, *Private company*, *Publicly Traded Company*, or *Non-profit organization*.|
 |Brand stock symbol |If your company is a publicly traded company, enter your company’s stock symbol.|
 |Brand stock exchange |If your company is a publicly traded company, select the exchange where it is listed and traded.|
 |Brand segment |From the drop-down, select the industry that best categorizes your company’s business.|
@@ -91,8 +91,8 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 |:-----|:-----|
 |First name | Enter the first name of the point of contact for this application process. |
 |Last name | Enter last name. |
-|Phone number | Enter the phone number of the point of contact for this application process. |
-|Email address | Enter the email address of the point of contact. |
+|Phone number | Enter the phone number of the point of contact for inquiries related to this application process. |
+|Email address | Enter the email address of the point of contact for inquiries related to this application process. |
 
 > [!IMPORTANT]
 > If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
@@ -101,7 +101,7 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 
 When the fields are completed with accuracy, select the box to accept the terms and conditions.
 
-The terms are as follows:
+The terms as follows relate to Microsoft sharing your brand information with an operator, in this case, The Campaign Registry.
 
 ```text
 Teams SMS services involve an integration between Microsoft and the underlying carrier, aggregator, or operator ("Operator"). Microsoft must share application details and/or brand information with the Operator to ensure that the program meets regulatory guidelines and standards set by operators. The Operator is the final reviewer and approver of your service application. If the details you provide on your application change, it is your responsibility to resubmit your application with up-to-date information. By submitting an application, you agree that Microsoft may share the application details as necessary for provisioning the Teams messaging service.
