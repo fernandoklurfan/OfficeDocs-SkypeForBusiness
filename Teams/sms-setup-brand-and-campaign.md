@@ -112,11 +112,12 @@ Teams SMS services involve an integration between Microsoft and the underlying c
 Select **Submit**.
 
 Once submitted, the status will indicate *“Submitted”* and the Brand information can’t be modified without Microsoft Support intervention.
+
 If you designated your organization’s legal form as *Publicly Traded Company* and you haven’t received a Two Factor Authentication message from ***noreply@auth.campaignregistry.com***, check your junk mail and your company’s firewall rules.
 
 The Service Level Agreement for Brand approval (or rejection) is three days maximum.
 
-If the Brand submission is rejected by The Campaign Registry, submitted incorrect brand information, or if you have questions related to the process, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
+If the Brand submission is rejected by The Campaign Registry, if you submitted incorrect brand information, if you haven't received approval or rejection notice in three days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
 ## Building a Campaign
 
