@@ -55,8 +55,7 @@ The 10DLC (10-digit long code) registration process involves verifying your orga
 In the Teams Admin Center, navigate to ***Voice*** > ***Service configuration*** > ***SMS*** > ***Step 1: Create brand***.
 Select **Create brand / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company’s information.
 
->[!NOTE]
->The form fields will dynamically vary by your company’s country and status. For example, if your company’s headquarters is in the U.S. and is a **publicly traded** company, additional fields will be required to disclose your company’s stock symbol, whereas if it is a private company, a stock symbol will not be required.
+The form fields will dynamically vary by your company’s country and status. For example, if your company’s headquarters is in the U.S. and is a **publicly traded** company, additional fields will be required to disclose your company’s stock symbol, whereas if it is a private company, a stock symbol will not be required.
 
 Populate your Brand application to The Campaign Registry according to the field headers as follows:
 
@@ -68,10 +67,7 @@ In the first section of the brand form, provide details of your company's specif
 |:-----|:-----|
 |Brand display name|Enter how your company’s name should be displayed as the Caller ID in outgoing SMS messages.|
 |Company name |Enter your company’s name as it is legally registered in your country or region.|
-|Business ID |Enter the Business ID of your company, respective to the country or region of your company’s headquarters. For example,
-a.	US companies (and those with a US EIN), enter your 9-digit EIN.
-b.	Canadian companies, enter your 9-digit BN, Corporation/Incorporation Number, or Registry ID.
-c.	Businesses outside the US and Canada, enter the numeric part of your VAT ID.|
+|Business ID |Enter the Business ID of your company, respective to the country or region of your company’s headquarters. For example, US companies (and those with a US EIN), enter your 9-digit EIN. Canadian companies, enter your 9-digit BN, Corporation/Incorporation Number, or Registry ID. Businesses outside the US and Canada, enter the numeric part of your VAT ID.|
 |Business ID issuing Country |Enter the country or region to match the country where your company is headquartered.|
 |Business address |Enter the address to match the address where your company is headquartered. If you already defined your headquarters as an address in Locations, select *Use existing* and search for it by the city or by the location description. If you haven’t previously added the address, select *Add new* and enter it here.|
 |Website |Enter your company’s website or online presence. Note: Providing your company’s website is optional but strongly recommended to increase the chances of TCR approval.|
@@ -98,7 +94,7 @@ In the event of issues with the registration of your brand, Microsoft Support wi
 |Phone number | Enter the phone number of the point of contact for this application process. |
 |Email address | Enter the email address of the point of contact. |
 
-If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
+>[!NOTE] If you designated your organization’s legal form as a *Publicly Traded Company*, then The Campaign Registry will employ Two Factor Authentication, sending an email from *noreply@auth.campaignregistry.com* to the email address supplied in the Contact information. The contact email address can’t be a personal or free email account, and it can’t be a distribution list, such as sales or support.
 
 ### Terms and Conditions
 
