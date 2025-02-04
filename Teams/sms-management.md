@@ -1,5 +1,5 @@
 ---
-title: Managing SMS operations in Teams Admin Center
+title: Enabling and managing SMS operations in Teams Admin Center
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -21,10 +21,10 @@ f1.keywords:
   - CSH
 ms.custom:
   - Reporting
-description: Managing SMS usage in Teams Admin Center
+description: Enabling SMS usage and managing SMS operations in Teams Admin Center
 ---
 
-# Managing SMS operations in Teams Admin Center
+# Enabling and managing SMS operations in Teams Admin Center
 
 This article is for IT administrators and IT professionals who are administering the Short Message Service (SMS) usage in Microsoft’s Teams Admin Center (TAC).
 

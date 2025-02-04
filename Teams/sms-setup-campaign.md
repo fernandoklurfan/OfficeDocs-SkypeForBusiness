@@ -1,5 +1,5 @@
 ---
-title: Setting up SMS Brand and Campaign in Teams Admin Center
+title: Setting up SMS Campaign in Teams Admin Center
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
@@ -21,16 +21,16 @@ f1.keywords:
   - CSH
 ms.custom:
   - Reporting
-description: How to setup a SMS Brand and Campaign in Teams Admin Center
+description: How to setup a SMS Campaign in Teams Admin Center
 ---
 
-# Setting up SMS Brand and Campaign in Teams Admin Center
+# Setting up SMS Campaign in Teams Admin Center
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It is an accompaniment when using Microsoft’s Teams Admin Center (TAC) to register their company Brand with The Campaign Registry (TCR) and when building a Campaign to define their company’s Short Message Service (SMS) use cases.
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It is an accompaniment when using Microsoft’s Teams Admin Center (TAC) to register their company's SMS campaign with The Campaign Registry (TCR).
 
 ## Prerequisites
 
-Ensure fundamental understanding of the **purpose** for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
+Ensure fundamental understanding of the **purpose** for a Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
 
 To proceed with enabling Teams users with SMS capabilities, the following must be provisioned:
 

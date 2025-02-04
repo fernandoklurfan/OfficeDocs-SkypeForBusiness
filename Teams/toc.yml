@@ -1234,10 +1234,12 @@ items:
       items:
         - name: Overview
           href: sms-overview.md
-        - name: Setting up SMS Brand and Campaign
-          href: sms-setup-brand-and-campaign.md
-        - name: Managing SMS operations
-          href: sms-management.md
+        - name: Step 1 Create brand
+          href: sms-setup-brand.md
+        - name: Step 2 Create campaign
+          href: sms-setup-campaign.md
+        - name: Step 3 Enable SMS
+          href: sms-enablement.md
 
     - name: Dial plans and routing
       items: 
