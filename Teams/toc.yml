@@ -1240,6 +1240,8 @@ items:
           href: sms-setup-campaign.md
         - name: Step 3 Enable SMS
           href: sms-enablement.md
+        - name: SMS privacy and terms template example
+          href: sms-privacy-terms-template.md
 
     - name: Dial plans and routing
       items: 
