@@ -76,12 +76,13 @@ The number of SMS messages per Calling Plan license depends on the Microsoft Cal
 |Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
 |:-----|:-----|:-----|
 |PAYG |Yes |0 |
-|Domestic 120 |Yes |100|
 |Domestic 240 (deprecated) |No | 0 |
 |Domestic 3000 |Yes |200 |
 |International Only |(has pre-req of Domestic Only) |0 |
 |Domestic + International |Yes | 200 |
 |Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
+
+Calling minutes and SMS messages allocated per licensed user are pooled at the tenant level. Overage charges do not apply until the resources pooled across all users’ plans in the tenant have been consumed within the billing period.
 
 ## Regions
 
