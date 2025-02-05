@@ -32,17 +32,8 @@ This article is for IT administrators and IT professionals who are enabling Shor
 
 Ensure fundamental understanding of the **purpose** for a Brand, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
 
-To proceed with enabling Teams users with SMS capabilities, the following must be provisioned:
-
-Users must have **entitlement** to the Microsoft 365 Phone System app (by either Microsoft 365 E5 or Microsoft Teams Phone Standard license) and a Microsoft 365 Calling Plan entitlement
-- Domestic
-- Domestic and international, or
-- Pay-As-You-Go
-  
-A tenant **billing mechanism** should be in place for SMS consumption overages and must be in place for Pay-As-You-Go Calling Plans.
-- Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
-
 Administrators must have one of the following **RBAC roles** assigned:
+
 - Teams Administrator
 - Teams Communications Administrator
 - Teams Telephony Administrator, or
@@ -50,7 +41,7 @@ Administrators must have one of the following **RBAC roles** assigned:
 
 ## Building a Brand
 
-The 10DLC (10-digit long code) registration process involves verifying your organization with SMS network providers. To get your organization verified, you build an organization profile as your ‘Brand’ in the Teams admin center.
+The 10DLC (10-digit long code) registration process involves verifying your organization's identity with SMS network providers. To get your organization verified, you build an organization profile as your ‘Brand’ in the Teams admin center.
 
 In the Teams Admin Center, navigate to ***Voice*** > ***Service configuration*** > ***SMS*** > ***Step 1: Create brand***.
 Select **Create brand / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company’s information.
@@ -59,7 +50,7 @@ The form fields will dynamically vary by your company’s country and status. Fo
 
 Populate your Brand application to The Campaign Registry according to the field headers as follows:
 
-### Brand
+### Brand identity
 
 In the first section of the brand form, provide details of your company's specific identity, as denoted in its country or region.
 
@@ -117,10 +108,9 @@ If you designated your organization’s legal form as *Publicly Traded Company* 
 
 The Service Level Agreement for Brand approval (or rejection) is three days maximum.
 
-If the Brand submission is rejected by The Campaign Registry, if you submitted incorrect brand information, if you haven't received approval or rejection notice in three days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
+If you submitted incorrect brand information, if you haven't received approval or rejection notice in three days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
-## Building a Campaign
-
+If the Brand submission is rejected by The Campaign Registry, a case will automatically be opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Related topics
 
@@ -129,3 +119,5 @@ If the Brand submission is rejected by The Campaign Registry, if you submitted i
 [Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
 
 [Learn about SMS texting in Teams](sms-overview.md)
+
+[Step 2: Create a campaign](sms-setup-campaign.md)
