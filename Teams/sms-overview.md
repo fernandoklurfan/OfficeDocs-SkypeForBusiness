@@ -65,6 +65,34 @@ When applying for Brand approval, legally identifiable information about the com
 When applying for Campaign approval, resources about the campaign operation must be submitted, including use case, message flow actions, Brand privacy statement and terms and conditions.
 More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
+## Licensing
+
+Once a tenant has a Brand and Campaign successfully registered with the 10DLC network, SMS entitlement and capability for users follows the same entitlement model as Microsoft Teams Phone and Microsoft Teams Calling Plans.
+
+Users must be licensed, voice-enabled, and located in the United States, Puerto Rico, or Canada.
+
+The number of SMS messages included in Microsoft Calling Plans is described as follows:
+
+|Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
+|:-----|:-----|:-----|
+|PAYG |Yes |0 |
+|Domestic 120 |Yes |100|
+|Domestic 240 (deprecated) |No | 0 |
+|Domestic 3000 |Yes |200 |
+|International Only |(has pre-req of Domestic Only) |0 |
+|Domestic + International |Yes | 200 |
+|Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
+
+## Usage
+
+For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant, with support for overages.
+
+For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message.
+
+SMS usage includes sent and received messages.
+
+Once a number is SMS-enabled and assigned to a user, there is no restricting or limiting the user’s quantity of messages sent or received.
+
 ## Considerations
 
 SMS is available for Teams users with a Microsoft Calling Plan license and phone number assigned, and is currently available for users in the following countries and regions:
@@ -80,21 +108,9 @@ Canada users can send SMS messages to recipients in Canada, the USA and Puerto R
 
 One brand and one campaign are allowed per tenant.
 
-For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
-
-For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message, including sent and received messages.
-
-|Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
-|:-----|:-----|:-----|
-|PAYG |Yes |0 |
-|Domestic 120 |Yes |100|
-|Domestic 240 (deprecated) |No | 0 |
-|Domestic 3000 |Yes |200 |
-|International Only |(has pre-req of Domestic Only) |0 |
-|Domestic + International |Yes | 200 |
-|Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
-
 Billing for overages and pay-as-you-go follows either the Pre-paid or post-paid models, outlined in the article [Microsoft Calling Plan overview](calling-plan-overview.md)
+
+The 
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
