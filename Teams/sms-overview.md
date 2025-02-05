@@ -38,54 +38,65 @@ All SMS messaging to and from Teams is considered:
 - Non-consumer messaging
 - Application-to-Person (A2P) messaging.
 
-These references are used interchangeably.
+These references are used interchangeably. Most notably, SMS in Teams is *not* categorized as *consumer* SMS messaging.
 
-When you SMS-enable a Calling Plan phone number in Teams Admin Center, on your behalf Microsoft registers the number to an ecosystem of mobile operators who support the industry’s 10DLC (10-digit long code) network.
+PSTN (Public Switched Telephone Network) operators support A2P messaging through a specialized network, designated as the 10DLC (Ten Digit Long Code) network. Before an entity can transmit A2P SMS messages on the 10DLC network, the 10DLC operators must approve validity of a company and the company’s intent for accessing it.
 
-Before a phone number can be sanctioned for use on the 10DLC network for A2P messaging, required information must be supplied to and reviewed by an independent reputation authority for approval. Microsoft uses [The Campaign Registry](https://www.campaignregistry.com/about/) for this purpose.
+The shared, independent, approving authority for 10DLC network operators is [The Campaign Registry](https://www.campaignregistry.com/about/). Microsoft is required to facilitate a customer’s registration with The Campaign Registry before Microsoft Calling Plan numbers can be enabled for SMS.
 
-The Teams Admin Center facilitates collection of required information to supply to The Campaign Registry (TCR) by allowing Teams Administrators to input information about their company (their “Brand”) and about the intention of their SMS usage (their “Campaign”).
+Registration with The Campaign Registry involves the following two parts:
 
-Your non-consumer, business text messaging Brands and Campaigns are reviewed by TCR, which helps ensure business SMS messaging compliance and accountability with industry standards.
+1. A **Brand**: The identification and validation of your company
+2. A **Campaign**: The purpose and context of your SMS operation
 
-Through the approved Brand and Campaign registration, your 10DLC numbers are then recognized by mobile network operators as compliant for application-to-person messaging.
+To receive approval with The Campaign Registry, Teams administrators use the Teams Admin Center to pass their company’s Brand and Campaign information to The Campaign Registry.
 
-It is necessary to receive approval for your Brand and Campaign configuration before any number can be registered for use in the 10DLC ecosystem, or SMS-enabled. This requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it is not for marketing purposes**.
+Brands and Campaigns are reviewed by The Campaign Registry, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
 
-The Campaign Registry approval and 10DLC registration involves a TAC setup process that requires three key steps:
+Through an approved Brand and Campaign, Teams administrators can then SMS-enable desired Microsoft Calling Plan numbers.
 
-- Brand verification
-- Campaign registration
-- SMS number activation
+You must receive approval for your Brand and Campaign configuration before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.
 
-You must achieve successful 10DLC registration by setting up your Brand and Campaign before you can enable any user's number with SMS capability.
+> [!NOTE]
+> The Brand and Campaign approval requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it is not for marketing purposes**.
 
-## Architecture
+When applying for Brand approval, legally identifiable information about the company must be submitted, including things such as the  Business ID, Legal address, Stock Symbol, and website. More details can be found in [Step 1: Create a brand](sms-setup-brand.md)
 
-<<<find / use diagram>>>
+When applying for Campaign approval, resources about the campaign operation must be submitted, including use case, message flow actions, Brand privacy statement and terms and conditions.
+More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
 ## Considerations
-
-You are allowed one brand and campaign per tenant.
 
 SMS is available for Teams users with a Microsoft Calling Plan license and phone number assigned, and is currently available for users in the following countries and regions:
 
 - USA and Puerto Rico
 - Canada
 
-SMS for Teams users in other countries and regions, where Microsoft Calling Plans are available, is in development. Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for developments.
+Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for developments.
 
 USA and Puerto Rico users can send SMS messages to recipients in the USA, Puerto Rico, and Canada.
 
 Canada users can send SMS messages to recipients in Canada, the USA and Puerto Rico.
 
-For domestic and domestic plus international Calling Plan licenses, 200 SMS messages are allowed per month. Similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
+One brand and one campaign are allowed per tenant.
 
-For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message.
+For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant.
+
+For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message, including sent and received messages.
+
+|Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
+|:-----|:-----|:-----|
+|PAYG |Yes |0 |
+|Domestic 120 |Yes |100|
+|Domestic 240 (deprecated) |No | 0 |
+|Domestic 3000 |Yes |200 |
+|International Only |(has pre-req of Domestic Only) |0 |
+|Domestic + International |Yes | 200 |
+|Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
 
 Billing for overages and pay-as-you-go follows either the Pre-paid or post-paid models, outlined in the article [Microsoft Calling Plan overview](calling-plan-overview.md)
 
-Further prerequisites and next steps can be found in the following article: [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
 ## Related topics
 
@@ -93,4 +104,4 @@ Further prerequisites and next steps can be found in the following article: [Set
 
 [Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
 
-[Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+[Step 1: Create a brand](sms-setup-brand.md)
