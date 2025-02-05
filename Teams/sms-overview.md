@@ -53,9 +53,9 @@ To receive approval with The Campaign Registry, Teams administrators use the Tea
 
 Brands and Campaigns are reviewed by The Campaign Registry, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
 
-Through an approved Brand and Campaign, Teams administrators can then SMS-enable desired Microsoft Calling Plan numbers.
+Through an approved Brand and Campaign, Teams administrators can then SMS-enable eligible Microsoft Calling Plan numbers.
 
-You must receive approval for your Brand and Campaign configuration before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.
+**You must receive approval for your Brand and Campaign configuration before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.**
 
 > [!NOTE]
 > The Brand and Campaign approval requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it is not for marketing purposes**.
@@ -67,7 +67,7 @@ More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
 ## Licensing
 
-SMS licensing for users is included with and follows the same model as Microsoft Teams Calling Plans.
+SMS licensing for users follows the same licensing model as Microsoft Teams Calling Plans. Sent and received messages are included in the Calling Plans.
 
 Apart from registering the company Brand and Campaign for access to the 10DLC network, users must be licensed with Teams, Teams Phone, and a Microsoft Teams Calling Plan.
 
@@ -98,7 +98,7 @@ Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadma
 
 ## Usage
 
-For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, allotted SMS messages are pooled for all SMS-enabled-users in the tenant, and there is support for overages.
+For domestic Calling Plan licenses, similar to Calling Plan minutes, allotted SMS messages are pooled for all SMS-enabled-users in the tenant, and there is support for overages.
 
 For pay-as-you-go Calling Plan licenses, SMS messaging are unlimited and usage is accounted for each message.
 
@@ -118,7 +118,7 @@ Customer with Microsoft Customer Agreement via Cloud Solution Partner billing ac
 
 For pre-paid or post-paid models, see the article [Microsoft Calling Plan overview](calling-plan-overview.md).
 
-For pricing related to SMS usage beyond , see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone).
+For pricing related to SMS usage beyond , see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone). (to be updated with new pricing link)
 
 ## Considerations
 
@@ -127,6 +127,8 @@ One brand and one campaign are allowed per tenant.
 By default, a campaign supports enabling up to 49 Microsoft Calling Plan numbers to be SMS-enabled. If more than 49 numbers need to be enabled for SMS, refer to note in [Step 2: Create campaign](sms-setup-campaign.md).
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
+
+Support for end users wanting to send SMS messages in Teams can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/office/first-things-to-know-about-chats-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2). (to be updated with new support link)
 
 ## Related topics
 
