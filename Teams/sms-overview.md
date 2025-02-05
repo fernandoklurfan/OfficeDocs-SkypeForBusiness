@@ -30,7 +30,7 @@ This article is for IT administrators and IT professionals planning to enable Sh
 
 ## Overview
 
-Microsoft Teams supports sending and receiving Simple Messaging Service (SMS) text messages within Teams Chat.
+Microsoft Teams supports sending and receiving Simple Messaging Service (SMS) text messages within Teams Chat, for users in US, Puerto Rico, and Canada.
 
 All SMS messaging to and from Teams is considered:
 
@@ -40,9 +40,9 @@ All SMS messaging to and from Teams is considered:
 
 These references are used interchangeably. Most notably, SMS in Teams is *not* categorized as *consumer* SMS messaging.
 
-PSTN (Public Switched Telephone Network) operators support A2P messaging through a specialized network, designated as the 10DLC (Ten Digit Long Code) network. Before an entity can transmit A2P SMS messages on the 10DLC network, the 10DLC operators must approve validity of a company and the company’s intent for accessing it.
+PSTN (Public Switched Telephone Network) operators support A2P messaging through a specialized network, designated as the 10DLC (Ten Digit Long Code) network. Before an entity can transmit A2P SMS messages on the 10DLC network, the 10DLC operators must approve validity of a company and the company’s intent for accessing the network.
 
-The shared, independent, approving authority for 10DLC network operators is [The Campaign Registry](https://www.campaignregistry.com/about/). Microsoft is required to facilitate a customer’s registration with The Campaign Registry before Microsoft Calling Plan numbers can be enabled for SMS.
+The shared, independent, approving authority, used by 10DLC network operators, is [The Campaign Registry](https://www.campaignregistry.com/about/). Microsoft is required to facilitate a customer’s registration with The Campaign Registry before Microsoft Calling Plan numbers can be enabled for SMS.
 
 Registration with The Campaign Registry involves the following two parts:
 
@@ -62,7 +62,7 @@ Through an approved Brand and Campaign, Teams administrators can then SMS-enable
 
 When applying for Brand approval, legally identifiable information about the company must be submitted, including things such as the  Business ID, Legal address, Stock Symbol, and website. More details can be found in [Step 1: Create a brand](sms-setup-brand.md)
 
-When applying for Campaign approval, resources about the campaign operation must be submitted, including use case, message flow actions, Brand privacy statement and terms and conditions.
+When applying for Campaign approval, resources about the campaign operation must be submitted, including use case, message flow actions, brand privacy statement, and terms and conditions.
 More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
 ## Licensing
@@ -100,7 +100,7 @@ Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadma
 
 For domestic Calling Plan licenses, similar to Calling Plan minutes, allotted SMS messages are pooled for all SMS-enabled-users in the tenant, and there is support for overages.
 
-For pay-as-you-go Calling Plan licenses, SMS messaging are unlimited and usage is accounted for each message.
+For pay-as-you-go Calling Plan licenses, SMS messages are unlimited and each message accrues usage.
 
 SMS usage in all Calling Plans includes sent and received messages.
 
@@ -108,17 +108,17 @@ Once a number is SMS-enabled and assigned to a user, there is no restricting or 
 
 Detailed SMS usage on a per-message basis can be analyzed in the Teams Admin Center, under Analytics & reports.
 
-Costs incurred for daily usage can be monitored depending on the type of billing account is used for invoicing.
+Costs incurred for usage can be monitored depending on the type of billing account that is used for invoicing.
 
-For example, customers with Microsoft Online Subscription Agreements, Enterprise Agreements, Legacy Direct, and Legacy CSP billing accounts manage overages with prepaid Communication Credits in the M365 admin center.
+For example, customers with billing accounts that are Microsoft Online Subscription Agreements, Enterprise Agreements, Legacy Direct, and Legacy CSP manage usage charges with prepaid Communication Credits in the M365 admin center.
 
-Customers with Microsoft Customer Agreement via Direct or Enterprise billing accounts manage overages with postpaid Cost Management in the M365 admin center.
+Customers with billing accounts that are Microsoft Customer Agreement via Direct or Enterprise manage usage charges with postpaid Cost Management in the M365 admin center.
 
-Customer with Microsoft Customer Agreement via Cloud Solution Partner billing accounts manage overages with their partner.
+Customer with billing accounts that are Microsoft Customer Agreement via Cloud Solution Partner manage usage charges with their partner.
 
-For pre-paid or post-paid models, see the article [Microsoft Calling Plan overview](calling-plan-overview.md).
+For funding and analyzing costs related to pre-paid or post-paid models, see the article [Microsoft Calling Plan overview](calling-plan-overview.md) and [Communication Credits](what-are-communications-credits.md).
 
-For pricing related to SMS usage beyond , see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone). (to be updated with new pricing link)
+For per-message pricing related to SMS usage, see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone). (to be updated with new pricing link)
 
 ## Considerations
 
