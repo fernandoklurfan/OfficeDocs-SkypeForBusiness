@@ -34,20 +34,20 @@ Ensure fundamental understanding of the **purpose** for a Campaign, as described
 
 A privacy policy plus terms and conditions are required when applying to register your company's SMS campaign with [The Campaign Registry](https://www.campaignregistry.com/about/).
 
-## Using this template
+## Using these template
 
 **How to use this template:** SMS providers in the US and Canda require that the initial message to an SMS recipient must include a link to your company’s general terms and conditions, privacy policy, and information about how to get help.
 
 Senders are also required to provide the recipient with certain terms specific to the use of an SMS service.
 
-To simplify these requirements, many senders find it useful to have a single webpage that includes all relevant terms, information, and required links in one place – that way, only one link needs to be included in the initial message to the recipient.
+To simplify these requirements, many senders find it useful to have **a single webpage that includes all relevant terms, information, and required links in one place** – that way, only one link needs to be included in the initial message to the recipient.
 
 This SMS Terms of Use Template includes relevant SMS terms and placeholders where you can insert links to your general terms and conditions, privacy policy, and help information.
 
-> [!IMPORTANT:]
+> [!IMPORTANT]
 > DISCLAIMER: This template is for informational purposes only and is neither intended as, nor should be substituted for, consultation with appropriate legal counsel and/or your organization’s regulatory compliance team.  This template is applicable only to approved uses of the Teams SMS service – i.e., conversational person-to-person communications – and does not apply to unauthorized use cases such as marketing, promotional, transactional, or other commercial SMS.  Appropriate terms may vary depending on how you use this service and the nature of your business, and we recommend seeking legal counsel to ensure compliance with all applicable regulatory and legal obligations.
 
-## SMS Terms of use template
+## SMS Terms of use
 
 **[COMPANY NAME]** TEXT MESSAGING TERMS OF USE
 
@@ -69,7 +69,7 @@ E-SIGN DISCLOSURE
 
 By agreeing to receive text messages, you also consent to the use of an electronic record to document your agreement. You may withdraw your consent to the use of the electronic record by replying STOP. 
 
-## SMS Privacy policy template
+## SMS Privacy policy
 
 **[COMPANY NAME]** TEXT MESSAGE SERVICE PRIVACY POLICY
 
