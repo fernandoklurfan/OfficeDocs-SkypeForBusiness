@@ -37,7 +37,7 @@ If your organizers allow anonymous users to bypass the lobby, web bots might joi
 
 ## Manage verification checks for meetings and webinars in your org
 
-You can use the Teams admin center or PowerShell manage verification checks for meetings and webinars in your org.
+You can use the Teams admin center or PowerShell to manage verification checks for meetings and webinars in your org.
 
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
