@@ -1,9 +1,9 @@
 ---
-title: Setting up SMS Campaign in Teams Admin Center
+title: Example privacy policy and terms and conditions template
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: nijait
+ms.reviewer: annagentry
 ms.date: 01/06/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,86 +21,80 @@ f1.keywords:
   - CSH
 ms.custom:
   - Reporting
-description: How to setup a SMS Campaign in Teams Admin Center
+description: A template for creating your own privacy policy and terms and conditions for SMS messaging in Microsoft Teams
 ---
 
-# Setting up SMS Campaign in Teams Admin Center
+# Creating a privacy policy with terms and conditions for SMS on the 10DLC network
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It is an accompaniment when using Microsoft’s Teams Admin Center (TAC) to register their company's SMS campaign with The Campaign Registry (TCR).
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It is an example template that can be used when creating a company's privacy policy with terms and conditions related to SMS messaging in Teams.
 
 ## Prerequisites
 
 Ensure fundamental understanding of the **purpose** for a Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
 
-Administrators must have one of the following **RBAC roles** assigned:
-- Teams Administrator
-- Teams Communications Administrator
-- Teams Telephony Administrator, or
-- Global Admin
+A privacy policy plus terms and conditions are required when applying to register your company's SMS campaign with [The Campaign Registry](https://www.campaignregistry.com/about/).
 
-## Building a Campaign
+## Using this template
 
-The 10DLC (10-digit long code) registration process involves verifying your organization's intent and ability to use the 10DLC network in compliance. To get your intent approved, you submit a 'Campaign' in the Teams admin center.
+**How to use this template:** SMS providers in the US and Canda require that the initial message to an SMS recipient must include a link to your company’s general terms and conditions, privacy policy, and information about how to get help.
 
-In the Teams Admin Center, navigate to ***Voice*** > ***Service configuration*** > ***SMS*** > ***Step 2: Create campaign***.
-Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company’s campaign information.
+Senders are also required to provide the recipient with certain terms specific to the use of an SMS service.
 
-Populate your campaign application to The Campaign Registry according to the field headers as follows:
+To simplify these requirements, many senders find it useful to have a single webpage that includes all relevant terms, information, and required links in one place – that way, only one link needs to be included in the initial message to the recipient.
 
-### Campaign description
+This SMS Terms of Use Template includes relevant SMS terms and placeholders where you can insert links to your general terms and conditions, privacy policy, and help information.
 
-In the campaign form, provide details of your company's plan for SMS operations, if any.
+> [!IMPORTANT:]
+> DISCLAIMER: This template is for informational purposes only and is neither intended as, nor should be substituted for, consultation with appropriate legal counsel and/or your organization’s regulatory compliance team.  This template is applicable only to approved uses of the Teams SMS service – i.e., conversational person-to-person communications – and does not apply to unauthorized use cases such as marketing, promotional, transactional, or other commercial SMS.  Appropriate terms may vary depending on how you use this service and the nature of your business, and we recommend seeking legal counsel to ensure compliance with all applicable regulatory and legal obligations.
 
-|Category |Description |
-|:-----|:-----|
-|Direct lending or loand arrangements related |Indicates whether the campaign includes content related to direct lending or other loan arrangements. |
-|Embedded Link |Indicates whether the campaign is using an embedded link of any kind. Note that public URL shorteners (bitly, tinyurl) are not accepted. |
-|Embedded phone number |Indicates whether the campaign is using an embedded phone number (except the required HELP information contact phone number). |
-|Age-gated content |Indicates whether the campaign includes any age-gated content as defined by Carrier and CTIA guidelines.|
+## SMS Terms of use template
 
-### Terms and Conditions
+**[COMPANY NAME]** TEXT MESSAGING TERMS OF USE
 
-When the fields are completed with accuracy, select the box to accept the terms and conditions.
+By “Opting In” to or using a “Text Message Service” (as defined below) from [COMPANY NAME], you accept these Terms & Conditions.  [IF APPLICABLE: THIS AGREEMENT IS SUBJECT TO BINDING ARBITRATION AND A WAIVER OF CLASS ACTION RIGHTS AS DETAILED BELOW.]
 
-The terms as follows relate to Microsoft sharing your brand information with an operator, in this case, The Campaign Registry.
+This agreement is between you and **[COMPANY NAME]** or one of its affiliates.  All references to “**[COMPANY NAME]**,” “we,” “our,” or “us” refer to **[COMPANY NAME]**, **[COMPANY ADDRESS]**.  
 
-```text
-Teams SMS services involve an integration between Microsoft and the underlying carrier, aggregator, or operator ("Operator"). Microsoft must share application details and/or brand information with the Operator to ensure that the program meets regulatory guidelines and standards set by operators. The Operator is the final reviewer and approver of your service application. If the details you provide on your application change, it is your responsibility to resubmit your application with up-to-date information. By submitting an application, you agree that Microsoft may share the application details as necessary for provisioning the Teams messaging service.
-```
+DEFINITIONS 
 
-### Submitting and status
+“Opting In,” “Opt In,” and “Opt-In” refer to requesting, joining, agreeing to, enrolling in, signing up for, acknowledging, responding to, or otherwise consenting to receive one or more text messages. 
 
-Select **Submit**.
+“Text Message Service” includes any arrangement or situation in which we send one or more messages addressed to your mobile phone number, including text messages (such as SMS, MMS, or successor protocols or technologies). 
 
-Once submitted, the status will indicate *“Submitted”* and the campaign information can’t be modified without Microsoft Support intervention.
+CONSENTING TO TEXT MESSAGING 
 
-The Service Level Agreement for campaign approval (or rejection) is three days maximum.
+By consenting to receive text messages from us, you agreed to these Text Messaging Terms and Conditions, as well as our **[LINK TO GENERAL T&Cs]** and **[LINK TO PRIVACY POLICY]**, incorporated herein by reference. 
 
-If you submitted incorrect campaign information, if you haven't received approval or rejection notice in three days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
+E-SIGN DISCLOSURE 
 
-If the campaign submission is rejected by The Campaign Registry, a case will automatically be opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
+By agreeing to receive text messages, you also consent to the use of an electronic record to document your agreement. You may withdraw your consent to the use of the electronic record by replying STOP. 
 
-## Considerations
+## SMS Privacy policy template
 
-The Campaign Registry may require additional information from your company before approving your campaign. Potential items that may be required before approval:
+**[COMPANY NAME]** TEXT MESSAGE SERVICE PRIVACY POLICY
 
-- Further description details about your campaign's purpose
-- Your company's privacy statement related to SMS messaging
-- Your company's terms and conditions related to SMS messaging
+We respect your privacy. We will only use information you provide through this service to transmit your mobile messages and respond to you. This includes, but is not limited to, sharing information with platform providers, phone companies, and other vendors who assist us in the delivery of mobile messages.  WE DO NOT SELL, RENT, LOAN, TRADE, LEASE, OR OTHERWISE TRANSFER FOR PROFIT ANY PHONE NUMBERS OR CUSTOMER INFORMATION COLLECTED THROUGH THE SERVICE TO ANY THIRD PARTY. Nonetheless, we reserve the right at all times to disclose any information as necessary to satisfy any law, regulation or governmental request, to avoid liability, or to protect our rights or property. This Text Message Service Privacy Policy applies to your use of the Text Message Service and is not intended to modify our general [“Privacy Policy” OR RELEVANT NAME OF PRIVACY POLICY REFERENCED IN SECTION ABOVE], incorporated by reference above, which may govern the relationship between you and us in other contexts. 
 
-If your company does not have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
+COSTS OF TEXT MESSAGES 
 
-If your campaign is rejected, be prepared to supply this information to Microsoft's Telephone Number Services team through the [Phone Number Service Center](https://pstnsd.powerappsportals.com).
+We do not charge you for the messages you send and receive via this text message service. But message and data rates may apply, so depending on your plan with your wireless or other applicable provider, you may be charged by your carrier or other applicable provider. 
 
+FREQUENCY OF TEXT MESSAGES 
+
+This Text Messaging Service is for conversational person-to-person communication between you and our employee(s). We may send you an initial message providing details about the service.  After that, the number of text messages you receive will vary depending on how you use our services and whether you take steps to generate additional text messages from us (such as by sending a HELP request). 
+
+OPTING OUT OF TEXT MESSAGES 
+
+If you no longer want to receive text messages, you may reply to any text message with STOP, QUIT, END, REVOKE, OPT OUT, CANCEL, or UNSUBSCRIBE. As a person-to-person communication service, opt-out requests are specific to each conversation between you and one of our employees and their associated phone number. After unsubscribing, we may send you confirmation of your opt-out via text message. 
+
+CONTACT US 
+
+For support, **[EMAIL ADDRESS OR PHONE NUMBER AND, IF AVAILABLE, SUPPORT PAGE]**.  
+
+**[BINDING ARBITRATION, CLASS ACTION WAIVER, AND SEVERABILITY CLAUSES, IF APPLICABLE]**
 
 ## Related topics
 
-[Microsoft Calling Plan Overview](calling-plan-overview.md)
+[SMS Overview](sms-overview.md)
 
-[Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
-
-[Learn about SMS texting in Teams](sms-overview.md)
-
-[SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md)
-
-[Step 3: Enable SMS](sms-management.md)
+[Step 2: Create a campaign](sms-setup-campaign.md)

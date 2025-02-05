@@ -48,7 +48,7 @@ A tenant **billing mechanism** should be in place for SMS consumption overages a
 Additionally,
 
 - Ensure fundamental understanding of the purpose for a Brand and Campaign, as described in the article, [Learn about SMS Texting in Teams](sms-overview.md)
-- Confirm service enablement is configured, as described in the article, [Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+- Confirm service enablement is configured, as described in the articles [Step 1: Create brand](sms-setup-brand.md) and [Step 2: Create campaign](sms-setup-campaign.md).
 
 ## Enabling SMS for a user
 
@@ -67,6 +67,8 @@ TAC > Reports & analytics > Usage reports > PSTN and SMS Usage
 
 ## Related topics
 
-[Learn about SMS texting in Teams](sms-overview.md)
+[SMS overview](sms-overview.md)
 
-[Setting up SMS in TAC](sms-setup-brand-and-campaign.md)
+[Step 1: Create brand](sms-setup-brand.md)
+
+[Step 2: Create campaign](sms-setup-campaign.md)
