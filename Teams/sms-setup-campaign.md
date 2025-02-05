@@ -92,6 +92,7 @@ If your company does not have a privacy statement or terms and conditions relate
 
 If your campaign is rejected, be prepared to supply this information to Microsoft's Telephone Number Services team through the [Phone Number Service Center](https://pstnsd.powerappsportals.com).
 
+If you require more than 49 SMS-enabled numbers, you must work with [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md) so that they can work with you on an exception to the default maximum campaign quantity. You will need to provide the TNS Service Desk with the total number of SMS-enabled numbers and the anticipated total volume of messages sent and received per month.
 
 ## Related topics
 
