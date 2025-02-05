@@ -78,7 +78,6 @@ The number of SMS messages per Calling Plan license depends on the Microsoft Cal
 |PAYG |Yes |0 |
 |Domestic 240 (deprecated) |No | 0 |
 |Domestic 3000 |Yes |200 |
-|International Only |(has pre-req of Domestic Only) |0 |
 |Domestic + International |Yes | 200 |
 |Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
 
