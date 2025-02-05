@@ -194,7 +194,7 @@ Teams provides default music to callers while they're *on hold in a queue*.
 - If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
 
 > [!IMPORTANT]
-> You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control, or license the music copyrights, sound effects, audio, and other intellectual property rights.
+> You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which might include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which might include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control, or license the music copyrights, sound effects, audio, and other intellectual property rights.
 
 After you select a greeting and on-hold music, select the **Next** button at the bottom of the **Add a Call queue** page.
 
@@ -288,7 +288,7 @@ To **add a user** to the queue:
 To **add a group** to the queue:
 
 1. Select **Add groups**, search for the group, select **Add**, and then select **Add**.
-    - You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
+    - You can use distribution lists, security groups, and Microsoft 365 Groups or Microsoft Teams teams.
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
@@ -301,7 +301,7 @@ To **add a group** to the queue:
 > Known issues:
 > 1. Assigning private channels to Call queues
 >     - When using a private channel, calls are distributed to all members of the team even if the private channel only has a subset of team members.
->     - Assigning a private channel to a call queue may fail, even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a Call queue.
+>     - Assigning a private channel to a call queue might fail, even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a Call queue.
 >
 > 2. Only the global administrator role can fully manage a call queue with a Teams channel assigned.
 
@@ -320,7 +320,7 @@ Keep the following conditions in mind:
 
 - Conference mode isn't supported for calls routed to the queue from a Direct Routing gateway enabled for Location Based Routing.
 - Conference mode is required if Teams users need to consult/transfer calls with Call queues.
-- Agents may hear the configured music on hold in queue for up to two seconds when first joining the call.
+- Agents can hear the configured music on hold in queue for up to two seconds when first joining the call.
 
 > [!IMPORTANT]
 > Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
@@ -397,7 +397,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -ChannelId <Channel GUID> -ChannelUs
 ## Step 4: Select your agent routing options
 
 > [!IMPORTANT]
-> Call presentation to agents may conflict with Location-Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This continues until an agent answers, the caller hangs up, or the call queue times out. For more information on Location-Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
+> Call presentation to agents might conflict with Location-Based Routing restrictions. In this case, the agent receives a call toast but can't answer the call. This continues until an agent answers, the caller hangs up, or the call queue times out. For more information on Location-Based Routing, see [Plan Location-Based Routing for Direct Routing](./location-based-routing-plan.md).  
 
 **Routing method** determines the order in which agents receive calls from the queue.
 
@@ -434,7 +434,7 @@ If an agent opts out of getting calls, they can't receive calls regardless of th
 >
 > If **Presence-based routing** isn't enabled and there are multiple calls in the queue, the system presents these calls simultaneously to the agents, regardless of their presence status. This action results in multiple call notifications to agents, particularly if some agents don't answer the initial call presented to them. For more information, see [Configure Busy Options](./inbound-call-routing.md) for Busy on Busy alternatives to presence-based routing.
 >
-> There may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available when using **Presence-based routing**.
+> There might be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available when using **Presence-based routing**.
 >
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
@@ -510,7 +510,7 @@ Set-CsCallQueue -Identity <Call Queue GUID>  -RoutingMethod RoundRobin -Presence
 
 A caller becomes eligible for callback based on any one of the following configured conditions coming true:
 
-- **Wait time in queue**: Once a caller in queue exceeds this configured wait time they become eligible for callback. This option applies to callers at the front of the queue.
+- **Wait time in queue**: Once a caller in queue exceeds this configured wait time, they become eligible for callback. This option applies to callers at the front of the queue.
 
 - **Number of calls in queue**: Once the number of callers in queue reaches this level, new callers arriving in the queue become eligible for callback. This option applies to callers arriving in the queue. Callers that arrived in the queue before this limit was reached aren't eligible for callback.
 
@@ -532,7 +532,7 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-After waiting in the queue for 60 seconds, the caller becomes eligible for callback. However, as the default music is two minutes long, the call queue timeout occurs first and callback isn't offered.
+After a caller waits in the queue for 60 seconds, they become eligible for callback. However, since the default music is two minutes long, the call queue timeout occurs first, and callback isn't offered.
 
 Once a caller successfully requests a callback, the callback request is also subject to the call queue timeout configuration. If a callback request times out, the information about the caller is sent to the configured email notification address.
 
@@ -892,7 +892,7 @@ The following settings are recommended:
 | **Dynamic caller ID** |  |  |  |  |  |  |  |  |  |
 | Standard Call queue | Y | Y | Y | N | N | N | Y | N/A |  |
 | Channel based Call queue | Y | N/A | N/A | N/A | N/A | N/A | N/A | Y |  |
-| **Public Network Connectivity Methods** |  |  |  |  |  |  |  |  | See Note 10 |
+| **PSTN Connectivity Methods** |  |  |  |  |  |  |  |  | See Note 10 |
 | Calling Plans | Y | Y | Y | Y | Y | Y | Y | Y |  |
 | Direct Routing | Y | Y | Y | Y | N<sup>12</sup> | Y | Y<sup>7</sup> | Y |  |
 | Operator Connect | Y | Y | Y | Y | N | Y | Y<sup>7</sup> | Y |  |
@@ -916,7 +916,7 @@ The following settings are recommended:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
     - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 9. Only standard channels are supported.
-10. Transferring calls between PSTN connectivity methods isn't supported.
+10. Transferring calls between Public Switched Telephone Network (PSTN) connectivity methods isn't supported.
 11. Performed through Team Phone Mobile app or see #8.
 12. Call queues that are assigned a Direct Routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [coexistence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
