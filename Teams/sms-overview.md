@@ -67,11 +67,11 @@ More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
 ## Licensing
 
-Once a tenant has a Brand and Campaign successfully registered with the 10DLC network, SMS entitlement and capability for users follows the same entitlement model as Microsoft Teams Phone and Microsoft Teams Calling Plans.
+SMS licensing for users is included with and follows the same model as Microsoft Teams Calling Plans.
 
-Users must be licensed, voice-enabled, and located in the United States, Puerto Rico, or Canada.
+Apart from registering the company Brand and Campaign for access to the 10DLC network, users must be licensed with Teams, Teams Phone, and a Microsoft Teams Calling Plan.
 
-The number of SMS messages included in Microsoft Calling Plans is described as follows:
+The number of SMS messages per Calling Plan license depends on the Microsoft Calling Plan assigned and can be determined in the following table:
 
 |Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
 |:-----|:-----|:-----|
@@ -83,34 +83,48 @@ The number of SMS messages included in Microsoft Calling Plans is described as f
 |Domestic + International |Yes | 200 |
 |Teams Phone + Calling Plan |Yes |Phone + Domestic = 200, Phone + PAYG = 0 |
 
-## Usage
+## Regions
 
-For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, SMS message entitlements are pooled for all SMS-enabled-users in the tenant, with support for overages.
-
-For pay-as-you-go Calling Plan licenses, SMS messages are incrementally billed per message.
-
-SMS usage includes sent and received messages.
-
-Once a number is SMS-enabled and assigned to a user, there is no restricting or limiting the user’s quantity of messages sent or received.
-
-## Considerations
-
-SMS is available for Teams users with a Microsoft Calling Plan license and phone number assigned, and is currently available for users in the following countries and regions:
+SMS is currently available for users in the following countries and regions:
 
 - USA and Puerto Rico
 - Canada
 
+US, PR, and CA users can send SMS messages to numbers that are able to receive SMS and are regionally assigned to US, PR, or Canada recipients.
+
+Sending SMS to numbers outside of US, PR, or Canada is not supported, but Teams user can receive SMS messages from any country or region.
+
 Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for developments.
 
-USA and Puerto Rico users can send SMS messages to recipients in the USA, Puerto Rico, and Canada.
+## Usage
 
-Canada users can send SMS messages to recipients in Canada, the USA and Puerto Rico.
+For domestic and domestic plus international Calling Plan licenses, similar to Calling Plan minutes, allotted SMS messages are pooled for all SMS-enabled-users in the tenant, and there is support for overages.
+
+For pay-as-you-go Calling Plan licenses, SMS messaging are unlimited and usage is accounted for each message.
+
+SMS usage in all Calling Plans includes sent and received messages.
+
+Once a number is SMS-enabled and assigned to a user, there is no restricting or limiting the user’s quantity of messages sent or received.
+
+Detailed SMS usage on a per-message basis can be analyzed in the Teams Admin Center, under Analytics & reports.
+
+Costs incurred for daily usage can be monitored depending on the type of billing account is used for invoicing.
+
+For example, customers with Microsoft Online Subscription Agreements, Enterprise Agreements, Legacy Direct, and Legacy CSP billing accounts manage overages with prepaid Communication Credits in the M365 admin center.
+
+Customers with Microsoft Customer Agreement via Direct or Enterprise billing accounts manage overages with postpaid Cost Management in the M365 admin center.
+
+Customer with Microsoft Customer Agreement via Cloud Solution Partner billing accounts manage overages with their partner.
+
+For pre-paid or post-paid models, see the article [Microsoft Calling Plan overview](calling-plan-overview.md).
+
+For pricing related to SMS usage beyond , see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone).
+
+## Considerations
 
 One brand and one campaign are allowed per tenant.
 
-Billing for overages and pay-as-you-go follows either the Pre-paid or post-paid models, outlined in the article [Microsoft Calling Plan overview](calling-plan-overview.md)
-
-The 
+By default, a campaign supports enabling up to 49 Microsoft Calling Plan numbers to be SMS-enabled. If more than 49 numbers need to be enabled for SMS, refer to note in [Step 2: Create campaign](sms-setup-campaign.md).
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
