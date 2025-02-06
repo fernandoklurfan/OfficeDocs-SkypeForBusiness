@@ -71,9 +71,12 @@ Devices within a phase will be updated gradually over a few weeks rather than al
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.  
 3. Select one or more devices and then select **Update**.
 1. Under **Automatic updates**, select one of the following phases:
-   - **Validation** This option is best for lab or test devices on which you can carry out any validation you need to perform. Updates start deployment as soon as the latest software version is released. Previously called **As soon as possible**.
-   - **General** This is the default option and is best for most of your general-purpose devices. Firmware updates start deployment only after **30 days** from the release of the new firmware version. Teams app updates start deployment only after **15 days** from the release of the new Teams app version. Previously called **Defer by 30 days** (applicable for firmware updates).
-   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Firmware updates start deployment only after **90 days** from the release of the new firmware version. Teams app updates start deployment only after **45 days** from the release of the new Teams app version. Previously called **Defer by 90 days** (applicable for firmware updates).
+   - **Validation** This option is best for lab or test devices on which you can carry out any validation you need to perform. Devices in this phase start updating as soon as the latest software version is released and finish updating within the first 15 days **(0 to 15 days)**.
+   - **General** This is the default option for newly onboarded devices and is best for most of your general-purpose devices. Devices in this phase start updating as soon as 16th day since latest software version was released and finish updating by 45th day **(16 to 45 days)**. 
+      
+   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Devices in this phase start updating as soon as 46th day since latest software version was released and finish updating by 60th day **(46 to 60 days)**.   
+        
+      Above phase specific timelines are applicable for firmware as well as various app updates.
       
 5. Select **Update**.
 
