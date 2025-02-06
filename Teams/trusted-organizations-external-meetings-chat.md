@@ -63,8 +63,7 @@ In this section, you can configure:
 - [Meetings and chat with trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
 - [Chat with external Teams users not managed by an organization](#manage-chats-and-meetings-with-external-teams-users-not-managed-by-an-organization)
 - [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
-
-- Block external users
+- [Block external users](#block-external-users)
 
 You can also [configure these settings by using PowerShell](#configure-organization-settings-by-using-powershell)
 
@@ -192,7 +191,7 @@ Meetings aren't supported with Skype users. If invited to a meeting, they're con
 To configure chat and calls with Skype users:
 
 1. In the Teams admin center, go to **Users** > **External access**.
-2. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
+1. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
     ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 3. Select **Save**.
 
@@ -210,10 +209,10 @@ To enable and configure blocked users list:
 
 1. Add users to the block list by selecting the **Block a user** button.
 
-1. In the User box, type the email address of the user you want to block and then select the **Apply** button. Select the **Cancel** button to leave without taking any action.
+1. In the User box, type the email address of the user you want to block and then select the **Apply** button. Select the **Cancel** button to leave without taking any action. You must type in a valid individual email or a messaging resource identifier (MRI). 
 
-   ![A screenshot of the External Users page with the Block a user sidebar open on the right-hand side of the page.](media/trusted-organizations-external-meetings-chat/blockuser2.jpg)
-   
+      ![A screenshot of the External Users page with the Block a user sidebar open on the right-hand side of the page.](media/trusted-organizations-external-meetings-chat/blockuser2.jpg)
+
 1. If you want to block another user, select **Add users** and then the **Apply** button.
 
    ![A screenshot of the External Users page with the Add users section displaying the emails of blocked users, and the Add users option available to add more emails.](media/trusted-organizations-external-meetings-chat/blockuser4.jpg.png)
