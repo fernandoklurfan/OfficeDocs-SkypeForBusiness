@@ -39,7 +39,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Anguilla |AI |911 |
 |Argentina|AR|109<br>911<br>100<br>101<br>106<br>107<br>128|
 |Armenia |AM |911<br>100<br>101<br>102<br>103<br>104<br>177 |
-|Australia|AU|000<br>112<br>106<br>132500|
+|Australia|AU|000<br>000 DialMask=112<br>106<br>132500|
 |Austria|AT|112<br>122<br>128<br>133<br>140<br>141<br>142<br>144<br>147|
 |Azerbaijan |AZ |112<br>101<br>102<br>103<br>104<br>199 |
 |Bahrain  |BH |112<br>199<br>990<br>992<br>994<br>999 |
@@ -134,7 +134,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Lesotho | LS | 112 |
 | Liberia | LR | 911<br>     144<br>     4455 |
 | Libya | LY | 1415<br>     112<br>     193<br>     1515 |
-| Liechtenstein | LI | 112<br>     117<br>     118<br>     143<br>     144<br>     147 |
+| Liechtenstein | LI | 112<br>     117<br>     118<br>     143<br>     144<br>     145<br>     147<br>     1414 |
 |Lithuania|LT|112|
 |Luxembourg|LU|112<br>113|
 | Madagascar | MG | 17<br>     117<br>     118 |
@@ -178,7 +178,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Reunion|RE|112<br>15<br>17<br>18<br>196|
 |Romania|RO|112<br>113|
 |Rwanda|RW|112<br>110<br>113<br>912|
-|Saint Barthelemy|BL|112<br>15<br>17<br>18|
+|Saint Barthélemy|BL|112<br>15<br>17<br>18|
 |Saint Martin|MF|112<br>15<br>17<br>18|
 | São Tomé e   Príncipe | ST | 112<br>     113 |
 | Saudi Arabia | SA | 911<br>     112<br>     123<br>     992<br>     993<br>     996<br>     997<br>     998<br>     999 |
@@ -199,7 +199,7 @@ The following table lists country, ISO country code, and the associated emergenc
 | Sudan | SD | 333<br>     777<br>     999 |
 |Svalbard|SJ|112|
 |Sweden|SE|112<br>11313<br>11414<br>1177|
-|Switzerland|CH|112<br>117<br>118<br>143<br>144<br>147|
+|Switzerland|CH|112<br>117<br>118<br>143<br>144<br>145<br>147<br>1414|
 |Taiwan|TW|112<br>110<br>119|
 | Tajikistan | TJ | 112<br>     101<br>     102<br>     103<br>     104 |
 | Tanzania | TZ | 110<br>     111<br>     112<br>     113<br>     114<br>     115 |
@@ -212,7 +212,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Uganda|UG|999<br>112|
 | Ukraine | UA | 112 |
 | United Arab Emirates | AE | 112<br>     911<br>     991<br>     992<br>     997<br>     998<br>     999 |
-|United Kingdom|GB|999<br>112|
+|United Kingdom|GB|999<br>112<br>18000 (Text Relay)|
 |United States Minor Outlying Islands|UM|911|
 |United States|US|911<br>911 DialMask=1911<br>911 DialMask=9911<br>933<br>933 DialMask=9933|
 |United States Virgin Islands|VI|911|    

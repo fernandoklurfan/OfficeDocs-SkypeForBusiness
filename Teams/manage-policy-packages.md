@@ -148,11 +148,11 @@ You can assign a policy package to an individual user, a group, or a batch of us
 
 This video is about managing policy packages.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbO?autoplay=false]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=56f2fb23-b0d2-4d85-ad84-ad2fa569fdc0]
 
 ## Related topics
 
 - [Assign policy packages](assign-policy-packages.md)
 - [Teams policy packages for EDU admins](policy-packages-edu.md)
-- [Teams policy packages for healthcare](policy-packages-healthcare.md)
+- [Teams policy packages for frontline workers](policy-packages-flw.md)
 - [Teams policy packages for government](policy-packages-gov.md)
