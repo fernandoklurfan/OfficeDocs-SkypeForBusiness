@@ -84,6 +84,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini, and Roommate | 10 |
 | Logitech Rally Bar Mini (VR0020) | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar (VR0019) | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar Pro + Shure Complete Room Bundle| `NFD1.20241113.0013`| September 3,2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50, Neat Board & Neat Board Pro 65 | 10 |
