@@ -22,7 +22,7 @@ appliesto:
 
 # Direct Routing - definitions and RFC standards
 
-This article describes how Teams Phone Direct Routing uses standard protocols defined by the Internet Engineering Task Force's Requests for Comments (RFC) . This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
+This article describes how Teams Phone Direct Routing uses standard protocols defined by the Internet Engineering Task Force's Requests for Comments (RFC). This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
 The customer SBC interfaces with the following components in the Microsoft Teams backend: 
 
@@ -117,7 +117,7 @@ Be aware that in certain situations, third party gateways / SBCs may flag TLS co
 
 - Due to the aliasing constraint mentioned previously, the supplier SBC must not use in-dialogue SIP requests for resetting the timer on connections created by SIP Proxy outbound to the supplier SBC. 
 
-- After two minutes of idling (FIN, ACK) is transmitted to the supplier SBC by SIP Proxy within approximately 10 to 20 seconds. 
+- After two minutes of idling (FIN, ACK) are transmitted to the supplier SBC by SIP Proxy within approximately 10 to 20 seconds. 
 
 ### Notes
 
