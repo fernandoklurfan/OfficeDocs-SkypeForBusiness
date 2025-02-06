@@ -190,5 +190,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 
 ## [End of certification](#tab/eol)
 
+| Device Category | Device Model                | Android OS Version | Certification End Date  | Microsoft Support End Date |
+|:---------------|:---------------------------|:-------------------|:------------------------|:--------------------------|
+| Teams Panel    | EPOS Expand Control Panel   | 10                | January 1, 2025        | January 1, 2025          |
 
- No Teams panels devices have reached this milestone. 
+
