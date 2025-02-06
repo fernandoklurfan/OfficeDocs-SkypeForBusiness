@@ -715,3 +715,5 @@ For information about the latest Teams app releases, see [What's new in Microsof
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 | August 5, 2025 |
 |Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| August 5, 2025 |
+|Teams Rooms for Android | EPOS EXPAND Vision 5T | 10 | January 1, 2025 |  January 1, 2025 |
+|Teams Rooms for Android |EPOS EXPAND Control 3C | 10 |  January 1, 2025 |  January 1, 2025 |
