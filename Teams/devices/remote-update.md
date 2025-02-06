@@ -74,9 +74,10 @@ Devices within a phase will be updated gradually over a few weeks rather than al
    - **Validation** This option is best for lab or test devices on which you can carry out any validation you need to perform. Devices in this phase start updating as soon as the latest software version is released and finish updating within the first 15 days **(0 to 15 days)**.
    - **General** This is the default option for newly onboarded devices and is best for most of your general-purpose devices. Devices in this phase start updating as soon as 16th day since latest software version was released and finish updating by 45th day **(16 to 45 days)**. 
       
-   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Devices in this phase start updating as soon as 46th day since latest software version was released and finish updating by 60th day **(46 to 60 days)**.   
+   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Devices in this phase start updating as soon as 46th day since latest software version was released and finish updating by 60th day **(46 to 60 days)**. 
+      
         
-      Above phase specific timelines are applicable for firmware as well as various app updates.
+      Above phase specific update timelines are applicable for firmware as well as various app updates.
       
 5. Select **Update**.
 
@@ -85,7 +86,12 @@ To see which phase a device is in, see the **Automatic updates** column in the T
 If you need to revert or remove firmware from a device that has been updated, you need to reset your device to its factory settings. Reset your device using the instructions from its manufacturer.
 
 ### Configure Maintenance window
+
+> [!WARNING] 
+> We are improving our services to enhance security, performance, and overall experience. To ensure continued functionality of your Teams Android devices, it is recommended to update them as soon as the latest versions are available. To help you with this process, Microsoft Teams certified devices will continue to be automatically updated at an accelerated pace and will not follow Maintenance window configured as below. Devices will get updated between 1AM to 4AM as per device local time. This behavior will continue until informed explicitly through dedicated communication.
+
 If you want to configure the Maintenance window for a device, do the following steps:
+
 
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 
