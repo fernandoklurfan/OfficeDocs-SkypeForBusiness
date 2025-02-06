@@ -71,9 +71,9 @@ Devices within a phase will be updated gradually over a few weeks rather than al
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.  
 3. Select one or more devices and then select **Update**.
 1. Under **Automatic updates**, select one of the following phases:
-   - **Validation** This option is best for lab or test devices on which you can carry out any validation you need to perform. Devices in this phase start updating as soon as the latest software version is released and finish updating within the first 15 days **(0 to 15 days)**.
-   - **General** This is the default option for newly onboarded devices and is best for most of your general-purpose devices. Devices in this phase start updating as soon as 16th day since latest software version was released and finish updating by 45th day **(16 to 45 days)**.
-   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Devices in this phase start updating as soon as 46th day since latest software version was released and finish updating by 60th day **(46 to 60 days)**.
+   - **Validation**: This option is best for lab or test devices on which you can carry out any validation you need to perform. Devices in this phase start updating as soon as the latest software version is released and finish updating within the first 15 days **(0 to 15 days)**.
+   - **General**: This is the default option for newly onboarded devices and is best for most of your general-purpose devices. Devices in this phase start updating as soon as 16th day since latest software version was released and finish updating by 45th day **(16 to 45 days)**.
+   - **Final**: This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Devices in this phase start updating as soon as 46th day since latest software version was released and finish updating by 60th day **(46 to 60 days)**.
    
    Above phase specific update timelines are applicable for firmware and various app updates.
 
@@ -124,7 +124,7 @@ If you want to check which software versions are currently rolling out for your 
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
 3. Refer to the widget titled **Software auto-updates** to determine the number of active update paths.
-4. On this widget, select **View details**. A dialogue box opens showing the list of active update paths with the following details:
+4. On this widget, select **View details**. A dialog box opens showing the list of active update paths with the following details:
 
    - Device model and manufacturer
    - Current version and new version
