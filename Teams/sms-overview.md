@@ -76,8 +76,7 @@ The number of SMS messages per Calling Plan license depends on the Microsoft Cal
 |Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
 |:-----|:-----|:-----|
 |PAYG (Pay-as-you-go) |Yes |0 |
-|Domestic 240 (deprecated) |No | 0 |
-|Domestic 3000 |Yes |200 |
+|Domestic |Yes |200 |
 |Domestic + International |Yes | 200 |
 |Teams Phone + Calling Plan |Yes |Phone + Domestic = 200 / Phone + PAYG = 0 |
 
