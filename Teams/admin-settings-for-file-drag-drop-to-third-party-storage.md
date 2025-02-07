@@ -81,4 +81,3 @@ For the Teams app developers to implement third-party cloud storage app for the 
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
 - For more Teams SDK information, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).
-- For more information, see [third-party storage app](/microsoftteams/platform/concepts/device-capabilities/third-party-storage-capability).
