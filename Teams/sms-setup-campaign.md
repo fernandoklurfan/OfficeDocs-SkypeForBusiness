@@ -58,7 +58,23 @@ In the campaign form, provide details of your company's plan for SMS operations,
 |Embedded phone number |Indicates whether the campaign is using an embedded phone number (except the required HELP information contact phone number). |
 |Age-gated content |Indicates whether the campaign includes any age-gated content as defined by Carrier and CTIA guidelines.|
 
-### Terms and Conditions
+### Campaign Message Action Flow
+
+Placeholder - need to understand how to instruct admins to provide their companyt's Message Action Flow (required for campaign approval) if it's not an available field in the Teams admin center.
+
+### Campaign Privacy Statement
+
+Placeholder - need to understand how to instruct admins to provide their company's A2P Privacy statement (required info for campaign approval) if it's not an available field in the Teams admin center.
+
+For an example of a template that you can use for your company's privacy statement, see the following article: [SMS Privacy policy plus terms and conditions](sms-privacy-terms-template.md)
+
+### Campaign Terms and Conditions
+
+Placeholder - need to understand how to instruct admins to provide their company's A2P terms and conditions (required info for campaign approval) if it's not an available field in the Teams admin center.
+
+For an example of a template that you can use for your company's privacy statement, see the following article: [SMS Privacy policy plus terms and conditions](sms-privacy-terms-template.md)
+
+### Microsoft Terms and Conditions
 
 When the fields are completed with accuracy, select the box to accept the terms and conditions.
 
