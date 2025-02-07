@@ -802,7 +802,7 @@ Resolved Issues:
 - Resolved an issue where touch screen controls were shown on the Front of Room display after the feature is disabled in settings. 
 -	Resolved an issue where some Logi Rally Bar systems failed to swap screens [PM3.1]after restart.
 -	Fixed an issue where some backgrounds weren't being applied when set on Teams admin center.
--	Resolved an issue where chat bubbles weren't not being displayed on some Front of room displays.
+-	Resolved an issue where chat bubbles weren't being displayed on some Front of room displays.
 -	Resolved an issue where chats weren't being refreshed on the display.
 -	Resolved an issue where content sharing in meetings would stop in a dual display setup.
 -	Resolved an issue where some meeting participants might be displayed as **Unverified** even when they shouldn't be.
@@ -814,7 +814,11 @@ Resolved Issues:
 Introduced in this update: 
 
 
-- **Dual display mode and swap screens admin controls<sup>1</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can deliberately configure Teams Rooms on Android devices to run in dual display mode. Admins can also switch the screens of dual display rooms using the swap screens setting, easily correcting front-of-room displays that were set up invertedly. Both controls are accessible from the device settings and Teams Admin Center.
+- **Dual display mode and swap screens admin controls<sup>1</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can deliberately configure Teams Rooms on Android devices to run in dual display mode. Admins can also switch the screens of dual display rooms using the swap screens setting, easily correcting front-of-room displays that were set up inverted. Both controls are accessible from the device settings and Teams Admin Center.
+
+> [!NOTE]
+> If you are deploying Teams Rooms on Android devices with dual displays, be aware that dual display mode must be explicitly enabled in the configuration profile. By default, the dual display setting is disabled, which means that using an existing configuration profile (designed for single-display devices by default) may inadvertently disable dual display mode for your existing dual display rooms. To avoid this, you must create and maintain a separate configuration profile for any devices that require dual display support. [Learn more](/microsoftteams/devices/device-management#best-practices-for-managing-configuration-profiles).
+
 - **3x3 video gallery on dual displays<sup>2</sup>** :::image type="icon" source="../media/mtr-pro-icon.png":::. Dual display rooms can now show up to 18 participant videos (3x3 on each screen) when no content is being shared during meetings.  
 - **Receive Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame enhances non-AI cameras, showing in-room participants in individual frames like remote attendees for a more natural, engaging experience. Teams Rooms on Android can now receive Cloud IntelliFrame video feeds, bringing uniformity across Windows and Android devices. [Learn more](/microsoftteams/devices/cloud-intelliframe). 
 - **Whiteboard enhancements**. When using the whiteboard outside of meetings, your content is retained even when a meeting begins. The whiteboard's contents are preserved and shared with remote participants instantly. You can also use the 'Follow me' function to guide participants as you navigate, and collaborative cursors let you see everyone working in real-time.   
