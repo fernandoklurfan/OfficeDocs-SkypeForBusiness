@@ -43,7 +43,7 @@ The following table lists country, ISO country code, and the associated emergenc
 |Australia|AU|000<br>000 DialMask=112<br>106<br>132500|
 |Austria|AT|112<br>122<br>128<br>133<br>140<br>141<br>142<br>144<br>147|
 |Azerbaijan |AZ |112<br>101<br>102<br>103<br>104<br>199 |
-|Bahamas |BS |911<br>999 |
+|Bahamas |BS |911<br>919 |
 |Bahrain  |BH |112<br>199<br>990<br>992<br>994<br>999 |
 |Bangladesh |BD |999<br>16163 |
 |Barbados |BB |211<br>311<br>511<br>911 |
