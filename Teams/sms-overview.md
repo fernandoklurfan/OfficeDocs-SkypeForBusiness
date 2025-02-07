@@ -60,9 +60,22 @@ Through an approved Brand and Campaign, Teams administrators can then SMS-enable
 > [!NOTE]
 > The Brand and Campaign approval requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it isn't for marketing purposes**.
 
-When you apply for Brand approval, legally identifiable information about the company must be submitted, including things such as the  Business ID, Legal address, Stock Symbol, and website. More details can be found in [Step 1: Create a brand](sms-setup-brand.md)
+When you apply for Brand approval, legally identifiable information about your company must be submitted, including things such as the following:
 
-When you apply for Campaign approval, resources about the campaign operation must be submitted, including use case, message flow actions, brand privacy statement, and terms and conditions.
+- Business ID
+- Legal address
+- Stock Symbol
+- Website
+
+More details can be found in [Step 1: Create a brand](sms-setup-brand.md)
+
+When you apply for Campaign approval, resources about your company's campaign operation must be submitted, including things such as the following:
+
+- SMS Use cases
+- Message flow actions (describing opt-in and opt-out words)
+- A2P SMS privacy statement
+- A2P SMS Terms and conditions
+
 More details can be found in [Step 2: Create campaign](sms-setup-campaign.md)
 
 ## Licensing
