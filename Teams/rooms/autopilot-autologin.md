@@ -64,7 +64,7 @@ To register your Teams Rooms consoles for your organization, you can use Windows
 devices](/autopilot/tutorial/self-deploying/self-deploying-register-device).
 
 > [!IMPORTANT]
-> For Teams Rooms on Windows consoles, it is required that the GroupTag has the prefix **MTR-ConsoleName**. You can easily do this by adding the GroupTag to the .csv file described [here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or entering the prefix and console name in the **Group name** field by adding it using the Microsoft Partner Center.
+> For Teams Rooms on Windows consoles, it is required that the GroupTag has the prefix **MTR-**. You can easily do this by adding the GroupTag to the .csv file described [here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or entering the prefix and console name in the **Group name** field by adding it using the Microsoft Partner Center.
 
 This GroupTag field is critical for the Teams Pro Management portal so it can tell the difference between the Teams Rooms consoles and other devices that are registered with Windows Autopilot. The GroupTag field is also useful when you're using dynamic device groups.
 
