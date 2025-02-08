@@ -316,8 +316,8 @@ This policy is now expanded with an additional argument as the only configuratio
 |Organizational custom backgrounds |Yes (Teams Premium license required)                            |No                            |
 |User-uploaded background effect   |Coming soon                                                     |No                            |
 |Zoom +/-                          |Yes                                                             |No                            |
-|Media bypass, Location-based routing, Operator connect |Yes                                        |No                            |
-|Call quality dashboard and Teams admin center          |Yes                                        |Limited                       |
+|Media bypass, Location-based routing, Operator connect <sup>1</sup> |Yes                           |No                            |
+|Call quality dashboard and Teams admin center|Yes                                                  |Limited                       |
 |Published app/Remote app          |No                                                              |Yes                           |
 |Give/Take control                 |Yes                                                             |Yes                           |
 |App sharing                       |Yes                                                             |Yes                           |
@@ -327,6 +327,8 @@ This policy is now expanded with an additional argument as the only configuratio
 |Secondary ringer                  |Yes                                                             |Yes                           |
 |Background blurring               |Yes                                                             |Yes                           |
 |Annotations                       |Only as presenter                                               |No                            |
+
+<sup>1</sup> Operator Connect in India with mobile numbers requires latitude and longitude access from the endpoint's OS and local internet breakout. Operator connect with wireline numbers can use IP or subnet to map to a location. For more details, check [Wireline and Wireless number types in India](operator-connect-india-plan.md#wireline-and-wireless-number-types-in-india).
 
 ## SlimCore user profile on the endpoint
 
