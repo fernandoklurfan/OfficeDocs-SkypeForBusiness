@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 11/14/2024
+ms.date: 02/10/2025
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
