@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 11/12/2024
+ms.date: 02/10/2025
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -17,7 +17,7 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage Teams apps that work across Outlook and Microsoft 365.
+description: Learn how to manage Teams apps that work across Outlook and Microsoft 365 and the unified app management experience.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
