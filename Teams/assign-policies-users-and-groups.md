@@ -4,23 +4,23 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: tomkau, ritikag, jastark
-ms.date: 06/25/2024
+ms.date: 02/09/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
+- has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 
-  - ms.teamsadmincenter.bulkoperations.users.edit
-  - ms.teamsadmincenter.bulkoperations.edit
+- ms.teamsadmincenter.bulkoperations.users.edit
+- ms.teamsadmincenter.bulkoperations.edit
 ---
 
 # Assign policies to users and groups
