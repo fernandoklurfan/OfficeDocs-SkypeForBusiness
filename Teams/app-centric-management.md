@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 11/14/2024
+ms.date: 02/10/2025
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -131,17 +131,19 @@ To make any app or Copilot agent available to your organization in Teams admin c
 
 1. Search for the required app and select the app name to open its app details page.
 
-1. Select the **Assignments** tab.
+1. Select the **Users and groups** tab.
 
-1. Select **Assign** or **Assign app**.
+1. Under **Select to manage who this app is installed for or available to in your organization**, select **Availability**.
 
-1. Select the required option from **Manage who can install this app** menu. When assigning users or groups, search for the user or the group from the **Search for users or groups** menu. Select **Apply**.
+1. Select **Edit availability**.
 
-    :::image type="content" source="media/acm-add-modify-access.png" alt-text="Screenshot showing how to define the app availability from the app details page." lightbox="media/acm-add-modify-access.png":::
+1. Select the required option from **Available to** menu. When assigning users or groups, search for the user or the group from the **Search for users or groups** menu. Select **Apply**.
+
+    :::image type="content" source="media/acm-add-modify-access.png" alt-text="Screenshot shows how to define the app availability from the app details page." lightbox="media/acm-add-modify-access.png":::
 
 1. To remove one or more users or groups from an app, select the rows and select **Remove**.
 
-    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove the existing availability of an app from the app details page." lightbox="media/acm-remove-access-large.png":::
+    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot shows how to remove the existing availability of an app from the app details page." lightbox="media/acm-remove-access.png":::
 
 ## Default settings for app availability
 
