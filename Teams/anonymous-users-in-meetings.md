@@ -105,7 +105,7 @@ If you turn off the **Anonymous users can join a meeting unverified** setting an
 To manage whether unverified anonymous attendees can verify themselves with a one-time passcode to join meetings, follow these steps:
 
 1. Go to the Teams admin center.
-1. Expand **Meetings** > **Meeting settings**.
+1. Expand **Meetings** > **Meeting policies**.
 1. Under **Meeting Join and Lobby**, in the drop-down for **Anonymous users can join a meeting after verifying**, select **By email code** or **No**.
 1. Select **Save**.
 
