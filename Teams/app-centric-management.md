@@ -29,7 +29,7 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > All organizations don't have app centric management feature available. If you were not using custom permission policies and you weren't an enterprise customer, we automatically migrated your organization to use this feature. You see the following message on the permission policy page:
 >
-> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
+> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organizations that are using app centric management.":::
 >
 > If you're using custom permission policies or you're an enterprise customer, then you must manually migrate to the app centric management feature. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
 >

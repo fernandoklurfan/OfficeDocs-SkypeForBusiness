@@ -31,7 +31,7 @@ ms.custom:
 > [!IMPORTANT]
 > If your organization is moved to app centric management feature to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md). Permission policies will no longer apply and you may see this message on the policy page. If policies are available, you can continue to use those. We will soon let you migrate to app centric management on your own.
 > 
-> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
+> :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organizations that are using app centric management.":::
 
 As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](apps-in-teams.md). To understand policies, see [app permission policies](app-policies.md). You must be a Teams Administrator or have a higher role to manage these policies.
 
@@ -42,7 +42,7 @@ To let your org users use a Teams app or a copilot agent, you must allow it in:
 * App permission policy.
 * Teams admin center and Microsoft 365 admin center.
 
-The first two settings just allow an app for use in your organization, the permission policies lets you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users. To make any apps or Copilot agents available in your organization, ensure the following:
+The first two settings just allow an app for use in your organization, the permission policies lets you control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users. To make any apps or Copilot agents available in your organization, ensure the following:
 
 * If your organization isn't migrated to unified app management, allow apps and agents in Teams admin center and under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 * If your organization is migrated to unified app management, allow apps and agents in Teams admin center or under the **Integrated apps** page in [Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
