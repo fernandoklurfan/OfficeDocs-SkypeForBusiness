@@ -374,7 +374,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
     ![Manage users page in the Teams admin center.](media/manage-users-unassign-policies.png)
    
-       > [!NOTE]
+    > [!NOTE]
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
 
 1. Select a policy type.
