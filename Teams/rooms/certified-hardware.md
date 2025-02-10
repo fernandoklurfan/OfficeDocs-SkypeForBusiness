@@ -282,7 +282,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Shure MXW neXt 2](https://www.shure.com/products/wireless-systems/microflex-wireless-next-2): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPXD2 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 1.1.0.236 <br/>MXWAPXD2: 1.1.0.236 <br/>MXN5W-C: 1.5.21.0 |  |  |||
 | [Shure MXW neXt 4](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX4 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX4: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
 | [Shure MXW neXt 8](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX8 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX8: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
-| [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
+| Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock) | 1.0.6 |  |  |  | &#x2714; |
 | Sennheiser TC Bar M | 1.1.7 |  |  |||
 | Sennheiser TC Bar S | 1.1.7 |  |  |||
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;<br/>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;<br/>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 <br/> TCC2: 1.3.3 <br/>EX-UBT: 3.12.0.15 |  |  |||
