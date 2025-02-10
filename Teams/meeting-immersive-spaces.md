@@ -1,7 +1,7 @@
 ---
 title: Manage the Mesh app in Microsoft Teams
-ms.author: tmilligan
-author: typride
+ms.author: sekerawa
+author: Sean-Kerawala
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
