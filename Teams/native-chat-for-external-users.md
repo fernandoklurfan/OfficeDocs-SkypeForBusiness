@@ -3,16 +3,16 @@ title: Microsoft Teams chat experience when communicating with people outside th
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.custom: chat-teams-channels-revamp
 ms.collection: 
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-externalcollab
-ms.reviewer: vinbel
-ms.date: 10/24/2019
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-externalcollab
+ms.reviewer: manish.jaisinghani
+ms.date: 02/09/2025
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
