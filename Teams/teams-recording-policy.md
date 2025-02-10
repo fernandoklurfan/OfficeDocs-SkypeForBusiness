@@ -71,7 +71,7 @@ Meeting recordings don't capture:
 - Multi-screen share
 - Town Hall or Live Event attendee video streams
 
-Calls in Teams are unscheduled, peer-to-peer Teams client sessions (encompassing internal and external Teams users). In convenience and compliance recording, policy scope for calls includes Teams PSTN calls, if the user has one of the following licenses: Microsoft 365 E5, Office 365 E5, or Microsoft/Office 365 E3 with Teams Phone Add-on license.
+Calls in Teams are unscheduled, peer-to-peer Teams client sessions (encompassing internal and external Teams users). In convenience recording, policy scope for calls includes Teams PSTN calls, if the user has one of the following licenses: Microsoft 365 E5, Office 365 E5, or Microsoft/Office 365 E3 with Teams Phone Add-on license.
 
 > [!TIP]
 > To learn and share more about recording options that you may allow your users to control, refer to [Record a meeting in Microsoft Teams](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).  
