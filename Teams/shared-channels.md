@@ -221,6 +221,7 @@ The following apps are supported for use in shared channels.
 - Monday.com
 - MURAL
 - Nearpod
+- OneNote
 - PDF
 - Pear Deck
 - PowerPoint
