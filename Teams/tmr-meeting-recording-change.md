@@ -75,7 +75,11 @@ For details on shared mailboxes, see [About shared mailboxes - Microsoft 365 a
 
 ### Video on Demand (VOD)
 
-When organizers record webinars and town halls, the recordings are stored in OneDrive. Once an organizer uses VOD to publish event recordings, the recordings are stored in Sharepoint Embedded File Storage Containers. Only your organizers can manage the event recordings through the past town hall in their calendar. As an admin, you can delete event recordings in the Teams admin center.
+When organizers record webinars and town halls, the recordings are stored in OneDrive. Once an organizer uses VOD to publish event recordings, the recordings are stored in Sharepoint Embedded File Storage Containers. Only the event organizers can manage the recordings of past town halls in their calendar.
+
+STILL EDITING:
+To learn how to locate a recording in Sharepoint Embedded, see [](/sharepoint/dev/embedded/concepts/content-experiences/search-content).
+As an admin, although you can find the event recording in the Sharepoint Embedded Container, you can only delete the recording in the Teams admin center.
 
 To learn more about Sharepoint Embedded File Storage Containers, see [Overview of SharePoint Embedded](/sharepoint/dev/embedded/overview).
 
@@ -87,6 +91,8 @@ To learn more about Sharepoint Embedded File Storage Containers, see [Overview o
 4. On the **View reports** tab, under Report, either select **Town hall usage reports** or **Webinar usage reports**.
 5. In the table, find the event that you want to delete the recording for and select the row.
 6. Select **Delete event data**.
+
+To learn more about VOD, see [Manage VOD publishing for webinars and town halls](manage-vod-publishing.md).
 
 ### Microsoft Teams Rooms meetings
 
