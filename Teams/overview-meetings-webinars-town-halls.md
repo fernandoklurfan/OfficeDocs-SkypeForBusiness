@@ -96,7 +96,7 @@ The following table lists meetings training available to the end users in your o
 
 Webinars are structured events where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
 
-Teams Premium offers additional meetings functionality through the Teams Premium subscription. For a list of Teams Premium features for webinars, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
+Teams Premium offers additional meetings functionality through the Teams Premium subscription. For a list of Teams Premium features for webinars, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
 
 For detailed information on how to plan for Teams webinars in your organization, see [Plan for Teams webinars](plan-webinars.md).
 
@@ -113,7 +113,7 @@ The following table lists webinars training available to the end users in your o
 
 Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event formats, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
 
-For a list of Teams Premium features for town halls, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
+For a list of Teams Premium features for town halls, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md#webinars) and [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars).
 
 To understand key differences between live events and town halls, see [Plan for town halls](plan-town-halls.md#live-events-and-premium-town-halls).
 
