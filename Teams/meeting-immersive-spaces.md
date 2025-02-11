@@ -60,7 +60,7 @@ Please refer to the [limitations and specifications for Immersive spaces (3D)](/
 
 ## License requirements
 
-Immersive spaces in Teams is available with the following licenses:
+Immersive spaces in Teams are available with the following licenses:
 
 Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
@@ -72,7 +72,7 @@ Configure your enterprise firewall settings to align with the standard set of Mi
 
 As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
-Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
+Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screen share.
 
 Without access to these, Mesh won't work properly for users in your organization.
 
