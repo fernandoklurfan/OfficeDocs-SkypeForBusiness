@@ -29,7 +29,7 @@ appliesto:
 
 # Security and compliance in Microsoft Teams
 
-Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in Microsoft 365 or Office 365, [the security roadmap](/microsoft-365/security/office-365-security/security-roadmap) is a good place to start. For more information on planning for compliance in Microsoft 365 or Office 365, you can start with [Plan for security & compliance](/microsoft-365/compliance/plan-for-security-and-compliance).
+Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in Microsoft 365 or Office 365, [the security roadmap](/microsoft-365/security/office-365-security/security-roadmap) is a good place to start. For more information on planning for compliance in Microsoft 365 or Office 365, you can start with [Plan for security & compliance](/purview/purview-compliance).
 
 This article will provide further information about Teams-specific security and compliance. Don't miss these Microsoft Mechanics videos about security and compliance:
 
@@ -101,7 +101,7 @@ We've provided information on these areas in this document, and you can use [Mic
 
 ### Auditing
 
-Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](/microsoft-365/compliance/audit-teams-audit-log-events).
+Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug right into the Microsoft Purview compliance portal and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft Purview compliance portal, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft Purview compliance portal, see [Search the audit log for events in Microsoft Teams](/purview/audit-teams-audit-log-events).
 
 ### Communication compliance
 
