@@ -796,11 +796,11 @@ Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are onl
 
 Resolved Issues:
 
-- Fixed an issue where pairing loss affected functionality of certain Teams Rooms on Android systems
--	Resolved an issue where the meeting UI was misaligned after pressing the back button.
+- Fixed an issue where pairing loss affected functionality of certain Teams Rooms on Android systems.
+-	Resolved an issue where the meeting UI (user interface) was misaligned after pressing the back button.
 -	Fixed a bug that prevented Teams Rooms Android device from joining a meeting when invited from QR code or Bluetooth proximity.
--	UI fixes and improvements for dual screen setups
--	Resolved an issue where users were not able to file feedback using “report a problem” 
+-	UI fixes and improvements for dual screen setups.
+-	Resolved an issue where users weren't able to file feedback using “Report a problem”. 
 
 
 ### 1449/1.0.96.2025010301 (January 2025)
