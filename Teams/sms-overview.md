@@ -133,7 +133,9 @@ Costs incurred for usage can be monitored depending on the type of billing accou
 
 For funding and analyzing costs related to prepaid or postpaid models, see the article [Microsoft Calling Plan overview](calling-plan-overview.md) and [Communication Credits](what-are-communications-credits.md).
 
-For per-message pricing related to SMS usage, see [SMS Pricing link](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone). (To be updated with new pricing link)
+For per-message pricing related to SMS usage, see [SMS Pricing link](https://go.microsoft.com/fwlink/?linkid=2303326).
+
+
 
 ## Considerations
 
