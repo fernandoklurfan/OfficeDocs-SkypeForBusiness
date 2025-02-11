@@ -205,6 +205,12 @@ To add a mobile system OS scanner:
 
 
 
+### February 11, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025020301 (Poly, Yealink, AudioCodes)*
+
+Bug fixes including improvements in font rendering on side cars among others   
+
 ### January 8, 2025
 
 **Applies to:** *Teams app version: 1449/1.0.94.2024122303 (Poly, Yealink, AudioCodes)*
