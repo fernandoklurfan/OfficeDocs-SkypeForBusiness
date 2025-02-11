@@ -17,6 +17,7 @@ ms.collection:
   - Tier1
 f1.keywords: 
   - NOCSH
+ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: This article provides guidance on how to enable push notifications in your Xiaomi Android phones.
 ---
