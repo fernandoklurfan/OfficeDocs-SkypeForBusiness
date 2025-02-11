@@ -53,6 +53,8 @@ The following table compares convenience and compliance recording.
 | Retention policy      | [Meeting storage and permissions](tmr-meeting-recording-change.md) | Configurable with partner solution |
 | Recording policy                | Configurable with Teams Admin Center (Meeting policy + Calling policy) | Configurable with user policy        |
 
+#### Considerations
+
 - Guests can't initiate convenience recordings.
 
 - Users in trusted organizations can’t initiate convenience recordings when they join meetings in your organization.  
