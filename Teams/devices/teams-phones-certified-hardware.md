@@ -131,6 +131,8 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Yealink </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
+|MP54/MP56/MP58| `122.15.0.166`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| February 10, 2025|
+|CP965| `143.15.0.74`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| February 10, 2025|
 |MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.31`| `N/A` | Teams client: `1449/1.0.94.2024101709` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202407050618.product`| December 20, 2024|
 |MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.25`| `N/A` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202402202353.product`| October 23, 2024|
 |MP54/MP56/MP58| `122.15.0.160`| `122.15.0.142` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
