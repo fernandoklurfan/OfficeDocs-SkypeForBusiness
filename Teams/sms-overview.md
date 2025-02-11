@@ -30,7 +30,7 @@ This article is for IT administrators and IT professionals planning to enable Sh
 
 ## Overview
 
-Microsoft Teams supports sending and receiving Simple Messaging Service (SMS) text messages within Teams Chat, for users in US, Puerto Rico, and Canada.
+Microsoft Teams supports sending and receiving Short Message Service (SMS) text messages within Teams Chat, for users in US, Puerto Rico, and Canada.
 
 All SMS messaging to and from Teams is considered:
 
@@ -89,9 +89,10 @@ The number of SMS messages per Calling Plan license depends on the Microsoft Cal
 |Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
 |:-----|:-----|:-----|
 |PAYG (Pay-as-you-go) |Yes |0 |
+|Domestic 120 |Yes |100 |
 |Domestic |Yes |200 |
 |Domestic + International |Yes | 200 |
-|Teams Phone + Calling Plan |Yes |Phone + Domestic = 200 / Phone + PAYG = 0 |
+|Teams Phone + Calling Plan Bundle |Yes |Phone + Domestic = 200 (if purchased as Calling Plan bundle) / Phone + PAYG = 0 (if purchased as PAYG bundle) |
 
 Calling minutes and SMS messages allocated per licensed user are pooled at the tenant level. Overage charges don't apply until the resources pooled across all users’ plans in the tenant are consumed within the billing period.
 
@@ -112,11 +113,13 @@ Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadma
 
 For domestic Calling Plan licenses, similar to Calling Plan minutes, allotted SMS messages are pooled for all SMS-enabled-users in the tenant, and there's support for overages.
 
-For pay-as-you-go Calling Plan licenses, SMS messages are unlimited and each message accrues usage.
+For pay-as-you-go Calling Plan licenses, SMS messages are billed per use.
 
 SMS usage in all Calling Plans includes sent and received messages.
 
-Once a number is SMS-enabled and assigned to a user, there's no restricting or limiting the user’s quantity of messages sent or received.
+All users within the same tenant in the US, PR, and CA with the same Calling Plan share a common pool of SMS messages. For example, if 100 users in the United States and Canada or Puerto Rico have a Domestic Calling Plan, each is allocated 200 SMS, creating a shared pool of 20,000 SMS. Any inbound or outbound messages exceeding this pool are billed per-message. Pooling applies only to identical Calling Plans.
+
+Once a number is SMS-enabled and assigned to a user, the user can begin sending and receiving messages. There is no policy governance to limit the number of messages sent to or received by the user.
 
 Detailed SMS usage on a per-message basis can be analyzed in the Teams Admin Center, under Analytics & reports.
 
