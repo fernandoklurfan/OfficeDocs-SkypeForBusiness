@@ -95,13 +95,14 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
-| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52, Poly G7500 and Poly Studio G62| 11 |
+| Poly Studio X32 | `PolyOS 4.2.6-414029`| September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
+| Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
+| Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X32, Poly Studio X52, Poly Studio X72, Poly G7500 and Poly Studio G62| 11 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
