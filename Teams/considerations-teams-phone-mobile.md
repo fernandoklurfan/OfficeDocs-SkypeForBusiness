@@ -55,7 +55,7 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 Your Teams Phone Mobile operator manages all emergency calls made through your SIM-enabled Smartphone’s cellular dialer **and** from your Teams app. The mobile operator may use multiple technologies to approximate emergency location for assistance, like geographic coordinates or which cell towers are handling the call.
 
-**Your Teams Phone Mobile operator is responsible for ensuring all emergency calls connect to the correct emergency services based on your location regardless of whether the call is made from your device's native cellular dialer or made from the Teams app.** Please contact your operator for more details.
+**Your Teams Phone Mobile operator is responsible for ensuring all emergency calls connect to the correct emergency services based on your location, regardless of whether the call is made from your device's native cellular dialer or made from the Teams app.** Contact your operator for more details.
 
 When a Teams Phone Mobile user dials an emergency number using any Microsoft Teams client other than the Teams app on your SIM-enabled Smartphone, how the call is routed to the PSAP depends on the following:
 
