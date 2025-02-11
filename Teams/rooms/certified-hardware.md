@@ -100,7 +100,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Lenovo ThinkSmart One + Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-one-plus-controller-for-teams/len102e0006) | Core i5 | 16 GB | 256 GB |
 | [Lenovo ThinkSmart Core + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-core-plus-ip-controller-for-microsoft-teams-rooms/len102e0015) | Core i5 | 16 GB | 256 GB |
 | [Lenovo ThinkSmart One + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-one-plus-ip-controller-for-teams/12bw0002us) | Core i5 | 16 GB | 256 GB |
-|[Lenovo Telluride/ThinkSmart Tiny Kit](https://psref.lenovo.com/Product/ThinkSmart/ThinkSmart_Tiny_Kit)| Core i3|16 GB|256 GB|
+|[Lenovo ThinkSmart Tiny Kit](https://psref.lenovo.com/Product/ThinkSmart/ThinkSmart_Tiny_Kit)| Core i3|16 GB|256 GB|
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
@@ -261,6 +261,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [EPOS EXPAND VISION 1M camera](https://www.eposaudio.com/en/us/enterprise/products/expand-vision-1m-usb-meeting-room-video-camera-1001197) | 9.24.0 |  |  |||
 | [Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |  |  |||
 | [Extron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08 |  |  |||
+| [Extron DMP 128 Series DSP](https://www.extron.com/product/dmp128plus) (DMP 128 Plus, C V AT, C AT, C V, C, AT, FlexPlus C AT, FlexPlus C V AT) + <br/>[Extron XPA U 1004 SB amplifier](https://www.extron.com/product/xpau1004sb) + <br/>[Extron SF 26CT LP speakers](https://www.extron.com/product/sf26ctlp) + <br/>[Extron IPCP Pro 255Q xi control processor](https://www.extron.com/product/ipcppro255qxi) + <br/>[Sennheiser TCCM microphones](https://sennheiser.com/tccm) | Extron DMP 128 Plus C V AT: 1.11 <br/>Extron DMP 128 FlexPlus C AT: 1.11 <br/>Extron DMP 128 FlexPlus C V AT: 1.11 <br/>Extron XPA U 1004 SB: N/A <br/>Extron SF 26CT LP: N/A <br/>Sennheiser TCCM: 1.5.4 |  |  |||
+| [Extron DMP 64 Series DSP](https://www.extron.com/product/dmp64plus) (DMP 64 Plus C V AT, C AT, C V, C) + <br/>[Extron XPA U 1002-70V amplifier](https://www.extron.com/product/xpau1002) + <br/>[Extron SF 3CT LP speakers](https://www.extron.com/product/sf3ctlp) + <br/>[Extron IPCP Pro 250 xi control processor](https://www.extron.com/product/ipcppro250xi) + <br/>[Sennheiser TCCM microphone](https://sennheiser.com/tccm) | Extron DMP 64 Plus C V AT: 1.11 <br/>Extron XPA U 1002-70V: N/A <br/>Extron SF 3CT LP: N/A <br/>Sennheiser TCCM: 1.5.4 |  |  |||
 | [:::no-loc text="Jabra"::: 510](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510##7510-209) | 2.10.0 |  |  |||
 | [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |||
 | [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |||
@@ -280,7 +282,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Shure MXW neXt 2](https://www.shure.com/products/wireless-systems/microflex-wireless-next-2): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPXD2 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 1.1.0.236 <br/>MXWAPXD2: 1.1.0.236 <br/>MXN5W-C: 1.5.21.0 |  |  |||
 | [Shure MXW neXt 4](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX4 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX4: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
 | [Shure MXW neXt 8](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX8 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX8: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
-| [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
+| Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock) | 1.0.6 |  |  |  | &#x2714; |
 | Sennheiser TC Bar M | 1.1.7 |  |  |||
 | Sennheiser TC Bar S | 1.1.7 |  |  |||
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;<br/>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;<br/>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 <br/> TCC2: 1.3.3 <br/>EX-UBT: 3.12.0.15 |  |  |||
