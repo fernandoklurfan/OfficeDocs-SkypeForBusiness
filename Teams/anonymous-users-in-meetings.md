@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: jaydenlee
-ms.date: 02/10/2025
+ms.date: 02/11/2025
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -34,8 +34,8 @@ In meetings, webinars, and town halls hosted by your organization, anonymous use
 
 As an admin, you have the following options to manage anonymous meeting join for your organization:
 
-- The organization-wide Anonymous users can join a meeting unverified setting.
-- The per-organizer Anonymous users can join a meeting unverified policy setting.
+- The organization-wide **Anonymous users can join a meeting** setting.
+- The per-organizer **Anonymous users can join a meeting unverified** policy setting.
 - **(Public preview) Teams Premium**: The per-organizer **Anonymous users can join a meeting after verifying meeting** policy setting that allows anonymous users to join meetings after verifying through a one-time passcode. Only organizers with a Teams Premium license can use this feature.
 
 Your organizers have the following settings in their **Meeting options** to manage anonymous meeting join for their meetings:
@@ -45,13 +45,13 @@ Your organizers have the following settings in their **Meeting options** to mana
 When anonymous users join a meeting unverified, **Unverified** appears next to their name. If anonymous users join a meeting verified through a one-time passcode, **Email Verified** appears next to their name. When a user signs in to their Microsoft account, **External** appears next to their name.
 
 > [!IMPORTANT]
-> The **Anonymous users can join a meeting unverified** organization-wide setting is going away. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting** per-organizer meeting policy to manage anonymous meeting join instead.
+> The **Anonymous users can join a meeting** organization-wide setting is going away. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting unverified** per-organizer meeting policy to manage anonymous meeting join instead.
 
 When anonymous meeting join is turned on, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
-## Anonymous users can join a meeting unverified
+## Anonymous users can join a meeting
 
-You can control whether anonymous users can join meetings unverified for your entire organization or for specific organizers and groups.
+You can control whether anonymous users can join meetings for your entire organization or for specific organizers and groups.
 
 ### Organization-wide
 
@@ -61,7 +61,7 @@ To manage anonymous meeting join for your entire organization, follow these step
 
 1. Go to the Teams admin center.
 2. Expand **Meetings** > **Meeting settings**.
-3. Under **Meeting Join and Lobby**, toggle the **Anonymous users can join a meeting unverified** setting **On** or **Off**.
+3. Under **Meeting Join and Lobby**, toggle the **Anonymous users can join a meeting** setting **On** or **Off**.
 4. Select **Save**.
 
 ### Per-organizer
@@ -73,7 +73,7 @@ To manage anonymous meeting join for specific meeting organizers, follow these s
 1. Go to the Teams admin center.
 2. Expand **Meetings** > **Meeting policies**.
 3. Select an existing policy or create a new one.
-4. Under **Meeting Join and Lobby**, toggle the **Anonymous users can join a meeting unverified** setting **On** or **Off**.
+4. Under **Meeting Join and Lobby**, toggle the **Anonymous users can join a meeting unverified** setting **Off**.
 5. Select **Save**.
 
 Changes to meeting policies might take up to 24 hours to take effect.
@@ -83,7 +83,7 @@ Changes to meeting policies might take up to 24 hours to take effect.
 > [!NOTE]
 > This feature is currently in Public Preview.
 
-When you turn on the organization-wide or per-organizer **Anonymous users can join a meeting unverified** setting, your organizers see the **Require unverified participants to verify their info before joining** setting in their **Meeting options**. This setting is off by default, allowing unverified participants to join meetings. However, organizers can choose to turn on this setting for specific meetings to restrict access. If you turn off the organization-wide or per-organizer **Anonymous users can join a meeting unverified** policy setting, organizers can't configure this meeting option.
+When you turn on the organization-wide **Anonymous users can join a meeting** or per-organizer **Anonymous users can join a meeting unverified** setting, your organizers see the **Require unverified participants to verify their info before joining** setting in their **Meeting options**. This setting is off by default, allowing unverified participants to join meetings. However, organizers can choose to turn on this setting for specific meetings to restrict access. If you turn off the organization-wide **Anonymous users can join a meeting** or per-organizer **Anonymous users can join a meeting unverified** policy setting, organizers can't configure this meeting option.
 
 ## Anonymous users can join a meeting after verifying with an email code (Public Preview for Teams Premium)
 
@@ -96,7 +96,7 @@ You can require anonymous users to verify their identities to join meetings in y
 
 When you set **Anonymous users can join a meeting after verifying** to **By email code** and the meeting organizer toggles the **Require unverified participants to verify their info before joining** setting to **On** in their **Meeting options**, unverified anonymous users are prompted to enter up a one-time passcode that gets sent to their email to join the meeting.
 
-If you turn off the **Anonymous users can join a meeting unverified** setting and **Anonymous users can join a meeting after verifying** is set to **No**, anonymous users can't join meetings in your organization.
+If you turn off the organization-wide **Anonymous users can join a meeting** setting and **Anonymous users can join a meeting after verifying** is set to **No**, anonymous users can't join meetings in your organization.
 
 :::image type="content" source="media/prejoin-email-small.png" alt-text="Screenshot of an anonymous user entering their email on the prejoin screen to verify their identity to join a meeting" lightbox="media/prejoin-email-large.png":::
 
