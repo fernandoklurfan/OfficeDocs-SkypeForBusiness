@@ -105,16 +105,16 @@ Microsoft Purview Audit (Standard), Audit (Premium), and audit log search plug r
 
 ### Communication compliance
 
-Microsoft Purview Communication Compliance allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
+Microsoft Purview Communication Compliance allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Learn about communication compliance](/purview/communication-compliance).
 
 ### Content search
 
-Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Refer to [Content Search](/microsoft-365/compliance/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft Purview compliance portal.
+Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Refer to [Content Search](/purview/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft Purview compliance portal.
 
 > [!TIP]
 > Using content search, you can filter down to Microsoft Teams only content, such as Chat and Channel Messages, Meetings, and Calls, if necessary.
 
-If you'd like further Teams-specific information on configuring content search, see [Content search in Microsoft Teams](/microsoft-365/compliance/ediscovery-teams-content-search).
+If you'd like further Teams-specific information on configuring content search, see [Content search in Microsoft Teams](/purview/ediscovery-teams-content-search).
 
 ### Customer Key
 
@@ -129,7 +129,7 @@ Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams chat suggestions
 - Teams status messages
 
-For more information, see [Overview of Customer Key at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). 
+For more information, see [Overview of Customer Key at the tenant level](/purview/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). 
 
 For information about the Microsoft Purview Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Purview Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
 
@@ -164,7 +164,7 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-See [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/microsoft-365/compliance/ediscovery-teams-legal-hold) for you to learn more.
+See [Overview of retention policies](/purview/retention) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](purview/ediscovery-teams-legal-hold) for you to learn more.
 
 ### Retention policies
 
@@ -179,8 +179,8 @@ Apply [sensitivity labels](/purview/sensitivity-labels) to protect and regulate 
 At Microsoft, protecting your data is our highest priority. To learn about our privacy practices, see:  
 
 - [Privacy at Microsoft](https://www.microsoft.com/trust-center/privacy)
-- [Our commitment to privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
-- [For IT professionals: Privacy and security in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
+- [Our commitment to privacy and security in Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [For IT professionals: Privacy and security in Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## Information Protection Architecture
 
