@@ -74,5 +74,5 @@ Set-CsTeamsMultiTenantOrganizationConfiguration -Identity Global -CopilotFromHom
 
 ## Related articles
 
-- [B2B direct connect Microsoft Entra overview](/entra/external-id/b2b-direct-connect-overview).
-- [Multitenant organization capabilities in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/overview).
+- [B2B direct connect Microsoft Entra overview](/entra/external-id/b2b-direct-connect-overview)
+- [Multitenant organization capabilities in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/overview)
