@@ -30,8 +30,8 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 ## Prerequisites
 
-1. Review the information in [Planning number ports](port-order-overview.md)
-1. Gather related documentation pertaining to porting numbers for your country or region
+1. Review the information in [Planning number ports](port-order-overview.md).
+1. Gather related documentation pertaining to porting numbers for your country or region.
     1. Use the drop-down to select the country/region where you're getting numbers. Find information about availability and the downloadable PDF LOA forms required for porting numbers. Other documentation might be necessary.
 
        > [!div class="op_single_selector"]
