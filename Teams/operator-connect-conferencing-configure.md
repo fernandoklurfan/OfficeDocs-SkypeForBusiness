@@ -133,7 +133,7 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity <identity of the organize
 
 When you create an Audio Conferencing Routing policy and apply it to a user, the operator that provides the phone number specified in the ``BridgeSourcePhoneNumber`` parameter routes Teams outbound calls to PSTN phone numbers. Additionally, the ``BridgeSourcePhoneNumber`` parameter specifies the phone number to use as the calling line identification phone number of outbound calls to PSTN phone numbers.
 
-The pattern specified in the ``NumberPattern`` is of regex form, and it specifies which calls to route through your operator. The ``"\d+"`` pattern in the example matches all outbound calls from Teams meetings. You can also set the NumberPattern parameter as  ``"^\+1(425|206)(\d{7})$"``, which matches dialed numbers with the following formats: +1 425 XXX XX XX or +1 206 XXX XX XX, or ``"^\+1(\d{10})$"``, which matches dialed numbers with the following format: +1 425 XXX XX XX.
+The pattern specified in the ``NumberPattern`` is of regex form, and it specifies which calls to route through your operator. The ``"\d+"`` pattern in the example matches all outbound calls from Teams meetings. You can also set the NumberPattern parameter as  ``"^\+1(425|206)(\d{7})$"``, which matches dialed numbers with the following formats: +1 425 XXX XX XX or +1 206 XXX XX XX, or ``"^\+1(\d{10})$"``, which matches dialed numbers with the following format: +1 XXX XXX XX XX.
 
 Once you assign an Audio Conferencing Routing policy to a user, all calls from their meetings to a phone number that matches the regex specified in their Audio Conferencing Routing policy routes through your operator, including **Call me at** calls and calls initiated through the **Invite someone or dial a number** meeting option.
 
@@ -150,7 +150,7 @@ From the **My operators** tab, you can view your operators, their status, and ma
 
 ## Release numbers from your Audio Conferencing bridge
 
-To release phone numbers from your Audio Conferencing bridge from the Teams admin center, see **Steps when you are unassigning a service phone number for a conferencing bridge** in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-youre-unassigning-a-service-phone-number-for-a-conferencing-bridge).
+To release phone numbers from your Audio Conferencing bridge from the Teams admin center, see **Steps when you are unassigning a service phone number for a conferencing bridge** in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-unassign-a-service-phone-number-for-a-conferencing-bridge).
 
 ## Additional information on managing Microsoft Audio Conferencing
 
