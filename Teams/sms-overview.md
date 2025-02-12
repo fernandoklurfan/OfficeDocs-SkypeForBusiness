@@ -135,8 +135,6 @@ For funding and analyzing costs related to prepaid or postpaid models, see the a
 
 For per-message pricing related to SMS usage, see [SMS Pricing link](https://go.microsoft.com/fwlink/?linkid=2303326).
 
-
-
 ## Considerations
 
 One brand and one campaign are allowed per tenant.
@@ -145,7 +143,7 @@ By default, a campaign supports enabling up to 49 Microsoft Calling Plan numbers
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
-Support for end users wanting to send SMS messages in Teams can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/office/first-things-to-know-about-chats-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2). (To be updated with new support link)
+Support for end users wanting to send SMS messages in Teams can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/en-us/topic/a7d163cb-3562-4f4a-b1c1-81c722c1a0f1?preview=true).
 
 ## Related topics
 
