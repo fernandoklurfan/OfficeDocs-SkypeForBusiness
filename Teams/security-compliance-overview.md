@@ -164,7 +164,7 @@ During litigation, you may need all data associated with a user (custodian) or a
 
 In either case, once the hold is set it ensures that, even if end users delete or edit channel messages that are in the group mailbox, immutable copies of that content are maintained and available through eDiscovery search. Legal holds are generally applied within the context of an eDiscovery case.
 
-See [Overview of retention policies](/purview/retention) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/purview/ediscovery-teams-legal-hold.md) for you to learn more.
+See [Overview of retention policies](/purview/retention) to understand more about preservation and holds in the Microsoft Purview compliance portal. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](/purview/ediscovery-teams-legal-hold) for you to learn more.
 
 ### Retention policies
 
