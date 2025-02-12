@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 02/11/2025
+ms.date: 07/12/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -17,7 +17,7 @@ f1.keywords:
 description: This article documents a script that administrators can run before beginning an organization's upgrade to new Teams clients, or after an upgrade fails for some or all clients. This script should help determine what may be blocking the installation of new Teams client on a device or devices.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ---
 
 # New Teams client pre-installation script
