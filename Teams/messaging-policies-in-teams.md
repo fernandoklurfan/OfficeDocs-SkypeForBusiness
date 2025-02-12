@@ -21,19 +21,17 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 - chat-teams-channels-revamp
-description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
+description: Learn about Messaging policies and how they can be used to control chat messaging in Teams.
 ---
 
 # Manage messaging policies in Teams
-
-<!--- Add zone marker here--->
 
 Messaging policies are used to control which chat and channel messaging features are available to [users (owners and members)](assign-roles-permissions.md) in Microsoft Teams. You can use the global (Org-wide default) policy that's created automatically or create and assign custom messaging policies.
 
 Users in your organization will automatically get the global policy, unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
 > [!NOTE]
-> To ensure syncing after a policy change, a reboot may be necessary for certain instances. 
+> To ensure syncing after a policy change, a reboot may be necessary for certain instances.
 
 ## Create a custom messaging policy
 
@@ -68,8 +66,6 @@ A user can only be assigned one messaging policy at a time.
 
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
-
-<!--- End zone marker here--->
 
 ## Messaging policy settings
 
@@ -115,6 +111,7 @@ Here are the messaging policy settings that you can configure.
 - **Chat permission role** - Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
 - **Users with full chat permissions can delete any message** - Use this setting to let users with full permissions delete any group or meeting chat message.
 - **Video messages** - Turn this setting on if you want users in your organization to be able to use the Teams app to send video messages to other people in chats and channels.
+- **Viva Engage experiences in Teams** - Turn this setting on if you want users in your organization to be able to integrate Viva Engage experiences, like Storyline, into their chats.
 
 > [!NOTE]
 > Some of these settings, such as using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
@@ -126,24 +123,24 @@ Teams Chat supports closed captions for video messages. Users can disable captio
 > [!NOTE]
 > Captions are auto-generated and currently available only in English.
 
-As an administrator, you can hide or show captions for users by using the PowerShell cmdlet.
+As an administrator, you can hide or show captions for users by using PowerShell cmdlets.
 
--	Use the following command to enable captions:
-     
+- Use the following command to enable captions:
+
     ```powershell
     Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $true
           
     ```
 
--	Use the following command to disable captions:
-    
+- Use the following command to disable captions:
+
     ```powershell
     Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $false
         
     ```
 
-- Use the following command to get the value for `TeamsMessagingConfiguration`:	
-    
+- Use the following command to get the value for `TeamsMessagingConfiguration`:
+
     ```powershell
     Get-CsTeamsMessagingConfiguration
         
@@ -151,8 +148,7 @@ As an administrator, you can hide or show captions for users by using the PowerS
 
 For more information about PowerShell, see [Microsoft Teams PowerShell Overview - Microsoft Teams | Microsoft Learn](teams-powershell-overview.md).
 
-
-### Related topics
+### Related articles
 
 - [Teams policies reference - Messaging policies](settings-policies-reference.md#messaging-policies)
 - [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)
