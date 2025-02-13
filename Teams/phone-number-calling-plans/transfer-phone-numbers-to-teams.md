@@ -30,46 +30,46 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 ## Prerequisites
 
-1. Review the information in [Planning number ports](port-order-overview.md)
-1. Gather related documentation pertaining to porting numbers for your country or region
+1. Review the information in [Planning number ports](port-order-overview.md).
+1. Gather related documentation pertaining to porting numbers for your country or region.
     1. Use the drop-down to select the country/region where you're getting numbers. Find information about availability and the downloadable PDF LOA forms required for porting numbers. Other documentation might be necessary.
 
-    > [!div class="op_single_selector"]
-    >
-    > - [Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia)
-    > - [Austria](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-austria)
-    > - [Belgium](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-belgium)
-    > - [Canada](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-canada)
-    > - [Czech Republic](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-czech-republic)
-    > - [Denmark](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-denmark)
-    > - [Estonia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-estonia)
-    > - [Finland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-finland)
-    > - [France](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-france)
-    > - [Germany](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany)
-    > - [Hong Kong](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong)   
-    > - [Hungary](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary)
-    > - [Ireland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-ireland)
-    > - [Italy](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-italy)
-    > - [Japan](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-japan)
-    > - [Latvia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-latvia)
-    > - [Lithuania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-lithuania)
-    > - [Luxembourg](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-luxembourg)
-    > - [Mexico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-mexico)
-    > - [New Zealand](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-new-zealand)
-    > - [Norway](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-norway)
-    > - [Poland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-poland)
-    > - [Portugal](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-portugal)
-    > - [Romania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-romania)
-    > - [Singapore](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-singapore)
-    > - [Slovakia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovakia)
-    > - [Slovenia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovenia)
-    > - [South Africa](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-south-africa)
-    > - [Spain](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-spain)
-    > - [Sweden](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-sweden)
-    > - [Switzerland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-switzerland)
-    > - [Netherlands](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-netherlands)
-    > - [United Kingdom](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-k)
-    > - [United States & Puerto Rico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-s)
+       > [!div class="op_single_selector"]
+       >
+       > - [Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia)
+       > - [Austria](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-austria)
+       > - [Belgium](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-belgium)
+       > - [Canada](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-canada)
+       > - [Czech Republic](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-czech-republic)
+       > - [Denmark](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-denmark)
+       > - [Estonia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-estonia)
+       > - [Finland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-finland)
+       > - [France](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-france)
+       > - [Germany](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany)
+       > - [Hong Kong](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong)   
+       > - [Hungary](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary)
+       > - [Ireland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-ireland)
+       > - [Italy](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-italy)
+       > - [Japan](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-japan)
+       > - [Latvia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-latvia)
+       > - [Lithuania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-lithuania)
+       > - [Luxembourg](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-luxembourg)
+       > - [Mexico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-mexico)
+       > - [New Zealand](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-new-zealand)
+       > - [Norway](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-norway)
+       > - [Poland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-poland)
+       > - [Portugal](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-portugal)
+       > - [Romania](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-romania)
+       > - [Singapore](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-singapore)
+       > - [Slovakia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovakia)
+       > - [Slovenia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-slovenia)
+       > - [South Africa](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-south-africa)
+       > - [Spain](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-spain)
+       > - [Sweden](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-sweden)
+       > - [Switzerland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-switzerland)
+       > - [Netherlands](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-netherlands)
+       > - [United Kingdom](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-k)
+       > - [United States & Puerto Rico](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-the-u-s)
 
 1. Access the Teams Admin Center (TAC) with one of the following roles:
     1. Teams Telephony Administrator
@@ -84,7 +84,7 @@ This article is an accompaniment for IT professionals and Teams Phone administra
 
 In the Teams admin center's left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
-:::image type="content" source="../media/numberportwizarduscanada.png" alt-text="Teams admin center number port wizard for USA and Canada.":::
+:::image type="content" source="../media/numberportwizarduscanada.png" alt-text="Screenshot that shows Teams admin center number port wizard for USA and Canada.":::
 
 The wizard’s splash screen allows you to select the location for the numbers you wish to port.
 
@@ -109,7 +109,7 @@ Select **US & Canada** and select **Start port**.
 
 2. Upon adding phone numbers, the wizard compiles the numbers, categorize them, and then display a table of the numbers in groups by *account*, *service provider*, and *type*.
     - The wizard allows you to select one of the groups for processing. The wizard only processes a port request with one type of group at a time.
-    - If the wizard categorized your numbers into more than one group, you must submit a separate port request for each. See [Planning number ports](port-order-overview.md)
+    - If the wizard categorized your numbers into more than one group, you must submit a separate port request for each. See [Planning number ports](port-order-overview.md).
     - If the wizard detects that your requested numbers are invalid for porting, the error is shown here.
 
 3. Once your numbers are validated in the wizard, you have the option to save your progress and continue later. If you need to exit and return to your order, follow these steps:
@@ -121,7 +121,7 @@ Select **US & Canada** and select **Start port**.
 
 #### Billing telephone number (BTN)
 
-Enter the Billing telepone number (BTN) for the account with your existing service provider.
+Enter the Billing telephone number (BTN) for the account with your existing service provider.
 
 - The Billing telephone number (BTN) for the phone numbers being ported must match what the current service provider has on file for the account. Also, if there's a freeze on the account it must be removed. If the BTN is incorrect or there's a freeze on the account, your port request will be rejected after it's submitted.
 - The BTN can also be referred to as the 'Account telephone number.' It's the primary phone number associated with your account. Your service provider uses the BTN to track activities, payments, and customer service records.
@@ -181,7 +181,7 @@ Confirmation of the request is acknowledged within 72 business hours.
 
 You can check the status of your order in the Teams Admin Center. In left side rail under Voice > Phone Numbers navigate to **Order History** and search by the name you gave your order in the porting details page.
 
-You can research more about the process, here: [Porting status](port-order-status.md)
+You can research more about the process, here: [Porting status](port-order-status.md).
 
 ### [**Porting wizard - All regions**](#tab/classic-porting-wizard)
 
@@ -189,7 +189,7 @@ You can research more about the process, here: [Porting status](port-order-statu
 
 In the Teams admin center's left navigation rail, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port**.
 
-:::image type="content" source="../media/numberportwizardallregions.png" alt-text="Teams admin center number port wizard for all regions.":::
+:::image type="content" source="../media/numberportwizardallregions.png" alt-text="Screenshot that shows Teams admin center number port wizard for all regions.":::
 
 The wizard’s splash screen allows you to select the location for the numbers you wish to port.
 
@@ -292,7 +292,7 @@ When we receive your port order, you receive an email that verifies your request
 > [!NOTE]
 > If you already have a case open with the TNS-Service Desk for your port request, update that existing ticket instead of creating a new case.
 
-For more information about Letters of Authorization to port existing phone numbers and other considerations, see [Manage phone numbers for Calling Plan](../manage-phone-numbers-for-your-organization.md) and [Planning number ports](port-order-overview.md)
+For more information about Letters of Authorization to port existing phone numbers and other considerations, see [Manage phone numbers for Calling Plan](../manage-phone-numbers-for-your-organization.md) and [Planning number ports](port-order-overview.md).
 
 ## Report phone number issues
 
