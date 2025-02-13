@@ -55,6 +55,10 @@ Brands and Campaigns are reviewed by The Campaign Registry, which helps ensure S
 
 Through an approved Brand and Campaign, Teams administrators can then SMS-enable eligible Microsoft Calling Plan numbers.
 
+Registration and SMS-enabling Teams Calling Plan numbers can be summarized in the following diagram:
+
+:::image type="content" source="media/sms-tcr-registration-small.png" alt-text="Overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/sms-tcr-registration-large.png":::
+
 **You must receive approval for your Brand and Campaign configuration before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.**
 
 > [!NOTE]
