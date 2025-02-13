@@ -44,6 +44,8 @@ You can use the Teams admin center or PowerShell to manage VOD publishing permis
 
 > [!NOTE]
 > Guests can't view private webinar recordings.
+> [!NOTE]
+> The invite only option isn't supported for webinars.
 
 The following table lists the values that you can set for webinar publishing permissions along with the corresponding behaviors:
 
