@@ -384,10 +384,10 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 Customers with Thin Clients that have [Unified Write Filters](/windows/configuration/unified-write-filter/) applied should create the following exclusions in order to allow SlimCore MSIX packages to be provisioned:
 
--uwfmgr.exe file Add-Exclusion "C:\Program Files\WindowsApps"
--uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Packages"
--uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\WindowsApps"
--uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\TeamsVDI"
+- uwfmgr.exe file Add-Exclusion "C:\Program Files\WindowsApps"
+- uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Packages"
+- uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\WindowsApps"
+- uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\TeamsVDI"
 
 ### Known issues
 
