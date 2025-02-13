@@ -117,7 +117,7 @@ Developers can create bots as part of [Microsoft Bot Framework](https://dev.botf
 
 Teams supports the following bot scenarios based on the admin center settings:
 
-* Bots must be contained in a Teams app package. There are two methods for uploading your app: use [Developer Portal for Teams](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/teams-developer-portal) or [manually create an app package](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/apps-package) and upload your app. If you need to alter your app manifest and reupload your app, delete your bot before uploading your altered app package.
+* Bots must be contained in a Teams app package. There are two methods for uploading your app: use [Developer Portal for Teams](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal) or [manually create an app package](/microsoftteams/platform/concepts/build-and-test/apps-package) and upload your app. If you need to alter your app manifest and reupload your app, delete your bot before uploading your altered app package.
 * Bots only work if [custom app upload is allowed](teams-custom-app-policies-and-settings.md).
 * Any bot that is a part of a Teams app works if admin [allows the app](manage-apps.md#allow-or-block-apps) in the organization.
 
