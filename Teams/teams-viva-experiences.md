@@ -32,9 +32,11 @@ And, now Viva Engage can integrate into your users' Teams chats.
 
 This article outlines the technical details of the integration of Viva Engage experiences in Teams chats and instructs IT admins on how they can manage this feature.
 
-## Prerequisites to enabling Viva Engage experiences in Teams
+## Technical details for Viva Engage experiences in Teams
 
-Before rolling out Vive Engage experiences to your users' Teams chats, ensure the following items:
+### Prerequisites for Viva Engage experiences in Teams
+
+Before rolling out Viva Engage experiences to your users' Teams chats, ensure the following items:
 
 - Your tenant isn't blocking [Viva Engage's IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 - Sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
@@ -50,7 +52,7 @@ In order for users to access Viva Engage experiences in Teams, they must meet th
 - Be assigned a Teams license
 - Have access to [Viva Engage either with or without Viva Engage license enforcement](/viva/engage/setup#set-up-licensing-for-viva-engage)
 
-## Current limitations of Viva Engage experiences in Teams
+### Current limitations of Viva Engage experiences in Teams
 
 In the following list, find the current limitations of Viva Engage experiences in Teams:
 
@@ -58,7 +60,7 @@ In the following list, find the current limitations of Viva Engage experiences i
 - Assigning and managing delegates can only be done in the Viva Engage app.
 - Campaigns and Topics pages can only be managed in the Viva Engage app.
 
-## Data handling of Viva Engage experiences in Teams
+### Data handling of Viva Engage experiences in Teams
 
 Viva Engage content in Teams is handled by Viva Engage's data handling and compliance standards. To learn more about Viva Engage's data handling, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 
