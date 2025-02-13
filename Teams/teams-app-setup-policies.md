@@ -111,20 +111,17 @@ The below message on app setup policy page indicates that your org is using app 
 
 If your organization isn't using app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
 
-## Use app setup policy to allow independent bots
+## Use app setup policy to allow bots
 
-Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contain bots but you can also let your users use independent bots.
+Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers must incorporate these bots in a Teams app for use in Teams. As an admin, you govern Teams apps that contain bots.
 
 Teams supports the following bot scenarios based on the admin center settings:
 
-* Independent bots don't work if custom app upload isn't allowed.
-* Independent bots work if [custom app upload is allowed](teams-custom-app-policies-and-settings.md).
+* Bots must be contained in a Teams app package. There are two methods for uploading your app: use [Developer Portal for Teams](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/teams-developer-portal) or [manually create an app package](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/apps-package) and upload your app. If you need to alter your app manifest and reupload your app, delete your bot before uploading your altered app package.
+* Bots only work if [custom app upload is allowed](teams-custom-app-policies-and-settings.md).
 * Any bot that is a part of a Teams app works if admin [allows the app](manage-apps.md#allow-or-block-apps) in the organization.
 
 :::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots." lightbox="media/use-bots-setup-policy-large.png":::
-
-> [!TIP]
-> We recommend that you get a Teams app created to use bots in your organization. Having a bot incorporated in a Teams app, offers many governance controls to you as an admin.
 
 ## Manage app setup policies
 
