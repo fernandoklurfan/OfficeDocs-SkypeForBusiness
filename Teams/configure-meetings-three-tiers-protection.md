@@ -63,6 +63,9 @@ The following table summarizes the configurations for each tier. Use these confi
 |Who can present|**People in my org and guests**|**People in my org and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can record|**Organizers, co-organizers, and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 
+> [!NOTE]
+> You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
+
 Details on how to configure each tier are covered in:
 
 - [Configure Teams meetings with baseline protection](configure-meetings-baseline-protection.md)
