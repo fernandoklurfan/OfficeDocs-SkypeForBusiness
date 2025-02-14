@@ -20,7 +20,7 @@ f1.keywords:
   - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-AI_Usage: AI_Assisted
+ai-usage: ai-assisted
 description: Learn about the features and capabilities of Teams certified personal peripherals and how they can enhance your Microsoft Teams experience.
 ---
 
