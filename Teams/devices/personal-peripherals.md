@@ -59,7 +59,7 @@ No additional licenses are required to use Teams certified personal peripherals.
 
 ## Related articles
 
-- [Phones and Devices for Microsoft Teams](/microsoftteams/phones-and-devices)
+- [Certified personal peripherals](/microsoftteams/devices/usb-devices)
 - [Certified Native Bluetooth Devices](/microsoftteams/devices/bluetooth-devices)
 - [Known issues when you use Teams certified peripherals](/microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals)
 - [Certification for Teams devices for end users](/microsoftteams/devices/certification-end-userss)
