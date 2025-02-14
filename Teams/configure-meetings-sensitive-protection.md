@@ -87,7 +87,7 @@ If you already have sensitivity labels deployed in your organization, consider h
 1. Add a display name and description, and then select **Next**.
 1. On the **Define the scope for this label** page, make sure **Files & other data assets**, **Emails**, and **Meetings** are selected. You can select other options if you want to use this label for other purposes.
 1. Select **Next**.
-1. On the **Choose protection settings for types of items you selected** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Choose protection settings for types of items you selected** page, select **Protect Teams meetings and chats**, and then select **Next**.
 1. On the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control who can bypass the lobby** and choose **People who were invited** from the dropdown list.
     1. Clear the **People dialing in can bypass the lobby** check box.
