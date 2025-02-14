@@ -45,6 +45,9 @@ The following table describes which actions we restrict for sensitive meetings a
 |Who can present|**People in my org and guests**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
 
+> [!NOTE]
+> You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
+
 The sensitivity label or meeting template enforces options that are listed as enforced. The meeting organizer can change Options that aren't enforced.
 
 > [!NOTE]
