@@ -41,7 +41,7 @@ There are three configurations:
 
 - Highly sensitive protection
 
-This series also provides a variation of the highly sensitive configuration that is designed for presentations that have minimal interaction from attendees.
+This series also provides a variation of the highly sensitive configuration that is designed for presentations that have minimal interaction from attendees. To learn more about how your users can apply sensitivity labels to their meetings, see [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb).
 
 ## Three tiers at a glance
 
