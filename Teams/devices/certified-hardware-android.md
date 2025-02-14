@@ -315,8 +315,8 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Microsoft Intune | Authenticator | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|
-| Jabra Panacast 50 VBS | `6.5.0-7 (AOSP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
-| Jabra Panacast 50 TC | `6.5.0-7 (AOSP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
+| Jabra Panacast 50 VBS | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
+| Jabra Panacast 50 TC | `6.5.0-7 (MDEP)`| `3.6.0-31`| `1449/1.0.96.2024091202`|`N/A`| `24.09.1` | `6.2410.7268` |  `1.0.0.202407050618.product` | February 13, 2025|
 | Jabra Panacast 50 VBS | `3.6.0-31` |  N/A|  `1449/1.0.96.2024080804` | `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 TC | `3.6.0-31` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` |`N/A`|`N/A`| `1.0.0.202402202353.product` | May 20, 2024|
