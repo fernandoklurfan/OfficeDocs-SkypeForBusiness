@@ -209,6 +209,8 @@ To add a mobile system OS scanner:
 
 **Applies to:** *Teams app version: 1449/1.0.94.2025020301 (Poly, Yealink, AudioCodes)*
 
+
+
 Bug fixes including improvements in font rendering on side cars among others   
 
 ### January 8, 2025
@@ -216,7 +218,7 @@ Bug fixes including improvements in font rendering on side cars among others  
 **Applies to:** *Teams app version: 1449/1.0.94.2024122303 (Poly, Yealink, AudioCodes)*
 
 > [!IMPORTANT]
-> Important: Starting June 2025, Teams applications on Phone devices older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
+> Starting June 2025, Teams applications on Phone devices older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
 
 ##### Queues app
 
