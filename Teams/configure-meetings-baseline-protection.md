@@ -50,6 +50,9 @@ The following table describes which actions we restrict for baseline meetings an
 
 The sensitivity label or meeting template enforces options that are listed as enforced. The meeting organizer can change Options that aren't enforced.
 
+> [!NOTE]
+> You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
+
 ## Default values for **Who can present**
 
 The default value for **Who can present** is **Everyone**. For the baseline protection tier, we set a more secure default of **People in my org and guests** which meeting organizers can change if they want.
