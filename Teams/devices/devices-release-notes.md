@@ -215,6 +215,9 @@ Bug fixes including improvements in font rendering on side cars among others  
 
 **Applies to:** *Teams app version: 1449/1.0.94.2024122303 (Poly, Yealink, AudioCodes)*
 
+> [!IMPORTANT]
+> Important: Starting June 2025, Teams applications on Phone devices older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
+
 ##### Queues app
 
 We're excited to announce the Queues app for desk phones, a Teams solution that empowers organizations to efficiently manage customer engagements, starting with calls on certified Teams Phones. The experience is primarily for agents and includes a dedicated Queues app on the home screen. This app allows agents to view and opt in or out of all the call queues an agent is part of. Agents can also view others on the line along with call history of the call queue.
