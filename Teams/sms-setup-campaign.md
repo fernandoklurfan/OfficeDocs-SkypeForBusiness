@@ -92,7 +92,6 @@ In the campaign form, provide details of your company's plan for SMS operations,
 |Embedded phone number |Indicates whether the campaign is using an embedded phone number (except the required HELP information contact phone number). |
 |Age-gated content |Indicates whether the campaign includes any age-gated content as defined by Carrier and CTIA guidelines.|
 
-
 ### Microsoft Terms and Conditions
 
 Select the box to accept the terms and conditions.
@@ -130,7 +129,8 @@ The Campaign Registry may require additional information from your company befor
 
 If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
 
-If your campaign is rejected, be prepared to supply this information to Microsoft's Telephone Number Services team through the [Phone Number Service Center](https://pstnsd.powerappsportals.com).
+> [!Note}
+> If the Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ### Opt-out messaging
 
