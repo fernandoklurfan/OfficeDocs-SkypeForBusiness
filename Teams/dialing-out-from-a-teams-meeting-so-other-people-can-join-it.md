@@ -45,6 +45,7 @@ Keep these points in mind:
 Here's how to get dial out to work:
 
  **Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button.](media/add-people-button.png) option to dial out to a phone number.
+
  **Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.
   
 ![Screenshot of the Invite someone or dial a number box.](media/invite-someone-box.png)
