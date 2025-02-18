@@ -108,29 +108,11 @@ Select **Submit**.
 
 Once submitted, the status indicates *"Submitted"* and the campaign information can’t be modified without Microsoft Support intervention.
 
-The Service Level Agreement for campaign approval (or rejection) is seven days maximum.
-
-If you submitted incorrect campaign information, if you haven't received approval or rejection notice in seven days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
-
 If The Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Considerations
 
 Because the Campaign application approval can be tedious, Microsoft is working to minimize the level of effort to get your Campaign approved. The following topics relate to considerations when preparing your SMS operation.
-
-### The Campaign approval process
-
-The Campaign Registry may require additional information from your company before approving your campaign. Potential items that may be required before approval:
-
-- Further description details about your campaign's purpose
-- Your company's privacy statement related to SMS messaging
-- Your company's terms and conditions related to SMS messaging
-- Your company's resources for recipients who respond with HELP
-
-If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
-
-> [!Note]
-> If the Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ### Opt-out messaging
 
@@ -143,6 +125,24 @@ If a recipient responds with "STOP", all following messages from the Teams user'
 ### Building a campaign with more than 49 SMS-enabled numbers
 
 If you require more than 49 SMS-enabled numbers, you must work with [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md) so that they can work with you on an exception to the default maximum campaign quantity. Provide the TNS Service Desk with the number of SMS-enabled numbers and the expected volume of messages sent and received per month, so that they can support the required provisioning.
+
+### The Campaign approval process
+
+The Service Level Agreement for campaign approval (or rejection) is seven days maximum.
+
+If you submitted incorrect campaign information, if you haven't received approval or rejection notice in seven days, or if you have questions related to the process, [contact Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
+
+The Campaign Registry may require additional information from your company before approving your campaign. Potential items that may be required before approval:
+
+- Further description details about your campaign's purpose
+- Your company's privacy statement related to SMS messaging
+- Your company's terms and conditions related to SMS messaging
+- Your company's resources for recipients who respond with HELP
+
+If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
+
+> [!Note]
+> If the Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Related topics
 
