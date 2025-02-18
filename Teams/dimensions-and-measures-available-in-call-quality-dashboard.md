@@ -979,8 +979,8 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the second endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
 | Avg First Roaming Count | Integer | Average of instances where the first endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
 | Avg Second Roaming Count | Integer | Average of instances where the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
-| Avg First Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the first endpoint. |
-| Avg Second Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the second endpoint. |
+| Avg First Recv Avg Freeze Duration | Milliseconds | Average of the average duration in seconds of received video freeze events on the first endpoint. |
+| Avg Second Recv Avg Freeze Duration | Milliseconds | Average of the average duration in seconds of received video freeze events on the second endpoint. |
 | Avg First Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the first endpoint. A positive value would mean that audio arrived later than the video. |
 | Avg Second Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the second endpoint. A positive value would mean that audio arrived later than the video. |
 | Avg First Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
