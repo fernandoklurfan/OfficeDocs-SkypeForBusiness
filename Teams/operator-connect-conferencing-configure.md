@@ -33,16 +33,6 @@ This article details how to configure Operator Connect Conferencing for your org
 
 Before configuring Operator Connect Conferencing, read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about benefits and licensing requirements.
 
-The articles covered in this article include:
-
-- [Set up an operator](#set-up-an-operator)
-- [Acquire numbers for your Audio Conferencing bridge](#acquire-numbers-for-your-audio-conferencing-bridge)
-- [Change the default phone numbers that are included in the meeting invites of users](#change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users)
-- [Sending outbound calls from Microsoft Teams meetings through an operator](#sending-outbound-calls-from-microsoft-teams-meetings-through-an-operator)
-- [Manage your operators](#manage-your-operators)
-- [Release numbers from your Audio Conferencing bridge](#release-numbers-from-your-audio-conferencing-bridge)
-- [Additional information on managing Microsoft Audio Conferencing](#additional-information-on-managing-microsoft-audio-conferencing)
-
 ## Set up an operator
 
 You can set up, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operator Connect**.
