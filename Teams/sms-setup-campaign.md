@@ -61,10 +61,12 @@ Examples of variables that The Campaign Registry may require, based on your Bran
 - Campaign and content attributes
   - Subscriber Opt-in: Indication if subscriber opt-in is required.
   - Subscriber Opt-in Message: If opt-in is required, the message for subscribers to receive when opting into the campaign.
-  - Subscriber Opt-out: Indicate if subscribers can opt out.
-  - Subscriber Opt-out Answer: If opt-out is required, enter the response message for subscribers to receive when opting out.
-  - Subscriber Help: Indicate if subscriber help is available.
-  - Subscriber Help Answer: If help is available, provide the message for subscribers seeking assistance.
+  - Subscriber Opt-out: Indication if subscribers can opt out.
+  - Subscriber Opt-out Answer: If opt-out is required, the message for subscribers to receive when opting out.
+  - Subscriber Help: Indication if subscriber help is available.
+  - Subscriber Help Answer: If help is available, the message for subscribers seeking assistance, including a website, phone number, and email.
+  - Privacy Policy: A link to your privacy policy, concerning data exchanged via SMS with your company.
+  - Terms and Conditions: A link to your terms and conditions, concerning correspondence via SMS with your company.
 
 - Additional attributes
   - Direct Lending or Loan Arrangement: Indicates if the campaign involves any lending or loan arrangements.
@@ -124,6 +126,7 @@ The Campaign Registry may require additional information from your company befor
 - Further description details about your campaign's purpose
 - Your company's privacy statement related to SMS messaging
 - Your company's terms and conditions related to SMS messaging
+- Your company's resources for recipients who respond with HELP
 
 If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
 
@@ -131,13 +134,13 @@ If your campaign is rejected, be prepared to supply this information to Microsof
 
 ### Opt-out messaging
 
-In the initical Campaign application to The Campaign Registry, Microsoft will provide a generic campaign sample message, opt-in, opt-out, and help message. The default message that will be provided to The Campaign Registry (and first time recipients of Teams SMS messages) is as follows:
+In the initial Campaign application to The Campaign Registry, Microsoft will provide a generic campaign sample message, opt-in, opt-out, and help message. The default message that will be provided to The Campaign Registry (and first time recipients of Teams SMS messages) is as follows:
 
 *"Hello, a user of Microsoft Teams sent you this message. If you don't want to get messages from this user anymore, reply STOP. To learn more about how to use messaging in Microsoft Teams, reply HELP."*
 
 If a recipient responds with "STOP", all following messages from the Teams user's number will be blocked to that recipient.
 
-If a recipient responds with "HELP", the recipient will be offered a url to a website of your discretion.
+If a recipient responds with "HELP", the recipient will be offered resources that you provide. Expected resources can be a website, email address, and telephone number.
 
 ### Building a campaign with more than 49 SMS-enabled numbers
 
