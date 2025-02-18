@@ -140,8 +140,6 @@ In the initial Campaign application to The Campaign Registry, Microsoft will pro
 
 If a recipient responds with "STOP", all following messages from the Teams user's number will be blocked to that recipient.
 
-If a recipient responds with "HELP", the recipient will be offered resources that you provide. Expected resources can be a website, email address, and telephone number.
-
 ### Building a campaign with more than 49 SMS-enabled numbers
 
 If you require more than 49 SMS-enabled numbers, you must work with [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md) so that they can work with you on an exception to the default maximum campaign quantity. Provide the TNS Service Desk with the number of SMS-enabled numbers and the expected volume of messages sent and received per month, so that they can support the required provisioning.
