@@ -3,7 +3,7 @@ title:  What is changing in the new Microsoft Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/22/2024
 ms.service: msteams
 audience: admin

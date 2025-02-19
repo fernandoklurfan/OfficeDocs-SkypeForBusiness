@@ -3,7 +3,7 @@ title:  Overview of the new Microsoft Teams client
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/06/2024
 ms.service: msteams
 audience: admin
