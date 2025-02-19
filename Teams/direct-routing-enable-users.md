@@ -114,7 +114,7 @@ If you select **Add phone number range**, type or paste the starting and ending 
 
 #### Upload CSV
 
-The supported CSV file contains no headers, with a single column of your Direct Routing numbers. If you select **Upload CSV**, select the **Upload CSV** icon and select your CSV file.
+If you select **Upload CSV**, select the **Upload CSV** icon and select your CSV file.
 
 The CSV file format requirements are to have a single column, with the first row populated as **TelephoneNumber** and each subsequent row including one phone number.
 
