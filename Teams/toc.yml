@@ -1272,6 +1272,12 @@ items:
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
         - name: Licensing and phone number management
           href: phone-numbers-licensing-changes.md
+
+    - name: SMS
+      items:
+        - name: Overview
+          href: sms-overview.md
+          
     - name: Dial plans and routing
       items: 
         - name: Overview
