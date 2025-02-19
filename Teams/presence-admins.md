@@ -3,7 +3,7 @@ title: User presence in Teams
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: petrhudecek
