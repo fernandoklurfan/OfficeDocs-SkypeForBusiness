@@ -27,4 +27,4 @@ description: Learn about SMS texting in Teams
 # SMS texting in Teams with Microsoft Calling Plan numbers
 
 > [!NOTE]
-> Articles for SMS overview and guidance will be released when SMS is Generally Available.
+> SMS for Teams Calling Plans is currently in private preview and will be generally available in late February.  Articles for SMS overview and guidance will be released when the product is generally available.
