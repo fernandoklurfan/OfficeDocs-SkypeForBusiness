@@ -1,4 +1,30 @@
+---
+title: SMS in Teams
+author: sfrancis206
+ms.author: scottfrancis
+manager: pamgreen
+ms.reviewer: nijait
+ms.date: 01/06/2025
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+ms.collection:
+  - M365-voice
+  - m365initiative-voice
+  - Tier1
+search.appverid: MET150
+audience: Admin
+appliesto:
+  - Microsoft Teams
+ms.localizationpriority: medium
+f1.keywords:
+  - CSH
+ms.custom:
+  - Reporting
+description: Learn about SMS texting in Teams
+---
 
+# SMS texting in Teams with Microsoft Calling Plan numbers
 
 > [!NOTE]
-> Whenever porting Direct Routing numbers to Teams using another PSTN connectivity option, the numbers must be released from Microsoft's telephone number management inventory. After unassigning the numbers from the users and before your number port event, use the PowerShell cmdlet [New-CsOnlineTelephoneNumberReleaseOrder](/powershell/module/teams/new-csonlinetelephonenumberreleaseorder) to make the Direct Routing numbers available for porting. A release order can also be used if you don't want to keep your acquired Direct Routing numbers in Microsoft's inventory.
+> Articles for SMS overview and guidance will be released when SMS is Generally Available.
