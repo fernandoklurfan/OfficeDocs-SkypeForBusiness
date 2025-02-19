@@ -5,7 +5,7 @@ author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 10/24/2024
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
