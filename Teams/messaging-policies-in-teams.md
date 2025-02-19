@@ -73,7 +73,7 @@ Here are the messaging policy settings that you can configure.
 
 - **Owners can delete sent messages** -   Enable this setting to allow owners to delete messages or posts sent by users, excluding their own. *To allow owners to delete their own sent messages, activate the **Delete Sent Messages** setting*.
 - **Delete sent messages** - Use this setting to let users delete individual messages that they sent in chat.
-- **Delete chat** - Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat will not see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
+- **Delete chat** - Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat won't see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
 - **Edit sent messages** - Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** - Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainty about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
   - **User controlled** - This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
@@ -103,7 +103,7 @@ Here are the messaging policy settings that you can configure.
   > Audio messages are not captured in eDiscovery reporting.
   - **Allowed in chats and channels** - This means that users can leave audio messages in both chats and channels.
   - **Allowed in chats only** - This means that users can leave audio messages in chats, but not in channels.
-  - **Not enabled** - This means that users cannot create audio messages in chats or channels.  
+  - **Not enabled** - This means that users can't create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** - Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.
 - **Remove users from group chats** - Turn this setting ON to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 - **Text predictions** - Turn on this setting to let a user get text predictions for chat messages.
