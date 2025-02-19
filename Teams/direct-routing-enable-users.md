@@ -116,6 +116,8 @@ If you select **Add phone number range**, type or paste the starting and ending 
 
 The supported CSV file contains no headers, with a single column of your Direct Routing numbers. If you select **Upload CSV**, select the **Upload CSV** icon and select your CSV file.
 
+The CSV file format requirements are to have a single column, with the first row populated as **TelephoneNumber** and each subsequent row including one phone number.
+
 6. Select **Next** and proceed to review the validated numbers to be reserved by Microsoft's telephone number management inventory.
 
 7. Select **Confirm**, then select **Finish**
