@@ -31,7 +31,7 @@ This article provides guidance on assigning, changing, or removing a number for 
 
 ## Prerequisites
 
-Before you can assign a number to a user you must get numbers for your organization. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
+Acquire numbers for your organization. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
 
 When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country/region.
 
@@ -44,14 +44,14 @@ You must have one of the following roles to assign, modify, or remove a number f
 If the user is to be assigned with a Teams Calling Plan number, the user must also have a Teams Calling Plan license.
 
 > [!NOTE]
-> Teams Calling Plan licenses are assigned in the **Microsoft 365 admin center**. To see whether a user has a license assigned in the **Teams admin center**, navigate to **Users** > **Manage users**. In the list, find the column heading **Calling Plan**. If a license is assigned, the license will be indicated in this view.
+> Teams Calling Plan licenses are assigned in the **Microsoft 365 admin center**. To see whether a user has a license assigned in the **Teams admin center**, navigate to **Users** > **Manage users**. In the list, find the column heading **Calling Plan**. If a license is assigned, the license is indicated in this view.
 
 > [!NOTE]
 > This note applies to customers who have a hybrid deployment with an on-premises Active Directory. If you want to assign a Calling Plan or Operator Connect phone number to a user or resource account, you must ensure that any phone number stored in the msRTCSIP-Line attribute on the user or resource account object in the on-premises Active Directory has been removed, and the change has been synchronized to Microsoft 365.
 
 ## Use Teams Admin Center to assign a phone number to a user
 
-This method applies to all PSTN Connectivity type numbers. However, using this method for Direct Routing numbers only works if you opted to upload your Direct Routing numbers to Teams. For more information, see [Upload Direct Routing numbers to your tenant](direct-routing-enable-users.md#upload-direct-routing-numbers-to-your-tenant).
+This method applies to all Public Switched Telephone Network (PSTN) Connectivity type numbers. However, using this method for Direct Routing numbers only works if you opted to upload your Direct Routing numbers to Teams. For more information, see [Upload Direct Routing numbers to your tenant](direct-routing-enable-users.md#upload-direct-routing-numbers-to-your-tenant).
 
 1. Navigate to the Microsoft Teams admin center.
 
@@ -64,7 +64,7 @@ This method applies to all PSTN Connectivity type numbers. However, using this m
 5. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
 > [!NOTE]
-> If you are assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+> If you're assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
 
 6. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
@@ -115,16 +115,16 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 
 To change a phone number for a user by using the Teams admin center:
 
-1. In the left navigation, click **Users** > **Manage users**, locate and select the user you want. In the user's profile, select the tab **Account**, and then under **Assigned phone number**, make a note of the phone number that's assigned to the user and select **Edit**.
+1. In the left navigation, click **Users** > **Manage users**, locate, and select the user you want. In the user's profile, select the tab **Account**, and then under **Assigned phone number**, make a note of the phone number that's assigned to the user and select **Edit**.
 
-2. In the right side rail, from the **Phone number type** drop down menu, select the PSTN connectivity type that is supplying the new telephone number.
+2. In the right side rail, from the **Phone number type** drop-down menu, select the PSTN connectivity type that is supplying the new telephone number.
 
-3. From the **Assigned phone number** drop down menu, find and select the new number.
+3. From the **Assigned phone number** drop-down menu, find and select the new number.
 
 4. Select the **Emergency location** to associate with the phone number and user.
 
 > [!NOTE]
-> If you are changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+> If you're changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
 
 5. Depending on whether you want to send an email to the user with their new phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
@@ -138,9 +138,9 @@ For a PowerShell example, see [Set-CsPhoneNumberAssignment](/powershell/module/t
 
 To remove a phone number by using the Teams admin center:
 
-1. In the left navigation, click **Users** > **Manage users**, locate and select the user you want. In the user's profile, select the tab **Account**, and then under **Assigned phone number**, make a note of the phone number that's assigned to the user and select **Edit**.
+1. In the left navigation, click **Users** > **Manage users**, locate, and select the user you want. In the user's profile, select the tab **Account**, and then under **Assigned phone number**, make a note of the phone number that's assigned to the user and select **Edit**.
 
-2. In the right side rail, from the **Asssigned phone number** drop down menu, select **None**.
+2. In the right side rail, from the **Asssigned phone number** drop-down menu, select **None**.
 
 3. Select **Apply**.
 
