@@ -3,7 +3,7 @@ title: Coexistence with Skype for Business
 ms.author: jtremper
 author: jacktremper
 manager: Serdars
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.reviewer: francoid
 ms.date: 11/02/2018
