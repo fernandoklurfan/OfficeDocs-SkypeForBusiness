@@ -24,8 +24,6 @@ ms.localizationpriority: high
 
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
-> [!IMPORTANT]
-> Microsoft has completed the General Availability rollout for Citrix customers. The new optimization requires Microsoft Teams version 24295.605.3225.8804, and client version 24110115722, as seen in **Settings** > **About Teams**.
 
 ## Components
 
@@ -135,7 +133,7 @@ Some policies might change these registry keys and block app installation in you
 >
 > AppLocker can't process trailing wildcards, unlike Windows Defender Application Control. Since SlimCoreVdi Packages contain a version-specific PackageFamilyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.36_8wekyb3d8bbwe), customers can add AppX or MSIX exclusions by relying on the PublisherID 8wekyb3d8bbwe instead.
 
-## Verifying that the end point is optimized
+## Verifying that the endpoint is optimized
 
 Once you meet all the minimum requirements, launching new Teams for the first time finds it still in WebRTC optimized mode by default.
 
@@ -389,7 +387,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
 - uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\WindowsApps"
 - uwfmgr.exe file Add-Exclusion "C:\Users\User\AppData\Local\Microsoft\TeamsVDI"
 
-### Known issues
+## Known issues
 
 - AVD RemoteApps and Citrix Published Apps aren't supported at this time.
 - Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side).
@@ -405,6 +403,7 @@ Customers with Thin Clients that have [Unified Write Filters](/windows/configura
   - Stopping and resharing the window should resolve the issue.
   - This issue has been resolved in new Teams 24335.206.X.X or higher versions.
 - If you're on a video call and you open the Start menu on the virtual machine, a blank screen shows in the Teams meeting window instead of the video feed.
+- In Windows 11 24H2 endpoints, users joining a meeting might be prompted to grant peripheral access permissions every time Teams is updated in the virtual machine. This is caused by SlimCore MSIX pacakges having different Package Family Names (see section 'Verifying that the endpoint is optimized' above), and new SlimCore is provisioned every time Teams is updated. Permissions can be granted to 'Microsoft Teams VDI' app on the endpoint by going to Settings, 'Privacy & security' App permissions, and selecting Camera and Microphone.
 
 ## Citrix virtual channel allow list
 
@@ -424,7 +423,7 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 2. The VDA machines must be rebooted for the policy to take effect.
 
-### Screen sharing
+## Screen sharing
 
 Both outgoing screensharing and appsharing behave differently in optimized VDI when compared to the non-optimized Teams desktop client.
 As such, these activities require encoding that leverages the user's device resources (for example CPU, GPU, RAM, network, and so on).
@@ -432,15 +431,15 @@ From a network perspective, sharing is done directly between the user's device a
 
 When doing a full monitor screenshare, the Teams call monitor is captured and visible to the other participants (although the video elements inside aren't visible and instead are seen as blank squares). When doing app sharing, only the application being shared is visible to the other participants and the call monitor isn't captured.
 
-#### Citrix App Protection and Microsoft Teams compatibility
+### Citrix App Protection and Microsoft Teams compatibility
 
 Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions end up sharing a black screen instead when the App Protection module is installed and enabled.
 
-#### AVD Screen Capture Protection and Microsoft Teams compatibility
+### AVD Screen Capture Protection and Microsoft Teams compatibility
 
 Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
 
-### Call Quality Dashboard in VDI
+## Call Quality Dashboard in VDI
 
 Call Quality Dashboard (CQD) allows IT Pros to use aggregate data to identify problems creating media quality issues by comparing statistics for groups of users to identify trends and patterns. CQD isn't focused on solving individual call issues, but on identifying problems and solutions that apply to many users.
 
@@ -449,7 +448,7 @@ VDI user information is now exposed through numerous dimensions and filters. Che
 > [!NOTE]
 > The new Quality of Experience (QER) template is available in the Power BI query templates for CQD download. Version 8 now includes templates for reviewing VDI client-focused metrics.
 
-#### Query fundamentals
+### Query fundamentals
 
 A well-formed CQD query/report contains all three of these parameters:
 
@@ -464,11 +463,11 @@ Some examples of a well-formed query would be:
 
 You can use many Dimension and Measurement values as filters too. You can use filters in your query to eliminate information in the same way you'd select a Dimension or Measurement to add or include information in the query.
 
-#### What UNION does
+### What UNION does
 
 By default, Filters allow you to filter conditions with the AND operator. But there are scenarios where you might want to combine multiple Filter conditions together to achieve a result similar to an OR operation. For example: To get all streams from VDI Users, UNION provides a distinct view of the merged dataset. To use the UNION, insert common text into the UNION field on the two filter conditions you want to UNION.
 
-#### Caller and Callee location
+### Caller and Callee location
 
 CQD doesn't use Caller or Callee fields, instead it uses **First** and **Second** because there are intervening steps between the caller and callee.
 
