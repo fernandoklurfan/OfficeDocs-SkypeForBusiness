@@ -7,7 +7,7 @@ ms.reviewer:
   - prvijay
 ms.date: 09/20/2023
 manager: laurawi
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 audience: admin
 description: Use retention policies for Microsoft Teams to keep messages that your organization needs to comply with internal policies, industry regulations, or legal requirements, and to delete messages that are considered a liability or has no legal business value.
