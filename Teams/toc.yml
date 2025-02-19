@@ -1283,6 +1283,8 @@ items:
           href: sms-management.md
         - name: SMS privacy and terms template example
           href: sms-privacy-terms-template.md
+        - name: Microsoft policy for SMS in Teams
+          href: sms-microsoft-teams-policy.md
 
     - name: Dial plans and routing
       items: 
