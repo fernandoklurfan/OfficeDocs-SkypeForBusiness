@@ -70,7 +70,7 @@ There are two categories of user telephone numbers, which can be assigned to use
 
 #### Service numbers
 
-[**Service numbers**](#service-telephone-numbers) are numbers that are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
+**Service numbers** are numbers that are assigned to services, such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
 
 Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number). Microsoft’s telephony licenses in each country/region dictate what the number can be used for.
 
@@ -111,7 +111,7 @@ Typical considerations when planning how you will orchestrate delivery of PSTN n
   - Could one PSTN solution offer a better user experience than another for the given persona?
     - Example: Teams Phone Mobile may be ideal for field personnel, while Direct Routing may be ideal for remote offices.
 - Which type of telephone numbers (subscriber or service) do I need? See the section above: [Considerations](#considerations-for-acquiring-microsoft-calling-plan-numbers)
-- How do I port existing telephone numbers to Teams? See the following article: [Port planning](port-order-overview.md)
+- How do I port existing telephone numbers to Teams? See the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
 
 ## Considerations for Direct Routing numbers
 
