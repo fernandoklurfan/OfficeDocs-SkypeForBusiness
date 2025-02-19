@@ -106,12 +106,18 @@ To review more details, see [Manage phone numbers for users](assign-change-or-re
 Typical considerations when planning how you will orchestrate delivery of PSTN numbers to your enterprise include answering the following questions:
 
 - Which countries or regions need new telephone numbers?
-  - Which PSTN solutions are available in these countires or regions? See the following article: [Country and region availability for Calling Plans](calling-plan-overview.md)
+  - Which PSTN solutions are available in these countires or regions?
+    - For Microsoft Teams Calling Plans, see the following article: [Country and region availability for Calling Plans](calling-plan-overview.md)
+    - For other PSTN connectivity solutions, see your service provider.
 - What use-cases and personas are getting telephone numbers?
   - Could one PSTN solution offer a better user experience than another for the given persona?
     - Example: Teams Phone Mobile may be ideal for field personnel, while Direct Routing may be ideal for remote offices.
-- Which type of telephone numbers (subscriber or service) do I need? See the section above: [Considerations](#considerations-for-acquiring-microsoft-calling-plan-numbers)
-- How do I port existing telephone numbers to Teams? See the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
+- Which type of telephone numbers (subscriber or service) do I need?
+  - For Microsoft Teams Calling Plans, see the section above: [Considerations for acquiring Microsoft Calling Plan numbers](#considerations-for-acquiring-microsoft-calling-plan-numbers)
+  - For other PSTN connectivity solutions, see your service provider.
+- How do I port existing telephone numbers?
+  - For porting to Microsoft Teams Calling Plans, see the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
+  - For porting to other service providers, see your service provider.
 
 ## Considerations for Direct Routing numbers
 
