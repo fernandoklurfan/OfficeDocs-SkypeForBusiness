@@ -81,6 +81,7 @@ To set up a line key for speed dial, follow these steps:
 ## Frequently Asked Questions
 
 **Question:**   When will line keys be supported on touch Teams phones?  
+
 **Answer:**  Support for touch Teams phone is coming soon. Check the public roadmap for timelines, see [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=In%20development%2CLaunched%2CRolling%20out%2CMicrosoft%20Teams).
 
 **Question:**  Can line keys be configured on the Teams Admin Center with this update?  
