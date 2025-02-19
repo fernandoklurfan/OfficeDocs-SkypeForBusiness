@@ -44,7 +44,7 @@ The following built-in app setup policies are available in the Microsoft Teams a
 
 ## Pin apps
 
-Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the use's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client of the allowed users only. Pinning respects other governance controls and apps aren't available to users who aren't allowed to use the app.
+Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the user's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client of the allowed users only. Pinning respects other governance controls and apps aren't available to users who aren't allowed to use the app.
 
 You can pin apps in the following UIs for the users:
 
