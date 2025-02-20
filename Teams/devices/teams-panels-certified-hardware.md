@@ -151,6 +151,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Yealink </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------------------|:------------------------------------------|
+| Room Panel | `147.520.0.44` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| February 19, 2025|
+| Room Panel Plus | `269.520.0.44` | N/A| Teams client: `1449/1.0.972024081207` <br> Microsoft Intune: `24.09.1` <br> Authenticator: `6.2410.7268` <br> Admin Agent: `1.0.0.202407050618.product`| February 19, 2025|
 | RoomPanel E2 | `324.520.0.7` | N/A | Teams client: `1449/1.0.97.2024071105` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353`| January 07, 2025|
 | Room Panel | `147.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
 | Room Panel Plus | `269.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
