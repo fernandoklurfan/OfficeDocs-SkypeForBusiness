@@ -24,15 +24,15 @@ ai-usage: ai-assisted
 description: Learn about the features and capabilities of Teams certified personal peripherals and how they can enhance your Microsoft Teams experience.
 ---
 
-# Personal peripherals for Microsoft Teams
+# Personal Peripherals for Microsoft Teams
 
-This article describes in detail all the features that come with Teams certified personal peripherals. Many users don't know about all the wonderful capabilities that these devices have and this article will provide users with a single palce of truth that shares about all the features that Teams certified personal peripherals offer. This article will be updated when new features roll out, allowing users to easily stay in the loop about what's new with Teams certified personal peripherals and to utilize their devices and all their capabilities to the highest capacity.
+This article describes in detail all the features that come with personal peripherals certified for Microsoft Teams. Many users don't know about all the wonderful capabilities that these devices have and this article will provide users with a single place of truth that shares about all the features that personal peripherals certified for Microsoft Teams offer. This article will be updated when new features roll out, allowing users to easily stay in the loop about what's new with these personal peripherals certified for Microsoft Teams and to utilize their devices and all their capabilities to the highest capacity.
 
-## Features Supported by Teams Certified Personal Peripherals
+## Features Supported by Certified for Microsoft Teams Personal Peripherals
 
-Teams certified personal peripherals are accessories designed to enhance your daily tasks, especially when using Microsoft Teams. These peripherals come in two types: USB peripherals (with a wire or dongle) and Native Bluetooth peripherals that are wireless and dongle-free. These peripherals go through rigorous testing by both Microsoft and our partners to ensure top quality and a consistent user experience, with improved productivity enabled by features such as the Teams button. This article includes all of the available features with Teams certified personal peripheral devices, and it will be updated as more features become available.
+Personal peripherals certified for Microsoft Teams are accessories designed to enhance your daily tasks, especially when using Microsoft Teams. These peripherals come in two types: USB peripherals (with a wire or dongle) and Native Bluetooth peripherals that are wireless and dongle-free. These peripherals go through rigorous testing by both Microsoft and our partners to ensure top quality and a consistent user experience, with improved productivity enabled by features such as the Teams button. This article includes all of the available features with personal peripheral certified for Microsoft Teams devices, and it will be updated as more features become available.
 
-For more information on Certification for Teams Personal Devices and a list of all Teams certified peripheral devices, see the articles in the **Related articles** section of this article.
+For more information on Certification for Teams Personal Devices and a list of all certified for Microsoft Teams personal peripheral devices, see the articles in the **Related articles** section of this article.
 
 Teams certified personal peripherals offer a range of features designed to enhance your Microsoft Teams experience:
 
