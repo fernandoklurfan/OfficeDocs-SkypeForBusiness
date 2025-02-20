@@ -5,7 +5,7 @@ ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: julienp, roykuntz, jastark
 ms.date: 02/14/2024
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 audience: admin
