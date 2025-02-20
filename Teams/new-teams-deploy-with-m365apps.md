@@ -3,7 +3,7 @@ title:  Upgrade to new Microsoft Teams with Microsoft 365 Apps
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 11/30/2023
 ms.service: msteams
 audience: admin
