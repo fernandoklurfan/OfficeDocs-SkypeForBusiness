@@ -50,21 +50,7 @@ When **teamsbootstrapper.exe** is run on a computer:
 
 ## Prerequisites for target computers
 
-For new Teams to be successfully installed, computers must meet the minimum requirements listed here.
-
-### Required system and app requirements
-
-|Requirement|Version/Description|
-|:-----|:-----|
-|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
-|Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.</br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
-|Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
-|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
-|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
-
->[!Note]
->Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
+For new Teams to be successfully installed, computers must meet the minimum requirements listed in [New Teams system requirements](teams-client-system-requirements.md).
 
 ## Step 1: Upgrade the new Teams application
 
