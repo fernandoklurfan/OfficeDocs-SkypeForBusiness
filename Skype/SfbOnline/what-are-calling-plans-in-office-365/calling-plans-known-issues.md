@@ -5,7 +5,7 @@ ms.author: serdars
 author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ms.assetid: baa3645a-0518-472e-942e-971c63ba4ca0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
