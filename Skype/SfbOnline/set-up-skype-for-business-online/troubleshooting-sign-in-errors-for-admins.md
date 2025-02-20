@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: heidip
 author: pamgreen
 manager: serdars
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
