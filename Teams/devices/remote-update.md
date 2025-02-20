@@ -86,7 +86,7 @@ If you need to revert or remove firmware from a device that has been updated, yo
 ### Configure Maintenance window
 
 > [!WARNING] 
-> We're improving our services to enhance security, performance, and overall experience. To ensure continued functionality of your Teams Android devices, it's recommended to update them as soon as the latest versions are available. To help you with this process, Microsoft Teams certified devices continue to be automatically updated at an accelerated pace and won't follow Maintenance window configured as below. Devices get updated between 1AM to 4AM as per device local time. This behavior continues until informed explicitly through dedicated communication.
+> We're improving our services to enhance security, performance, and overall experience. To ensure continued functionality of your Teams Android devices, it's recommended to update them as soon as the latest versions are available. To help you with this process, Microsoft Teams certified devices continue to be automatically updated at an accelerated pace and won't follow Maintenance window configured as below. Devices get updated between 1 AM to 4 AM as per device local time. This behavior continues until informed explicitly through dedicated communication.
 
 If you want to configure the Maintenance window for a device, do the following steps:
 
