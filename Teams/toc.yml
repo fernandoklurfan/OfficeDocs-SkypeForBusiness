@@ -652,6 +652,8 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: Viva Engage experiences in Teams
+          href: teams-viva-experiences.md
         - name: Custom emojis in Teams
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
@@ -1275,17 +1277,16 @@ items:
       items:
         - name: Overview
           href: sms-overview.md
-        - name: Step 1 Create brand
+        - name: Step 1: Create brand
           href: sms-setup-brand.md
-        - name: Step 2 Create campaign
+        - name: Step 2: Create campaign
           href: sms-setup-campaign.md
-        - name: Step 3 Enable SMS
+        - name: Step 3: Enable SMS
           href: sms-management.md
         - name: SMS privacy and terms template example
           href: sms-privacy-terms-template.md
         - name: Microsoft policy for SMS in Teams
           href: sms-microsoft-teams-policy.md
-
     - name: Dial plans and routing
       items: 
         - name: Overview

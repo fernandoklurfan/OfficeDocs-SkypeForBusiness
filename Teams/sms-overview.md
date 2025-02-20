@@ -4,10 +4,11 @@ author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait
-ms.date: 01/06/2025
+ms.date: 02/19/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: phone-system
 ms.collection:
   - M365-voice
   - m365initiative-voice
@@ -21,7 +22,7 @@ f1.keywords:
   - CSH
 ms.custom:
   - Reporting
-description: Learn about SMS texting in Teams
+description: Learn about SMS texting in Teams for the United States, Puerto Rico, and Canada
 ---
 
 # SMS texting in Teams with Microsoft Calling Plan numbers
@@ -198,7 +199,7 @@ Further prerequisites and next steps can be found in the following article: [Ste
 
 Support for **end users** can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/topic/a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
 
-## Related topics
+## Related articles
 
 [Microsoft Calling Plan Overview](calling-plan-overview.md)
 
