@@ -3,7 +3,7 @@ title: Set up for live events in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: christi.balaki
 ms.date: 10/3/2024
