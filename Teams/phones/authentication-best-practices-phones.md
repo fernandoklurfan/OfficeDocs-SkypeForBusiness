@@ -97,7 +97,7 @@ Use filters for devices to identify your common-area devices and enable policies
 2. Enforcing special policies on shared devices that *shouldn't* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
 
 >[!NOTE]
-> Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
+> Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices aren't managed by Intune, use extension attributes.
 
 ## Teams Legacy Authorization
 
