@@ -4,7 +4,7 @@ title: Plan for meetings with external participants in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: msteams
 ms.reviewer: alsolom
 audience: admin
