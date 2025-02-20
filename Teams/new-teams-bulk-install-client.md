@@ -158,15 +158,3 @@ See [How to uninstall the new Teams client](teams-client-uninstall.md) and [Unin
 ## Remove classic Teams for all users
 
 See [Uninstalling classic Microsoft Teams](teams-classic-client-uninstall.md) for more information.
-
-## End user experience:  Launching the new Teams
-
-After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
-
-**Option 1:** Users can launch classic Teams, and then switch the toggle to go to new Teams.
-
-**Option 2:** Users can directly launch new Teams:
-
-1. In Windows, select **Start** **> new Microsoft Teams**.
-2. Select "Yes" at the confirmation prompt screen.
-3. Once confirmed, the new Teams launches and is the default version.
