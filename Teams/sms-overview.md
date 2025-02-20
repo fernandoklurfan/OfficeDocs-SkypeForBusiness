@@ -8,7 +8,7 @@ ms.date: 02/19/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.subservice: phone-system
+ms.subservice: 
 ms.collection:
   - M365-voice
   - m365initiative-voice
@@ -197,7 +197,7 @@ Teams Calling Plans support sending SMS where the sender type is a 10 digit long
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
-Support for **end users** can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/en-us/topic/a7d163cb-3562-4f4a-b1c1-81c722c1a0f1?preview=true).
+Support for **end users** can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/en-us/office/first-things-to-know-about-chats-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2).
 
 ## Related articles
 
