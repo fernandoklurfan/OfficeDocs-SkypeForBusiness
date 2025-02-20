@@ -29,15 +29,6 @@ The new Teams for Mac has been reimagined from the ground up with performance in
 
 The new Teams ensures more efficient use of device resources. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
-## How to try new Teams: App Switcher
-
-- Launch the Teams app and turn on **Try the new Teams** toggle on the upper-left corner of the desktop app to switch to new Teams.
-- Opt-in by selecting the **Try the new Teams** toggle and select **Get it now**.
-- To switch back, just flip the toggle.
-
->[!Note]
->This experience is currently optimized for non-EDU users. If you are an EDU user, you will see the App switcher and are welcome to try it out, but we do not recommend you use it for primary scenarios yet.
-
 ## Prerequisites
 
 ### Minimum Mac and Teams versions
