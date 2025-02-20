@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: pamgreen
 manager: serdars
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.assetid: a2394a4c-7522-484c-a047-7b3289742be0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online

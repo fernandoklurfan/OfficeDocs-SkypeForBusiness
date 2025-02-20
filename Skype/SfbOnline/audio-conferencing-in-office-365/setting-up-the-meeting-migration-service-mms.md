@@ -5,7 +5,7 @@ ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
