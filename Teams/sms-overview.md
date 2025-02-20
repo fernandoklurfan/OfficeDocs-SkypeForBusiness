@@ -197,7 +197,7 @@ Teams Calling Plans support sending SMS where the sender type is a 10 digit long
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
-Support for **end users** can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/topic/a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
+Support for **end users** can be found in the following article: [SMS support for Teams end users](https://support.microsoft.com/en-us/topic/a7d163cb-3562-4f4a-b1c1-81c722c1a0f1?preview=true).
 
 ## Related articles
 
