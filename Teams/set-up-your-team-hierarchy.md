@@ -3,7 +3,7 @@ title: Set up your team targeting hierarchy
 author: DaniEASmith
 ms.author: danismith
 manager: jtremper
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.service: msteams
 ms.reviewer: andfried
 ms.date: 04/18/2024
