@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.date: 10/3/2024
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 ms.reviewer: christi.balaki
 audience: admin

@@ -3,7 +3,7 @@ title: Live events in Microsoft Teams overview
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.collection: 

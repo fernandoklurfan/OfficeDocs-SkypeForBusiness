@@ -5,7 +5,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.date: 06/21/2019
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150
