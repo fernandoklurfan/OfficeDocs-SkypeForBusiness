@@ -34,18 +34,25 @@ Personal peripherals certified for Microsoft Teams are accessories designed to e
 
 For more information on Certification for Teams Personal Devices and a list of all certified for Microsoft Teams personal peripheral devices, see the articles in the **Related articles** section of this article.
 
-Teams certified personal peripherals offer a range of features designed to enhance your Microsoft Teams experience:
+Browse and shop our Certified for Microsoft Teams personal peripheral devices at: [Microsoft Teams enabled devices](https://www.microsoft.com/en-us/teams-devices). 
+
+Certified for Microsoft Teams personal peripherals offer a range of features designed to enhance your Microsoft Teams experience:
 
 - **Mute Sync:** You can mute and unmute from your audio peripheral, and the status will sync with Teams' mute state. You can also mute/unmute from the Teams client and that status will sync with the peripheral device's mute state.
-- **Volume Control:** You can increase or decrease volume through the volume buttons on your Teams certified peripheral.
+- **Volume Control:** You can increase or decrease volume through the volume buttons on your certified for Microsoft Teams personal peripheral.
+
 - **Call Controls:** You can answer, reject, and end a call with the hook switch button. With some peripheral devices, you can also put a call on hold using the hook switch button.
 - **Teams Button:** Act upon Teams notifications directly from the Teams button on your peripheral. With the Teams button you can:
-  - Bring Teams to the foreground of your screen (Teams button short press).
-  - Join a Teams meeting pre-join screen when getting an incoming meeting notification (Teams button short press).
-  - Join a Teams meeting from the pre-join screen (Teams button short press).
-  - Bring a Teams meeting screen to the foreground of your screen (Teams button short press).
-  - Raise (and lower) hand in a Teams meeting (Teams button long-press).
-
+  - Bring Teams to the foreground of your screen (Teams button click).
+    
+  - Join a Teams meeting pre-join screen when getting an incoming meeting notification (Teams button click).
+    
+  - Join a Teams meeting from the pre-join screen (Teams button click).
+    
+  - Bring a Teams meeting screen to the foreground of your screen (Teams button click).
+    
+  - Raise (and lower) hand in a Teams meeting (Teams button press and hold).
+    
 For more information regarding the Teams button, see [Microsoft Teams button on your certified Teams device](https://support.microsoft.com/office/use-the-microsoft-teams-button-on-your-certified-teams-device-ed5ec8f0-6f09-46aa-b80c-3372de084a98).
 
 - **LED Indicator Light:** Indicating different states with colors flashing on or around the peripheral buttons (such as the Teams button flashing when receiving a meeting join notification).
@@ -55,7 +62,7 @@ These features ensure that Teams certified personal peripherals provide a seamle
 
 ## Required Licenses
 
-No additional licenses are required to use Teams certified personal peripherals. They are designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
+No additional licenses are required to use certified for Microsoft Teams personal peripherals. They are designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
 
 ## Related articles
 
