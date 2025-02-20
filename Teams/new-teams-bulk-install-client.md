@@ -3,7 +3,7 @@ title:  Bulk deploy the new Microsoft Teams desktop client
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 06/19/2024
 ms.service: msteams
 audience: admin
