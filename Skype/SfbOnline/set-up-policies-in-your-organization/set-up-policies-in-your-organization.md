@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: pamgreen
 manager: serdars
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.assetid: 91f9655f-1e9d-4688-9801-a6dc8d6efd87
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
