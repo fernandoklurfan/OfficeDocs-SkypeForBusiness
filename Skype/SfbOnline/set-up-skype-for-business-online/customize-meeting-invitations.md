@@ -5,7 +5,7 @@ ms.reviewer:
 ms.author: serdars
 author: pamgreen
 manager: serdars
-ms.topic: article
+ms.topic: how-to
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
