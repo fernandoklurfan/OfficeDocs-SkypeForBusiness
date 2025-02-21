@@ -158,7 +158,7 @@ While each room or room group can be assigned with a unique configuration, you c
   - **Screen timeout** - Toggle On or Off **Allow screen timeout when device is idle** as desired. Turn On to adhere to the operating system's screen timeout settings (that is, the screen light goes out regardless of when signage mode is activated). Turn Off to bypass the operating system's screen timeout settings (that is, the screen remains lit up on idle devices when signage mode is activated).
   
 > [!NOTE]
-> If you add video content in your signage playlist, the screen timeout setting might not consistently honored due to underlying operating system behavior for video playback.
+> If you add video content to your signage playlist, the screen timeout setting might not be consistently honored due to the underlying operating system behavior for video playback.
 
 > [!TIP]
 > To maximize the visibility of signage mode and ensure your teams see signage content when walking into a room, passing by a room, or lingering in a room after a meeting ends, set the activation and deactivation timers to the lowest possible values and extend the operating system's screen timeout timer or bypass the screen timeout settings by turning Off **Allow screen timeout when device is idle**.
