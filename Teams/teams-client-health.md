@@ -37,8 +37,7 @@ To access the update monitoring and insights dashboard, follow these steps:
 
 The Teams client health page displays an overview of Teams client health along with more information when you go into the details.
 
-XXX SCREENSHOT
-ALT TEXT FOR SCREENSHOT: A screenshot of the client health page with four callout boxes marked. Box 1 is in the top center of the page next to Client health. Box 2 is on the top right next to Top issues. Box 3 is on the lower left next to Items and Filtered by. Box 4 is on the lower right next to the filter box.
+:::image type="content" source="media/teams-client-health-main-page.png" alt-text="A screenshot of the client health page with four callout boxes marked. Box 1 is at the top of the page next to Client health. Box 2 is on the top right next to Top issues. Box 3 is on the lower middle above the issues list. Box 4 is on the lower right next to the search, settings, and export options.":::
 
 The **Client health** widget displays key health metrics like device crashes and launch failure trends for the last 28 days for all devices in your tenant.
 
@@ -86,4 +85,3 @@ XXX SCREENSHOT
     - Export the table to a CSV file.
     - Filter and search by versions.
     - Manage settings for columns in the table.
-
