@@ -20,8 +20,7 @@ f1.keywords:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn how to manage your Teams Rooms devices in the Teams Room Pro Management portal.
-ai-usage:  
-- ai-assisted
+ai-usage: ai-assisted
 ms.custom: QuickDraft
 ---
 
