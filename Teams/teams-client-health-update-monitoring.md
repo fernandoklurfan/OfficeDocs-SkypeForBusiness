@@ -61,7 +61,7 @@ You can see your organization's client version distribution and adoption of each
 
 You can identify users and devices running outdated version of Teams, and review troubleshooting insights on issues preventing users from updating to a newer version of Teams.
 
-XXX SCREENSHOT, NOT FINAL
+:::image type="content" source="media/teams-client-version-details-page.png" alt-text="A screenshot of the version details page, with callouts. The first callout, on the top left-hand side, is the client version. The second callout, underneath the first, is the date of release. The third callout, to the immediate right of the second, is the Teams client version. The fourth callout, in the middle underneath the third, has charts showing trends. The fifth, center of the screenshot, shows a table with details. The sixth, to the middle right, shows search, settings, and export options.":::
 
 - Callout 1: Client versions - The exact client version number.
 - Callout 2: Release Date - The date this specific client version was fully released to the general ring.
