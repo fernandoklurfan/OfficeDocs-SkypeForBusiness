@@ -57,7 +57,7 @@ These features ensure that personal peripherals certified for Microsoft Teams pr
 
 ## Required Licenses
 
-No additional licenses are required to use Teams certified personal peripherals. They're designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
+No additional licenses are required to use certified for Microsoft Teams personal peripherals. They're designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
 
 ## Related articles
 
