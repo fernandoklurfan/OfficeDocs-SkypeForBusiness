@@ -26,7 +26,7 @@ description: Learn about the features and capabilities of Teams certified person
 
 # Personal peripherals for Microsoft Teams
 
-This article describes in detail all the features that come with Teams certified personal peripherals. Many users don't know about all the wonderful capabilities that these devices have and this article will provide users with a single palce of truth that shares about all the features that Teams certified personal peripherals offer. This article will be updated when new features roll out, allowing users to easily stay in the loop about what's new with Teams certified personal peripherals and to utilize their devices and all their capabilities to the highest capacity.
+This article describes in detail all the features that come with Teams certified personal peripherals. Many users don't know about all the wonderful capabilities that these devices have and this article will provide users with a single place of truth that shares about all the features that Teams certified personal peripherals offer. This article is updated when new features roll out, allowing users to easily stay in the loop about what's new with Teams certified personal peripherals and to utilize their devices and all their capabilities to the highest capacity.
 
 ## Features Supported by Teams Certified Personal Peripherals
 
@@ -38,24 +38,24 @@ Teams certified personal peripherals offer a range of features designed to enhan
 
 - **Mute Sync:** You can mute and unmute from your audio peripheral, and the status will sync with Teams' mute state. You can also mute/unmute from the Teams client and that status will sync with the peripheral device's mute state.
 - **Volume Control:** You can increase or decrease volume through the volume buttons on your Teams certified peripheral.
-- **Call Controls:** You can answer, reject, and end a call with the hook switch button. With some peripheral devices, you can also put a call on hold using the hook switch button.
+- **Call Controls:** You can answer, reject, and end a call with the hook switch button. With some peripheral devices, you can also put on a call hold using the hook switch button.
 - **Teams Button:** Act upon Teams notifications directly from the Teams button on your peripheral. With the Teams button you can:
   - Bring Teams to the foreground of your screen (Teams button short press).
-  - Join a Teams meeting pre-join screen when getting an incoming meeting notification (Teams button short press).
-  - Join a Teams meeting from the pre-join screen (Teams button short press).
+  - Join a Teams meeting prejoin screen when getting an incoming meeting notification (Teams button short press).
+  - Join a Teams meeting from the prejoin screen (Teams button short press).
   - Bring a Teams meeting screen to the foreground of your screen (Teams button short press).
   - Raise (and lower) hand in a Teams meeting (Teams button long-press).
 
 For more information regarding the Teams button, see [Microsoft Teams button on your certified Teams device](https://support.microsoft.com/office/use-the-microsoft-teams-button-on-your-certified-teams-device-ed5ec8f0-6f09-46aa-b80c-3372de084a98).
 
 - **LED Indicator Light:** Indicating different states with colors flashing on or around the peripheral buttons (such as the Teams button flashing when receiving a meeting join notification).
-- **Native Bluetooth Call Controls over Hands-Free Protocol:** Switch between your selected native Bluetooth peripheral devices using the hook switch button to answer an incoming call with the desired device. Once the call is over, the original selected device in the Teams Device Settings will resume being the selected device.
+- **Native Bluetooth Call Controls over Hands-Free Protocol:** Switch between your selected native Bluetooth peripheral devices using the hook switch button to answer an incoming call with the desired device. Once the call is over, the original selected device in the Teams Device Settings resume being the selected device.
 
 These features ensure that Teams certified personal peripherals provide a seamless and efficient experience for users.
 
 ## Required Licenses
 
-No additional licenses are required to use Teams certified personal peripherals. They are designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
+No additional licenses are required to use Teams certified personal peripherals. They're designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
 
 ## Related articles
 
