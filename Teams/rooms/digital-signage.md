@@ -113,7 +113,7 @@ To enable a third party integration, from the digital signage tenant management 
 If you don’t use any of the supported third party providers, you can set web URLs as a signage source. To ensure the web application loads successfully on your Teams Rooms device, the URL must meet the following requirements:
 
 - Has a valid web URL format.
-- Begins with "https".
+- Begins with "https."
 - Accessible within a browser InPrivate window without requiring authentication or permission from the resource account.
 - Loads within an iframe that runs in sandbox="allow-scripts allow-same-origin" environment. For more information, see [CSP: frame-ancestors - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
@@ -170,7 +170,7 @@ When using a supported third party digital signage provider as the signage sourc
 When there's an issue with the third party player or signage content, the issue description, and actions you can take to resolve the issue (if applicable) will be visible in the messages. Depending on the nature of the issue, the Teams Rooms experience varies:
 
 - If there's no signage content available to play in a room whether caused by a system error (that is, server error, offline) or human error (that is, no content assigned to the room, no cached content), signage mode will remain deactivated until the issue is resolved at the next device restart. The room remains on the home screen to avoid showing error messages or empty screens on front-of-room displays. Alerts are provided on the Teams Rooms Pro Management portal and the third party content management system as appropriate.
-- If there's signage content available to play in a room (i.e., cached content) despite an error, signage mode continues to activate per the activation timer. Any applicable alerts will still be provided on the Teams Rooms Pro Management portal and/or the third party content management system.
+- If there's signage content available to play in a room (that is, cached content) despite an error, signage mode continues to activate per the activation timer. Any applicable alerts will still be provided on the Teams Rooms Pro Management portal and/or the third party content management system.
 
 > [!NOTE]
 > The digital signage health signal isn't available for rooms with a web URL (custom option) signage source.
