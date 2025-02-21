@@ -68,7 +68,7 @@ More details on each metric displayed are listed below:
     - Filter by Issue or Insight.
     - Access settings for the columns in the table.
 
-XXX SCREENSHOT
+:::image type="content" source="media/teams-client-issue-details-page.png" alt-text="A screenshot of a details page, with callouts marked. The first callout is next to the title for the page, and says Crash. The second callout is below the title and indicates whats behind this issue. The third callout is next to a link to help fix the issue. The fourth callout is at the top of the list of users experiencing the issue with details about them. The fifth callout is on the upper right-hand side of the page, with the filter, settings, and export options.":::
 
 - Callout 1: Issue Type - The category of issue impacting users and devices.
 - Callout 2: Insight - The insight or reason leading users and devices to experience the issue.
