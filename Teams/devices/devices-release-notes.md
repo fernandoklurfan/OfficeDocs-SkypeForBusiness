@@ -214,6 +214,8 @@ To add a mobile system OS scanner:
 
 Bug fixes including improvements in font rendering on side cars among others   
 
+Contacts on Teams app and sidecar will now be sorted alpabetically
+
 ### January 8, 2025
 
 **Applies to:** *Teams app version: 1449/1.0.94.2024122303 (Poly, Yealink, AudioCodes)*
