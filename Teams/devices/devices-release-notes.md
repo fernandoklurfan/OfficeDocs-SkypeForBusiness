@@ -214,7 +214,7 @@ To add a mobile system OS scanner:
 
 Bug fixes including improvements in font rendering on side cars among others   
 
-Contacts on Teams app and sidecar will now be sorted alpabetically
+Contacts on Teams app and sidecar will now be sorted alphabetically
 
 ### January 8, 2025
 
