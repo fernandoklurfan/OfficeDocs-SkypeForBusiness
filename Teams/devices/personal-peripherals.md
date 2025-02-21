@@ -53,7 +53,7 @@ For more information regarding the Teams button, see [Microsoft Teams button on 
 - **LED Indicator Light:** Indicating different states with colors flashing on or around the peripheral buttons (such as the Teams button flashing when receiving a meeting join notification).
 - **Native Bluetooth Call Controls over Hands-Free Protocol:** Switch between your selected native Bluetooth peripheral devices using the hook switch button to answer an incoming call with the desired device. Once the call is over, the original selected device in the Teams Device Settings will resume being the selected device.
 
-These features ensure that Teams certified personal peripherals provide a seamless and efficient experience for users.
+These features ensure that personal peripherals certified for Microsoft Teams provide a seamless and efficient experience for users.
 
 ## Required Licenses
 
