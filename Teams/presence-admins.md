@@ -107,7 +107,7 @@ The following admin settings Skype for Business are different in Teams:
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat** > **Contacts** or under **Calls** > **Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar integration (includes out of office and other calendar information) is always enabled for users when Teams is integrated with Outlook.
-- The *Last seen* or *Away since*  indicator is always enabled for users in Teams if the organization also uses Skype for Business.
+- The *Last seen* or *Away since* indicator is always enabled for users in Teams if the organization also uses Skype for Business.
 
 > [!NOTE]
 > The ability of a Teams admin to customize these settings is not currently supported.
