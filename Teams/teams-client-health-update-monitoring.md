@@ -89,7 +89,7 @@ You can also monitor Client health per user from the user’s page.
 1. Select any user account.
 1. Select the **Client health** tab.
 
-XXX SCREENSHOT HERE
+:::image type="content" source="media/teams-client-per-user-view.png" alt-text="A screenshot of the per-user view, with numbered callouts. The first callout is slightly to the right of the middle of the screenshot, over the Client health tab. The second callout is directly underneath the first, above a table. The third is on the middle right of the screenshot, above the search, settings, and export options.":::
 
 The client health tab provides breakdown of this information, including:
 
