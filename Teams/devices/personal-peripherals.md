@@ -47,6 +47,7 @@ Certified for Microsoft Teams personal peripherals offer a range of features des
   - Join a Teams meeting from the pre-join screen (Teams button click).
   - Bring a Teams meeting screen to the foreground of your screen (Teams button click).
   - Raise (and lower) hand in a Teams meeting (Teams button press and hold).
+  
 For more information regarding the Teams button, see [Microsoft Teams button on your certified Teams device](https://support.microsoft.com/office/use-the-microsoft-teams-button-on-your-certified-teams-device-ed5ec8f0-6f09-46aa-b80c-3372de084a98).
 
 - **LED Indicator Light:** Indicating different states with colors flashing on or around the peripheral buttons (such as the Teams button flashing when receiving a meeting join notification).
