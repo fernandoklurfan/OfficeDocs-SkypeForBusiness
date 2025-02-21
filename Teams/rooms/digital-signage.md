@@ -104,7 +104,7 @@ Next, you need to add a signage source. You can add multiple signage sources for
 
 ## Step 3 - Adding an external signage source
 
-To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**. You can find the setup instructions for the following supported third party providers below:
+To enable a third party integration, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose the third party system of your choice > enter a valid integration ID that you must obtain from the third-party system > select **Validate** > **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**. You can find the setup instructions for the following supported third party providers:
 
 - [Appspace](https://docs.appspace.com/latest/devices-app/advanced-registration-microsoft-meeting-room-devices/)
 
