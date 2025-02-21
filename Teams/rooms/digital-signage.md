@@ -23,7 +23,7 @@ description: Learn more about how
 ---
 # Configure digital signage on Teams Rooms
 
-Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices aren't used for meetings or presentations, they can be configured to display dynamic content and relevant information like how to guides, company or organizational news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time-out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You have the option to show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.
+Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices aren't used for meetings or presentations, they can be configured to display dynamic content and relevant information like how to guides, company or organizational news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time-out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You can show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.
 
 :::image type="content" source="media/digital-signage/ds-meeting-enlarged-console.jpg" alt-text="Teasms Rooms homescreen." lightbox="media/digital-signage/ds-meeting-enlarged-console.jpg":::
 
@@ -73,7 +73,7 @@ By default, Microsoft 365 Global Admins and Teams Rooms Pro Managers have the di
   
 - Digital signage *room* management permission
   - Enable, disable, and reset digital signage for a room.
-  - Select an existing signage source from the list of sources that has been added to the tenant for a room.
+  - Select an existing signage source from the list of sources that was added to the tenant for a room.
   - Modify signage settings for a room.
   
 Microsoft 365 Global Admins and Teams Rooms Pro Managers can assign additional users with digital signage tenant management and/or digital signage room management permissions using the role-based access control:
@@ -83,7 +83,7 @@ Microsoft 365 Global Admins and Teams Rooms Pro Managers can assign additional u
 
 1. Sign in to **Teams Rooms Pro Management** portal > go to **Settings** > **Roles** > select **Create** **role** > enter a unique name and description for the role > select **Next**.
 1. Under **Role permissions**, select **Digital signage tenant management: View, Modify** and/or **Digital signage room management: Modify** as desired > select **Next** > enter a name and description for the assignment > select **Next**.
-1. Under **Assign members**, search and/or select user(s) and/or security group(s) that will be part of this role with the selected permissions > select **Next**.
+1. Under **Assign members**, search and/or select users and/or security groups that will be part of this role with the selected permissions > select **Next**.
 1. Under **Assign scope**, search and/or select room(s) and/or room group(s) that this role can manage > select **Next** > **Add new role**.
 
 > [!IMPORTANT]
