@@ -34,9 +34,7 @@ To access the update monitoring and insights dashboard:
 1. Select **Teams client health** from the navigation pane. XXX DIRECTIONALLY WHERE, YOU CAN'T JUST RELY ON THE SCREENSHOT.
 XXX NEEDS MORE DETAIL. IMAGINE YOU'RE DESCRIBING THIS TO SOMEONE OVER THE PHONE.
 
-
-XXX SCREENSHOT HERE.
-XXX ALT TEXT WILL BE: A screenshot of the Teams client health page with callouts marked. The number one is next to a chart under the Teams client health heading. The number two is on the upper left-hand side of a table showing details. The number three is to the upper right of this table next to filtering and search options.
+:::image type="content" source="media/teams-client-health-main-page-alt.png" alt-text="A screenshot of the Teams client health page with callouts marked. The first callout is over the page title. The second callout is on the upper middle of a table showing details. The number three is to the upper right of this table next to search, settings, and export options.":::
 
 - Callout 1: The Client update widget displays the overall version status distribution for all devices in your tenant. The update status widget provides statuses by 3 categories:
   - Latest Build: A device is running a Teams client build newer than the last 100% released build.
