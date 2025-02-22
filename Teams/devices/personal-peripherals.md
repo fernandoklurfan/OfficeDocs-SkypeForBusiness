@@ -34,7 +34,7 @@ Personal peripherals certified for Microsoft Teams are accessories designed to e
 
 For more information on Certification for Teams Personal Devices and a list of all certified for Microsoft Teams personal peripheral devices, see the articles in the **Related articles** section of this article.
 
-Browse and shop our Certified for Microsoft Teams personal peripheral devices at: [Microsoft Teams enabled devices](https://www.microsoft.com/en-us/teams-devices). 
+Browse and shop our Certified for Microsoft Teams personal peripheral devices at: [Microsoft Teams enabled devices](https://www.microsoft.com/teams-devices). 
 
 Certified for Microsoft Teams personal peripherals offer a range of features designed to enhance your Microsoft Teams experience:
 
