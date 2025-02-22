@@ -26,8 +26,6 @@ ms.localizationpriority: medium
 
 This article provides an overview of the new Teams client health dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
 
-[foo](/entra/identity/authentication/concept-authentication-qr-code)
-
 Teams client health is an all-new page with a set of data, insights, and tools to help administrators troubleshoot and resolve issues. When a Teams application experiences an issue, end-users typically reach out to their admins. As an admin, you may be regularly occupied with requests from end-users. This can leave you in a reactive position with limited information to diagnose and resolve problems effectively.
 
 As an admin, you may need to proactively monitor, or you may need to perform remediation actions to manage and fix issues before they impact your end user productivity or cause further escalations.
