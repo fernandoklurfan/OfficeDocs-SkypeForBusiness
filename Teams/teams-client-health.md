@@ -1,10 +1,10 @@
 ---
-title:  Teams client supportability and manageability tools in Teams admin center health
+title: The Teams client health dashboard in the Teams admin center
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 01/31/2025
+ms.date: 02/24/2025
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -20,15 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 ---
 
-# Teams client supportability and manageability tools in Teams admin center health
+# Teams client health dashboard in the Teams admin center
 
-This article provides an overview of the new Teams Client Health Dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
+This article provides an overview of the new Teams client health dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
 
 Teams client health is an all-new page with a set of data, insights, and tools to help administrators troubleshoot and resolve issues. When a Teams application experiences an issue, end-users typically reach out to their admins. As an admin, you may be regularly occupied with requests from end-users. This can leave you in a reactive position with limited information to diagnose and resolve problems effectively.
 
 As an admin, you may need to proactively monitor, or you may need to perform remediation actions to manage and fix issues before they impact your end user productivity or cause further escalations.
 
-## Access the Teams Client health dashboard
+## Access the Teams client health dashboard
 
 To access the update monitoring and insights dashboard, follow these steps:
 
@@ -65,17 +65,17 @@ More details on each metric displayed are listed below:
     - Suggested Actions: Recommended mitigation guidance to troubleshoot and fix the issue. 
 - Callout 4: You can use these buttons to:
     - Export the table to a CSV file.
-    - Filter by Issue or Insight.
+    - Filter by issue or insight.
     - Access settings for the columns in the table.
 
 :::image type="content" source="media/teams-client-issue-details-page.png" alt-text="A screenshot of a details page, with callouts marked. The first callout is next to the title for the page, and says Crash. The second callout is below the title and indicates whats behind this issue. The third callout is next to a link to help fix the issue. The fourth callout is at the top of the list of users experiencing the issue with details about them. The fifth callout is on the upper right-hand side of the page, with the filter, settings, and export options.":::
 
-- Callout 1: Issue Type - The category of issue impacting users and devices.
+- Callout 1: Issue type - The category of issue impacting users and devices.
 - Callout 2: Insight - The insight or reason leading users and devices to experience the issue.
 - Callout 3: Mitigation link - This link points to Microsoft recommended mitigation and guidance to resolving the issue.
 - Callout 4: The table provides the following data:
-    - Client Version - The Teams client version the user is currently on.
-    - Version Status - The client version status of the Teams client the user is running on.
+    - Client version - The Teams client version the user is currently on.
+    - Version status - The client version status of the Teams client the user is running on.
     - Ring - The ring the user is a part of.
     - Device - Details about the device the user is currently using.
     - Device crashes - The number of devices that experienced crashes in last 7 days.
