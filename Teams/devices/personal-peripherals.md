@@ -47,16 +47,17 @@ Certified for Microsoft Teams personal peripherals offer a range of features des
   - Join a Teams meeting from the pre-join screen (Teams button click).
   - Bring a Teams meeting screen to the foreground of your screen (Teams button click).
   - Raise (and lower) hand in a Teams meeting (Teams button press and hold).
+  
 For more information regarding the Teams button, see [Microsoft Teams button on your certified Teams device](https://support.microsoft.com/office/use-the-microsoft-teams-button-on-your-certified-teams-device-ed5ec8f0-6f09-46aa-b80c-3372de084a98).
 
 - **LED Indicator Light:** Indicating different states with colors flashing on or around the peripheral buttons (such as the Teams button flashing when receiving a meeting join notification).
-- **Native Bluetooth Call Controls over Hands-Free Protocol:** Switch between your selected native Bluetooth peripheral devices using the hook switch button to answer an incoming call with the desired device. Once the call is over, the original selected device in the Teams Device Settings resume being the selected device.
+- **Native Bluetooth Call Controls over Hands-Free Protocol:** Switch between your selected native Bluetooth peripheral devices using the hook switch button to answer an incoming call with the desired device. Once the call is over, the original selected device in the Teams Device Settings will resume being the selected device.
 
-These features ensure that Teams certified personal peripherals provide a seamless and efficient experience for users.
+These features ensure that personal peripherals certified for Microsoft Teams provide a seamless and efficient experience for users.
 
 ## Required Licenses
 
-No additional licenses are required to use Teams certified personal peripherals. They're designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
+No additional licenses are required to use certified for Microsoft Teams personal peripherals. They're designed to work out-of-the-box with Microsoft Teams, providing a plug-and-play experience.
 
 ## Related articles
 
