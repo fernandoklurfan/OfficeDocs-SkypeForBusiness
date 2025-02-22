@@ -32,9 +32,8 @@ This dashboard highlights the client update status for the devices in your tenan
 
 To access the update monitoring and insights dashboard:
 
-1. Go to the Teams admin center. XXX PERMISSIONS HERE?
-1. Select **Teams client health** from the navigation pane. XXX DIRECTIONALLY WHERE, YOU CAN'T JUST RELY ON THE SCREENSHOT.
-XXX NEEDS MORE DETAIL. IMAGINE YOU'RE DESCRIBING THIS TO SOMEONE OVER THE PHONE.
+1. Go to the Teams admin center and login with your Admin credentials.
+1. Select **Teams client health** from the navigation pane on the left-hand side of the window.
 
 :::image type="content" source="media/teams-client-health-main-page-alt.png" alt-text="A screenshot of the Teams client health page with callouts marked. The first callout is over the page title. The second callout is on the upper middle of a table showing details. The number three is to the upper right of this table next to search, settings, and export options.":::
 
