@@ -36,8 +36,7 @@ Administrators must have one of the following **RBAC roles** assigned:
 
 - Teams Administrator
 - Teams Communications Administrator
-- Teams Telephony Administrator, or
-- Global Admin
+- Teams Telephony Administrator
 
 ## Building a Brand
 
