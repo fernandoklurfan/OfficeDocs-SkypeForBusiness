@@ -75,7 +75,7 @@ Registration with TCR involves the following two parts:
 To receive approval with TCR, Teams administrators use the Teams admin center to pass their company's Brand and Campaign information to TCR. TCR then reviews your Brand and Campaign, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
 
 > [!NOTE]
-> US and PR customers must receive Brand *and* Campaign approval before any number can beenabled for SMS in Teams. Mobile operators don't accept A2P SMS traffic from senders that don't go through TCR registration. Teams phone numbers can't be enabled for SMS until TCR approves the brand and campaign.
+> US and PR customers must receive Brand *and* Campaign approval before any number can be enabled for SMS in Teams. Mobile operators don't accept A2P SMS traffic from senders that don't go through TCR registration. Teams phone numbers can't be enabled for SMS until TCR approves the brand and campaign.
 
 Registration and enabling SMS for Teams Calling Plan numbers can be summarized in the following diagram:
 
@@ -162,13 +162,13 @@ Pooling applies only to identical Calling Plans.
 
 ### Rate limiting
 
-To ensure 10DLC's high quality of service consistent with provided SLAs, operators enforce rate limits for the number of messages that can be sent from a TCR-registered entity. Rate limits have a wide range depend on several factors, including:
+To ensure 10DLC's high quality of service consistent with provided SLAs, operators enforce rate limits for the number of messages that can be sent from a TCR-registered entity. There are a wide range of rate limits, depending on several factors, including:
 
 - The tier of your Brand
 - The 10DLC operator that is sending the SMS on your user's behalf
 - The use case of the Campaign
 
-The operator that provides the recipient's SMS service is the operator that enforces the rate limit. Varying differences in rate limits can be observed in the following table:
+The operator that provides the *recipient's* SMS service is the operator that enforces the rate limit. Varying differences in rate limits can be observed in the following table:
 
 |Operator |UCaaS Low Volume |UCaaS High Volume |
 |:-----|:-----|:-----|
