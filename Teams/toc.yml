@@ -523,6 +523,12 @@ items:
               href: alerts/alerts-in-progress-meeting-video.md
             - name: Alerts for screen sharing issues
               href: alerts/alerts-in-progress-meeting-screen-sharing.md
+    - name: Teams client supportability tools
+      items:
+        - name: Teams client health
+          href: teams-client-health.md
+        - name: Update monitoring
+          href: teams-client-health-update-monitoring.md
 
     - name: Teams alerting and monitoring
       href: alerts/teams-admin-alerts.md 
@@ -1409,6 +1415,8 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               items:
+                - name: Personal peripheral features
+                  href: devices/personal-peripherals.md
                 - name: Certified personal peripherals
                   href: devices/usb-devices.md
                 - name: Certified Native Bluetooth devices
