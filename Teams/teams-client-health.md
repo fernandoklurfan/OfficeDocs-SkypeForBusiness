@@ -54,14 +54,14 @@ Here are more details on each metric:
     > [!NOTE]
     > Supported for Windows (non-VDI) and Mac applications.
 - Callout 2: This widget shows the top issues experienced by users in the organization:
-    - Device reported crashes: The number of devices that experienced crashes in the last 7 days. The number of devices that experienced crashes in last 28 days.
-    - Device reported launch failures: The number of devices that experienced launch failures in the last 7 days. The number of devices that experienced launch failures in the last 28 days.
-    - Device reported update failures: The number of devices that experienced update failures in last 7 days. The number of devices that experienced update failures in last 28 days.
+    - Device reported crashes: The number of devices that experienced crashes in the last seven days. The number of devices that experienced crashes in last 28 days.
+    - Device reported launch failures: The number of devices that experienced launch failures in the last seven days. The number of devices that experienced launch failures in the last 28 days.
+    - Device reported update failures: The number of devices that experienced update failures in last seven days. The number of devices that experienced update failures in last 28 days.
 - Callout 3: This table provides the following data:
     - Issue: Problems impacting devices and users in the tenant.
     - Insights: Insights on potential reasons behind these problems.
-    - Impacted Devices in the last 7 days (%): The number of devices that experienced the issue in the last 7 days and the percentage of the device base impacted in the organization.
-    - Affected users in the last 7 days (%): The number of users who experienced the issue in the last 7 days and the percentage of the user base impacted in the organization.
+    - Impacted Devices in the last seven days (%): The number of devices that experienced the issue in the last seven days and the percentage of the device base impacted in the organization.
+    - Affected users in the last seven days (%): The number of users who experienced the issue in the last seven days and the percentage of the user base impacted in the organization.
     - Impacted Devices in the last 28 days (%): The number of devices that experienced the issue in the last 28 days and the percentage of the device base impacted in the organization.
     - Affected users in the last 28 days (%): The number of users who experienced the issue in the last 28 days and the percentage of the user base impacted in the organization.
     - Suggested Actions: Recommended mitigation guidance to troubleshoot and fix the issue. 
@@ -80,8 +80,8 @@ Here are more details on each metric:
     - Version status - The client version status of the Teams client the user is running on.
     - Ring - The ring the user is a part of.
     - Device - Details about the device the user is currently using.
-    - Device crashes - The number of devices that experienced crashes in last 7 days.
-    - Device launch failures - The number of devices that experienced launch failures in the last 7 days.
+    - Device crashes - The number of devices that experienced crashes in last seven days.
+    - Device launch failures - The number of devices that experienced launch failures in the last seven days.
     - Updated on (UTC) - The time stamp when this information was last refreshed.
 - Callout 5: You can use these buttons to:
     - Export the table to a CSV file.
