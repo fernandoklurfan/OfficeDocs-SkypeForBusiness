@@ -83,11 +83,15 @@ Examples of details that TCR may require, based on [your Brand](sms-setup-brand.
 
 The Teams Admin Center allows you to provide the minimum details about your company's Campaign.
 
-To initiate Campaign approval application, in the Teams Admin Center, navigate to **Voice** > **Service configuration** > **SMS** > **Step 2: Create campaign**.
+To initiate Campaign approval application, do the following steps:
+1. In the Teams admin center, navigate to **Voice** > **Service configuration** > **SMS** > **Step 2: Create campaign**.
+1. Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. The ability to apply for Campaign approval won't be supported until the Brand is approved.
 
-Select **Create Campaign / Update Campaign / View details** to open a right-side configuration slide-out and populate the fields with your company's campaign information. The ability to apply for Campaign approval won't be supported until the Brand is approved.
+Populate your campaign application to TCR according to the following steps associated with the Campaign field sections:
 
-Populate your campaign application to TCR according to the following field headers:
+- [Step 1: Campaign details](#step-1-check-campaign-details)
+- [Step 2: Accept Terms and Conditions](#accept-terms-and-conditions)
+- [Step 3: Submit your Campaign and view Campaign status](#step-3-submit-your-campaign-and-view-status)
 
 ### Step 1: Check Campaign details
 
@@ -100,7 +104,7 @@ In the campaign form, provide details of your company's plan for SMS operations,
 |Embedded phone number |Indicates whether the campaign is using an embedded phone number (except the required HELP information contact phone number). |
 |Age-gated content |Indicates whether the campaign includes any age-gated content as defined by Carrier and CTIA guidelines.|
 
-### Step 2: Accept Microsoft's Terms and Conditions
+### Step 2: Accept Terms and Conditions
 
 Select the box to accept the terms and conditions.
 
@@ -108,7 +112,7 @@ The terms as follows relate to Microsoft sharing your brand information with an 
 
 >Teams SMS services involve an integration between Microsoft and the underlying carrier, aggregator, or operator ("Operator"). Microsoft must share application details and/or brand information with the Operator to ensure that the program meets regulatory guidelines and standards set by operators. The Operator is the final reviewer and approver of your service application. If the details you provide on your application change, it's your responsibility to resubmit your application with up-to-date information. By submitting an application, you agree that Microsoft may share the application details as necessary for provisioning the Teams messaging service.
 
-### Step 3: Submit your Campaign and view Campaign status
+### Step 3: Submit your Campaign and view status
 
 After reviewing your Campaign's details and accepting Microsoft's terms and conditions, select **Submit**.
 
