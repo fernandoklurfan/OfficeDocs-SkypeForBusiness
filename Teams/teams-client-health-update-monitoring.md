@@ -24,7 +24,7 @@ ms.localizationpriority: medium
 
 [!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
 
-As an admin, it’s important that your users have the latest and the most secure version of the Teams client. Teams update monitoring in the Teams admin center allows you to proactively monitor Teams client updates and versions and helps identify users who aren't on latest version of Teams, so you can support them.
+As an admin, it’s important that your users have the latest and the most secure version of the Teams client. Teams update monitoring in the Teams admin center allows you to proactively monitor Teams client updates and versions. It also helps identify users who aren't on latest version of Teams, so you can support them.
 
 This dashboard highlights the client update status for the devices in your tenant and gives Microsoft recommended insights for moving users to the latest version of Teams client.
 
