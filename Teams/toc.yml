@@ -1415,6 +1415,8 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               items:
+                - name: Personal peripheral features
+                  href: devices/personal-peripherals.md
                 - name: Certified personal peripherals
                   href: devices/usb-devices.md
                 - name: Certified Native Bluetooth devices
