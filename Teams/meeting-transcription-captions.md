@@ -138,7 +138,7 @@ To run the diagnostic tool for transcripts, follow these steps:
 
 1. Select the Run Tests button to populate the diagnostic in the Microsoft 365 admin center:
 
-> [!div class="nextstepaction"]
+   > [!div class="nextstepaction"]
    > [Run Tests: Teams Call Forwarding](https://aka.ms/MeetingTranscribeDiag)
 
 2. In the Username or Email field, enter the email address of the affected user.
