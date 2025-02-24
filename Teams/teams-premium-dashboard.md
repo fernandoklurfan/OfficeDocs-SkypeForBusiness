@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: riagrawal
-ms.date: 1/31/2025
+ms.date: 2/24/2025
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Teams Premium for your organization
 
-As an admin, you can use The Teams Premium dashboard to manage licenses, track features usage, and get suggestions on how to set up and optimize features for your organization.
+As an admin, you can use The Teams Premium dashboard to manage licenses, track features usage, and get suggestions on how to set up and optimize features for your organization. To learn more about Teams Premium, see [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md).
 
 To access the Teams Premium dashboard, sign-in to the Teams admin center > select **Teams Premium** in the navigation pane.
 
@@ -116,5 +116,6 @@ The dashboard’s table has three tabs that provide the following details:
 ## Related articles
 
 - [Teams Premium overview](enhanced-teams-experience.md)
+- [Microsoft Teams Premium - Overview for admins](enhanced-teams-experience.md)
 - [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report)
 - [Microsoft Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams)
