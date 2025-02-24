@@ -32,17 +32,17 @@ Teams SMS enables businesses to communicate with customers directly through SMS 
 
 ## How we handle opt-out requests for SMS
 
-If an individual requests to opt-out of future messages on Teams SMS, then all further traffic from that number will be automatically stopped. However, you must still ensure that you don't send more messages for that messaging campaign from new or different numbers. If you have separately obtained express consent for a different messaging campaign, then you must ask the customer to respond with a START message to resubscribe or may continue to send messages from a different number for that campaign. For alphanumeric sender ID, you're required to provide alternative mechanisms like email/call support or opt-out link for the customer to opt out. Check out our FAQ section to learn more on Opt-out handling.
+If an individual requests to opt-out of future messages on Teams SMS, then all further traffic from that number is automatically stopped.  You must ensure that you don't send more messages for that messaging campaign from the same number. If you separately obtain express consent to message for another purpose, then you must ask the customer to respond with a START message to resubscribe or send messages from a different number for that campaign. You must also ensure that you don't send additional messages to the same recipient from new or different numbers unless the sender of those messages has independent prior consent (express or implied) to contact the recipient. To learn more on Opt-out handling, see [Opt-out messaging](sms-setup-campaign.md#opt-out-messaging).
 
 ## Message content
 
-Adult content:
+### Adult content
 
 Message content that includes elements of sex, hate, alcohol, firearms, tobacco, gambling, or sweepstakes and contests can trigger additional requirements. This content is expressly prohibited in some jurisdictions. If you send a message that includes this content, then it is your duty to abide by all applicable laws of the jurisdictions in which the communications are received. At the request of law enforcement or Microsoft Teams , you must be prepared to provide proof of consent with local laws that regulate adult content.
 
 Even where such content isn't unlawful, you should include an age verification mechanism at opt in to age-gate the intended message recipient from adult content. In the United States, additional legal requirements apply to marketing communications directed at children under the age of 13.
 
-Prohibited practices:
+### Prohibited practices
 
 You're prohibited from using Teams SMS to evade reasonable opt-out requests. Additionally, you may not evade any measures implemented by Teams SMS or a communications service provider to ensure your compliance with messaging requirements and industry standards.
 
@@ -74,13 +74,13 @@ Spoofing is the act of causing a misleading or inaccurate originating number or 
 
 ## Final thoughts
 
-Legal Responsibility:
+### Legal Responsibility
 
 This Messaging Policy doesn't constitute legal advice, and we reserve the right to modify the policy at any time. Microsoft Teams isn't responsible for ensuring that the content, timing, or recipients of our customers’ messages meet all applicable legal requirements.
 
 Our customers are responsible for all messaging requirements. For further guidance, the Cellular Telecommunications Industry Association (CITA) Messaging Principles and Best Practices provides a helpful overview of the relevant industry standards.
 
-Penalties:
+### Penalties
 
 We encourage our customers to develop and implement policies and procedures designed to ensure compliance with all messaging requirements. Violations of messaging requirements may lead to substantial fines that can balloon quickly. It's in your best interest to learn and abide by all applicable messaging requirements and develop effective mitigation safeguards to contain and eliminate violations before they spread. If you do breach our Messaging Policy or other legal requirements, then we'll work with you to ensure future compliance. However, we reserve the right to remove SMS capabilities from any Teams customer who demonstrates a pattern of noncompliance with our Messaging Policy or legal requirements.
 
