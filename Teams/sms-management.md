@@ -60,7 +60,7 @@ For more information about Teams administrator roles, see [Use Microsoft Teams a
 
 ## Turn on SMS for a user
 
-The first step in enabling SMS for a user is to SMS-enable the user's phone number. 
+To enable SMS in Teams for a user, you must turn on SMS for a user's phone number. 
 
 In Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Enable SMS**.
 
@@ -68,7 +68,7 @@ If the number isn't already assigned to a user, you can assign that number to a 
 
 ## Turn off SMS for a user
 
-To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select ***Disable SMS***
+To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Disable SMS**
 
 ## SMS usage report
 
