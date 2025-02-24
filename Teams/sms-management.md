@@ -46,7 +46,7 @@ For more information, see [SMS Licensing](sms-overview.md#licensing).
 
 A tenant **billing mechanism** *should* be in place for SMS consumption overages and *must* be in place for Pay-as-you-go Calling Plans.
 
-Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
+Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see [SMS overivew of usage and billing]](sms-overview.md#usage-and-billing).
 
 #### Permissions
 
