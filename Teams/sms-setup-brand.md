@@ -1,10 +1,10 @@
 ---
-title: Setting up SMS Brand in Teams Admin Center
+title: Create a Brand for SMS in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait
-ms.date: 01/06/2025
+ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -19,14 +19,19 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-ms.custom:
-  - Reporting
-description: How to set up a SMS Brand in Teams Admin Center
+description: Learn how to set up an SMS Brand to enable SMS in Microsoft Teams.
 ---
 
-# Setting up SMS Brand in Teams Admin Center
+# Create a Brand for SMS in Microsoft Teams
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It's an accompaniment when using Microsoft’s Teams Admin Center (TAC) to register their company Brand with The Campaign Registry (TCR).
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It's an accompaniment when using Microsoft's Teams Admin Center (TAC) to register their company Brand with The Campaign Registry (TCR).
+
+Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md).
+
+> [!NOTE] 
+> United States and Puerto Rican customers must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
+> 
+> Canadian customers can enable SMS for Canadian Teams Calling Plan numbers without appying for Brand and Campaign, but if a Canadian customer wants to support its users sending SMS messages to US numbers, then the Canadian customer must get an approved Brand and Campaign to access the US-based, 10DLC network.
 
 ## Prerequisites
 
