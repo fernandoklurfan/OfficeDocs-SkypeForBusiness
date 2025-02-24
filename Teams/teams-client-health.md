@@ -26,9 +26,9 @@ ms.localizationpriority: medium
 
 This article provides an overview of the new Teams client health dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
 
-Teams client health is an all-new page with a set of data, insights, and tools to help administrators troubleshoot and resolve issues. When a Teams application experiences an issue, end-users typically reach out to their admins. As an admin, you may be regularly occupied with requests from end-users. This can leave you in a reactive position with limited information to diagnose and resolve problems effectively.
+Teams client health is an all-new page with a set of data, insights, and tools to help administrators troubleshoot and resolve issues. When a Teams application experiences an issue, end-users typically reach out to their admins. As an admin, you may be regularly occupied with requests from end-users, which can leave you in a reactive position with limited information to diagnose and resolve problems effectively.
 
-As an admin, you may need to proactively monitor, or you may need to perform remediation actions to manage and fix issues before they impact your end user productivity or cause further escalations.
+You may need to proactively monitor for issues. You may also need to perform remediation actions to manage and fix issues before they impact your end user productivity or cause further escalations.
 
 ## Access the Teams client health dashboard
 
@@ -52,7 +52,7 @@ More details on each metric displayed are listed below:
     - **Crashes**: The number of devices experiencing Teams app crashes per day within the last 28 days. Supported for Windows (non-VDI) and Mac Applications.
     - **Launch failures**: The number of devices experiencing Teams app launch failures per day within the last 28 days.
     > [!NOTE]
-    > This is supported for Windows (non-VDI) and Mac applications.
+    > Supported for Windows (non-VDI) and Mac applications.
 - Callout 2: This widget shows the top issues experienced by users in the organization:
     - Device reported crashes: The number of devices that experienced crashes in the last 7 days. The number of devices that experienced crashes in last 28 days.
     - Device reported launch failures: The number of devices that experienced launch failures in the last 7 days. The number of devices that experienced launch failures in the last 28 days.
@@ -70,7 +70,7 @@ More details on each metric displayed are listed below:
     - Filter by issue or insight.
     - Access settings for the columns in the table.
 
-:::image type="content" source="media/teams-client-issue-details-page.png" alt-text="A screenshot of a details page, with callouts marked. The first callout is next to the title for the page, and says Crash. The second callout is below the title and indicates whats behind this issue. The third callout is next to a link to help fix the issue. The fourth callout is at the top of the list of users experiencing the issue with details about them. The fifth callout is on the upper right-hand side of the page, with the filter, settings, and export options.":::
+:::image type="content" source="media/teams-client-issue-details-page.png" alt-text="A screenshot of a details page, with callouts marked. The first callout is next to the title for the page, and says Crash. The second callout is below the title and indicates what's behind this issue. The third callout is next to a link to help fix the issue. The fourth callout is at the top of the list of users experiencing the issue with details about them. The fifth callout is on the upper right-hand side of the page, with the filter, settings, and export options.":::
 
 - Callout 1: Issue type - The category of issue impacting users and devices.
 - Callout 2: Insight - The insight or reason leading users and devices to experience the issue.
