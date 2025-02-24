@@ -19,7 +19,7 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-description: Plan for enabling SMS in Teams for the United States, Puerto Rico, and Canada
+description: Plan for SMS in Teams for the United States, Puerto Rico, and Canada
 ---
 
 # Plan for SMS in Teams with Microsoft Calling Plan numbers
@@ -67,20 +67,20 @@ Registration with TCR involves the following two parts:
 2. **Campaign**: The purpose and context of your SMS operation
 
 > [!NOTE]
-> Trust scores and vetting requirements are determined by TCR and participating carriers. Brand vetting is **required as per TCR** in the following cases:
+> TCR and participating carriers determine trust scores. TCR requires brand vetting in the following cases:
 > 
 > - To achieve higher trust scores for better message throughput and delivery rates.
 > - Brand vetting for 10DLC (10-Digit Long Code) messaging is typically required for companies outside the Russell 3000 list.
 
-To receive approval with TCR, Teams administrators use the Teams admin center to pass their company's Brand and Campaign information to TCR. Brands and Campaigns are then reviewed by TCR, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
+To receive approval with TCR, Teams administrators use the Teams admin center to pass their company's Brand and Campaign information to TCR. TCR then reviews your Brand and Campaign, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
 
 With an approved Brand and Campaign, Teams administrators can then enable users for SMS in Teams with eligible Microsoft Calling Plan numbers.
 
 - **US & PR**: The 10DLC network is currently applicable for transmitting to US numbers. US customers must have an approved Brand and Campaign before SMS-enabling Teams Calling Plan numbers. 
-- **Canada**: You can enable SMS for Canadian Teams Calling Plan numbers without appying for Brand and Campaign, but if a Canadian customer wishes to support its users sending SMS messages to US numbers, then the Canadian customer must get an approved Brand and Campaign to access the US-based, 10DLC network.
+- **Canada**: You can enable SMS for Canadian Teams Calling Plan numbers without appying for Brand and Campaign, but if a Canadian customer wants to support its users sending SMS messages to US numbers, then the Canadian customer must get an approved Brand and Campaign to access the US-based, 10DLC network.
 
 > [!NOTE]
-> US and PR customers must receive Brand *and* Campaign approval before any number can enabled for SMS in Teams. Mobile operators won't accept SMS traffic from brands or campaigns that don't go through TCR registration. Teams phone numbers can't be enabled for SMS until the brand and campaign are approved by TCR.
+> US and PR customers must receive Brand *and* Campaign approval before any number can beenabled for SMS in Teams. Mobile operators don't accept SMS traffic from brands or campaigns that don't go through TCR registration. Teams phone numbers can't be enabled for SMS until TCR approves the brand and campaign.
 
 Registration and enabling SMS for Teams Calling Plan numbers can be summarized in the following diagram:
 
@@ -101,7 +101,7 @@ More details can be found in [Step 1: Create a brand](sms-setup-brand.md).
 
 ### Campaign approval
 
-When you apply for Campaign approval, resources about your company's campaign operation must be submitted, including things such as the following:
+When you apply for Campaign approval, resources about your company's campaign operation must be submitted, including the following information:
 
 - SMS use cases
 - Message flow actions (describing opt-in and opt-out words)
@@ -131,7 +131,7 @@ To voice enable your users, you can use the Teams admin center or PowerShell.
 
 ### SMS message segments and thresholds
 
-Accounting for a SMS messages is calculated by the maximum size of a single SMS message. The size of a single SMS message segment is 140 bytes or 160 GSM 7-bit-encoded, standard text characters.
+The maximum size of a single SMS message determines the accounting for SMS messages. The size of a single SMS message segment is 140 bytes or 160 GSM 7-bit-encoded, standard text characters.
 
 When a sent SMS message exceeds the character limit, it's split into multiple segments. These segments are sent individually and reassembled by the recipient's device to form the complete message. Each message segment accounts for one Teams SMS message.
 
@@ -147,7 +147,7 @@ The number of SMS message segments per Calling Plan license depends on the assig
 |Domestic + International |Yes | 200 |
 |Teams Phone + Calling Plan Bundle |Yes |Phone + Domestic = 200 (if purchased as Calling Plan bundle) / Phone + PAYG = 0 (if purchased as PAYG bundle) |
 
-The number of alloted messages in a Calling Plan accounts for a total of inbound messages received plus outbound messages sent.
+The number of allotted messages in a Calling Plan accounts for a total of inbound messages received plus outbound messages sent.
 
 As with calling minutes, the number of SMS messages allocated per licensed user are pooled at the tenant level. Overage charges don't apply until the resources pooled across all users' plans in the tenant are consumed within the billing period.
 
@@ -175,7 +175,7 @@ When TCR approves a Campaign, they establish a daily cap for SMS messages. If yo
 
 ### SMS usage fees
 
-The price of a SMS message is accrued per-message segment. The per-message segment charge is based on the country/region of the message, as shown in the following table:
+The price of an SMS message is accrued per-message segment. The per-message segment charge is based on the country/region of the message, as shown in the following table:
 
 |Country/Region |Send Message |Receive Message |
 |:-----|:-----|:-----|
@@ -193,7 +193,7 @@ For per-message segment pricing related to SMS usage, including currency convers
 
 This processing surcharge is a per-message-segment fee that may vary over time. If the surcharge rates are expected to change, the SMS pricing table is updated 30 days before the implementation of any price changes.
 
-Carrier fees are included in the Calling Plan alloted messages. For overages, carrier fees will be added to usage fees, per message.
+Carrier fees are included in the Calling Plan allotted messages. For overages, carrier fees are added to usage fees, per message.
 
 ### Billing and reporting
 
@@ -203,8 +203,8 @@ Costs incurred for usage-to-date can be monitored and managed depending on the t
 
 |Billing account type |Cost management method |
 |:-----|:-----|
-|Microsoft Online Subscription Agreements, Enterprise Agreements, Legacy Direct, and Legacy Cloud Solution Partner (CSP) |Prepaid Communication Credits in the M365 admin center |
-|Microsoft Customer Agreement via Direct or Enterprise |Postpaid Cost Management in the M365 admin center |
+|Microsoft Online Subscription Agreements, Enterprise Agreements, Legacy Direct, and Legacy Cloud Solution Partner (CSP) |Prepaid Communication Credits in the Microsoft 365 admin center |
+|Microsoft Customer Agreement via Direct or Enterprise |Postpaid Cost Management in the Microsoft 365 admin center |
 |Microsoft Customer Agreement via Cloud Solution Partner |Postpaid usage charges managed with partner |
 
 For funding and analyzing costs related to prepaid or postpaid models, see [Microsoft Calling Plan overview](calling-plan-overview.md) and [Communication Credits](what-are-communications-credits.md).
@@ -215,9 +215,9 @@ One brand and one campaign are allowed per tenant.
 
 By default, a campaign supports enabling up to 49 Microsoft Calling Plan numbers to be SMS-enabled. If more than 49 numbers need to be enabled for SMS, refer to note in [Step 2: Create campaign](sms-setup-campaign.md).
 
-After you've enabled a phone number for SMS in Teams and assigned the number to a user, the user can begin sending and receiving SMS messages. There is no policy governance to limit the number of messages sent to or received by the user.
+After you [enable a phone number for SMS in Teams](sms-management.md) and assign the number to a user, the user can begin sending and receiving SMS messages. There's no policy governance to limit the number of messages sent to or received by the user.
 
-Teams Calling Plans support sending SMS where the sender type is a 10 digit long code (1-234-123-1234). Teams Calling Plans do not currently support toll-free numbers (1-8XX), short codes (12345), or alphanumeric sender ID (CONTOSO).
+Teams Calling Plans support sending SMS where the sender type is a 10 digit long code (1-234-123-1234). Teams Calling Plans don't currently support toll-free numbers (1-8XX), short codes (12345), or alphanumeric sender ID (CONTOSO).
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
