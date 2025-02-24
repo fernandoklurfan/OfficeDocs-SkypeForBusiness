@@ -37,7 +37,7 @@ To access the update monitoring and insights dashboard:
 
 :::image type="content" source="media/teams-client-health-main-page-alt.png" alt-text="A screenshot of the Teams client health page with callouts marked. The first callout is over the page title. The second callout is on the upper middle of a table showing details. The number three is to the upper right of this table next to search, settings, and export options.":::
 
-- Callout 1: The Client update widget displays the overall version status distribution for all devices in your tenant. The update status widget provides statuses by 3 categories:
+- Callout 1: The Client update widget displays the overall version status distribution for all devices in your tenant. The update status widget provides statuses by three categories:
   - Latest Build: A device is running a Teams client build newer than the last 100% released build.
   - One or more builds behind: A device is running a Teams client build less than 30 days old and older than the last stable build.
   - Outdated: A device is running a Teams client build less than 90 days old and more than 30 days old.
@@ -58,7 +58,7 @@ To access the update monitoring and insights dashboard:
 
 ### Client version details
 
-You can see your organization's client version distribution and adoption of each client version, as well as the health of each client version in your organization. To view a detailed dashboard with insights, select any version from the health table from a row in this table.
+You can see your organization's client version distribution and adoption of each client version and the health of each client version in your organization. To view a detailed dashboard with insights, select any version from the health table from a row in this table.
 
 You can identify users and devices running outdated version of Teams, and review troubleshooting insights on issues preventing users from updating to a newer version of Teams.
 
@@ -97,6 +97,6 @@ You can also monitor Client health per user from the user’s page.
   - Release Date: The date on which this specific client version was fully released to general ring.
   - Version status: The client version status of the Teams client.
   - Devices: The device name that the user is currently running this Teams client on.
-  - Device Crashes: The number of total crashes experienced by this client version on the user’s specific device in the last 7 days.
-  - Device launch failures: Total launch failures experienced by this client version on the user's specific device in the last 7 days.
+  - Device Crashes: The number of total crashes experienced by this client version on the user’s specific device in the last seven days.
+  - Device launch failures: Total launch failures experienced by this client version on the user's specific device in the last seven days.
 - Callout 3: You can search or filter for any client versions. You can also sort and export the dashboard's table in a CSV file.
