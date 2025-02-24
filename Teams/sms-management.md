@@ -52,8 +52,7 @@ Administrators must have one of the following Roles Based Access Control (RBAC) 
 
 - Teams Administrator
 - Teams Communications Administrator
-- Teams Telephony Administrator, or
-- Global Admin
+- Teams Telephony Administrator
 
 ## Enabling SMS for a user
 
