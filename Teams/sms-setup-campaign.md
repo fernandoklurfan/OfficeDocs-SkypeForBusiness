@@ -90,7 +90,7 @@ To initiate Campaign approval application, do the following steps:
 Populate your campaign application to TCR according to the following steps associated with the Campaign field sections:
 
 - [Step 1: Campaign details](#step-1-check-campaign-details)
-- [Step 2: Accept Terms and Conditions](#accept-terms-and-conditions)
+- [Step 2: Accept Terms and Conditions](#step-2-accept-terms-and-conditions)
 - [Step 3: Submit your Campaign and view Campaign status](#step-3-submit-your-campaign-and-view-status)
 
 ### Step 1: Check Campaign details
