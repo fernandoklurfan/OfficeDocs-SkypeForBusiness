@@ -46,9 +46,9 @@ The **Client health** widget displays key health metrics like device crashes
 > [!NOTE]
 > This widget only surfaces health markers that are end-user impacting and actionable by administrators.
  
-More details on each metric displayed are listed below:
+Here are more details on each metric:
 
-- Callout 1: This widget shows Client health trends across the health metric below:
+- Callout 1: This widget shows Client health trends across the health metric:
     - **Crashes**: The number of devices experiencing Teams app crashes per day within the last 28 days. Supported for Windows (non-VDI) and Mac Applications.
     - **Launch failures**: The number of devices experiencing Teams app launch failures per day within the last 28 days.
     > [!NOTE]
