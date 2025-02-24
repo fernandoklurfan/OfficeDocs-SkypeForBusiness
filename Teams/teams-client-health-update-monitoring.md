@@ -77,7 +77,7 @@ You can identify users and devices running outdated version of Teams, and review
    - Device: The device name
    - Platform: The platform the user is running Teams client on.
    - Platform details: Operating system details.
-   - Insight: If the user experienced an update failure and is running an outdated versions of Teams.
+   - Insight: If the user experienced an update failure and is running an outdated version of Teams.
    - Last Activity: The timestamp of the last active update.
 - Callout 6: You can search or filter for any client versions. You can also sort and export the dashboard's table in a CSV file.
 
@@ -94,7 +94,7 @@ You can also monitor Client health per user from the user’s page.
 - Callout 1: The Client health tab, which provides key health and update information for all clients used by the user.
 - Callout 2: The table shows the following information:
   - Client versions: The exact client version number.
-  - Release Date: The date on which this specific client version was fully released to general ring.
+  - Release Date: The date on which this specific client version was fully released to the general ring.
   - Version status: The client version status of the Teams client.
   - Devices: The device name that the user is currently running this Teams client on.
   - Device Crashes: The number of total crashes experienced by this client version on the user’s specific device in the last seven days.
