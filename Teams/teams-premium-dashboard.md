@@ -33,7 +33,7 @@ To access the Teams Premium dashboard, sign-in to the Teams admin center > selec
 > [!NOTE]
 > The Teams Premium discovery trial isn’t available if you have a paid Teams Premium subscription or already used the trial.
 
-The Teams Premium discovery trial gives you and your organization a 30- day free trial to explore Teams Premium features.
+The Teams Premium discovery trial gives you and your organization a 30-day free trial to explore Teams Premium features.
 
 :::image type="content" source="media/t-pre-landing-small.png" alt-text="Screenshot of the Teams Premium discovery trial dashboard." lightbox="media/t-pre-landing-expand.png":::
 
