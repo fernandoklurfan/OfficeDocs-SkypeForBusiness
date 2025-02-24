@@ -71,16 +71,15 @@ You can identify users and devices running outdated version of Teams, and review
   - Devices on this version trend: The trend of devices adopting this client version the last 28 days.
   - Device crashes trend: The trend of devices experiencing client crashes on this version in the last 28 days.
   - Device launch failure trend: The trend of devices experiencing client launch failures on this version in the last 28 days.
-- Callout 5:
-  - The table provides the following data:
-    - User: The username.
-    - Ring: The ring that the user is currently using.
-    - Device: The device name
-    - Platform: The platform the user is running Teams client on.
-    - Platform details: Operating system details.
-    - Insight: If the user experienced an update failure and is running an outdated versions of Teams.
-    - Last Activity: The timestamp of the last active update.
-- Callout 6: You can search or filter for any client versions. You can also sort and export the dashboard's table in a CSV file that you can share.
+- Callout 5: The table provides the following data:
+  - User: The username.
+   - Ring: The ring that the user is currently using.
+   - Device: The device name
+   - Platform: The platform the user is running Teams client on.
+   - Platform details: Operating system details.
+   - Insight: If the user experienced an update failure and is running an outdated versions of Teams.
+   - Last Activity: The timestamp of the last active update.
+- Callout 6: You can search or filter for any client versions. You can also sort and export the dashboard's table in a CSV file.
 
 ## Client health per user
 
@@ -92,11 +91,12 @@ You can also monitor Client health per user from the user’s page.
 
 :::image type="content" source="media/teams-client-per-user-view.png" alt-text="A screenshot of the per-user view, with numbered callouts. The first callout is slightly to the right of the middle of the screenshot, over the Client health tab. The second callout is directly underneath the first, above a table. The third is on the middle right of the screenshot, above the search, settings, and export options.":::
 
-The client health tab provides breakdown of this information, including:
-
-- Client versions: The exact client version number.
-- Release Date: The date on which this specific client version was fully released to the general ring.
-- Version status: The client version status of the Teams client version running on.
-- Devices: The device name the user is currently running this Teams client on.
-- Device Crashes: The total crashes experienced by this client version on the user’s specific device in the last 7 days.
-- Device launch failures: The total launch failures experienced by this client version on the user's specific device in the last 7 days.
+- Callout 1: The Client health tab, which provides key health and update information for all clients used by the user.
+- Callout 2: The table shows the following information:
+  - Client versions: The exact client version number.
+  - Release Date: The date on which this specific client version was fully released to general ring.
+  - Version status: The client version status of the Teams client.
+  - Devices: The device name that the user is currently running this Teams client on.
+  - Device Crashes: The number of total crashes experienced by this client version on the user’s specific device in the last 7 days.
+  - Device launch failures: Total launch failures experienced by this client version on the user's specific device in the last 7 days.
+- Callout 3: You can search or filter for any client versions. You can also sort and export the dashboard's table in a CSV file.
