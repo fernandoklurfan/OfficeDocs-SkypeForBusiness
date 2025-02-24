@@ -24,7 +24,7 @@ description: Learn how to set up an SMS Brand to enable SMS in Microsoft Teams.
 
 # Create a Brand for SMS in Microsoft Teams
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It's an accompaniment when using Microsoft's Teams Admin Center (TAC) to register their company Brand with The Campaign Registry (TCR).
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams. It's an accompaniment when using Microsoft's Teams admin center to register their company Brand with The Campaign Registry (TCR).
 
 SMS in Teams is only available in the United States, Puerto Rico, and Canada.
 
@@ -116,6 +116,8 @@ If you submitted incorrect brand information, if you haven't received approval o
 
 > [!Note]
 > If the Campaign Registry *rejects* your brand submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services (TNS) - Service Desk team about the details and status of the case.
+
+Once your Brand has been approved by TCR, you can move on to [Step 2: Create a campaign](sms-setup-campaign.md).
 
 ## Related topics
 

@@ -24,9 +24,11 @@ description: Learn how to set up a Campaign for SMS in Microsoft Teams
 
 # Create a Campaign for SMS in Microsoft Teams
 
-This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's SMS campaign with The Campaign Registry (TCR).
+This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign with The Campaign Registry (TCR).
 
-Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand].
+Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
+
+SMS in Teams is only available in the United States, Puerto Rico, and Canada.
 
 > [!NOTE] 
 > United States and Puerto Rican customers must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers. 
@@ -37,7 +39,7 @@ Before reading this article, make sure you've read [Plan for SMS in Teams](sms-o
 
 Ensure fundamental understanding of the *purpose* for a Campaign, as described in [Learn about SMS Texting in Teams](sms-overview.md).
 
-Administrators must have one of the following **RBAC roles** assigned:
+Administrators must have one of the following Role-Based Access Control (RBAC) roles assigned:
 
 - Teams Administrator
 - Teams Communications Administrator
@@ -47,7 +49,7 @@ Administrators must have one of the following **RBAC roles** assigned:
 
 After your brand is registered with TCR and the Teams admin center shows that your brand's status is **Approved**, proceed with the campaign registration.
 
-The 10DLC (10-digit long code) registration process involves validating your **Campaign**,or organization's objective, for accessing the 10DLC network. To get your campaign approved, you must submit details to TCR via the Teams admin center.
+The 10DLC (10-digit long code) registration process involves validating your **Campaign**, or organization's objective, for accessing the 10DLC network. To get your campaign approved, you must submit details to TCR via the Teams admin center.
 
 Examples of details that TCR may require, based on [your Brand](sms-setup-brand.md):
 
@@ -114,6 +116,8 @@ After submission, the Campaign status shows as **Submitted** and the campaign in
 
 > [!Note]
 > If TCR *rejects* your campaign submission, a Microsoft case is automatically opened on your behalf with Microsoft's Telephone Number Services (TNS) - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and then selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
+
+Once your Campaign has been approved by TCR, you can move on to [Step 3: Enable SMS](sms-management.md).
 
 ## Considerations
 
