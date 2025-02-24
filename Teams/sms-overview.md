@@ -165,13 +165,23 @@ Pooling applies only to identical Calling Plans.
 
 ### Rate limiting
 
-To ensure Microsoft's high quality of service consistent with provided SLAs, rate limits are applied to the number of messages that can be sent from a number. The rate limits depend on several factors, including:
+To ensure Microsoft's high quality of service consistent with provided SLAs, rate limits are applied to the number of messages that can be sent from a number. Rate limits have a wide range depend on several factors, including:
 
 - The tier of your Brand
 - The 10DLC operator that is sending the SMS on your user's behalf
 - The use case of the Campaign
 
-When TCR approves a Campaign, they establish a daily cap for SMS messages. If your users reach this cap and are blocked by the rate limit, and their high volume of SMS messaging is warranted, you can apply for a rate limit increase by contacting [Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
+Rate limits also depend on the operator that provides the recipient's service. Variable differences can be observed in the following table:
+
+|Operator |UCaaS Low Volume |UCaaS High Volume |
+|:-----|:-----|:-----|
+|AT&T – Max SMS per minute, per campaign |Fixed: 75 |Depends on the brand score: 240 (class F), 2,400 (class D), 4,500 (class B) |
+|T-Mobile – Max SMS per day, per brand |Fixed: 2,000 |Depends on the brand score: 10,000 (Low Mid), 40,000 (High Mid), 100,000 (Top)|
+
+When TCR approves a Campaign, they establish a daily cap for SMS messages.
+
+> [!NOTE]
+> If your users are regularly blocked by an operator's rate limit cap, and their high volume of SMS messaging is warranted, you can apply for a rate limit increase by contacting [Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
 
 ### SMS usage fees
 
