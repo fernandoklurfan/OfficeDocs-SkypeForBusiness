@@ -71,7 +71,7 @@ E-SIGN DISCLOSURE
 
 By agreeing to receive text messages, you also consent to the use of an electronic record to document your agreement. You may withdraw your consent to the use of the electronic record by replying STOP. 
 
-## SMS Privacy policy
+**Privacy policy**
 
 **[COMPANY NAME]** TEXT MESSAGE SERVICE PRIVACY POLICY
 
