@@ -41,14 +41,21 @@ All SMS messaging to and from Teams is considered:
 
 These references are used interchangeably. Most notably, SMS in Teams is *not* categorized as *consumer* SMS messaging.
 
-PSTN (Public Switched Telephone Network) operators support A2P messaging through a specialized network, designated as the 10DLC (10 Digit Long Code) network. Before an entity can transmit A2P SMS messages on the 10DLC network, the 10DLC operators must approve validity of a company and the company’s intent for accessing the network.
+In the United States, the PSTN (Public Switched Telephone Network) industry requires that operators direct A2P messaging through a specialized network, designated as the 10DLC (10 Digit Long Code) network. The purpose of the specialized network is to control access and reduce the chance of your A2P messages being flagged as spam.
 
-The shared, independent, approving authority, used by 10DLC network operators, is [The Campaign Registry](https://www.campaignregistry.com/about/). Microsoft is required to facilitate a customer’s registration with The Campaign Registry before Microsoft Calling Plan numbers can be enabled for SMS.
+ Before an operator can transmit a client's A2P messages into this 10DLC network, 10DLC operators must approve the following two aspects of the client:
+
+1. Validity of the company
+2. The company’s intent for accessing this network
+
+The shared, independent, and approving authority, used by 10DLC network operators to validate legitimate SMS messaging, is [The Campaign Registry](https://www.campaignregistry.com/about/). 
+
+**Microsoft is required to facilitate a customer’s registration with The Campaign Registry before Microsoft Teams Calling Plan numbers can be enabled for SMS.**
 
 Registration with The Campaign Registry involves the following two parts:
 
-1. A **Brand**: The identification and validation of your company
-2. A **Campaign**: The purpose and context of your SMS operation
+1. Establishing a 10DLC **Brand**: The identification and validation of your company
+2. Establishing a 10DLC **Campaign**: The purpose and context of your SMS operation
 
 > [!Note]
 > Trust scores and vetting requirements are determined by The Campaign Registry (TCR) and participating carriers. Brand vetting is **required as per TCR** in the following cases:
@@ -65,7 +72,10 @@ Registration and SMS-enabling Teams Calling Plan numbers can be summarized in th
 
 :::image type="content" source="media/sms-tcr-registration-small.png" alt-text="Overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/sms-tcr-registration-large.png":::
 
-**You must receive approval for your Brand and Campaign configuration before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.**
+**US customers must receive Brand and Campaign approval before any number can SMS enabled. Mobile operators will not accept SMS traffic from brands/campaigns that don't go through TCR registration, and Teams phone numbers can’t be SMS-enabled until the brand and campaign are approved.**
+
+> [!Note]
+> The 10DLC network is currently applicable for transmitting to US numbers. US customers must have an approved Brand and Campaign before SMS-enabling Teams Calling Plan numbers. SMS can be enabled for Canadian Teams Calling Plan numbers without appying for Brand and Campaign, but if the Canadian customer wishes to support its users sending SMS messages to US numbers, then the Canadian customer must get an approved Brand and Campaign to access the US-based, 10DLC network.
 
 The Brand and Campaign approval requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it isn't for marketing purposes**.
 
@@ -142,7 +152,9 @@ SMS usage in all Calling Plans accounts for sent and received messages.
 
 All users within the same tenant in the US, PR, and CA with the same Calling Plan share a common pool of SMS messages.
 
-For example, if 100 users in the United States and Canada or Puerto Rico have a Domestic Calling Plan, each is allocated 200 SMS, creating a shared pool of 20,000 SMS. Any inbound or outbound messages exceeding this pool are billed per-message. Pooling applies only to identical Calling Plans.
+For example, if 100 users in the United States and Canada or Puerto Rico have a Domestic Calling Plan, each is allocated 200 SMS, creating a shared pool of 20,000 SMS. Any inbound or outbound messages exceeding this pool are billed per-message.
+
+Pooling applies only to identical Calling Plans.
 
 ### Rate limiting
 
@@ -151,7 +163,7 @@ To ensure Microsoft's high quality of service consistent with provided SLAs, rat
 - The tier of your Brand
 - The 10DLC operator that is sending the SMS on your user's behalf
 - The use case of the Campaign
- 
+
 When approving a Campaign, a daily cap for SMS messages is established. If your users are reaching this cap and being blocked by the rate limit, and their high volume of SMS messaging is warranted, you can apply for a rate limit increase by contacting [Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
 ### Usage fees
@@ -171,11 +183,13 @@ For per-message segment pricing related to SMS usage, including currency convers
 
 This surcharge is a per-message-segment fee that may vary over time. If the surcharge rates are expected to change, the SMS pricing table is updated 30 days before the implementation of any price changes.
 
+Carrier fees are included in the Calling Plan alloted messages. For overages, carrier fees will be added to usage fees, per message.
+
 ### Billing and reporting
 
 Detailed SMS usage on a per-message basis can be analyzed in the Teams Admin Center, under Analytics & reports.
 
-Costs incurred for usage can be monitored and managed depending on the type of billing account that is used for invoicing. An example of billing account types and respective cost management methods can be reviewed in the following table:
+Costs incurred for usage-to-date can be monitored and managed depending on the type of billing account that is used for invoicing. An example of billing account types and respective cost management methods can be reviewed in the following table:
 
 |Billing account type |Cost management method |
 |:-----|:-----|

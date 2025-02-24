@@ -38,15 +38,13 @@ Administrators must have one of the following **RBAC roles** assigned:
 - Teams Communications Administrator, or
 - Teams Telephony Administrator
 
-## Building a Campaign
+## Teams SMS Campaign
 
-After your brand is registered with The Campaign Registry and reflected in Teams admin center as "Approved", proceed with the campaign registration.
+After your brand is registered with The Campaign Registry and indicates in Teams admin center as "Approved", proceed with the campaign registration.
 
-The 10DLC (10-digit long code) registration process involves verifying your organization's intent and ability to use the 10DLC network in compliance. To get your intent approved, you submit your "Campaign" details to The Campaign Registry (TCR) via the Teams admin center.
+The 10DLC (10-digit long code) registration process involves validating your organization's objective, or "Campaign", for accessing the 10DLC network. To get your campaign approved, you submit details to The Campaign Registry (TCR) via the Teams admin center.
 
-The Teams Admin Center allows you to provide the minimum details about your company's Campaign. If The Campaign Registry rejects your Campaign application, a support case will be opened automatically and Microsoft's Telephone Number Services (TNS) - Service Desk will reach out to you for whatever additional informaiton The Campaign Registry requires to approve your campaign.
-
-Examples of variables that The Campaign Registry may require, based on your Brand:
+Examples of details that TCR may require, based on your Brand:
 
 - Campaign details
   - Brand: The brand associated with this campaign.
@@ -73,6 +71,10 @@ Examples of variables that The Campaign Registry may require, based on your Bran
   - Embedded Link: Specifies if the campaign includes an embedded link.
   - Embedded Phone Number: Specifies if a phone number is embedded within the campaign content.
   - Age-gated Content: Indicates if the content is age-restricted.
+
+## Building a Teams SMS Campaign in Teams admin center
+
+The Teams Admin Center allows you to provide the minimum details about your company's Campaign.
 
 To initiate Campaign approval application, in the Teams Admin Center, navigate to ***Voice*** > ***Service configuration*** > ***SMS*** > ***Step 2: Create campaign***.
 
@@ -108,7 +110,8 @@ Select **Submit**.
 
 Once submitted, the status indicates *"Submitted"* and the campaign information can’t be modified without Microsoft Support intervention.
 
-If The Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
+> [!Note]
+> If The Campaign Registry *rejects* your campaign submission, a Microsoft case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Considerations
 
@@ -116,11 +119,17 @@ Because the Campaign application approval can be tedious, Microsoft is working t
 
 ### Opt-out messaging
 
-In the initial Campaign application to The Campaign Registry, Microsoft will provide a generic campaign sample message, opt-in, opt-out, and help message. The default message that will be provided to The Campaign Registry (and first time recipients of Teams SMS messages) is as follows:
+In the initial Campaign application to The Campaign Registry, Microsoft will provide a generic campaign opt-in, opt-out, and help message. The default message that will be provided to The Campaign Registry (and first time recipients of Teams SMS messages) is as follows:
 
-*"Hello, a user of Microsoft Teams sent you this message. If you don't want to get messages from this user anymore, reply STOP. To learn more about how to use messaging in Microsoft Teams, reply HELP."*
+|Message action |Default message |
+|:-----|:-----|
+|First message (and START if recipient previously messaged STOP) |This message is sent from an employee of *Contoso* (your brand). Message frequency varies. For more info on Microsoft or SMS service, reply HELP. To stop receiving messages from this number, reply STOP. Standard message and data rates may apply. |
+|STOP |You have opted out of this conversational SMS service and will not receive further messages from this *Contoso* (your brand) number. Reply START to resume. Message and data rates may apply. |
+|HELP |For more info on SMS service for *Contoso* (your brand), contact (*your Brand support contact inserted here*). To stop receiving messages from this number, reply STOP. Message and data rates may apply. |
 
-If a recipient responds with "STOP", all following messages from the Teams user's number will be blocked to that recipient.
+If a recipient responds with "STOP", all following messages from the Teams user's number will be blocked to that recipient. The STOP command applies to the number only. Other Teams users in your tenant will still be able to send messages to the recipient.
+
+A recipient doesn't need to respond to the first messasge with START to enable SMS message flow. The first message from a Teams user to a recipient will include the opt-out message, but explicit consent is not required on 10DLC network to continue conversational SMS messaging.
 
 ### Building a campaign with more than 49 SMS-enabled numbers
 
@@ -137,12 +146,9 @@ The Campaign Registry may require additional information from your company befor
 - Further description details about your campaign's purpose
 - Your company's privacy statement related to SMS messaging
 - Your company's terms and conditions related to SMS messaging
-- Your company's resources for recipients who respond with HELP
+- More resources for recipients who respond with HELP
 
 If your company doesn't have a privacy statement or terms and conditions related to SMS messaging, you can use a Microsoft-provided template, completed with your company's information. For the template, see [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md).
-
-> [!Note]
-> If the Campaign Registry rejects your campaign submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and navigating to the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services - Service Desk team about the details and status of the case.
 
 ## Related topics
 
