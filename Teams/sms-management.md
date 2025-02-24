@@ -1,10 +1,10 @@
 ---
-title: Enabling and managing SMS operations in Teams Admin Center
+title: Enable and manage SMS in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
 ms.reviewer: nijait
-ms.date: 01/06/2025
+ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -19,14 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-ms.custom:
-  - Reporting
-description: Enabling SMS usage and managing SMS operations in Teams Admin Center
+description: Enable and manage SMS in Microsoft Teams
 ---
 
-# Enabling and managing SMS operations in Teams Admin Center
+# Enable and manage SMS in Microsoft Teams
 
-This article is for IT administrators and IT professionals who are administering the Short Message Service (SMS) usage in Microsoft’s Teams Admin Center (TAC).
+This article is for IT administrators and IT professionals who are administering the Short Message Service (SMS) usage in Microsoft Teams. You can manage SMS for Teams through the Teams admin center.
 
 ## Prerequisites
 
@@ -36,39 +34,45 @@ To ensure successful enablement of SMS for a Teams Calling Plan phone number, co
 
 ### Licensing
 
-To proceed with enabling Teams users with SMS capabilities, the following must be provisioned:
+To enable Teams users with SMS capabilities, you must assign the following licenses to your users:
 
-- Users must be licensed with Teams, Teams Phone, and a Microsoft Teams Calling Plan. For more information, see [Licensing](sms-overview.md#licensing).
+- Teams
+- Teams Phone
+- Microsoft Teams Calling Plan
+
+For more information, see [SMS Licensing](sms-overview.md#licensing).
   
 ### Billing mechanism
 
 A tenant **billing mechanism** *should* be in place for SMS consumption overages and *must* be in place for Pay-as-you-go Calling Plans.
 
-- Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
+Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see the article [Microsoft Calling Plan Overview](calling-plan-overview.md).
 
 #### Permissions
 
-Administrators must have one of the following Roles Based Access Control (RBAC) roles assigned:
+As an adminstrator, you must be assigned one of the following Role-Based Access Control (RBAC) roles:
 
 - Teams Administrator
 - Teams Communications Administrator
 - Teams Telephony Administrator
 
-## Enabling SMS for a user
+For more information about Teams administrator roles, see [Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
+
+## Turn on SMS for a user
 
 The first step in enabling SMS for a user is to SMS-enable the user's phone number. 
 
-In Teams Admin Center (TAC), navigate to the left side rail, select ***Voice*** > ***Phone numbers*** > ***Numbers***, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select ***Enable SMS***
+In Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Enable SMS**.
 
-If the number isn't already assigned to a user, assign a user with the number. For more information on number management, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+If the number isn't already assigned to a user, you can assign that number to a user. For more information on number management, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## Disabling SMS for a user
+## Turn off SMS for a user
 
-To disable a user, in Teams Admin Center (TAC), navigate to the left side rail, select ***Voice*** > ***Phone numbers*** > ***Numbers***, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select ***Disable SMS***
+To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select ***Disable SMS***
 
-## Confirming usage
+## SMS usage report
 
-To confirm SMS usage, in Teams Admin Center, navigate to the left side rail, select **Reports & analytics** > **Usage reports** > **PSTN and SMS Usage**, choose a date range, and select **Run report**.
+To view itemized SMS reporting in Teams admin center, navigate to the left side rail, select **Reports & analytics** > **Usage reports** > **PSTN and SMS Usage**, choose a date range, and select **Run report**.
 
 For more information, see [Microsoft Teams PSTN Usage report](.\teams-analytics-and-reports\pstn-usage-report.md).
 
