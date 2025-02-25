@@ -71,7 +71,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Meeting chat](manage-meeting-chat.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|![Image of a x for no](/office/media/icons/cancel-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|For organizers, co-organizers, and presenters only.|
-|Microsoft Teams Rooms (Windows) can join as a presenter<sup>2</sup> |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
+|[Microsoft Teams Rooms (Windows) can join as a presenter](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2)<sup>2</sup> |![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Outlook add-in](outlook-add-in-authentication-policy-requirements.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
 |[Participants can give or request control](meeting-who-present-request-control.md)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
 |[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a checkmark for yes](/office/media/icons/success-teams.png)|![Image of a x for no](/office/media/icons/cancel-teams.png)|
@@ -104,7 +104,7 @@ The following table shows which features are available in meetings, webinars, an
 
 <sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported.
 
-<sup>2</sup> Only Microsoft Teams Rooms on Windows with a Pro license can join meetings and events as a presenter. However, Teams Rooms can't send chat messages. Organizers must add Teams Rooms from external organizations as external presenters. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to **Organizer or co-organizer only** or **Specific people**.
+<sup>2</sup> Only Microsoft Teams Rooms on Windows with a Pro license can join meetings and events as a presenter. However, Teams Rooms can't send chat messages. To allow Rooms to join as a presenter in meetings, organizers must set **Who can present** to either **Organizer or co-organizer only** or **Specific people**.
 
 <sup>3</sup> The usual maximum is increased to 20,000 through June 30, 2024.
 
