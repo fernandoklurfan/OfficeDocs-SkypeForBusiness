@@ -194,7 +194,7 @@ US, PR, and CA 10DLC operators apply a surcharge for processing SMS messages sen
 - **For outbound messages**, the carrier of the *recipient's number* determines the surcharge. 
 - **For inbound messages**, the carrier of the *sender's number* determines the surcharge.
 
-For per-message segment pricing related to SMS usage, including currency conversions, see [SMS Pricing](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone).
+For per-message segment pricing related to SMS usage, including currency conversions, see [SMS Pricing](https://go.microsoft.com/fwlink/?linkid=2303326).
 
 This processing surcharge is a per-message-segment fee that may vary over time. If the surcharge rates are expected to change, the SMS pricing table is updated 30 days before the implementation of any price changes.
 
