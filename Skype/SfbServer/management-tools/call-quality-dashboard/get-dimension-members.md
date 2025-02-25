@@ -33,7 +33,7 @@ Get Dimension Members operation returns the list of members of a specific dimens
    
  **URI Parameters** - None.
   
- **Request Headers** - No additional headers.
+ **Request Headers** - No other headers.
   
  **Request Body** - This section contains the name of dimension we want the members for. Also max number of members returned, beside you can specify some filtering to limit the returned members.
   
@@ -52,7 +52,7 @@ Get Dimension Members operation returns the list of members of a specific dimens
   
  **Status Code** - A successful operation returns status code 200 (OK).
   
- **Response Headers** - No additional headers.
+ **Response Headers** - No other headers.
   
  **Response Body** - The following is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.
   
