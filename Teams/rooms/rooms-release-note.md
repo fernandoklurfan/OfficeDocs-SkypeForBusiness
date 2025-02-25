@@ -5,7 +5,7 @@ ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 10/29/2024
-ms.topic: article
+ms.topic: release-notes
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -757,6 +757,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2025020302](#144910962025020302-february-2025) | February 2025 |
 |[1449/1.0.96.2025010301](#144910962025010301-january-2025) | January 2025 |
 |[1449/1.0.96.2024110701](#144910962024110701-november-2024) | November 2024 |
 |[1449/1.0.96.2024101004](#144910962024101004-october-2024) | October 2024 |
@@ -790,6 +791,17 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2025020302 (February 2025)
+
+Resolved Issues:
+
+- Fixed an issue where pairing loss affected functionality of certain Teams Rooms on Android systems.
+-	Resolved an issue where the meeting UI (user interface) was misaligned after pressing the back button.
+-	Fixed a bug that prevented Teams Rooms Android device from joining a meeting when invited from QR code or Bluetooth proximity.
+-	UI fixes and improvements for dual screen setups.
+-	Resolved an issue where users weren't able to file feedback using “Report a problem”. 
+
 
 ### 1449/1.0.96.2025010301 (January 2025)
 
