@@ -1390,7 +1390,16 @@ items:
       items:
         - name: Overview
           href: sms-overview.md
-          
+        - name: Step 1 - Create brand
+          href: sms-setup-brand.md
+        - name: Step 2 - Create campaign
+          href: sms-setup-campaign.md
+        - name: Step 3 - Enable SMS
+          href: sms-management.md
+        - name: SMS privacy and terms template example
+          href: sms-privacy-terms-template.md
+        - name: Microsoft policy for SMS in Teams
+          href: sms-microsoft-teams-policy.md
     - name: Dial plans and routing
       items: 
         - name: Overview
