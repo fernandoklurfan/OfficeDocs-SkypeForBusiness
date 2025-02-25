@@ -119,7 +119,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalNonTrustedMeeting
 
 ## Limitations
 
-- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join webinars and town halls as a presenter.
+- Microsoft Teams Rooms on Windows with a Pro license can't use chat when they join meetings as a presenter.
 
 ## Related topics
 
