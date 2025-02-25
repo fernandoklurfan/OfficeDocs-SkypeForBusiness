@@ -24,7 +24,7 @@ description: "Summary: Learn about the environmental requirements for Edge Serve
  
 **Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server.
   
-A lot of planning and preparation needs to take place outside of the Skype for Business Server Edge Server environment itself. In this article, we'll review what preparations need to be made in the organizational environment, as per our list below:
+A lot of planning and preparation needs to take place outside of the Skype for Business Server Edge Server environment itself. In this article, we review what preparations need to be made in the organizational environment, as per the following list:
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -44,7 +44,7 @@ Skype for Business Server Edge Server topologies are able to use:
 - Non-routable private IP addresses, if **symmetric** network address translation (NAT) is used.
     
 > [!TIP]
-> Your Edge Server can be configured to use a single IP address with distinct ports for each service, or it can use distinct IP addresses for each service, but use the same default port (which by default will be TCP 443). We have more information in IP Address requirements section, below. 
+> Your Edge Server can be configured to use a single IP address with distinct ports for each service, or it can use distinct IP addresses for each service, but use the same default port (which by default is TCP 443). We have more information in IP Address requirements section, below. 
   
 If you choose non-routable private IP addresses with NAT, remember these points:
   
@@ -136,11 +136,11 @@ Let's look at some additional things to think about while planning.
 ## DNS planning
 <a name="DNSPlan"> </a>
 
-When it comes to Skype for Business Server Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment will be much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
+When it comes to Skype for Business Server Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment is much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
   
 ### DNS records for Single consolidated Edge Server scenarios
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
+These are the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
   
 - Internal network adapter: 172.25.33.10 (no default gateways assigned)
     
@@ -187,7 +187,7 @@ Web conferencing and A/V Edge public IP addresses are additional (secondary) IP 
    
 ### DNS records for Scaled DNS and hardware Edge Server scenarios
 
-These will be the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
+These are the DNS records you're going to need for a singe Edge Server using either public IPs or private IPs with NAT. Because this is sample data, we'll give example IPs so you can work out your own entries more easily:
   
 - Internal network adapter:
     
