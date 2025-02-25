@@ -24,7 +24,7 @@ The Get Dimension Members operation is part of the Data API for Call Quality Das
   
 ## Get Dimension Members
 
-Get Dimension Members operation returns the list of members of a specific dimension. It also give the ability to filter the member list and get a subset, to reduce the wire transfer cost.
+Get Dimension Members operation returns the list of members of a specific dimension. It also gives the ability to filter the member list and get a subset, to reduce the wire transfer cost.
   
 
 |**Method**|**Request URI**|**HTTP Version**|
@@ -35,7 +35,7 @@ Get Dimension Members operation returns the list of members of a specific dimens
   
  **Request Headers** - No additional headers.
   
- **Request Body** - This contains the name of dimension we want the members for. Also max number of members returned, beside you can specify some filtering to limit the returned members.
+ **Request Body** - This section contains the name of dimension we want the members for. Also max number of members returned, beside you can specify some filtering to limit the returned members.
   
 ```json
 {
@@ -54,7 +54,7 @@ Get Dimension Members operation returns the list of members of a specific dimens
   
  **Response Headers** - No additional headers.
   
- **Response Body** - Below is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.
+ **Response Body** - The following is a sample response payload in JSON in response to a request for "[StartDate].[Month]" dimension.
   
 > [!NOTE]
 > The list is only showing a small portion of the list. 
