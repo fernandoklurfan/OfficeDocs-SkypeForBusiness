@@ -95,8 +95,8 @@ For support, **[EMAIL ADDRESS OR PHONE NUMBER AND, IF AVAILABLE, SUPPORT PAGE]**
 
 ## Related topics
 
-[SMS Overview](sms-overview.md)
+- [SMS Overview](sms-overview.md)
 
-[Step 2: Create a campaign](sms-setup-campaign.md)
+- [Step 2: Create a campaign](sms-setup-campaign.md)
 
-[Step 3: Enable SMS](sms-management.md)
+- [Step 3: Enable SMS](sms-management.md)

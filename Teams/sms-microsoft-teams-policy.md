@@ -38,9 +38,9 @@ If an individual requests to opt-out of future messages on Teams SMS, then all f
 
 ### Adult content
 
-Message content that includes elements of sex, hate, alcohol, firearms, tobacco, gambling, or sweepstakes and contests can trigger additional requirements. This content is expressly prohibited in some jurisdictions. If you send a message that includes this content, then it is your duty to abide by all applicable laws of the jurisdictions in which the communications are received. At the request of law enforcement or Microsoft Teams , you must be prepared to provide proof of consent with local laws that regulate adult content.
+Message content that includes elements of sex, hate, alcohol, firearms, tobacco, gambling, or sweepstakes and contests can trigger additional requirements. This content is expressly prohibited in some jurisdictions. If you send a message that includes this content, then it is your duty to abide by all applicable laws of the jurisdictions in which the communications are received. At the request of law enforcement or Microsoft Teams, you must be prepared to provide proof of consent with local laws that regulate adult content.
 
-Even where such content isn't unlawful, you should include an age verification mechanism at opt in to age-gate the intended message recipient from adult content. In the United States, additional legal requirements apply to marketing communications directed at children under the age of 13.
+Even where such content isn't unlawful, you should include an age verification mechanism at opt-in to age-gate the intended message recipient from adult content. In the United States, additional legal requirements apply to marketing communications directed at children under the age of 13.
 
 ### Prohibited practices
 
@@ -86,10 +86,10 @@ We encourage our customers to develop and implement policies and procedures desi
 
 ## Related articles
 
-[Microsoft Calling Plan Overview](calling-plan-overview.md)
+- [Microsoft Calling Plan Overview](calling-plan-overview.md)
 
-[Learn about SMS texting in Teams](sms-overview.md)
+- [Learn about SMS texting in Teams](sms-overview.md)
 
-[Step 1: Create a brand](sms-setup-brand.md)
+- [Step 1: Create a brand](sms-setup-brand.md)
 
-[Step 2: Create a campaign](sms-setup-campaign.md)
+- [Step 2: Create a campaign](sms-setup-campaign.md)

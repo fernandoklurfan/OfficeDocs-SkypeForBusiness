@@ -79,7 +79,7 @@ To receive approval with TCR, Teams administrators use the Teams admin center to
 
 Registration and enabling SMS for Teams Calling Plan numbers can be summarized in the following diagram:
 
-:::image type="content" source="media/sms-tcr-registration-small.png" alt-text="Overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/sms-tcr-registration-large.png":::
+:::image type="content" source="media/sms-tcr-registration-small.png" alt-text="Screenshot that shows overview of the SMS enablement process for Teams Calling Plan numbers." lightbox="media/sms-tcr-registration-large.png":::
 
 The Brand and Campaign approval requirement applies to businesses that do mass texting or marketing, as well as businesses that send individual messages, **even if it isn't for marketing purposes**.
 
@@ -230,16 +230,16 @@ For end user documentation, see [SMS support for Teams end users](https://suppor
 
 ## Related articles
 
-[Microsoft Calling Plan Overview](calling-plan-overview.md)
+- [Microsoft Calling Plan Overview](calling-plan-overview.md)
 
-[Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
+- [Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
 
-[Step 1: Create a brand](sms-setup-brand.md)
+- [Step 1: Create a brand](sms-setup-brand.md)
 
-[Step 2: Create a campaign](sms-setup-campaign.md)
+- [Step 2: Create a campaign](sms-setup-campaign.md)
 
-[Step 3: Enable SMS](sms-management.md)
+- [Step 3: Enable SMS](sms-management.md)
 
-[Microsoft SMS in Teams legal messaging policy](sms-microsoft-teams-policy.md)
+- [Microsoft SMS in Teams legal messaging policy](sms-microsoft-teams-policy.md)
 
-[Privacy policy and terms and conditions templates for SMS in Teams](sms-privacy-terms-template.md)
+- [Privacy policy and terms and conditions templates for SMS in Teams](sms-privacy-terms-template.md)

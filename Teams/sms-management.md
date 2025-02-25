@@ -46,11 +46,11 @@ For more information, see [SMS Licensing](sms-overview.md#licensing).
 
 A tenant **billing mechanism** *should* be in place for SMS consumption overages and *must* be in place for Pay-as-you-go Calling Plans.
 
-Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see [SMS overivew of usage and billing]](sms-overview.md#usage-and-billing).
+Funding for usage overages is supported either with prepaid Communication Credits using a Microsoft Online Subscription Agreement (MOSA) or with postpaid invoicing using a Microsoft Customer Agreement (MCA). For more information, see [SMS overview of usage and billing](sms-overview.md#usage-and-billing).
 
 #### Permissions
 
-As an adminstrator, you must be assigned one of the following Role-Based Access Control (RBAC) roles:
+As an administrator, you must be assigned one of the following Role-Based Access Control (RBAC) roles:
 
 - Teams Administrator
 - Teams Communications Administrator
@@ -64,11 +64,11 @@ To enable SMS in Teams for a user, you must turn on SMS for a user's phone numbe
 
 In Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Enable SMS**.
 
-If the number isn't already assigned to a user, you can assign that number to a user. For more information on number management, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+If the number isn't already assigned to a user, you can assign that number to a user. For more information on number management, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Turn off SMS for a user
 
-To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Disable SMS**
+To turn off SMS for a user in Teams admin center, navigate to the left side rail, select **Voice** > **Phone numbers** > **Numbers**, and then find and select the number for the user. In the contextual menu just above the list of phone numbers, select **Disable SMS**.
 
 ## SMS usage report
 
@@ -78,8 +78,8 @@ For more information, see [Microsoft Teams PSTN Usage report](.\teams-analytics-
 
 ## Related topics
 
-[SMS overview](sms-overview.md)
+- [SMS overview](sms-overview.md)
 
-[Step 1: Create brand](sms-setup-brand.md)
+- [Step 1: Create brand](sms-setup-brand.md)
 
-[Step 2: Create campaign](sms-setup-campaign.md)
+- [Step 2: Create campaign](sms-setup-campaign.md)

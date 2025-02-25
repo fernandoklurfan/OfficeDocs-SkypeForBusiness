@@ -162,16 +162,16 @@ If your company doesn't have a privacy statement or terms and conditions related
 
 ## Related topics
 
-[Microsoft Calling Plan Overview](calling-plan-overview.md)
+- [Microsoft Calling Plan Overview](calling-plan-overview.md)
 
-[Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
+- [Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
 
-[Learn about SMS texting in Teams](sms-overview.md)
+- [Learn about SMS texting in Teams](sms-overview.md)
 
-[SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md)
+- [SMS privacy statement and terms and conditions template](sms-privacy-terms-template.md)
 
-[Step 3: Enable SMS](sms-management.md)
+- [Step 3: Enable SMS](sms-management.md)
 
-[Plan for SMS in Microsoft Teams](sms-overview.md)
+- [Plan for SMS in Microsoft Teams](sms-overview.md)
 
-[Microsoft's SMS in Teams messaging policy](sms-microsoft-teams-policy.md)
+- [Microsoft's SMS in Teams messaging policy](sms-microsoft-teams-policy.md)

@@ -101,7 +101,7 @@ The terms as follows relate to Microsoft sharing your brand information with an 
 
 After filling out all the applicable Brand information, select **Submit**.
 
-Tthe Brand status should now shows as **Submitted** and the Brand information can't be modified without Microsoft Support intervention.
+The Brand status should now show as **Submitted** and the Brand information can't be modified without Microsoft Support intervention.
 
 If you designated your organization's legal form as *Publicly Traded Company* and you haven't received a Two Factor Authentication message from **noreply@auth.campaignregistry.com**, check your junk mail and your company's firewall rules.
 
@@ -116,10 +116,10 @@ Once your Brand has been approved by TCR, you can move on to [Step 2: Create a c
 
 ## Related topics
 
-[Microsoft Calling Plan Overview](calling-plan-overview.md)
+- [Microsoft Calling Plan Overview](calling-plan-overview.md)
 
-[Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
+- [Getting numbers with Microsoft Calling Plan](manage-phone-numbers-landing-page.md)
 
-[Learn about SMS texting in Teams](sms-overview.md)
+- [Learn about SMS texting in Teams](sms-overview.md)
 
-[Step 2: Create a campaign](sms-setup-campaign.md)
+- [Step 2: Create a campaign](sms-setup-campaign.md)
