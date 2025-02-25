@@ -209,6 +209,8 @@ To add a mobile system OS scanner:
 
 **Applies to:** *Teams app version: 1449/1.0.94.2025021303 (Poly, Yealink, AudioCodes)*
 
+
+
 Back-end telemetry fixes and improvements  
 
 ## February 11, 2025
