@@ -27,6 +27,9 @@ description: Learn about custom meeting templates in Microsoft Teams Premium.
 
 Meeting templates can be used to enforce meeting options or to set defaults. Each template option can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed. Meeting options can also be hidden so meeting organizers don't see them.
 
+> [!IMPORTANT]
+> To select a sensitivity label in a custom meeting template, the compliance admin must first publish the label to the Teams admin's account using the Purview label policy. Teams admin can't see labels in meeting templates that aren't published to their account.
+
 The following meeting options can be controlled by using a meeting template:
 
 |Option|Description|
