@@ -50,9 +50,7 @@ The Avatars for Microsoft Teams app lets your users connect with presence in Tea
 To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed through your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
 
 - `*.microsoft.com`
-
 - `*.cloud.microsoft.com`
-
 - `*.office.com`
 - `*.office.net`
 
@@ -73,7 +71,7 @@ If these endpoints aren't properly allowed, you will run into issues when runnin
 1. In the [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), in the left-navigation bar, go to **Teams apps** > **Manage apps**.
 1. In the **Search by name** text box, search for and select **Avatars** and then select **Allowed**.
 
-  :::image type="content" source="media/avatars-allowed.png" alt-text="Toggle showing the Avatars app stateset to Allowed.":::
+   :::image type="content" source="media/avatars-allowed.png" alt-text="Toggle showing the Avatars app stateset to Allowed.":::
 
 ### Create or edit a setup policy to preinstall the Avatars app for users
 
@@ -82,7 +80,9 @@ If these endpoints aren't properly allowed, you will run into issues when runnin
 1. Under **Installed apps**, select **Add apps**.
 1. Under **Search based on this app permission policy**, select **Global**.
 1. Search for, and select, **Avatars**, and then select **Add**.
-  :::image type="content" source="media/avatars-add-app.png" alt-text="Menu showing the Avatars app select from an app search box." lightbox="media/avatars-add-app-large.png":::
+
+   :::image type="content" source="media/avatars-add-app.png" alt-text="Menu showing the Avatars app select from an app search box." lightbox="media/avatars-add-app-large.png":::
+
 1. Confirm by selecting **Add** at the bottom.
 1. Select **Save** to save the changes to your app setup policy.
 
@@ -144,11 +144,9 @@ Global or User admins can view, export, or remove a user's avatar profile from w
 
 1. Ensure that you enabled the appropriate licenses for Avatars for Teams.
 
-For more guidance for assigning licenses in Microsoft 365, see:
+For more guidance for assigning licenses in Microsoft 365, see [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-[Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
-
-For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
+For more complex and larger group license management, see [Assign licenses to a group](/entra/identity/users/licensing-groups-assign).
 
 ## Where avatars can be used
 
