@@ -117,7 +117,7 @@ If you don’t use any of the supported third party providers, you can set web U
 - Accessible within a browser InPrivate window without requiring authentication or permission from the resource account.
 - Loads within an iframe that runs in sandbox="allow-scripts allow-same-origin" environment. For more information, see [CSP: frame-ancestors - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > You must add *https://teams.microsoft.com/* to the Content-Security-Policy (CSP) frame-ancestors directive for your web URL to load successfully. 
 
 To add a web URL as signage source, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose **Custom**> enter a web URL that meets the requirements above > select **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**.
