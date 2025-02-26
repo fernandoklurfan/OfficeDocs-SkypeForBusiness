@@ -22,7 +22,8 @@ ms.localizationpriority: medium
 
 # Microsoft Teams update monitoring
 
-[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!IMPORTANT]
+> This article describes a Microsoft Teams feature that hasn't yet been released. It's been announced, and it's coming soon. If you're an admin, you can find out when this feature will be released in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). For more information, see [Teams client health](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=478610) and [Monitor Teams client updates](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=478609).
 
 As an admin, it’s important that your users have the latest and the most secure version of the Teams client. Teams update monitoring in the Teams admin center allows you to proactively monitor Teams client updates and versions. It also helps identify users who aren't on latest version of Teams, so you can support them.
 

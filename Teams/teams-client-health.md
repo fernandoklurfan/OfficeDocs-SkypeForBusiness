@@ -22,8 +22,8 @@ ms.localizationpriority: medium
 
 # Teams client health dashboard in the Teams admin center
 
-[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
-
+> [!IMPORTANT]
+> This article describes a Microsoft Teams feature that hasn't yet been released. It's been announced, and it's coming soon. If you're an admin, you can find out when this feature will be released in the Message Center (in the [Microsoft 365 admin center](https://portal.office.com/adminportal/home)). For more information, see [Teams client health](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=478610) and [Monitor Teams client updates](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=478609).
 This article provides an overview of the new Teams client health dashboards and tools for managing Teams clients in the Microsoft Teams admin center.
 
 Teams client health is an all-new page with a set of data, insights, and tools to help administrators troubleshoot and resolve issues. When a Teams application experiences an issue, end-users typically reach out to their admins. As an admin, you may have many requests from end-users. These requests can leave you in a reactive position with limited information to diagnose and resolve problems effectively.
