@@ -147,7 +147,7 @@ Global or User admins can view, export, or remove a user's avatar profile from w
 
 For more guidance for assigning licenses in Microsoft 365, see [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-For more complex and larger group license management, see [Assign licenses to a group](/entra/identity/users/licensing-groups-assign).
+For more complex and larger group license management, see [What is group-based licensing in Microsoft Entra ID?](/entra/fundamentals/concept-group-based-licensing).
 
 ## Where avatars can be used
 
