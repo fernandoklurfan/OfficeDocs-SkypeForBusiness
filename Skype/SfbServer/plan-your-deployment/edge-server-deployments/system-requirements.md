@@ -23,11 +23,11 @@ description: "Summary: Learn about the system requirements for Edge Server in Sk
  
 **Summary:** Learn about the system requirements for Edge Server in Skype for Business Server.
   
-When it comes to your Skype for Business Server Edge Server deployment, these are the things you'll need to do for the server or servers that are in the environment itself, as well as planning for the environment structure. For more information on topology, DNS, certificates, and other infrastructure concerns, check out the environmental requirements documentation.
+When it comes to your Skype for Business Server Edge Server deployment, these are the things you need to do for the server or servers that are in the environment itself, and planning for the environment structure. For more information on topology, DNS, certificates, and other infrastructure concerns, check out the environmental requirements documentation.
   
 ## Components
 
-When discussing the Edge Server environment, we're referencing components that are, for the most part, deployed in a perimeter network (that's to say it's either in a workgroup or a domain that's outside your Skype for Business Server domain structure).
+When discussing the Edge Server environment, we're referencing components that are usually deployed in a perimeter network (that's to say it's either in a workgroup or a domain that's outside your Skype for Business Server domain structure).
   
 Keeping that in mind, these are the components you're going to need to keep in mind for deploying your Edge successfully:
   
@@ -41,7 +41,7 @@ Keeping that in mind, these are the components you're going to need to keep in m
     
 - [Load Balancers](system-requirements.md#LoadBalancers) (you can have DNS load balancing or a hardware load balancer (HLB), but for a single Edge Server, this isn't needed)
     
-We have more detail on each of these below:
+We have more detail on each of these in the following sections:
   
 ### Edge Servers
 <a name="EdgeServers"> </a>
@@ -59,7 +59,7 @@ These are the Skype for Business servers deployed in your perimeter environment.
 Authorized external users can use your Edge Servers to connect to your internal Skype for Business Server deployment, but otherwise, they provide no other access to your internal network for anyone.
   
 > [!NOTE]
-> Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that will work. 
+> Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that work. 
 
 > [!NOTE]
 > XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
@@ -120,7 +120,7 @@ If your reverse proxy can address all the needs in this list, you should be good
 ### Firewalls
 <a name="Firewalls"> </a>
 
-You need to put your Edge deployment behind an external firewall, but we recommend having two firewalls, one external, and one internal between the Edge environment and your internal environment. All our documentation in our Scenarios will have two firewalls. We recommend two firewalls because it ensures strict routing from one network edge to the other, and doubles the firewall protection for your internal network.
+You need to put your Edge deployment behind an external firewall, but we recommend having two firewalls, one external, and one internal between the Edge environment and your internal environment. All our documentation in our Scenarios have two firewalls. We recommend two firewalls because it ensures strict routing from one network edge to the other, and doubles the firewall protection for your internal network.
   
 ### Directors
 <a name="Directors"> </a>
@@ -167,11 +167,11 @@ Skype for Business Server doesn't have a lot of cookie-based affinity requiremen
   
 If your environment **doesn't** need cookie-based affinity:
   
-- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This will ensure the original URL is forwarded.
+- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This ensures the original URL is forwarded.
     
 For deployments that **do** need cookie-based affinity:
   
-- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This will ensure the original URL is forwarded.
+- On the reverse proxy publishing rule for port 443, set **Forward host header** to **True**. This ensures the original URL is forwarded.
     
 - The hardware load balancer cookie **must not** be marked httpOnly.
     
