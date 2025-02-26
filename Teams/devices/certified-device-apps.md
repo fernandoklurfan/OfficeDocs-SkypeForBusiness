@@ -53,7 +53,7 @@ The following are supported versions of Teams admin agent app:
 
 ### 1.0.0.202407050618
 
-**This release is currently available for all Teams certified devices and contains following updates :** 
+**This release is currently available for all Teams certified devices and contains following updates:** 
 
 - Improvements to determine device health more appropriately with the help of additional signals.
 
@@ -63,7 +63,7 @@ The following are supported versions of Teams admin agent app:
 
 ### 1.0.0.202407050618
 
-**This release is currently available for all Teams certified devices and contains following updates :**
+**This release is currently available for all Teams certified devices and contains following updates:**
 
 - Improvements to device settings management by supporting partial configuration change and two-way sync of settings between Teams admin center and device.
 
