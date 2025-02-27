@@ -113,7 +113,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 
 ###### PC update
 
-If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the following registry key. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the following registry key. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown here:
 
 ```console
 HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
@@ -124,7 +124,7 @@ value type = DWORD
 
 ###### Mac update
 
-If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the following .plist configuration key. Setting the endpoint with the .plist configuration restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the following .plist configuration key. Setting the endpoint with the .plist configuration restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown here:
 
 ```console
 Domain: com.microsoft.teams2
