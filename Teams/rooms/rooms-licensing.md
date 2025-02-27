@@ -211,6 +211,8 @@ If you encounter devices showing an incorrect “unlicensed” status even thoug
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
 
 
+**Note**: Switching from legacy licenses Teams Rooms Standard or Teams Rooms Premium to Teams Rooms Basic or Pro, license provisioning could take up from 24h to 48h to be active.
+
 ## Assigning additional licenses:
 
 Teams Rooms licenses include all necessary services for Teams Rooms functionality, and additional licenses are neither needed nor supported for these devices, with the exception of telephony. Customers requiring outbound calling features should purchase an appropriate calling plan for the device or configure direct routing for the room account. 
