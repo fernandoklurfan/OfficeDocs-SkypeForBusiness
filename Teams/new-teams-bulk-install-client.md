@@ -52,7 +52,7 @@ When **teamsbootstrapper.exe** is run on a computer:
 
 For new Teams to be successfully installed, computers must meet the minimum requirements listed in [New Teams system requirements](teams-client-system-requirements.md).
 
-## Step 1: Upgrade the new Teams application
+## Upgrade the new Teams application
 
 All steps must be completed to successfully upgrade to the new Teams.
 
@@ -126,30 +126,6 @@ Value: {Enter number associated with the cloud}
 ```
 
 The .plist configuration can be propagated to managed devices using Intune as described in [Add preference file settings to macOS devices in Microsoft Intune](/mem/intune/configuration/preference-file-settings-macos).
-
-## Step 2: Set new Teams as the default
-
->[!Note]
->Admin policies may also be set using PowerShell. Learn more: [Set the policies to upgrade to the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
-
-1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select **Teams > Teams Update policies** from the left navigation pane.
-3. Select Add to create a new policy or select an existing policy to open Update policy.
-4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
-
-|Setting|Description|
-|:-----|:-----|
-|New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
-|Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.|
-
->[!Note]
->This option was previously called **Users can choose**.
-
-5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.  Select a policy to assign to the group.
-6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
-
->[!Note]
->If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 ## Remove new Teams for all users
 
