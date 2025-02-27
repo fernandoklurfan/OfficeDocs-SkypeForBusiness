@@ -52,6 +52,15 @@ When **teamsbootstrapper.exe** is run on a computer:
 
 For new Teams to be successfully installed, computers must meet the minimum requirements listed in [New Teams system requirements](teams-client-system-requirements.md).
 
+Additional requirements:
+
+|Requirement|Version/Description|
+|:-----|:-----|
+|Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
+|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
+
 ## Upgrade the new Teams application
 
 All steps must be completed to successfully upgrade to the new Teams.
