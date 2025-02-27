@@ -2,11 +2,11 @@
 title: Upgrade from the Teams Exploratory trial
 author: DaniEASmith
 ms.author: danismith
-manager: pamgreen
+manager: jtremper
 ms.topic: reference
 audience: Admin
 ms.reviewer: 
-ms.date: 04/23/2024
+ms.date: 02/27/2025
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
@@ -36,7 +36,7 @@ This article provides an overview of how to upgrade your users from a Teams Expl
 >
 > To see if you have users with a Teams Exploratory license, you can go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) > **Billing** > **Licenses** > and scroll to see if **Microsoft Teams Exploratory** is listed. If it is listed, you have users with a Teams Exploratory license.
 >
-> From this Microsoft 365 admin center page, you can also check if your Teams Exploratory licenses are a tenant-based or self-service trial. Select the **Filter** icon, scroll to **Account type**, and choose either **Organizational** or **Self-service**. If the **Microsoft Teams Exploratory** license appears with the **Organizational** filter, your Teams Exploratory trial is tenant-based. If the license appears with the **Self-service** filter, it's self-service.
+> From this Microsoft 365 admin center page, you can also check if your Teams Exploratory licenses are a tenant-based or self-service trial. Select the **Filter** icon and choose either **Organizational** or **Self-service**. If the **Microsoft Teams Exploratory** license appears with the **Organizational** filter, your Teams Exploratory trial is tenant-based. If the license appears with the **Self-service** filter, it's self-service.
 
 ## Step 1: When to upgrade  
 
@@ -81,6 +81,6 @@ After you assign the new licenses, unassign the Teams Exploratory licenses. For 
 
 Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see [Manage auto-claim policies](/microsoft-365/commerce/licenses/manage-auto-claim-policies).
 
-## Related topics
+## Related articles
 
 - [Manage the Microsoft Teams Exploratory license](teams-exploratory.md)
