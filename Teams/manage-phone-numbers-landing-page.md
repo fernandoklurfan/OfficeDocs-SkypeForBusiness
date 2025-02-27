@@ -34,9 +34,9 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 # Manage telephone numbers for your organization
 
-This article provides an overview for phone number management, including where to get started with acquiring numbers through your specific PSTN connectivity option, where to manage those numbers and how to assign them to users.
+This article provides an overview for phone number management, including where to get started with acquiring numbers through your specific PSTN connectivity solution, where to manage those numbers and how to assign them to users.
 
-### Planning  
+## Planning  
 
 Typical considerations when planning how you will orchestrate delivery of PSTN numbers to your enterprise include answering the following questions:
 
@@ -54,6 +54,8 @@ Typical considerations when planning how you will orchestrate delivery of PSTN n
   - For porting to Microsoft Teams Calling Plans, see the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
   - For porting to other service providers, see your service provider.
 
+## Acquiring and managing telephone numbers
+
 How you acquire and manage telephone numbers depends on the option of your Public Switched Telephone Network (PSTN) connectivity solution. Use the following table to navigate to your PSTN solution:
 
 |PSTN connectivity solution |Guidance for acquiring and managing numbers |
@@ -65,7 +67,7 @@ How you acquire and manage telephone numbers depends on the option of your Publi
 
 ## Assigning telephone numbers to users
 
-Once numbers are acquired and available in your tenant, they can be managed in the following interfaces:
+Once numbers are acquired and available in your tenant, regardless of PSTN connectivity solution, they can be managed in the following interfaces:
 
 - Teams admin center (TAC)
 - Teams PowerShell
@@ -110,11 +112,11 @@ If you need additional or other number types other than those numbers seen in th
 
 For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
 
-## Considerations for Direct Routing numbers
+### Considerations for Direct Routing numbers
 
 Direct Routing phone numbers can be managed in on-premises Active Directory or in Microsoft 365.
 
-### Direct Routing numbers managed in an on-premises Active Directory
+#### Direct Routing numbers managed in an on-premises Active Directory
 
 If you have or had a Skype for Business Server hybrid deployment,
 your on-premises Active Directory is most likely synchronizing with Microsoft 365. This means that directory attributes on user and resource accounts are managed in the on-premises Active Directory and synchronized into Microsoft 365.
@@ -128,17 +130,17 @@ After this parameter is automatically synchronized to the user or resource accou
 | On-premises AD | msRTCSIP-Line | tel:+14255551234 |
 | Microsoft 365 | OnPremLineURi | tel:+14255551234 |
 
-### Direct Routing numbers managed in Microsoft 365
+#### Direct Routing numbers managed in Microsoft 365
 
 If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're only managed in Microsoft 365. Because the phone numbers are not synching from on-premises to Microsoft 365, there is no visible value in the OnPremLineUri parameter in the output from the Get-CsOnlineUser cmdlet run for the user or resource account.
 
 You can manage Direct Routing numbers in Microsoft 365 with Teams Powershell, using the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlets.
 
-### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
+#### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
 
 It's possible to manage Direct Routing phone numbers of some user and resource accounts in an on-premises Active Directory and Direct Routing phone numbers of other accounts in Microsoft 365. This capability depends on whether the attribute msRTCSIP-Line is set on the user or resource account in the on-premises Active Directory.
 
-### Change where Direct Routing phone numbers are managed
+#### Change where Direct Routing phone numbers are managed
 
 To move management of Direct Routing phone numbers from on-premises Active Directory to Microsoft 365, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resource account in the on-premises Active Directory.
 
