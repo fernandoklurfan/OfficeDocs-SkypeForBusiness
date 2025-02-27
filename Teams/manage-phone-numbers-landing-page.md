@@ -36,23 +36,42 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 This article provides an overview for phone number management, including where to get started with acquiring numbers through your specific PSTN connectivity option, where to manage those numbers and how to assign them to users.
 
-How you acquire and manage telephone numbers differs depending on your Public Switched Telephone Network (PSTN) connectivity option.
+### Planning  
 
-### Acquiring and managing Microsoft Calling Plan numbers
+Typical considerations when planning how you will orchestrate delivery of PSTN numbers to your enterprise include answering the following questions:
 
-- For information about acquiring telephone numbers for Microsoft Calling Plan, see [Set up telephone numbers with Microsoft Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Which countries or regions need new telephone numbers?
+  - Which PSTN solutions are available in these countires or regions?
+    - For Microsoft Teams Calling Plans, see the following article: [Country and region availability for Calling Plans](calling-plan-overview.md)
+    - For other PSTN connectivity solutions, see your service provider.
+- What use-cases and personas are getting telephone numbers?
+  - Could one PSTN solution offer a better user experience than another for the given persona?
+    - Example: Teams Phone Mobile may be ideal for field personnel, while Direct Routing may be ideal for remote offices.
+- Which type of telephone numbers (subscriber or service) do I need?
+  - For Microsoft Teams Calling Plans, see the section above: [Considerations for acquiring Microsoft Calling Plan numbers](#considerations-for-acquiring-microsoft-calling-plan-numbers)
+  - For other PSTN connectivity solutions, see your service provider.
+- How do I port existing telephone numbers?
+  - For porting to Microsoft Teams Calling Plans, see the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
+  - For porting to other service providers, see your service provider.
 
-### Acquiring and managing Operator Connect numbers
+How you acquire and manage telephone numbers depends on the option of your Public Switched Telephone Network (PSTN) connectivity solution. Use the following table to navigate to your PSTN solution:
 
-- For information about acquiring telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
+|PSTN connectivity solution |Guidance for acquiring and managing numbers |
+|:-----|:-----|
+|Microsoft Calling Plan |[Set up telephone numbers with Microsoft Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) |
+|Operator Connect |[Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers) |
+|Teams Phone Mobile |[Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses)|
+|Direct Routing |[Set up telephone numbers with Direct Routing](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice) |
 
-### Acquiring and managing Teams Phone Mobile numbers
+## Assigning telephone numbers to users
 
-- For information about acquiring telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses).
+Once numbers are acquired and available in your tenant, they can be managed in the following interfaces:
 
-### Acquring and managing Direct Routing numbers
+- Teams admin center (TAC)
+- Teams PowerShell
+- On-premises Active Directory (for Direct Routing numbers)
 
-- For information about managing telephone numbers for Direct Routing, see [Set up telephone numbers with Direct Routing](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+To review more details, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
 
 ### Considerations for acquiring Microsoft Calling Plan numbers
 
@@ -90,34 +109,6 @@ There are two categories of service telephone numbers provided by Microsoft--**t
 If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
 For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.
-
-## Assigning telephone numbers to users
-
-Once numbers are acquired and available in your tenant, they can be managed in the following interfaces:
-
-- Teams admin center (TAC)
-- Teams PowerShell
-- On-premises Active Directory (for Direct Routing numbers)
-
-To review more details, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
-
-### Planning  
-
-Typical considerations when planning how you will orchestrate delivery of PSTN numbers to your enterprise include answering the following questions:
-
-- Which countries or regions need new telephone numbers?
-  - Which PSTN solutions are available in these countires or regions?
-    - For Microsoft Teams Calling Plans, see the following article: [Country and region availability for Calling Plans](calling-plan-overview.md)
-    - For other PSTN connectivity solutions, see your service provider.
-- What use-cases and personas are getting telephone numbers?
-  - Could one PSTN solution offer a better user experience than another for the given persona?
-    - Example: Teams Phone Mobile may be ideal for field personnel, while Direct Routing may be ideal for remote offices.
-- Which type of telephone numbers (subscriber or service) do I need?
-  - For Microsoft Teams Calling Plans, see the section above: [Considerations for acquiring Microsoft Calling Plan numbers](#considerations-for-acquiring-microsoft-calling-plan-numbers)
-  - For other PSTN connectivity solutions, see your service provider.
-- How do I port existing telephone numbers?
-  - For porting to Microsoft Teams Calling Plans, see the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
-  - For porting to other service providers, see your service provider.
 
 ## Considerations for Direct Routing numbers
 
