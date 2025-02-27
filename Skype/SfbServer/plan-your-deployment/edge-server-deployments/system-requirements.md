@@ -46,17 +46,17 @@ We have more detail on each of these in the following sections:
 ### Edge Servers
 <a name="EdgeServers"> </a>
 
-These are the Skype for Business servers deployed in your perimeter environment. Their role is to send and receive network traffic to external users for the services offered by your internal Skype for Business Server deployment. To do this successfully, each Edge Server runs:
+These are the Skype for Business servers deployed in your perimeter environment. Their role is to send and receive network traffic to guests for the services offered by your internal Skype for Business Server deployment. To do this successfully, each Edge Server runs:
   
 - **Access Edge service**: Provides a single, trusted connection point for both outbound and inbound Session Initiation Protocol (SIP) traffic.
     
-- **Web Conferencing Edge service**: Enables external users to join meetings that are hosted on your internal Skype for Business Server environment.
+- **Web Conferencing Edge service**: Enables guests to join meetings that are hosted on your internal Skype for Business Server environment.
     
-- **A/V Edge service**: Makes audio, video, application sharing and file transfer available to external users.
+- **A/V Edge service**: Makes audio, video, application sharing and file transfer available to guests.
     
 - **XMPP Proxy service**: Accepts and sends extensible messaging and presence protocol (XMPP) messages to and from configured XMPP Federated partners.
     
-Authorized external users can use your Edge Servers to connect to your internal Skype for Business Server deployment, but otherwise, they provide no other access to your internal network for anyone.
+Authorized guests can use your Edge Servers to connect to your internal Skype for Business Server deployment, but otherwise, they provide no other access to your internal network for anyone.
   
 > [!NOTE]
 > Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that work. 
@@ -67,7 +67,7 @@ Authorized external users can use your Edge Servers to connect to your internal 
 ### Reverse proxies
 <a name="ReverseProxies"> </a>
 
-A reverse proxy (RP) server has no Skype for Business Server role, but is an essential component of an Edge Server deployment. A reverse proxy allows external users to:
+A reverse proxy (RP) server has no Skype for Business Server role, but is an essential component of an Edge Server deployment. A reverse proxy allows guests to:
   
 - connect to meetings or dial-in conferences using simple URLs.
     
@@ -160,7 +160,7 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 #### HLB requirements
 
-Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you'll have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
+Skype for Business Server doesn't have many cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you'll have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
   
 > [!NOTE]
 > If you decide to turn on cookie-based affinity for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
@@ -193,7 +193,7 @@ Here are the HLB requirements for the (optional) Director and (required) Front E
   
 - For your internal Web Services VIPs, set Source_addr persistence (internal port 80, 443) on your HLB. For Skype for Business Server, Source_addr persistence means that multiple connections coming from a single IP address are always sent to one server, to maintain session state.
     
-- Use a TCP idle timeout of 1800 seconds.
+- Use a TCP idle time-out of 1800 seconds.
     
 - On the firewall between your reverse proxy and your next hop pool's HLB, create a rule to allow https: traffic on port 4443, from your reverse proxy to your HLB. Your HLB needs to be configured to listen on ports 80, 443, and 4443.
     
@@ -201,8 +201,8 @@ Here are the HLB requirements for the (optional) Director and (required) Front E
 
 |**Client/user location**|**External web services FQDN affinity requirements**|**Internal web services FQSN affinity requirements**|
 |:-----|:-----|:-----|
-|Skype for Business Web App (internal and external users)  <br/> Mobile device (internal and external users  <br/> |No affinity  <br/> |Source address affinity  <br/> |
-|Skype for Business Web App (external users only)  <br/> Mobile device (internal and external users  <br/> |No affinity  <br/> |Source address affinity  <br/> |
+|Skype for Business Web App (internal and guests)  <br/> Mobile device (internal and guests  <br/> |No affinity  <br/> |Source address affinity  <br/> |
+|Skype for Business Web App (guests only)  <br/> Mobile device (internal and guests  <br/> |No affinity  <br/> |Source address affinity  <br/> |
 |Skype for Business Web App (internal users only)  <br/> Mobile device (not deployed)  <br/> |No affinity  <br/> |Source address affinity  <br/> |
    
 #### Port monitoring for HLBs
