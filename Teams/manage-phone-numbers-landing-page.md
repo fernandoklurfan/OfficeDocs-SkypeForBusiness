@@ -48,7 +48,7 @@ Typical considerations when planning how you will orchestrate delivery of PSTN n
   - Could one PSTN solution offer a better user experience than another for the given persona?
     - Example: Teams Phone Mobile may be ideal for field personnel, while Direct Routing may be ideal for remote offices.
 - Which type of telephone numbers (subscriber or service) do I need?
-  - For Microsoft Teams Calling Plans, see the section above: [Considerations for acquiring Microsoft Calling Plan numbers](#considerations-for-acquiring-microsoft-calling-plan-numbers)
+  - For Microsoft Teams Calling Plans, see the section: [Considerations for acquiring Microsoft Calling Plan numbers](#considerations-for-acquiring-microsoft-calling-plan-numbers)
   - For other PSTN connectivity solutions, see your service provider.
 - How do I port existing telephone numbers?
   - For porting to Microsoft Teams Calling Plans, see the following article: [Port planning](./phone-number-calling-plans/port-order-overview.md)
