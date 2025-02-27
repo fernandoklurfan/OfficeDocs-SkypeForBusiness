@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 08/08/2024
+ms.date: 02/27/2025
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -211,7 +211,7 @@ If you encounter devices showing an incorrect “unlicensed” status even thoug
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
 
 
-**Note**: Switching from legacy licenses Teams Rooms Standard or Teams Rooms Premium to Teams Rooms Basic or Pro, license provisioning could take up from 24h to 48h to be active.
+**Note**: If you switch from a legacy license such as Teams Rooms Standard or Teams Rooms Premium to a new license such as Teams Rooms Basic or Pro, it can take up to 48 hours for those licenses to become active.
 
 ## Assigning additional licenses:
 
