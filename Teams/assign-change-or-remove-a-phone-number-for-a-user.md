@@ -49,9 +49,13 @@ If the user is to be assigned with a Teams Calling Plan number, the user must al
 > [!NOTE]
 > This note applies to customers who have a hybrid deployment with an on-premises Active Directory. If you want to assign a Calling Plan or Operator Connect phone number to a user or resource account, you must ensure that any phone number stored in the msRTCSIP-Line attribute on the user or resource account object in the on-premises Active Directory has been removed, and the change has been synchronized to Microsoft 365.
 
-## Use Teams Admin Center to assign a phone number to a user
+## Use Teams admin center to assign a phone number to a user
 
-This method applies to all Public Switched Telephone Network (PSTN) Connectivity type numbers. However, using this method for Direct Routing numbers only works if you opted to upload your Direct Routing numbers to Teams. For more information, see [Upload Direct Routing numbers to your tenant](direct-routing-enable-users.md#upload-direct-routing-numbers-to-your-tenant).
+In Teams admin center, there are two methods to assign a number to a user.
+
+### [**Assign a number to a user from the phone number list**](#tab/assign-by-number-list)
+
+This method applies to all Public Switched Telephone Network (PSTN) connectivity type numbers. However, using this method for Direct Routing numbers only works if you opted to upload your Direct Routing numbers to Teams. For more information, see [Upload Direct Routing numbers to your tenant](direct-routing-enable-users.md#upload-direct-routing-numbers-to-your-tenant).
 
 1. Navigate to the Microsoft Teams admin center.
 
@@ -70,7 +74,34 @@ This method applies to all Public Switched Telephone Network (PSTN) Connectivity
 
 7. Select **Save**.
 
-### Use PowerShell to assign a phone number to a user
+### [**Assign a number to a user from the user profile**](#tab/assign-by-user-profile)
+
+This method applies to all PSTN connectivity type numbers.
+
+1. Navigate to the Microsoft Teams admin center.
+
+2. In the left navigation, click **Users** > **Manage users**.
+
+3. On the **Manage users** page, select a user in the list and select the **Account** tab.
+
+4. Select **Assign primary phone number** to launch the **Assign phone number** side rail.
+
+5. From the **Phone number type** drop-down, select the PSTN Connectivity solution that owns the number.
+
+6. From the **Assigned phone number** drop-down, search and find the number to assign. **If your PSTN connectivity solution is Direct Routing and you haven't uploaded your numbers to Teams, manually type in the phone number that you wish to assign.**
+
+7. To assign the associated emergency location, under **Emergency location**, search for and then select the location. To change a previously associated emergency location, in the presented address, select the **X** to disassociate it from the number, and then search for and select a new location.
+
+> [!NOTE]
+> If you're assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
+
+6. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+
+7. Select **Save**.
+
+---
+
+## Use PowerShell to assign a phone number to a user
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
