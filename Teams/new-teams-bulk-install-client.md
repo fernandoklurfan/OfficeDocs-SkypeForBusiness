@@ -46,7 +46,7 @@ When **teamsbootstrapper.exe** is run on a computer:
 - Displays success or failure message on the command line
 
 >[!Important]
->You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+>You must use the latest version of the bootstrapper.exe. If you downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 ## Prerequisites for target computers
 
@@ -138,8 +138,8 @@ The .plist configuration can be propagated to managed devices using Intune as de
 
 ## Remove new Teams for all users
 
-See [How to uninstall the new Teams client](teams-client-uninstall.md) and [Uninstall the classic Teams client using a script](teams-client-uninstall-script.md) for more information.
+For more information, see [How to uninstall the new Teams client](teams-client-uninstall.md) and [Uninstall the classic Teams client using a script](teams-client-uninstall-script.md).
 
 ## Remove classic Teams for all users
 
-See [Uninstalling classic Microsoft Teams](teams-classic-client-uninstall.md) for more information.
+For more information, see [Uninstalling classic Microsoft Teams](teams-classic-client-uninstall.md).
