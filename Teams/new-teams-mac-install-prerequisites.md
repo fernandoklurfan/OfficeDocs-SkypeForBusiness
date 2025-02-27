@@ -33,7 +33,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Minimum Mac and Teams versions
 
-For information on deploying the Teams client on Mac, please see [New Teams system requirements](teams-client-system-requirements.md).
+For information on deploying the Teams client on Mac, see [New Teams system requirements](teams-client-system-requirements.md).
 
 ### Turn on System Notification
 
