@@ -29,7 +29,7 @@ When it comes to your Skype for Business Server Edge Server deployment, these ar
 
 When discussing the Edge Server environment, we're referencing components that are usually deployed in a perimeter network (that's to say it's either in a workgroup or a domain that's outside your Skype for Business Server domain structure).
   
-Keeping that in mind, these are the components you're going to need to keep in mind for deploying your Edge successfully:
+Keeping that in mind, these are the components you'll need to keep in mind for deploying your Edge successfully:
   
 - [Edge Servers](system-requirements.md#EdgeServers)
     
@@ -37,7 +37,7 @@ Keeping that in mind, these are the components you're going to need to keep in m
     
 - [Firewalls](system-requirements.md#Firewalls)
     
-- [Directors](system-requirements.md#Directors) (these are optional, and if they're included, they'll be located on your internal network)
+- [Directors](system-requirements.md#Directors) (these are optional, and if they're included, they're located on your internal network)
     
 - [Load Balancers](system-requirements.md#LoadBalancers) (you can have DNS load balancing or a hardware load balancer (HLB), but for a single Edge Server, this isn't needed)
     
@@ -89,7 +89,7 @@ And for mobile devices:
     
 Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md) page. So your reverse proxy:
   
-- should be able to use transport layer security (TLS) that's introduced to your environment via public certificates to connect to the published external Web services of:
+- should be able to use transport layer security (TLS) introduced to your environment via public certificates to connect to the published external Web services of:
     
   - Director or Director pool
     
@@ -105,7 +105,7 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - has to accept certificates with subject alternative name (SAN) entries.
     
-- needs to be able to allow the binding of a certificate to a listener or interface through which the external web services FQDN will resolve. Listener configurations are preferable to interfaces. Many listeners can be configured on a single interface.
+- needs to be able to allow the binding of a certificate to a listener or interface through which the external web services FQDN resolves. Listener configurations are preferable to interfaces. Many listeners can be configured on a single interface.
     
 - must allow for the configuration of host header handling. Often, the original host header sent by the requesting client must be passed transparently, instead of being modified by the reverse proxy.
     
@@ -115,7 +115,7 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - needs to allow configuration of, or accept, NTLM authentication, no authentication, and pass-through authentication.
     
-If your reverse proxy can address all the needs in this list, you should be good to go, but please keep in mind our recommendations at the link provided above.
+If your reverse proxy can address all the needs in this list, you should be good to go, but keep in mind our recommendations at the link provided at the beginning of this section.
   
 ### Firewalls
 <a name="Firewalls"> </a>
@@ -160,10 +160,10 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 #### HLB requirements
 
-Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
+Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you'll have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
   
 > [!NOTE]
-> If you decide to turn cookie-based affinity on for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
+> If you decide to turn on cookie-based affinity for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
   
 If your environment **doesn't** need cookie-based affinity:
   
@@ -207,7 +207,7 @@ Here are the HLB requirements for the (optional) Director and (required) Front E
    
 #### Port monitoring for HLBs
 
-You define port monitoring on your hardware load balancers to determine when specific services are no longer available, due to hardware or communications failure. For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services. You should implement port monitoring on the HLB to monitor the following for your HLB external interface:
+You define port monitoring on your hardware load balancers to determine when specific services are no longer available, due to hardware or communications failure. For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services. You should implement port monitoring on the HLB to monitor for your HLB external interface:
   
 |**Virtual IP/Port**|**Node Port**|**Node Machine/Monitor**|**Persistence Profile**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
