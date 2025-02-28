@@ -214,7 +214,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%\Microsoft\Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdatein-non-persistent-VDI)|
 
 ## Troubleshooting new Teams deployment errors
 
@@ -297,7 +297,7 @@ Value: 1
 ```
 
 > [!IMPORTANT]
-> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administators must provision TMA using scripts or other deployment tools. See [Teams Meeting add-In](microsoftteams/new-teams-vdi-requirements-deploy#teams-meeting-add-in) section below for more details.
+> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administators must provision TMA using scripts or other deployment tools. See the [Teams Meeting add-In](#teams-meeting-add-in) section for more details.
 
 ## New Teams auto-start
 
