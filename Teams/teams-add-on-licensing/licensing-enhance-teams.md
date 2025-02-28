@@ -225,6 +225,8 @@ In the meeting recap, your users can find the most important parts of a meeting,
 
 ### Virtual Appointments
 
+[!INCLUDE [va-app-retirement](../includes/va-app-retirement.md)]
+
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
 | Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | ![Image of a checkmark for yes](/office/media/icons/success-teams.png) |  ![Image of a checkmark for yes](/office/media/icons/success-teams.png)|
