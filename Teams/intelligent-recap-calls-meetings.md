@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: weizxue, nijait, benjamin.olson
-ms.date: 1/17/2024
+ms.date: 2/28/2025
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -92,8 +92,6 @@ After the meeting ends, your users can access the following AI powered features 
 ## Intelligent meeting recap for external meetings
 
 Intelligent meeting recap for external meetings allows your users to share the meeting's recap with external attendees. After the meeting, in the **Recap** tab, users can select **Share** > **Share via Outlook**  to share the recap via Outlook to specified external attendees.
-
-If your users have a Copilot license, they can also select **Draft email with Copilot**. This feature automatically drafts a follow-up email that includes meeting notes and tasks, making it easy to send detailed updates to external attendees.
 
 To manage policies that allow external attendees to attend meetings in your organization, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
