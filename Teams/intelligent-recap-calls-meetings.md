@@ -91,7 +91,7 @@ After the meeting ends, your users can access the following AI powered features 
 
 ## Intelligent meeting recap for external meetings
 
-Intelligent meeting recap for external meetings allows your users to share the meeting's recap with external attendees. After the meeting, in the **Recap** tab, users can select **Share** > **Share via Outlook**  to share the recap via Outlook to specified external attendees.
+Intelligent meeting recap for external meetings allows your users to share the meeting's recap with external attendees. To share the recap via Outlook with specified external attendees, after the meeting, in the **Recap** tab, users can select **Share** > **Share via Outlook**.
 
 To manage policies that allow external attendees to attend meetings in your organization, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
