@@ -79,7 +79,7 @@ For more information about Auto Attendants, see [Set up a Microsoft Teams Auto a
 
 ### Call queues
 
-[Authorized users](create-a-phone-system-call-queue?tabs=authorized-users#tabpanel_1_authorized-users) of a Call Queue can set up custom Shared Voicemail greetings for the following features:
+[Authorized users](create-a-phone-system-call-queue.md?tabs=authorized-users#tabpanel_1_authorized-users) of a Call Queue can set up custom Shared Voicemail greetings for the following features:
 
 - Call overflow
 - Call timeout
@@ -89,7 +89,7 @@ You can also turn off custom greetings for call queues. Avoid including any spec
 
 For more information about creating greetings, see [manage-voice-applications-policies](manage-voice-applications-policies.md).
 
-For more information about redirecting Call Queues to Shared Voicemail, see [Call queue call exception handling](create-a-phone-system-call-queue?tabs=call-exception-handling) and [create-a-phone-system-call-queue](create-a-phone-system-call-queue?tabs=call-exception-handling-additional-messaging).
+For more information about redirecting Call Queues to Shared Voicemail, see [Call queue call exception handling](create-a-phone-system-call-queue.md?tabs=call-exception-handling) and [Additional messaging on Call queue call exception handling](create-a-phone-system-call-queue.md?tabs=call-exception-handling-additional-messaging).
 
 ## Location of Shared Voicemails
 
