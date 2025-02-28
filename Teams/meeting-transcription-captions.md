@@ -38,7 +38,7 @@ As an admin, you can manage whether your users can use and access transcripts an
 
 ## Live transcription
 
-Transcription is both a per-organizer and per-user policy setting. For meetings and events to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on for these features to function properly with their recording.
+Transcription is both a per-organizer and per-user policy setting. For meetings and events to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on.
 
 When live transcription is turned on, users have a real-time written copy of the meeting's conversation. After the meeting, users can find the searchable transcription stored with the meeting recording. If transcription was turned on for the recording, Stream plays the video with the transcript next to the recording, and shows who is speaking and when as the video plays.
 
