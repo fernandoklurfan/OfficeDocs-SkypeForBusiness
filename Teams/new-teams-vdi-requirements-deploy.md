@@ -284,7 +284,7 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 
 This command unregisters and deprovisions the new Teams for all users. Teams user profile/cache is deleted.
 
-## Disable new Teams autoupdate
+## Disable new Teams autoupdate in non-persistent VDI
 
 To prevent new Teams from autoupdating, use the following registry key on the virtual machine.
 Only new Teams builds higher than 23306.3314.2555.9628 in VDI can process this registry key.
@@ -295,6 +295,9 @@ Name: disableAutoUpdate
 Type: DWORD
 Value: 1
 ```
+
+> [!IMPORTANT]
+> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administators must provision TMA using scripts or other deployment tools. See [Teams Meeting add-In](microsoftteams/new-teams-vdi-requirements-deploy#teams-meeting-add-in) section below for more details.
 
 ## New Teams auto-start
 
@@ -451,13 +454,15 @@ All new Teams files that are installed on the computer are signed, so IT admins 
 - Installation logs for TMA MSI are stored here: *AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt*
 
 >[!Note]
->In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*.
+>In non-persistent environments (e.g Windows Server or Windows 10/11 Single or Multiuser), installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*.
 
 This error is caused by GPOs affecting Windows Installer, and includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
 
 - FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
 
-**Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
+#### Deployment method for non-persistent environments where Teams auto-update is disabled
+
+You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
 
 ```powershell
 
