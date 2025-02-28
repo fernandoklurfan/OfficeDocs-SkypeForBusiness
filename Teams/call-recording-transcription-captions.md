@@ -30,7 +30,7 @@ For for optimal accessibility, follow the guides and resources [Accessibility gu
 
 ## Enable call recording
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams calling policy to control whether a user's 1:1 Teams call or Public Switched Telephone Network (PSTN) call can be recorded.
+You can use the Microsoft Teams admin center or PowerShell to set a Teams calling policy to control whether a user's 1:1 Teams call or Public Switched Telephone Network (PSTN) call can be recorded. This setting is off by default.
 
 Many users use calls and meetings interchangeably depending on their needs. We recommend you check your meeting recording policy settings as well. If the settings are different for calls and meetings, it might cause confusion for your users.
 
@@ -45,7 +45,7 @@ To allow *call recordings*:
 
 ### Using PowerShell
 
-With PowerShell, you can configure the `-AllowCloudRecordingForCalls` parameter with the following cmdlets:
+With PowerShell, you can configure the `-AllowCloudRecordingForCalls` parameter and manage the resulting policy with the following cmdlets:
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
 - [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
@@ -78,7 +78,7 @@ To turn on call transcription for users:
 
 ### Using PowerShell
 
-With PowerShell, you can configure the `-AllowTranscriptionForCalling` parameter with the following cmdlets:
+With PowerShell, you can configure the `-AllowTranscriptionForCalling` parameter and manage the resulting policy with the following cmdlets:
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
 - [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
@@ -94,7 +94,7 @@ Set-CsTeamsCallingPolicy -Identity Global -AllowTranscriptionForCalling $true
 
 ## Enable call captions
 
-Captions are real-time automatically generated text of what is said in a call. They appear a few lines at a time for a user who turns them on. Captions aren’t saved.
+Captions are real-time automatically generated text of what is said in a call. They appear a few lines at a time for a user who turns them on. Captions aren’t saved. This setting is on by default.
 
 ### Using the Teams admin center
 
@@ -107,7 +107,7 @@ To turn on real-time captions for calls for users:
 
 ### Using PowerShell
 
-With PowerShell, you configure the `-LiveCaptionsEnabledTypeForCalling` parameter with the following cmdlets:
+With PowerShell, you configure the `-LiveCaptionsEnabledTypeForCalling` parameter and manage the resulting policy with the following cmdlets:
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
 - [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
