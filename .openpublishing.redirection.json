@@ -5131,6 +5131,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md",
+      "redirect_url": "/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/set-up-auto-answer-on-teams-android.md",
       "redirect_url": "/microsoftteams/devices/common-area-mobile-phones",
       "redirect_document_id": false
@@ -5158,11 +5163,6 @@
     {
       "source_path": "teams/rooms/azure-monitor-manage.md",
       "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "Teams/devices/xiaomi-push-notifications.md",
-      "redirect_url": "/microsoftteams/devices/device-management",
       "redirect_document_id": false
     },
     {
@@ -5330,7 +5330,7 @@
 	  "redirect_url": "/microsoftteams/devices/certification-overview",
 	  "redirect_document_id": false
   },
-	{
+  {
 	  "source_path": "Teams/devices/phones-for-teams.md",
 	  "redirect_url": "/microsoftteams/phones/phones-for-teams",
 	  "redirect_document_id": false
@@ -5419,6 +5419,11 @@
 "source_path": "Teams/delete-exchange-online-transcripts.md",
     "redirect_url": "/microsoftteams/tmr-meeting-recording-change",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/data-and-privacy-info.md",
+    "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
+    "redirect_document_id": false
   },
   {
     "source_path": "Teams/add-funds-and-manage-communications-credits.md",

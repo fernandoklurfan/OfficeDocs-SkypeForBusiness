@@ -170,6 +170,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |||
 | Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |||
 | [Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) | 0.3.0011.38 |  |  |||
+| [AudioCodes RXVCam70](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam70-ptz-camera) | 8.1.49_20241108 |  |  |||
 | [Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) | 1.0.5 |  |  |||
 | [Audiocodes RXVCAM50M](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) | 15.50.5.891 |  |  |||
 | [AudioCodes RXVCam10](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam10-cc-content-camera) | 1.0.6 | &#x2714; |  |||
@@ -212,9 +213,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |||
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.html) with [Mic Pods](https://www.logitech.com/products/video-conferencing/accessories/mic-pod-for-rally.html) | Logi CollabOS: 1.10.425 <br/> Mic pods: 2.1.4 |  |  |||
 | [Logitech Rally Bar No Radio](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001669.html) | Logi CollabOS: 1.13.127 |  |  |  |  |
-| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  |  |||
 | [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |||
-| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |||
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  |  |||
 | [Logitech Rally Bar Huddle](https://www.logitech.com/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 <br/> System Image: 0.903.271 <br/> Audio: 0.2.67 |  |  |||
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |||
 | [Logitech MeetUp 2](https://www.logitech.com/products/video-conferencing/conference-cameras/meetup2.html) | Logi CollabOS: 1.13.77 |  |  |||
@@ -252,7 +253,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |||
 | Poly Studio V52 | 1.0.1-400045 |  |  |||
 | Poly Studio V72 | 1.4.5-424011 |  |  |||
-| [EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) | 2.0.12.0 |  |  |||
+| EPOS SP 220 MS | 2.0.12.0 |  |  |||
 | [EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226) | 1.2.15 |  |  |||
 | [EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223) | 2.1.52 |  |  |||
 | [EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225) | 3.2.63 |  |  |||
@@ -261,6 +262,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [EPOS EXPAND VISION 1M camera](https://www.eposaudio.com/en/us/enterprise/products/expand-vision-1m-usb-meeting-room-video-camera-1001197) | 9.24.0 |  |  |||
 | [Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |  |  |||
 | [Extron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08 |  |  |||
+| [Extron DMP 128 Series DSP](https://www.extron.com/product/dmp128plus) (DMP 128 Plus, C V AT, C AT, C V, C, AT, FlexPlus C AT, FlexPlus C V AT) + <br/>[Extron XPA U 1004 SB amplifier](https://www.extron.com/product/xpau1004sb) + <br/>[Extron SF 26CT LP speakers](https://www.extron.com/product/sf26ctlp) + <br/>[Extron IPCP Pro 255Q xi control processor](https://www.extron.com/product/ipcppro255qxi) + <br/>[Sennheiser TCCM microphones](https://sennheiser.com/tccm) | Extron DMP 128 Plus C V AT: 1.11 <br/>Extron DMP 128 FlexPlus C AT: 1.11 <br/>Extron DMP 128 FlexPlus C V AT: 1.11 <br/>Extron XPA U 1004 SB: N/A <br/>Extron SF 26CT LP: N/A <br/>Sennheiser TCCM: 1.5.4 |  |  |||
+| [Extron DMP 64 Series DSP](https://www.extron.com/product/dmp64plus) (DMP 64 Plus C V AT, C AT, C V, C) + <br/>[Extron XPA U 1002-70V amplifier](https://www.extron.com/product/xpau1002) + <br/>[Extron SF 3CT LP speakers](https://www.extron.com/product/sf3ctlp) + <br/>[Extron IPCP Pro 250 xi control processor](https://www.extron.com/product/ipcppro250xi) + <br/>[Sennheiser TCCM microphone](https://sennheiser.com/tccm) | Extron DMP 64 Plus C V AT: 1.11 <br/>Extron XPA U 1002-70V: N/A <br/>Extron SF 3CT LP: N/A <br/>Sennheiser TCCM: 1.5.4 |  |  |||
 | [:::no-loc text="Jabra"::: 510](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510##7510-209) | 2.10.0 |  |  |||
 | [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |||
 | [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |||
@@ -280,7 +283,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Shure MXW neXt 2](https://www.shure.com/products/wireless-systems/microflex-wireless-next-2): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPXD2 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 1.1.0.236 <br/>MXWAPXD2: 1.1.0.236 <br/>MXN5W-C: 1.5.21.0 |  |  |||
 | [Shure MXW neXt 4](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX4 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX4: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
 | [Shure MXW neXt 8](https://www.shure.com/products/wireless-systems/microflex-wireless-next-4-8): <br/>Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPX8 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter: 3.1.0.241 <br/>MXWAPX8: 3.1.0.259 <br/>MXN5W-C: 6.2.6.0 |  |  |||
-| [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
+| Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock) | 1.0.6 |  |  |  | &#x2714; |
 | Sennheiser TC Bar M | 1.1.7 |  |  |||
 | Sennheiser TC Bar S | 1.1.7 |  |  |||
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;<br/>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;<br/>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 <br/> TCC2: 1.3.3 <br/>EX-UBT: 3.12.0.15 |  |  |||

@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
-- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting and event settings normally controlled by the organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions. You can also automatically apply or recommend that the meeting is labeled with the highest priority sensitivity label from files shared for the meeting.
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
