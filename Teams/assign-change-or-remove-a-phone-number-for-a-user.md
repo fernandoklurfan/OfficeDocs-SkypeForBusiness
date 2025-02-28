@@ -95,9 +95,9 @@ This method applies to all PSTN connectivity type numbers.
   > [!NOTE]
   > If you're assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
 
-7. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+8. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
-8. Select **Save**.
+9. Select **Save**.
 
 ---
 
