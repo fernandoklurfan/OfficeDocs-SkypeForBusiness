@@ -269,7 +269,7 @@ For Outlook to properly display presence status, the following steps are require
 1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described previously.
 
 > [!NOTE]
-> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenances don't need these steps repeated.
+> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenance don't need these steps repeated.
 
 > [!IMPORTANT]
 > Outlook must be started **after** new Teams is launched for presence to be shown correctly.
@@ -297,7 +297,7 @@ Value: 1
 ```
 
 > [!IMPORTANT]
-> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administators must provision TMA using scripts or other deployment tools. See the [Teams Meeting add-In](#teams-meeting-add-in) section for more details.
+> If this regkey is present in the virtual machine, Teams MSIX installer will not attempt to install or upgrade the Teams Meeting add-In (TMA). Administrators must provision TMA using scripts or other deployment tools. See the [Teams Meeting add-In](#teams-meeting-add-in) section for more details.
 
 ## New Teams auto-start
 
