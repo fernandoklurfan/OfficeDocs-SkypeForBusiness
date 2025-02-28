@@ -41,7 +41,7 @@ This article provides an overview for phone number management, including where t
 Typical considerations when planning how you will orchestrate delivery of PSTN numbers to your enterprise include answering the following questions:
 
 - Which countries or regions need new telephone numbers?
-  - Which PSTN solutions are available in these countires or regions?
+  - Which PSTN solutions are available in these countries or regions?
     - For Microsoft Teams Calling Plans, see the following article: [Country and region availability for Calling Plans](calling-plan-overview.md)
     - For other PSTN connectivity solutions, see your service provider.
 - What use-cases and personas are getting telephone numbers?
@@ -73,7 +73,7 @@ Once numbers are acquired and available in your tenant, regardless of PSTN conne
 - Teams PowerShell
 - On-premises Active Directory (for Direct Routing numbers)
 
-To review more details, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+To review more details, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ### Considerations for acquiring Microsoft Calling Plan numbers
 
@@ -134,7 +134,7 @@ After this parameter is automatically synchronized to the user or resource accou
 
 If you're not managing Direct Routing phone numbers in the on-premises Active Directory, then they're only managed in Microsoft 365. Because the phone numbers are not synching from on-premises to Microsoft 365, there is no visible value in the OnPremLineUri parameter in the output from the Get-CsOnlineUser cmdlet run for the user or resource account.
 
-You can manage Direct Routing numbers in Microsoft 365 with Teams Powershell, using the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlets.
+You can manage Direct Routing numbers in Microsoft 365 with Teams PowerShell, using the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlets.
 
 #### Direct Routing numbers managed in both an on-premises Active Directory and Microsoft 365
 
@@ -152,16 +152,16 @@ For more information, see [Clear Skype for Business attributes for all on-premis
 
 ## Related articles
 
-[Set up telephone numbers with Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Set up telephone numbers with Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers)
+- [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers)
 
-[Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses)
+- [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses)
 
-[Set up telephone numbers with Direct Routing](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)
+- [Set up telephone numbers with Direct Routing](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)
 
-[Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
 
-[Plan Direct Routing](direct-routing-plan.md)
+- [Plan Direct Routing](direct-routing-plan.md)
 
-[Configure Direct Routing](direct-routing-configure.md)
+- [Configure Direct Routing](direct-routing-configure.md)

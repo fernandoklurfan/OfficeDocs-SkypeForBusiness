@@ -92,12 +92,12 @@ This method applies to all PSTN connectivity type numbers.
 
 7. To assign the associated emergency location, under **Emergency location**, search for and then select the location. To change a previously associated emergency location, in the presented address, select the **X** to disassociate it from the number, and then search for and select a new location.
 
-> [!NOTE]
-> If you're assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
+  > [!NOTE]
+  > If you're assigning numbers to Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
 
-6. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+7. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
-7. Select **Save**.
+8. Select **Save**.
 
 ---
 
@@ -154,8 +154,8 @@ To change a phone number for a user by using the Teams admin center:
 
 4. Select the **Emergency location** to associate with the phone number and user.
 
-> [!NOTE]
-> If you're changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
+   > [!NOTE]
+   > If you're changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality depends on your Operator. Contact your Operator for more information.
 
 5. Depending on whether you want to send an email to the user with their new phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
@@ -171,7 +171,7 @@ To remove a phone number by using the Teams admin center:
 
 1. In the left navigation, click **Users** > **Manage users**, locate, and select the user you want. In the user's profile, select the tab **Account**, and then under **Assigned phone number**, make a note of the phone number that's assigned to the user and select **Edit**.
 
-2. In the right side rail, from the **Asssigned phone number** drop-down menu, select **None**.
+2. In the right side rail, from the **Assigned phone number** drop-down menu, select **None**.
 
 3. Select **Apply**.
 

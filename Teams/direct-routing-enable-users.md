@@ -102,7 +102,7 @@ Adding phone numbers to your tenant and to Microsoft's telephone number manageme
 
 4. From the options, choose **From Direct Routing**.
 
-5. Select your preferred method of uploading the numbers by selecting from the drop down, one of the following options:
+5. Select your preferred method of uploading the numbers by selecting from the drop-down, one of the following options:
 
 #### Add one to many phone numbers
 
