@@ -32,15 +32,15 @@ appliesto:
 > [!NOTE]
 > When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
 
-Microsoft Teams offers transcription and live captions to enhance accessibility and engagement during meetings and events. Transcription creates a written record of what was said during a meeting or event. Participants can view the transcript after the meeting along with timestamps and speaker attribution. Live captions provide real-time subtitles during the meeting.
+Microsoft Teams offers transcription and live captions to enhance accessibility and engagement during meetings and events. Transcription creates a real-time written record of what was said during a meeting or event. Participants can view the transcript after the meeting along with timestamps and speaker attribution. Live captions provide real-time subtitles during the meeting. Teams doesn't save captions.
 
 As an admin, you can manage whether your users can use and access transcripts and captions for Teams meetings and events.
 
-## Transcription
+## Live transcription
 
-This setting combines both per-organizer and per-user policies to control the availability of captions and transcription features during the playback of Teams meeting recordings. For meetings and events to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on for these features to function properly with their recording.
+This policy setting is both a per-organizer and per-user policy. For meetings and events to include transcripts, the organizer must have this setting turned on. The user who starts the recording or transcript must also have this setting turned on for these features to function properly with their recording.
 
-When transcription is turned on, users have a written copy of what was said during the meeting. After the meeting, users can find the searchable transcription stored with the meeting recording. If transcription was turned on for the recording, Stream plays the video with the transcript next to the recording, and shows who is speaking and when as the video plays.
+When live transcription is turned on, users have a real-time written copy of the meeting's conversation. After the meeting, users can find the searchable transcription stored with the meeting recording. If transcription was turned on for the recording, Stream plays the video with the transcript next to the recording, and shows who is speaking and when as the video plays.
 
 If recording is turned on, but transcription is turned off, the recording doesn't have a transcript file stored next to it. Also, when viewing the recording playback in Stream, captions can't be turned on.
 
@@ -110,9 +110,9 @@ To learn how your end users can use live captions for meetings and webinars, see
 
 For details on how your organizers can create human-generated captions, see [Use CART captions in a Microsoft Teams meeting](https://support.microsoft.com/office/2dd889e8-32a8-4582-98b8-6c96cf14eb47).
 
-## Live translated captions
+## Live translated captions (Teams Premium)
 
-Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting or event. For town halls, organizers can pre-select up to 6 languages for attendees to use during the event. With a Teams Premium license, this limit increases to 10 languages.
+Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting or event. For town halls, organizers can pre-select up to 6 languages for attendees to use during the event. With a Teams Premium license, this limit increases to 10 languages. The meeting or event organizer must have a Teams Premium license for attendees to use live translated captions.
 
 To turn on Live translated captions, you must set **Live captions** to **'Off, but organizers and co-organizers can turn them on'** in the corresponding meeting policy in the Teams admin center. To turn off Live translated captions, set **Live captions** to **Off**.
 
@@ -145,7 +145,8 @@ To run the diagnostic tool for transcripts, follow these steps:
 
 - [Teams meeting recording](meeting-recording.md)
 - [Block the download of Teams meeting recording and transcript files from SharePoint or OneDrive](block-download-meeting-recording.md)
+- [Teams meeting recording and transcript storage and permissions in OneDrive for Business and SharePoint](tmr-meeting-recording-change.md)
+- [Manage Teams recording policies for meetings and events](meeting-recording.md)
 - [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Delete Exchange Online and OneDrive transcript files for Teams meetings](delete-exchange-online-transcripts.md)
