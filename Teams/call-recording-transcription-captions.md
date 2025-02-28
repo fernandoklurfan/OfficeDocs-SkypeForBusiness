@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 2/6/2025
+ms.date: 02/28/2025
 audience: admin
 search.appverid: MET150
 description: Learn how to enable users to record, transcribe, and turn on captions for calls in Microsoft Teams.
