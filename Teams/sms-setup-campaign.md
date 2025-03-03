@@ -3,7 +3,7 @@ title: Set up a Campaign for SMS in Microsoft Teams
 author: sfrancis206
 ms.author: scottfrancis
 manager: pamgreen
-ms.reviewer: nijait
+ms.reviewer: nijait, julienp
 ms.date: 02/24/2025
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -19,19 +19,22 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-description: Learn how to set up a Campaign for SMS in Microsoft Teams
+description: Learn how to set up a Campaign to enable SMS in Microsoft Teams.
 ---
 
 # Create a Campaign for SMS in Microsoft Teams
+
+> [!NOTE]
+> Due to a high volume of requests for SMS in Teams, processing times to approve Campaigns and Brands for SMS in Teams may take longer than usual. We appreciate your patience as we work diligently to address all requests. Thank you for your understanding.
 
 This article is for IT administrators and IT professionals who are enabling Short Message Service (SMS) in Teams and need to register their company's Campaign with The Campaign Registry (TCR).
 
 Before reading this article, make sure you've read [Plan for SMS in Teams](sms-overview.md) and [Step 1: Create a brand](sms-setup-brand.md).
 
-SMS in Teams is only available in the United States, Puerto Rico, and Canada.
+SMS in Teams is only available in the United States (including Puerto Rico) and Canada.
 
-> [!NOTE] 
-> United States, Puerto Rican, and Canadian customers must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
+> [!NOTE]
+> Customers in the United States and Canada must have an approved Brand and Campaign before enabling SMS for Teams Calling Plan numbers.
 
 ## Prerequisites
 

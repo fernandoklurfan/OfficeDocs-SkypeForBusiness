@@ -24,19 +24,20 @@ description: Plan for SMS in Teams for the United States, Puerto Rico, and Canad
 
 # Plan for SMS in Teams with Microsoft Calling Plan numbers
 
-
 > [!NOTE]
-> SMS for Teams Calling Plans in the United States, Puerto Rico, and Canada is currently being rolled out for general availability.
+> SMS for Teams Calling Plans in the United States (including Puerto Rico) and Canada is currently being rolled out for general availability.
+>
+> Due to a high volume of requests for SMS in Teams, processing times to approve Campaigns and Brands for SMS in Teams may take longer than usual. We appreciate your patience as we work diligently to address all requests. Thank you for your understanding.
 
 This article is for IT administrators and IT professionals planning to enable Short Message Service (SMS) for their tenant in Microsoft's Teams admin center.
 
 ## Overview
 
-Microsoft Teams Calling Plans support sending and receiving Short Message Service (SMS) text messages within Teams Chat, for users in United States, Puerto Rico, and Canada.
+Microsoft Teams Calling Plans support sending and receiving SMS messages within Teams Chat, for users in United States (including Puerto Rico) and Canada.
 
-US, PR, and CA users can send SMS messages to numbers that are able to receive SMS and are regionally assigned to US, PR, or Canada recipients.
+Users in US and CA can send SMS messages to numbers that can receive SMS messages and that are regionally assigned to recipients in the US or CA.
 
-Teams users sending or receiving SMS messages outside of US, PR, or Canada aren't supported.
+Teams users sending or receiving SMS messages outside of the US or Canada aren't supported.
 
 All SMS messaging to and from Teams is considered:
 
@@ -46,7 +47,7 @@ All SMS messaging to and from Teams is considered:
 
 These references are used interchangeably. Most notably, SMS in Teams is *not* categorized as *consumer* SMS messaging.
 
-In the US and PR, the PSTN (Public Switched Telephone Network) industry requires that operators direct A2P messaging to their recipients through a specialized network, known as the 10DLC (10 Digit Long Code) network. The purpose of the specialized network is to control A2P access to subscribers and reduce the chance of your A2P messages being flagged as spam.
+In the US, the PSTN (Public Switched Telephone Network) industry requires that operators direct A2P messaging to their recipients through a specialized network, known as the 10DLC (10 Digit Long Code) network. The purpose of the specialized network is to control A2P access to subscribers and reduce the chance of your A2P messages being flagged as spam.
 
 Check the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) for developments.
 
@@ -68,14 +69,14 @@ Registration with TCR involves the following two parts:
 
 > [!NOTE]
 > TCR and participating carriers determine trust scores. TCR requires brand vetting in the following cases:
-> 
+>
 > - To achieve higher trust scores for better message throughput and delivery rates.
 > - Brand vetting for 10DLC (10-Digit Long Code) messaging is typically required for companies outside the Russell 3000 list.
 
 To receive approval with TCR, Teams administrators use the Teams admin center to pass their company's Brand and Campaign information to TCR. TCR then reviews your Brand and Campaign, which helps ensure SMS messaging integrity, compliance, and accountability with industry standards.
 
 > [!NOTE]
-> Microsoft Teams customers in US, PR, and CA must receive Brand *and* Campaign approval before any number can be enabled for SMS in Teams. Teams phone numbers can't be enabled for SMS until TCR approves the brand and campaign.
+> Microsoft Teams customers in US and CA must receive Brand *and* Campaign approval before any number can be enabled for SMS in Teams. Teams phone numbers can't be enabled for SMS until TCR approves the brand and campaign.
 
 Registration and enabling SMS for Teams Calling Plan numbers can be summarized in the following diagram:
 
@@ -113,7 +114,7 @@ In addition to registering the company Brand and Campaign for access to the 10DL
 - Teams Phone
 - Microsoft Teams Calling Plan
 
-Inbound and outbound SMS messaging support is included in Microsoft Teams Calling Plans, for supported countries and regions.
+Inbound and outbound SMS messaging support is included in Microsoft Teams Calling Plans, for supported countries/regions.
 
 ### Voice enablement
 
@@ -189,9 +190,9 @@ The price of an SMS message is accrued per-message segment. The per-message segm
 
 ### Carrier fees
 
-US, PR, and CA 10DLC operators apply a surcharge for processing SMS messages sent to and/or received by users on their network. 
+US, PR, and CA 10DLC operators apply a surcharge for processing SMS messages sent to and/or received by users on their network.
 
-- **For outbound messages**, the carrier of the *recipient's number* determines the surcharge. 
+- **For outbound messages**, the carrier of the *recipient's number* determines the surcharge.
 - **For inbound messages**, the carrier of the *sender's number* determines the surcharge.
 
 For per-message segment pricing related to SMS usage, including currency conversions, see [SMS Pricing](https://go.microsoft.com/fwlink/?linkid=2303326).
@@ -228,7 +229,7 @@ Further prerequisites and next steps can be found in the following article: [Ste
 
 SMS messages in Teams are supported with one-on-one Chat conversations. MMS, attachments, emojis, stickers, and GIFs are not currently supported.
 
-For end user documentation, see [Send and receive SMS in Microosft Teams](https://support.microsoft.com/office/send-and-receive-sms-in-microsoft-teams-a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
+For end user documentation, see [Send and receive SMS in Microsoft Teams](https://support.microsoft.com/office/send-and-receive-sms-in-microsoft-teams-a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
 
 ## Related articles
 
