@@ -48,7 +48,7 @@ Administrators must have one of the following role-based access control (RBAC) r
 The 10DLC (10-digit long code) registration process involves verifying your organization's identity with SMS network providers. To get your organization verified, you build an organization profile as your "Brand" in the Teams admin center.
 
 1. In the Teams admin center, go to **Voice** > **Service configuration** > **SMS** > **Step 1: Create brand**.
-1. Select **Create brand your brand to start / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company's information.
+1. Select **Create your brand to start / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company's information.
 
 The form fields change dynamically depending on your company's country/region and status. For example, if your company's headquarters is in the US and is a *publicly traded* company, more fields are required to disclose your company's stock symbol. However, if you have a private company, a stock symbol isn't required.
 
