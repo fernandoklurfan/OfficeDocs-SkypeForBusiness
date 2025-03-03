@@ -196,10 +196,12 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
 
+Additionally, users can roam from a device that only supports WebRTC to a device that supports SlimCore. In this scenario, Teams will also prompt the user with a modal dialogue asking to restart the app. After the restart, users are in SlimCore optimization mode.
+
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
 |Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
-|Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then WebRTC classic optimization</br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then new SlimCore-based optimization |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then restart dialogue prompt</br>After restart, the user is on new SlimCore optimization. Otherwise, Teams isn't restarted and the user is still in WebRTC. |Then new SlimCore-based optimization |
 
 ## Networking considerations
 
