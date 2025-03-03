@@ -49,7 +49,7 @@ The following are supported versions of Teams admin agent app:
 |**Release date**|**App version**|**Related devices**|
 |:-----|:-----|:-----|
 |October 1, 2024|[1.0.0.202407050618.product](#100202407050618)|All certified Teams device models |
-|February 10, 2025|[1.0.0.202412110504](#100202407050618)|All certified Teams device models|
+|February 10, 2025|[1.0.0.202412110504.product](#100202012110504)|All certified Teams device models|
 
 ### 1.0.0.202407050618
 
@@ -61,7 +61,7 @@ The following are supported versions of Teams admin agent app:
 
 - Bug fixes to improve admin agent overall update reliability.
 
-### 1.0.0.202407050618
+### 1.0.0.202012110504
 
 **This release is currently available for all Teams certified devices and contains following updates:**
 
