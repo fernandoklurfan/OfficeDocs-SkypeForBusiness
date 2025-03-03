@@ -27,7 +27,6 @@ This article provides the details about the releases of following apps for Andro
 
 - Teams admin agent app
 - Intune app
-
 - Microsoft Authenticator app
 
 For more information on updating your Teams devices remotely, see [Update Microsoft Teams devices remotely](/microsoftteams/devices/remote-update).
