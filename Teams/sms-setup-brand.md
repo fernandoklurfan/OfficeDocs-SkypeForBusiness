@@ -37,7 +37,7 @@ SMS in Teams is only available in the United States (including Puerto Rico) and 
 
 Ensure fundamental understanding of the *purpose* for your Brand, as described in [Learn about SMS Texting in Teams](sms-overview.md).
 
-Administrators must have one of the following Role-Based Access Control (RBAC) roles assigned:
+Administrators must have one of the following role-based access control (RBAC) roles assigned:
 
 - Teams Administrator
 - Teams Communications Administrator
@@ -50,7 +50,7 @@ The 10DLC (10-digit long code) registration process involves verifying your orga
 1. In the Teams admin center, go to **Voice** > **Service configuration** > **SMS** > **Step 1: Create brand**.
 1. Select **Create brand your brand to start / Updated brand / View details** to open a right-side configuration slide-out and populate the fields with your company's information.
 
-The form fields change dynamically depending on your company's country/region and status. For example, if your company's headquarters is in the US and is a *publicly traded* company, more fields are required to disclose your company's stock symbol. However, if you have a private company, a stock symbol won't be required.
+The form fields change dynamically depending on your company's country/region and status. For example, if your company's headquarters is in the US and is a *publicly traded* company, more fields are required to disclose your company's stock symbol. However, if you have a private company, a stock symbol isn't required.
 
 Populate your Brand application to The Campaign Registry according to the field headers as follows:
 
@@ -73,7 +73,7 @@ Within the brand information, provide context about your company's business.
 
 |Form field |Description |
 |:-----|:-----|
-|Organization Legal Form |Select the legal structure of your company.<br><br>**Private company** - A private company is owned by individuals or groups and doesn't sell shares to the public.<br>**Publicly Traded Company** - A publicly traded company sells shares on stock exchanges.<br>**Non-Profit Organization** - A non-profit operates for charitable purposes without distributing profits. Only US-based non-profits or non-profits with a US EIN are accepted. Non-US non-profits should register as private companies. For example, if you are a non-profit organization located in Canada, you register as a **Private company**.|
+|Organization Legal Form |Select the legal structure of your company.<br><br>**Private company** - A private company is owned by individuals or groups and doesn't sell shares to the public.<br>**Publicly Traded Company** - A publicly traded company sells shares on stock exchanges.<br>**Non-Profit Organization** - A non-profit operates for charitable purposes without distributing profits. Only US-based non-profits or non-profits with a US EIN are accepted. Non-US non-profits should register as private companies. For example, if you're a non-profit organization located in Canada, you register as a **Private company**.|
 |Brand stock symbol |If your company is a publicly traded company, enter your company's stock symbol.|
 |Brand stock exchange |If your company is a publicly traded company, select the exchange where it's listed and traded.|
 |Brand segment |From the drop-down, select the industry that best categorizes your company's business.|
@@ -106,11 +106,11 @@ After filling out all the applicable fields, select **Submit**.
 
 Your Brand's **Status** should now show as **Submitted** and the brand information can no longer be modified without Microsoft Support intervention.
 
-If you designated your organization's legal form as *Publicly Traded Company* and you haven't received a two-factor authentication (2FA) message from **noreply@auth.campaignregistry.com**, check your junk mail and your company's firewall rules.
+If you designated your organization's legal form as *Publicly Traded Company* and you don't received a two-factor authentication (2FA) message from **noreply@auth.campaignregistry.com**, check your junk mail and your company's firewall rules.
 
 The Service Level Agreement for Brand approval or rejection is three days maximum.
 
-If you submitted incorrect brand information or if you haven't received an approval or rejection notice in three days, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
+If you submitted incorrect brand information or if you don't receive an approval or rejection notice in three days, [contact Microsoft's Telephone Number Services - Service Desk](contact-tns-service-desk.md).
 
 > [!NOTE]
 > If the Campaign Registry *rejects* your brand submission, a case is automatically opened on your behalf with Microsoft's Telephone Number Services - Service Desk. You can view your case by navigating to the [Phone Number Service Center](https://pstnsd.powerappsportals.com), and selecting the tab for **My Company Cases**. Open the case, and you can interact with the Telephone Number Services (TNS) - Service Desk team about the details and status of the case.

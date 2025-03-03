@@ -131,7 +131,7 @@ To voice enable your users, you can use the Teams admin center or PowerShell.
 
 The maximum size of a single SMS message determines the accounting for SMS messages. The size of a single SMS message segment is 140 bytes or 160 GSM 7-bit-encoded, standard text characters.
 
-When a sent SMS message exceeds the character limit, it's split into multiple segments. These segments are sent individually and reassembled by the recipient's device to form the complete message. Each message segment accounts for one Teams SMS message.
+When a sent SMS message exceeds the character limit, the message splits into multiple segments. These segments are sent individually and reassembled by the recipient's device to form the complete message. Each message segment accounts for one Teams SMS message.
 
 For example, if a Teams user sends a message that is 240 characters, requiring two message segments, the usage indicates a cost equivalent to two SMS messages in your billing.
 
@@ -139,11 +139,11 @@ The number of SMS message segments per Calling Plan license depends on the assig
 
 |Teams Calling Plan | Supports SMS capability |Included SMS (threshold before paying overage) |
 |:-----|:-----|:-----|
-|PAYG (Pay-as-you-go) |Yes |0 |
+|Pay-as-you-go |Yes |0 |
 |Domestic 120 |Yes |100 |
 |Domestic |Yes |200 |
 |Domestic + International |Yes | 200 |
-|Teams Phone + Calling Plan Bundle |Yes |Phone + Domestic = 200 (if purchased as Calling Plan bundle) / Phone + PAYG = 0 (if purchased as PAYG bundle) |
+|Teams Phone + Calling Plan Bundle |Yes |Phone + Domestic = 200 (if purchased as Calling Plan bundle) / Phone + Pay-as-you-go = 0 (if purchased as pay-as-you-go bundle) |
 
 The number of allotted messages in a Calling Plan accounts for a total of inbound messages received plus outbound messages sent.
 
@@ -177,7 +177,7 @@ The operator that provides the *recipient's* SMS service is the operator that en
 |T-Mobile – Max SMS per day, per brand |Fixed: 2,000 |Depends on the brand score: <br>10,000 (Low Mid), <br>40,000 (High Mid), <br>100,000 (Top)|
 
 > [!NOTE]
-> If your users are regularly blocked by an operator's rate limit cap, and their high volume of SMS messaging is warranted, you can apply for a rate limit increase by contacting [Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
+> If an operator's rate limit cap regularly blocks your users, and their high volume of SMS messaging is warranted, you can apply for a rate limit increase by contacting [Microsoft's Telephone Number Services (TNS) - Service Desk](contact-tns-service-desk.md).
 
 ### SMS usage fees
 
@@ -227,7 +227,7 @@ Teams Calling Plans support sending SMS where the sender type is a 10 digit long
 
 Further prerequisites and next steps can be found in the following article: [Step 1: Create a brand](sms-setup-brand.md)
 
-SMS messages in Teams are supported with one-on-one Chat conversations. MMS, attachments, emojis, stickers, and GIFs are not currently supported.
+SMS messages in Teams are supported with one-on-one Chat conversations. MMS, attachments, emojis, stickers, and GIFs aren't currently supported.
 
 For end user documentation, see [Send and receive SMS in Microsoft Teams](https://support.microsoft.com/office/send-and-receive-sms-in-microsoft-teams-a7d163cb-3562-4f4a-b1c1-81c722c1a0f1).
 
