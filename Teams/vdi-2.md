@@ -192,6 +192,20 @@ If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azu
 
 If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
+### VDI Status Indicator
+
+Microsoft Teams can display information about the optimization status in the main user interface, helping the user understand if they are optimized or not. It also shows if they are using the legacy WebRTC optimization or the new Slimcore-based one by hovering their cursor over the **Optimized** banner.
+
+In cases where Microsoft Teams is not optimized, the user will see a warning icon.
+
+ADD IMAGE HERE
+
+Users can attempt a repair by selecting the three dots and choosing **Optimize virtual desktop and restart**.
+
+This will trigger a Teams restart, which can solve some known issues. If the user is still unoptimized, an error code will be displayed that can be used for quick diagnosis by IT Admins based on the [connection error table](#connection-error).
+
+Users are also presented with a [link](https://go.microsoft.com/fwlink/?linkid=2295247) where they can receive more information about the error, and if it is actionable, they can try a self-remediation.
+
 ## Session roaming and reconnections
 
 New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
@@ -203,7 +217,7 @@ Additionally, users can roam from a device that only supports WebRTC to a device
 |Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
 |Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then restart dialogue prompt</br>After restart, the user is on new SlimCore optimization. Otherwise, Teams isn't restarted and the user is still in WebRTC. |Then new SlimCore-based optimization |
 
-## Networking considerations
+# Networking considerations
 
 > [!NOTE]
 > MsTeamsVdi.exe is the process that makes all the TCP/UDP network connections to the Teams relays/conference servers or other peers.
