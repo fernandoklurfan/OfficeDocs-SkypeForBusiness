@@ -46,9 +46,9 @@ Ensure that users you want to create live events have the permissions required t
 
 1. In the left navigation of the Teams admin center, go to **Meetings** > **Live events policies** > the **Manage Policies** tab.
 1. If you want to:
-    1. edit the existing default policy, choose **Global (Org-wide default)**.
-    1. create a new custom policy, choose **+Add**.
-    1. edit a custom policy, select the policy, and then choose **Edit**.
+    1. Edit the existing default policy, choose **Global (Org-wide default)**.
+    1. Create a new custom policy, choose **+Add**.
+    1. Edit a custom policy, select the policy, and then choose **Edit**.
 
 ## Monitor your event
 
