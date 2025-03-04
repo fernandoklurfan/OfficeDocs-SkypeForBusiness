@@ -35,8 +35,8 @@ To specify the Skype for Meetings App as the preferred app:
 
 Users who use the Skype Meetings App with Teams are subject to the following limitations:
 
-- Users have no option to change their video device.
-- After a user is upgraded to Teams, if the user is in a meeting using the Skype Meetings App and then receives a call on Teams, the meeting in Skype Meetings App is not placed on hold. Instead, the user is connected to both calls.
+- Users can't change their video device.
+- After a user is upgraded to Teams, if the user is in a meeting using the Skype Meetings App and then receives a call on Teams, the meeting in Skype Meetings App isn't placed on hold. Instead, the user is connected to both calls.
 
 ## More information
 
