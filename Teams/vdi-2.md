@@ -217,7 +217,7 @@ Additionally, users can roam from a device that only supports WebRTC to a device
 |Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
 |Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then restart dialogue prompt</br>After restart, the user is on new SlimCore optimization. Otherwise, Teams isn't restarted and the user is still in WebRTC. |Then new SlimCore-based optimization |
 
-# Networking considerations
+## Networking considerations
 
 > [!NOTE]
 > MsTeamsVdi.exe is the process that makes all the TCP/UDP network connections to the Teams relays/conference servers or other peers.
