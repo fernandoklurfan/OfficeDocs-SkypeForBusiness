@@ -74,4 +74,4 @@ Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true
 
 ## Related topics
 
--[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+- [Audio Conferencing common questions](audio-conferencing-common-questions.md)
