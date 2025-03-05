@@ -26,10 +26,6 @@ This article provides supported Conditional Access and Intune device compliance 
 
 [!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
-> [!NOTE]
-> Teams Rooms must be already deployed on the devices if you want to assign Conditional Access policies. If you haven't deployed Teams Rooms yet, see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md) and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
-for more information.
-
 ## Supported Conditional Access policies  
 
 The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android, and for policies on Teams panels, phones, and displays.
@@ -49,7 +45,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | **Grant**        | ---                       |---                     | ---               |
 | Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
-| Require multi-factor authentication      | Not supported                                                                                                                                                                        | Supported   <br><br> Not recommended for shared space devices, but the authentication flow is supported.                                                                             | Supported   <br><br> Not recommended for shared space devices, but the authentication flow is supported.                                                            |
+| Require multi-factor authentication (MFA)  | Not supported                                                                                                                                                                        | Supported   <br><br> User interactive MFA is not recommended for shared space devices.                                                                             | Supported   <br><br> User interactive MFA is not recommended for shared space devices.                                                            |
 | Require authentication strength      | Not supported   | Not Supported                                                                                                                                                                         | Not supported
 | Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Require Microsoft Entra hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
@@ -66,10 +62,10 @@ The following list includes the supported Conditional Access policies for Teams 
 | Require token protection for sign-in sessions (Preview)     | Not supported      | Not supported    | Not supported
 
 > [!NOTE]
-> Using Conditional Access policies with Sign-in frequency configured, will make all Teams Android devices periodically sign out.  This is expected behavior.
+> Using the sign-in frequency policy will cause devices to periodically sign out.
 
 > [!NOTE]
-> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policies that will affect all Teams Devices.
+> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policies that affect all Teams Devices.
 
 ## Supported device compliance policies 
 
@@ -77,7 +73,7 @@ Microsoft Teams Rooms on Windows and Teams Rooms on Android support different de
 
 #### [Teams Rooms on Windows](#tab/mtr-w)
 
-Below is a table of device compliance settings and recommendations for their use with Teams Rooms.  
+Supported device compliance settings and recommendations for their use with Teams Rooms on Windows.  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -107,7 +103,7 @@ Below is a table of device compliance settings and recommendations for their use
 
 #### [Teams Rooms on Android (AOSP DM)](#tab/mtr-a)
 
-Below is a table of supported device compliance settings for Teams Rooms on Andorid devices enrolled with AOSP Device Management.  
+Supported device compliance settings for Teams Rooms on Andorid devices enrolled with AOSP Device Management (AOSP DM).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -117,14 +113,14 @@ Below is a table of supported device compliance settings for Teams Rooms on Ando
 | Operating System Version (minimum, maximum)                                                                                             | Supported     |                                                                               |
 | Minimum security patch level                                                                                                            | Supported     |                                                                               |
 | [**System security**](/mem/intune/protect/compliance-policy-create-android-aosp#system-security)                                        | --            | --                                                                            |
-| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices do not support a password unlock.                               |
-| Required password type                                                                                                                  | Not supported | Teams Devices do not support a password unlock.                               |
-| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices do not support a password unlock.                               |
+| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices don't support a password unlock.                               |
+| Required password type                                                                                                                  | Not supported | Teams Devices don't support a password unlock.                               |
+| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices don't support a password unlock.                               |
 | Require encryption of data storage on device.                                                                                           | Supported     |                                                                               |
 
 #### [Teams phones and displays (AOSP DM)](#tab/phones)
 
-Below is a table of supported device compliance settings for Teams phone and displays enrolled with AOSP Device Management.  
+Supported device compliance settings for Teams phone and displays enrolled with AOSP Device Management (AOSP DM).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -134,14 +130,14 @@ Below is a table of supported device compliance settings for Teams phone and dis
 | Operating System Version (minimum, maximum)                                                                                             | Supported     |                                                                               |
 | Minimum security patch level                                                                                                            | Supported     |                                                                               |
 | [**System security**](/mem/intune/protect/compliance-policy-create-android-aosp#system-security)                                        | --            | --                                                                            |
-| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices do not support a password unlock.                               |
-| Required password type                                                                                                                  | Not supported | Teams Devices do not support a password unlock.                               |
-| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices do not support a password unlock.                               |
+| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices don't support a password unlock.                               |
+| Required password type                                                                                                                  | Not supported | Teams Devices don't support a password unlock.                               |
+| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices don't support a password unlock.                               |
 | Require encryption of data storage on device.                                                                                           | Supported     |                                                                               |
 
 #### [Teams panels (AOSP DM)](#tab/panels)
 
-Below is a table of supported device compliance settings for Teams panels enrolled with AOSP Device Management.  
+Supported device compliance settings for Teams panels enrolled with AOSP Device Management (AOSP DM).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -151,15 +147,15 @@ Below is a table of supported device compliance settings for Teams panels enroll
 | Operating System Version (minimum, maximum)                                                                                             | Supported     |                                                                               |
 | Minimum security patch level                                                                                                            | Supported     |                                                                               |
 | [**System security**](/mem/intune/protect/compliance-policy-create-android-aosp#system-security)                                        | --            | --                                                                            |
-| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices do not support a password unlock.                               |
-| Required password type                                                                                                                  | Not supported | Teams Devices do not support a password unlock.                               |
-| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices do not support a password unlock.                               |
+| Require a password to unlock mobile devices                                                                                             | Not supported | Teams Devices don't support a password unlock.                               |
+| Required password type                                                                                                                  | Not supported | Teams Devices don't support a password unlock.                               |
+| Maximum minutes of inactivity before password is required                                                                               | Not supported | Teams Devices don't support a password unlock.                               |
 | Require encryption of data storage on device.                                                                                           | Supported     |                                                                               |
 
 
-#### [Teams Rooms on Android (DA)](#tab/mtr-a-da)
+#### [Teams Rooms on Android (ADA)](#tab/mtr-a-da)
 
-Below is a table of device compliance settings and recommendations for their use with Teams Rooms on Android devices enrolled using Android Device Administrator.  
+Device compliance settings and recommendations for their use with Teams Rooms on Android devices enrolled using Android Device Administrator (ADA).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -190,9 +186,9 @@ Below is a table of device compliance settings and recommendations for their use
 | [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
 | Required password type                                                                                                                  | Not supported |                                                                               |
 
-#### [Teams phones and displays (DA)](#tab/phones-da)
+#### [Teams phones and displays (ADA)](#tab/phones-da)
 
-Below is a table of device compliance settings and recommendations for their use with Teams phones and displays enrolled using Android Device Administrator.  
+Device compliance settings and recommendations for their use with Teams phones and displays enrolled using Android Device Administrator (ADA).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
@@ -223,9 +219,9 @@ Below is a table of device compliance settings and recommendations for their use
 | [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
 | Required password type                                                                                                                  | Not supported |                                                                               |
 
-#### [Teams panels (DA)](#tab/panels-da)
+#### [Teams panels (ADA)](#tab/panels-da)
 
-Below is a table of device compliance settings and recommendations for their use with Teams panels enrolled using Android Device Administrator.  
+Device compliance settings and recommendations for their use with Teams panels enrolled using Android Device Administrator (ADA).  
 
 | Policy | Availability | Notes |
 |--------------|---------------|----------------|
