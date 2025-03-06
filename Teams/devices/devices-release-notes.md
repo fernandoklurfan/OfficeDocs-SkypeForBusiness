@@ -4,8 +4,8 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 01/23/2025
-ms.topic: article
+ms.date: 03/04/2025
+ms.topic: release-notes
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -33,7 +33,13 @@ To view feature updates for Microsoft Teams Rooms, go to:
 
 ## [Teams panels](#tab/panels)
 
-### January 2025
+## March 2025
+
+**Applies to:** *Teams app version: 1449/1.0.97.2025021101*
+
+- Fixes for check-in and auto-release.
+
+## January 2025
 
 **Applies to:** *Teams app version: 1449/1.0.97.2024122401*
 
@@ -205,7 +211,15 @@ To add a mobile system OS scanner:
 
 
 
-### February 11, 2025
+## February 25, 2025
+
+**Applies to:** *Teams app version: 1449/1.0.94.2025021303 (Poly, Yealink, AudioCodes)*
+
+
+
+Back-end telemetry fixes and improvements  
+
+## February 11, 2025
 
 **Applies to:** *Teams app version: 1449/1.0.94.2025020301 (Poly, Yealink, AudioCodes)*
 
@@ -213,6 +227,8 @@ To add a mobile system OS scanner:
 > Starting June 2025, Teams applications older than 5 months will no longer work. Please refer to the Message Center Post, MC969451 for more details.
 
 Bug fixes including improvements in font rendering on side cars among others   
+
+Contacts on Teams app and sidecar will now be sorted alphabetically
 
 ### January 8, 2025
 
